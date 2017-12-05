@@ -1664,7 +1664,7 @@ objects.entity.hospital.loot.0.ubrenertronics=1
 # Military Base
 objects.entity.military.difficultymul=1.5
 objects.entity.military.loot.0.ubrenertronics=1
-objects.entity.military.harvest.0.ubrbullets=11
+objects.entity.military.harvest.ubrbullets=11
 
 # Mining Town
 objects.entity.miningtown.difficultymul=1.25

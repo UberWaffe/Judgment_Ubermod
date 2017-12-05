@@ -369,6 +369,14 @@ objects.ubrholyaltar5.description=Not all magic is dark. Divine rituals can be p
 # Extended Occult
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+abilities.ubrprotectionspell2.name=Greater Protection Spell
+abilities.ubrweakeningrune2.name=Greater Rune
+
+statuseffects.bless2.name=Blessed
+statuseffects.hex2.name=Hexed
+statuseffects.cross2.name=Sacred Protection
+
+
 # Greater
 
 items.ubrgreaterwarcharm2.name=Imbued War Pendant
@@ -380,13 +388,14 @@ items.ubrgreaterworkcharm2.description=A pendant forged with Spirit Sparks at it
 items.ubrhexscroll2.name=Spell: Greater Bind
 items.ubrhexscroll2.description=Blasts a target with energy, damaging them and binding them.
 
-abilities.ubrhex2.name=Greater Hex
-abilities.ubrprotectionspell2.name=Greater Protection Spell
-abilities.ubrweakeningrune2.name=Greater Rune
+items.ubrcross2.name=Spell: Greater Bless
+items.ubrcross2.description=Heals a atarget and places a powerful protective aura upon them.
 
-statuseffects.bless2.name=Blessed
-statuseffects.hex2.name=Hexed
-statuseffects.cross2.name=Sacred Protection
+abilities.ubrhex2.name=Greater Bind
+statuseffects.ubrhex2.name=Greater Bind
+
+abilities.ubrbuffspell2.name=Greater Bless
+statuseffects.ubrbuffspell2.name=Greater Bless
 
 
 
@@ -398,6 +407,18 @@ items.ubrgreaterwarcharm3.description=A pendant forged with Spirit Sparks at its
 items.ubrgreaterworkcharm3.name=Master Skill Pendant
 items.ubrgreaterworkcharm3.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
 
+items.ubrhexscroll3.name=Spell: Master Bind
+items.ubrhexscroll3.description=Blasts a target with energy, damaging them and binding them.
+
+items.ubrcross3.name=Spell: Master Bless
+items.ubrcross3.description=Heals a atarget and places a powerful protective aura upon them.
+
+abilities.ubrhex3.name=Master Bind
+statuseffects.ubrhex3.name=Master Bind
+
+abilities.ubrbuffspell3.name=Master Bless
+statuseffects.ubrbuffspell3.name=Master Bless
+
 
 
 # Evoker
@@ -408,6 +429,18 @@ items.ubrgreaterwarcharm4.description=A pendant forged with Spirit Sparks at its
 items.ubrgreaterworkcharm4.name=Evoker Skill Pendant
 items.ubrgreaterworkcharm4.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
 
+items.ubrhexscroll4.name=Spell: Evoker Bind
+items.ubrhexscroll4.description=Blasts a target with energy, damaging them and binding them.
+
+items.ubrcross4.name=Spell: Evoker Bless
+items.ubrcross4.description=Heals a atarget and places a powerful protective aura upon them.
+
+abilities.ubrhex4.name=Evoker Bind
+statuseffects.ubrhex4.name=Evoker Bind
+
+abilities.ubrbuffspell4.name=Evoker Bless
+statuseffects.ubrbuffspell4.name=Evoker Bless
+
 
 
 # Master Evoker
@@ -417,6 +450,18 @@ items.ubrgreaterwarcharm5.description=A pendant forged with Spirit Sparks at its
 
 items.ubrgreaterworkcharm5.name=Master Evoker Skill Pendant
 items.ubrgreaterworkcharm5.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
+
+items.ubrhexscroll5.name=Spell: Master Evoker Bind
+items.ubrhexscroll5.description=Blasts a target with energy, damaging them and binding them.
+
+items.ubrcross5.name=Spell: Master Evoker Bless
+items.ubrcross5.description=Heals a atarget and places a powerful protective aura upon them.
+
+abilities.ubrhex5.name=Master Evoker Bind
+statuseffects.ubrhex5.name=Master Evoker Bind
+
+abilities.ubrbuffspell5.name=Master Evoker Bless
+statuseffects.ubrbuffspell5.name=Master Evoker Bless
 
 
 

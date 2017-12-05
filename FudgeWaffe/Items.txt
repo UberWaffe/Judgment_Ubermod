@@ -592,7 +592,7 @@ items.entity.ubrgreaterwarcharm2.effect.defense=0.1
 crafting.entity.ubrgreaterwarcharm2.amount=1
 crafting.entity.ubrgreaterwarcharm2.work=35000
 crafting.entity.ubrgreaterwarcharm2.research=ubroccultitems2
-crafting.entity.ubrgreaterwarcharm2.station.workbench=1
+crafting.entity.ubrgreaterwarcharm2.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm2.priority=5
 crafting.entity.ubrgreaterwarcharm2.costs.obsidian=10
 crafting.entity.ubrgreaterwarcharm2.costs.cloth=8
@@ -624,14 +624,14 @@ crafting.entity.ubrgreaterworkcharm2.costs.ubrspiritspark=5
 
 # Combines Weaking Rune, Hex Scroll and Voodoo Doll
 
-items.entity.ubrhexscroll2.parents=items.base.usable,items.base.level6,items.base.rare,items.base.consumable
+items.entity.ubrhexscroll2.parents=items.base.usable,items.base.level6,items.base.common,items.base.consumable
 items.entity.ubrhexscroll2.abilities.ubrhexscroll2=1
 items.entity.ubrhexscroll2.sprite=item_hexscroll
 
 crafting.entity.ubrhexscroll2.amount=1
 crafting.entity.ubrhexscroll2.work=480
 crafting.entity.ubrhexscroll2.research=ubroccultconsume2
-crafting.entity.ubrhexscroll2.station.workbench=1
+crafting.entity.ubrhexscroll2.station.occultresearch=1
 crafting.entity.ubrhexscroll2.sprite=item_hexscroll
 crafting.entity.ubrhexscroll2.priority=5
 crafting.entity.ubrhexscroll2.costs.ubrtextiles=2
@@ -641,19 +641,20 @@ crafting.entity.ubrhexscroll2.costs.demonite=4
 
 # Combines Medkit and Cross (Heals and Protects)
 
-items.entity.ubrcross2.parents=items.base.usable,items.base.level6,items.base.rare,items.base.consumable
-items.entity.ubrcross2.abilities.ubrcross2=1
-items.entity.ubrcross2.sprite=item_hexscroll
+items.entity.ubrcross2.parents=items.base.usable,items.base.level6,items.base.common,items.base.consumable
+items.entity.ubrcross2.abilities.ubrbuffspell2=1
+items.entity.ubrcross2.sprite=item_cross
 
 crafting.entity.ubrcross2.amount=1
 crafting.entity.ubrcross2.work=480
 crafting.entity.ubrcross2.research=ubroccultconsume2
-crafting.entity.ubrcross2.station.workbench=1
-crafting.entity.ubrcross2.sprite=item_hexscroll
+crafting.entity.ubrcross2.station.holyforge=1
+crafting.entity.ubrcross2.sprite=item_cross
 crafting.entity.ubrcross2.priority=5
-crafting.entity.ubrcross2.costs.ubrtextiles=2
-crafting.entity.ubrcross2.costs.ectoplasm=2
-crafting.entity.ubrcross2.costs.demonite=4
+crafting.entity.ubrcross2.costs.boards=1
+crafting.entity.ubrcross2.costs.holywater=8
+crafting.entity.ubrcross2.costs.medicine=4
+crafting.entity.ubrcross2.costs.alcohol=4
 
 
 
@@ -676,7 +677,7 @@ items.entity.ubrgreaterwarcharm3.effect.defense=0.15
 crafting.entity.ubrgreaterwarcharm3.amount=1
 crafting.entity.ubrgreaterwarcharm3.work=70000
 crafting.entity.ubrgreaterwarcharm3.research=ubroccultitems3
-crafting.entity.ubrgreaterwarcharm3.station.workbench=1
+crafting.entity.ubrgreaterwarcharm3.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm3.priority=5
 crafting.entity.ubrgreaterwarcharm3.costs.ubrgreaterworkcharm2=1
 crafting.entity.ubrgreaterwarcharm3.costs.ubrspiritspark=20
@@ -700,6 +701,41 @@ crafting.entity.ubrgreaterworkcharm3.costs.ubrgreaterworkcharm2=1
 crafting.entity.ubrgreaterworkcharm3.costs.ubrspiritspark=20
 
 
+# Combines Weaking Rune, Hex Scroll and Voodoo Doll
+
+items.entity.ubrhexscroll3.parents=items.base.usable,items.base.level8,items.base.common,items.base.consumable
+items.entity.ubrhexscroll3.abilities.ubrhexscroll3=1
+items.entity.ubrhexscroll3.sprite=item_hexscroll
+
+crafting.entity.ubrhexscroll3.amount=1
+crafting.entity.ubrhexscroll3.work=960
+crafting.entity.ubrhexscroll3.research=ubroccultconsume3
+crafting.entity.ubrhexscroll3.station.occultresearch=1
+crafting.entity.ubrhexscroll3.sprite=item_hexscroll
+crafting.entity.ubrhexscroll3.priority=5
+crafting.entity.ubrhexscroll3.costs.ubrtextiles=2
+crafting.entity.ubrhexscroll3.costs.ectoplasm=2
+crafting.entity.ubrhexscroll3.costs.demonite=2
+
+
+# Combines Medkit and Cross (Heals and Protects)
+
+items.entity.ubrcross3.parents=items.base.usable,items.base.level8,items.base.common,items.base.consumable
+items.entity.ubrcross3.abilities.ubrbuffspell3=1
+items.entity.ubrcross3.sprite=item_cross
+
+crafting.entity.ubrcross3.amount=1
+crafting.entity.ubrcross3.work=960
+crafting.entity.ubrcross3.research=ubroccultconsume3
+crafting.entity.ubrcross3.station.holyforge=1
+crafting.entity.ubrcross3.sprite=item_cross
+crafting.entity.ubrcross3.priority=5
+crafting.entity.ubrcross3.costs.boards=1
+crafting.entity.ubrcross3.costs.holywater=8
+crafting.entity.ubrcross3.costs.medicine=3
+crafting.entity.ubrcross3.costs.alcohol=3
+
+
 # Evoker
 # ---------------
 
@@ -715,7 +751,7 @@ items.entity.ubrgreaterwarcharm4.effect.defense=0.3
 crafting.entity.ubrgreaterwarcharm4.amount=1
 crafting.entity.ubrgreaterwarcharm4.work=125000
 crafting.entity.ubrgreaterwarcharm4.research=ubroccultitems4
-crafting.entity.ubrgreaterwarcharm4.station.workbench=1
+crafting.entity.ubrgreaterwarcharm4.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm4.priority=5
 crafting.entity.ubrgreaterwarcharm4.costs.ubrgreaterworkcharm3=1
 crafting.entity.ubrgreaterwarcharm4.costs.ubrspiritspark=40
@@ -739,6 +775,42 @@ crafting.entity.ubrgreaterworkcharm4.costs.ubrgreaterworkcharm3=1
 crafting.entity.ubrgreaterworkcharm4.costs.ubrspiritspark=40
 
 
+# Combines Weaking Rune, Hex Scroll and Voodoo Doll
+
+items.entity.ubrhexscroll4.parents=items.base.usable,items.base.level10,items.base.common,items.base.consumable
+items.entity.ubrhexscroll4.abilities.ubrhexscroll4=2
+items.entity.ubrhexscroll4.sprite=item_hexscroll
+
+crafting.entity.ubrhexscroll4.amount=1
+crafting.entity.ubrhexscroll4.work=1920
+crafting.entity.ubrhexscroll4.research=ubroccultconsume4
+crafting.entity.ubrhexscroll4.station.occultresearch=1
+crafting.entity.ubrhexscroll4.sprite=item_hexscroll
+crafting.entity.ubrhexscroll4.priority=5
+crafting.entity.ubrhexscroll4.costs.ubrtextiles=2
+crafting.entity.ubrhexscroll4.costs.ectoplasm=2
+crafting.entity.ubrhexscroll4.costs.demonite=1
+
+
+# Combines Medkit and Cross (Heals and Protects)
+
+items.entity.ubrcross4.parents=items.base.usable,items.base.level10,items.base.common,items.base.consumable
+items.entity.ubrcross4.abilities.ubrbuffspell4=2
+items.entity.ubrcross4.sprite=item_cross
+
+crafting.entity.ubrcross4.amount=1
+crafting.entity.ubrcross4.work=1920
+crafting.entity.ubrcross4.research=ubroccultconsume4
+crafting.entity.ubrcross4.station.holyforge=1
+crafting.entity.ubrcross4.sprite=item_cross
+crafting.entity.ubrcross4.priority=5
+crafting.entity.ubrcross4.costs.boards=1
+crafting.entity.ubrcross4.costs.holywater=8
+crafting.entity.ubrcross4.costs.medicine=2
+crafting.entity.ubrcross4.costs.alcohol=2
+
+
+
 # Master Evoker
 # ---------------
 
@@ -754,7 +826,7 @@ items.entity.ubrgreaterwarcharm5.effect.defense=0.6
 crafting.entity.ubrgreaterwarcharm5.amount=1
 crafting.entity.ubrgreaterwarcharm5.work=175000
 crafting.entity.ubrgreaterwarcharm5.research=ubroccultitems5
-crafting.entity.ubrgreaterwarcharm5.station.workbench=1
+crafting.entity.ubrgreaterwarcharm5.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm5.priority=5
 crafting.entity.ubrgreaterwarcharm5.costs.ubrgreaterworkcharm4=1
 crafting.entity.ubrgreaterwarcharm5.costs.ubrspiritspark=70
@@ -776,3 +848,37 @@ crafting.entity.ubrgreaterworkcharm5.station.holyforge=1
 crafting.entity.ubrgreaterworkcharm5.priority=5
 crafting.entity.ubrgreaterworkcharm5.costs.ubrgreaterworkcharm4=1
 crafting.entity.ubrgreaterworkcharm5.costs.ubrspiritspark=70
+
+
+# Combines Weaking Rune, Hex Scroll and Voodoo Doll
+
+items.entity.ubrhexscroll5.parents=items.base.usable,items.base.level12,items.base.common,items.base.consumable
+items.entity.ubrhexscroll5.abilities.ubrhexscroll5=2
+items.entity.ubrhexscroll5.sprite=item_hexscroll
+
+crafting.entity.ubrhexscroll5.amount=1
+crafting.entity.ubrhexscroll5.work=3840
+crafting.entity.ubrhexscroll5.research=ubroccultconsume5
+crafting.entity.ubrhexscroll5.station.occultresearch=1
+crafting.entity.ubrhexscroll5.sprite=item_hexscroll
+crafting.entity.ubrhexscroll5.priority=5
+crafting.entity.ubrhexscroll5.costs.ubrtextiles=2
+crafting.entity.ubrhexscroll5.costs.ectoplasm=1
+
+
+# Combines Medkit and Cross (Heals and Protects)
+
+items.entity.ubrcross5.parents=items.base.usable,items.base.level12,items.base.common,items.base.consumable
+items.entity.ubrcross5.abilities.ubrbuffspell5=2
+items.entity.ubrcross5.sprite=item_cross
+
+crafting.entity.ubrcross5.amount=1
+crafting.entity.ubrcross5.work=3840
+crafting.entity.ubrcross5.research=ubroccultconsume5
+crafting.entity.ubrcross5.station.holyforge=1
+crafting.entity.ubrcross5.sprite=item_cross
+crafting.entity.ubrcross5.priority=5
+crafting.entity.ubrcross5.costs.boards=1
+crafting.entity.ubrcross5.costs.holywater=6
+crafting.entity.ubrcross5.costs.medicine=2
+
