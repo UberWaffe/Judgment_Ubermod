@@ -231,7 +231,7 @@ crafting.entity.holywords.amount=1
 crafting.entity.holywords.work=5000
 crafting.entity.holywords.research=sacredcrafting
 crafting.entity.holywords.properties.sound=research
-crafting.entity.holywords.station.holyaltar=1
+crafting.entity.holywords.station.occultresearch=1
 crafting.entity.holywords.priority=5
 crafting.entity.holywords.tags.holycrafting=true
 
