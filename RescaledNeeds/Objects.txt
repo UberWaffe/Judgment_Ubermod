@@ -31,7 +31,7 @@ blueprints.entity.wheatfarm.costs.wheat=6
 
 blueprints.entity.herbgarden.costs.herbs=6
 
-objects.entity.farm.harvest.wheat=10
+objects.entity.farm.harvest.wheat=23
 
 
 # Make farm tending / feeding actually take resources
