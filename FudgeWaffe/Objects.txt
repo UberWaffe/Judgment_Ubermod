@@ -145,6 +145,37 @@ blueprints.entity.ubrspiritfoundry.costs.stone=10
 blueprints.entity.ubrspiritfoundry.costs.aether=1
 
 
+# Humvee
+
+objects.entity.ubrhumvee.parents=objects.base.playerbuilt
+objects.entity.ubrhumvee.sprite=object_humveebrown
+objects.entity.ubrhumvee.size=2x1
+objects.entity.ubrhumvee.properties.cover=0.5
+
+objects.entity.ubrhumvee.effect.drive.effect=ubrhumvee
+objects.entity.ubrhumvee.effect.drive.requirements.fuelled=>0
+objects.entity.ubrhumvee.actions.fuelled.setattribute.fuelled=100
+objects.entity.ubrhumvee.actions.fuelled.work=10
+objects.entity.ubrhumvee.actions.fuelled.actiongroup=patrol
+objects.entity.ubrhumvee.actions.initiate.costs.ubrhydrocarbons=50
+objects.entity.ubrhumvee.onupdate.wear.action=GainAttribute~fuelled~-0.01~0~100
+objects.entity.ubrhumvee.onupdate.wear.requirements.fuelled=>0
+objects.entity.ubrhumvee.onattributechange.autofuelled.action=CreateTask~fuelled
+objects.entity.ubrhumvee.onattributechange.autofuelled.requirements.fuelled=<e5
+
+blueprints.entity.ubrhumvee.parents=blueprints.base.exterior
+blueprints.entity.ubrhumvee.object=ubrhumvee
+blueprints.entity.ubrhumvee.work=50000
+blueprints.entity.ubrhumvee.research=ubrhumvee
+blueprints.entity.ubrhumvee.generateattribute.fuelled=0
+blueprints.entity.ubrhumvee.restrictions.mapedge=5
+blueprints.entity.ubrhumvee.restrictions.nearother=ubrhumvee~500
+blueprints.entity.ubrhumvee.costs.ubralloys=500
+blueprints.entity.ubrhumvee.costs.ubrenertronics=20
+blueprints.entity.ubrhumvee.costs.ubrglass=10
+blueprints.entity.ubrhumvee.costs.ubrtextiles=80
+
+
 
 
 # Energy Generation
@@ -478,7 +509,7 @@ blueprints.entity.ubrdistillery.costs.ubralloys=10
 blueprints.entity.ubrdistillery.costs.ubrenertronics=5
 blueprints.entity.ubrdistillery.costs.copper=50
 blueprints.entity.ubrdistillery.costs.bricks=20
- 
+
 
 
 # -----------------------------------------------------------------
@@ -1639,6 +1670,7 @@ objects.entity.military.harvest.0.ubrbullets=11
 objects.entity.miningtown.difficultymul=1.25
 objects.entity.miningtown.loot.0.ubrchemicals=1
 objects.entity.miningtown.loot.0.ubrglass=1
+objects.entity.miningtown.harvest.ubrchemicals=2
 
 # Factory
 objects.entity.factory.difficultymul=1.25

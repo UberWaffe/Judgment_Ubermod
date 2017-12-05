@@ -200,6 +200,8 @@ object.distilling.attribute=Distilling
 
 object.brewing.attribute=Brewing
 
+object.fuelled.attribute=Fuelled
+
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -207,10 +209,20 @@ object.brewing.attribute=Brewing
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 research.ubrconstruction2.name=Complex Construction
+
+# -----
 research.ubrcolonydefense2.name=Hardened Defenses
 
 objects.guardtower2.name=Reinforced Guard Tower
 objects.guardtower2.description=Survivors inside will be more efficient in defending the colony.\n\nCan only be occupied during combat by survivors with ranged weapons.
+
+# -----
+research.ubrhumvee.name=Vehicle Travel
+
+objects.ubrhumvee.name=Humvee
+objects.ubrhumvee.description=When fuelled with refined hydrocarbon fuel this will greatly aid task forces in moving about the map.\n\nWarning: When fuelled the survivors will sneakily take this for joyrides even when taskforces are not out and about, using up fuel.
+
+effects.ubrhumvee.name=Drive
 
 
 

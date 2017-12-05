@@ -2,31 +2,34 @@
 # Extended Base / Farming
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-effects.entity.ubrconstruction2.sprite=effect_health
+effects.entity.ubrconstruction2.sprite=effect_scavenge
 effects.entity.ubrconstruction2.effect.actiongroup_build=0.1
+
+effects.entity.ubrhumvee.sprite=effect_travelspeed
+effects.entity.ubrhumvee.effect.taskforcespeed=5.0
 
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Extended Occult
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-effects.entity.secwafspiritenergy.sprite=effect_gatherefficiency
+effects.entity.secwafspiritenergy.sprite=effect_reduceawareness
 effects.entity.secwafspiritenergy.effect.workspeed=0.1
 effects.entity.secwafspiritenergy.effect.awarenessadd=-0.1
 
-effects.entity.secwafspiritenergy2.sprite=effect_gatherefficiency
+effects.entity.secwafspiritenergy2.sprite=effect_reduceawareness
 effects.entity.secwafspiritenergy2.effect.workspeed=0.1
 effects.entity.secwafspiritenergy2.effect.awarenessadd=-0.1
 
-effects.entity.secwafspiritenergy3.sprite=effect_gatherefficiency
+effects.entity.secwafspiritenergy3.sprite=effect_reduceawareness
 effects.entity.secwafspiritenergy3.effect.workspeed=0.1
 effects.entity.secwafspiritenergy3.effect.awarenessadd=-0.1
 
-effects.entity.secwafspiritenergy4.sprite=effect_gatherefficiency
+effects.entity.secwafspiritenergy4.sprite=effect_reduceawareness
 effects.entity.secwafspiritenergy4.effect.workspeed=0.15
 effects.entity.secwafspiritenergy4.effect.awarenessadd=-0.05
 
-effects.entity.secwafspiritenergy5.sprite=effect_gatherefficiency
+effects.entity.secwafspiritenergy5.sprite=effect_reduceawareness
 effects.entity.secwafspiritenergy5.effect.workspeed=0.15
 effects.entity.secwafspiritenergy5.effect.awarenessadd=-0.05
 
@@ -35,144 +38,144 @@ effects.entity.secwafspiritenergy5.effect.awarenessadd=-0.05
 # Secrets research bonusses
 
 # Fundamental Secret - Level 1
-effects.entity.secwaffundamentalsecret1.sprite=effect_gatherefficiency
+effects.entity.secwaffundamentalsecret1.sprite=effect_researchtravelspeed
 effects.entity.secwaffundamentalsecret1.effect.tag_farm_gainattribute_water=-0.05
 effects.entity.secwaffundamentalsecret1.effect.taskforcespeed=0.3
 
 # Level 1 - Bonus 1
-effects.entity.secwafflevel1bonus1.sprite=effect_gatherefficiency
+effects.entity.secwafflevel1bonus1.sprite=effect_health
 effects.entity.secwafflevel1bonus1.effect.damage=0.1
 effects.entity.secwafflevel1bonus1.effect.health=0.1
 effects.entity.secwafflevel1bonus1.effect.healrate=0.1
 
 # Level 1 - Bonus 2
-effects.entity.secwafflevel1bonus2.sprite=effect_gatherefficiency
+effects.entity.secwafflevel1bonus2.sprite=effect_scavenge
 effects.entity.secwafflevel1bonus2.effect.workspeed=0.2
 effects.entity.secwafflevel1bonus2.effect.extrascavenge=0.3
 
 
 
 # Fundamental Secret - Level 2
-effects.entity.secwaffundamentalsecret2.sprite=effect_gatherefficiency
+effects.entity.secwaffundamentalsecret2.sprite=effect_researchtravelspeed
 effects.entity.secwaffundamentalsecret2.effect.tag_farm_gainattribute_water=-0.05
 effects.entity.secwaffundamentalsecret2.effect.taskforcespeed=0.4
 
 # Level 2 - Bonus 1
-effects.entity.secwafflevel2bonus1.sprite=effect_gatherefficiency
+effects.entity.secwafflevel2bonus1.sprite=effect_health
 effects.entity.secwafflevel2bonus1.effect.damage=0.12
 effects.entity.secwafflevel2bonus1.effect.health=0.12
 effects.entity.secwafflevel2bonus1.effect.healrate=0.12
 
 # Level 2 - Bonus 2
-effects.entity.secwafflevel2bonus2.sprite=effect_gatherefficiency
+effects.entity.secwafflevel2bonus2.sprite=effect_scavenge
 effects.entity.secwafflevel2bonus2.effect.workspeed=0.3
 effects.entity.secwafflevel2bonus2.effect.extrascavenge=0.45
 
 
 
 # Fundamental Secret - Level 3
-effects.entity.secwaffundamentalsecret3.sprite=effect_gatherefficiency
+effects.entity.secwaffundamentalsecret3.sprite=effect_researchtravelspeed
 effects.entity.secwaffundamentalsecret3.effect.tag_farm_gainattribute_water=-0.05
 effects.entity.secwaffundamentalsecret3.effect.taskforcespeed=0.5
 
 # Level 3 - Bonus 1
-effects.entity.secwafflevel3bonus1.sprite=effect_gatherefficiency
+effects.entity.secwafflevel3bonus1.sprite=effect_health
 effects.entity.secwafflevel3bonus1.effect.damage=0.15
 effects.entity.secwafflevel3bonus1.effect.health=0.15
 effects.entity.secwafflevel3bonus1.effect.healrate=0.15
 
 # Level 3 - Bonus 2
-effects.entity.secwafflevel3bonus2.sprite=effect_gatherefficiency
+effects.entity.secwafflevel3bonus2.sprite=effect_scavenge
 effects.entity.secwafflevel3bonus2.effect.workspeed=0.45
 effects.entity.secwafflevel3bonus2.effect.extrascavenge=0.70
 
 
 
 # Fundamental Secret - Level 4
-effects.entity.secwaffundamentalsecret4.sprite=effect_gatherefficiency
+effects.entity.secwaffundamentalsecret4.sprite=effect_researchtravelspeed
 effects.entity.secwaffundamentalsecret4.effect.tag_farm_gainattribute_water=-0.05
 effects.entity.secwaffundamentalsecret4.effect.taskforcespeed=0.6
 
 # Level 4 - Bonus 1
-effects.entity.secwafflevel4bonus1.sprite=effect_gatherefficiency
+effects.entity.secwafflevel4bonus1.sprite=effect_health
 effects.entity.secwafflevel4bonus1.effect.damage=0.18
 effects.entity.secwafflevel4bonus1.effect.health=0.18
 effects.entity.secwafflevel4bonus1.effect.healrate=0.18
 
 # Level 4 - Bonus 2
-effects.entity.secwafflevel4bonus2.sprite=effect_gatherefficiency
+effects.entity.secwafflevel4bonus2.sprite=effect_scavenge
 effects.entity.secwafflevel4bonus2.effect.workspeed=0.75
 effects.entity.secwafflevel4bonus2.effect.extrascavenge=1.05
 
 
 
 # Fundamental Secret - Level 5
-effects.entity.secwaffundamentalsecret5.sprite=effect_gatherefficiency
+effects.entity.secwaffundamentalsecret5.sprite=effect_researchtravelspeed
 effects.entity.secwaffundamentalsecret5.effect.tag_farm_gainattribute_water=-0.05
 effects.entity.secwaffundamentalsecret5.effect.taskforcespeed=0.7
 
 # Level 5 - Bonus 1
-effects.entity.secwafflevel5bonus1.sprite=effect_gatherefficiency
+effects.entity.secwafflevel5bonus1.sprite=effect_health
 effects.entity.secwafflevel5bonus1.effect.damage=0.2
 effects.entity.secwafflevel5bonus1.effect.health=0.2
 effects.entity.secwafflevel5bonus1.effect.healrate=0.2
 
 # Level 5 - Bonus 2
-effects.entity.secwafflevel5bonus2.sprite=effect_gatherefficiency
+effects.entity.secwafflevel5bonus2.sprite=effect_scavenge
 effects.entity.secwafflevel5bonus2.effect.workspeed=1.0
 effects.entity.secwafflevel5bonus2.effect.extrascavenge=1.4
 
 
 
 # Fundamental Secret - Level 6
-effects.entity.secwaffundamentalsecret6.sprite=effect_gatherefficiency
+effects.entity.secwaffundamentalsecret6.sprite=effect_researchtravelspeed
 effects.entity.secwaffundamentalsecret6.effect.workspeed=0.2
 effects.entity.secwaffundamentalsecret6.effect.taskforcespeed=0.8
 
 # Level 6 - Bonus 1
-effects.entity.secwafflevel6bonus1.sprite=effect_gatherefficiency
+effects.entity.secwafflevel6bonus1.sprite=effect_health
 effects.entity.secwafflevel6bonus1.effect.damage=0.25
 effects.entity.secwafflevel6bonus1.effect.health=0.25
 effects.entity.secwafflevel6bonus1.effect.healrate=0.25
 
 # Level 6 - Bonus 2
-effects.entity.secwafflevel6bonus2.sprite=effect_gatherefficiency
+effects.entity.secwafflevel6bonus2.sprite=effect_scavenge
 effects.entity.secwafflevel6bonus2.effect.workspeed=1.25
 effects.entity.secwafflevel6bonus2.effect.extrascavenge=1.5
 
 
 
 # Fundamental Secret - Level 7
-effects.entity.secwaffundamentalsecret7.sprite=effect_gatherefficiency
+effects.entity.secwaffundamentalsecret7.sprite=effect_researchtravelspeed
 effects.entity.secwaffundamentalsecret7.effect.workspeed=0.2
 effects.entity.secwaffundamentalsecret7.effect.taskforcespeed=1.0
 
 # Level 7 - Bonus 1
-effects.entity.secwafflevel7bonus1.sprite=effect_gatherefficiency
+effects.entity.secwafflevel7bonus1.sprite=effect_health
 effects.entity.secwafflevel7bonus1.effect.damage=0.3
 effects.entity.secwafflevel7bonus1.effect.health=0.3
 effects.entity.secwafflevel7bonus1.effect.healrate=0.3
 
 # Level 7 - Bonus 2
-effects.entity.secwafflevel7bonus2.sprite=effect_gatherefficiency
+effects.entity.secwafflevel7bonus2.sprite=effect_scavenge
 effects.entity.secwafflevel7bonus2.effect.workspeed=1.5
 effects.entity.secwafflevel7bonus2.effect.extrascavenge=1.5
 
 
 
 # Fundamental Secret - Level 8
-effects.entity.secwaffundamentalsecret8.sprite=effect_gatherefficiency
+effects.entity.secwaffundamentalsecret8.sprite=effect_researchtravelspeed
 effects.entity.secwaffundamentalsecret8.effect.workspeed=0.3
 effects.entity.secwaffundamentalsecret8.effect.taskforcespeed=1.5
 
 # Level 8 - Bonus 1
-effects.entity.secwafflevel8bonus1.sprite=effect_gatherefficiency
+effects.entity.secwafflevel8bonus1.sprite=effect_health
 effects.entity.secwafflevel8bonus1.effect.damage=0.4
 effects.entity.secwafflevel8bonus1.effect.health=0.4
 effects.entity.secwafflevel8bonus1.effect.healrate=0.4
 
 # Level 8 - Bonus 2
-effects.entity.secwafflevel8bonus2.sprite=effect_gatherefficiency
+effects.entity.secwafflevel8bonus2.sprite=effect_scavenge
 effects.entity.secwafflevel8bonus2.effect.workspeed=3.0
 
 
