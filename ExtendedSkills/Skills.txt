@@ -1,0 +1,144 @@
+
+# ----------------------------------------------------------
+# Extended Skill levels
+# ----------------------------------------------------------
+
+# Marksmanship
+#skills.entity.marksmanship1.effect.accuracy=0.05
+#skills.entity.marksmanship2.effect.accuracy=0.075
+#skills.entity.marksmanship3.effect.accuracy=0.1
+
+skills.entity.marksmanship4.effect.accuracy=0.125
+skills.entity.marksmanship5.effect.accuracy=0.15
+skills.entity.marksmanship6.effect.accuracy=0.175
+skills.entity.marksmanship7.effect.accuracy=0.2
+skills.entity.marksmanship8.effect.accuracy=0.225
+skills.entity.marksmanship9.effect.accuracy=0.25
+
+
+# Agility
+#skills.entity.agility1.effect.attackspeed=0.05
+#skills.entity.agility2.effect.attackspeed=0.075
+#skills.entity.agility3.effect.attackspeed=0.1
+
+skills.entity.agility4.effect.attackspeed=0.125
+skills.entity.agility5.effect.attackspeed=0.15
+skills.entity.agility6.effect.attackspeed=0.175
+skills.entity.agility7.effect.attackspeed=0.2
+skills.entity.agility8.effect.attackspeed=0.225
+skills.entity.agility9.effect.attackspeed=0.25
+
+
+# Damage
+#skills.entity.damage1.effect.damage=0.05
+#skills.entity.damage2.effect.damage=0.075
+#skills.entity.damage3.effect.damage=0.1
+
+skills.entity.damage4.effect.damage=0.125
+skills.entity.damage5.effect.damage=0.15
+skills.entity.damage6.effect.damage=0.175
+skills.entity.damage7.effect.damage=0.2
+skills.entity.damage8.effect.damage=0.225
+skills.entity.damage9.effect.damage=0.25
+
+
+# Evasion
+#skills.entity.evasion1.effect.evade=0.05
+#skills.entity.evasion2.effect.evade=0.075
+#skills.entity.evasion3.effect.evade=0.1
+
+skills.entity.evasion4.effect.evade=0.125
+skills.entity.evasion5.effect.evade=0.15
+skills.entity.evasion6.effect.evade=0.175
+skills.entity.evasion7.effect.evade=0.2
+skills.entity.evasion8.effect.evade=0.225
+skills.entity.evasion9.effect.evade=0.25
+
+
+# Stalwart
+#skills.entity.stalwart1.effect.health=0.05
+#skills.entity.stalwart2.effect.health=0.075
+#skills.entity.stalwart3.effect.health=0.1
+
+skills.entity.stalwart4.effect.health=0.125
+skills.entity.stalwart5.effect.health=0.15
+skills.entity.stalwart6.effect.health=0.175
+skills.entity.stalwart7.effect.health=0.2
+skills.entity.stalwart8.effect.health=0.225
+skills.entity.stalwart9.effect.health=0.25
+
+
+# Melee
+#skills.entity.melee1.effect.tag_melee_damage=0.075
+#skills.entity.melee2.effect.tag_melee_damage=0.1
+#skills.entity.melee3.effect.tag_melee_damage=0.15
+
+skills.entity.melee4.effect.tag_melee_damage=0.175
+skills.entity.melee5.effect.tag_melee_damage=0.2
+skills.entity.melee6.effect.tag_melee_damage=0.25
+skills.entity.melee7.effect.tag_melee_damage=0.275
+skills.entity.melee8.effect.tag_melee_damage=0.3
+skills.entity.melee9.effect.tag_melee_damage=0.35
+
+
+# Melee Defense
+#skills.entity.meleedefense1.effect.tag_melee_evade=0.075
+#skills.entity.meleedefense2.effect.tag_melee_evade=0.1
+#skills.entity.meleedefense3.effect.tag_melee_evade=0.15
+
+skills.entity.meleedefense4.effect.tag_melee_evade=0.175
+skills.entity.meleedefense5.effect.tag_melee_evade=0.2
+skills.entity.meleedefense6.effect.tag_melee_evade=0.25
+skills.entity.meleedefense7.effect.tag_melee_evade=0.275
+skills.entity.meleedefense8.effect.tag_melee_evade=0.3
+skills.entity.meleedefense9.effect.tag_melee_evade=0.35
+
+
+# Blunt
+#skills.entity.blunt1.effect.tag_blunt_accuracy=0.05
+#skills.entity.blunt1.effect.tag_blunt_damage=0.05
+#skills.entity.blunt2.effect.tag_blunt_accuracy=0.075
+#skills.entity.blunt2.effect.tag_blunt_damage=0.075
+#skills.entity.blunt3.effect.tag_blunt_accuracy=0.1
+#skills.entity.blunt3.effect.tag_blunt_damage=0.1
+
+
+# Sharp
+#skills.entity.sharp1.effect.tag_sharp_attackspeed=0.05
+#skills.entity.sharp1.effect.tag_sharp_damage=0.05
+#skills.entity.sharp2.effect.tag_sharp_attackspeed=0.075
+#skills.entity.sharp2.effect.tag_sharp_damage=0.075
+#skills.entity.sharp3.effect.tag_sharp_attackspeed=0.1
+#skills.entity.sharp3.effect.tag_sharp_damage=0.1
+
+
+# Pistols
+#skills.entity.pistols1.effect.tag_pistol_damage=0.05
+#skills.entity.pistols1.effect.tag_pistol_accuracy=0.05
+#skills.entity.pistols2.effect.tag_pistol_damage=0.075
+#skills.entity.pistols2.effect.tag_pistol_accuracy=0.075
+#skills.entity.pistols3.effect.tag_pistol_damage=0.1
+#skills.entity.pistols3.effect.tag_pistol_accuracy=0.1
+
+
+# Rifles
+#skills.entity.rifles1.effect.tag_rifle_attackspeed=0.05
+#skills.entity.rifles1.effect.tag_rifle_accuracy=0.05
+#skills.entity.rifles2.effect.tag_rifle_attackspeed=0.075
+#skills.entity.rifles2.effect.tag_rifle_accuracy=0.075
+#skills.entity.rifles3.effect.tag_rifle_attackspeed=0.1
+#skills.entity.rifles3.effect.tag_rifle_accuracy=0.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
