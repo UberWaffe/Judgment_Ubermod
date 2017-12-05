@@ -239,6 +239,7 @@ blueprints.entity.ubrbiofuelgenerator.parents=blueprints.base.exterior
 blueprints.entity.ubrbiofuelgenerator.sprite=build_furnace
 blueprints.entity.ubrbiofuelgenerator.object=ubrbiofuelgenerator
 blueprints.entity.ubrbiofuelgenerator.work=800
+blueprints.entity.ubrbiofuelgenerator.research=ubrdistilling
 blueprints.entity.ubrbiofuelgenerator.generateattribute.charge=0
 blueprints.entity.ubrbiofuelgenerator.costs.ubrenertronics=5
 blueprints.entity.ubrbiofuelgenerator.costs.ubralloys=20
