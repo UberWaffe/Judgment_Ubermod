@@ -18,7 +18,7 @@ research.entity.ubrcolonydefense2.costs.physics1=3500
 # Vehicle Travel
 
 research.entity.ubrhumvee.parents=research.base.farming,research.base.level4
-research.entity.ubrhumvee.research=advancedlogistics
+research.entity.ubrhumvee.research=ubrconstruction2
 research.entity.ubrhumvee.costs.physics1=3500
 
 
