@@ -141,7 +141,7 @@ objects.ubrsolarenergy.name=Solar Generator
 objects.ubrsolarenergy.description=Solar panels combined with battery packs. Generates 1kW of power.
 
 objects.ubreternalreactor.name=Eternal Reactor
-objects.ubreternalreactor.description=Using the constant, but infinite, energy provided by an eternal engine, this reactor generates 20kW of power.
+objects.ubreternalreactor.description=Using the constant heat energy provided by an eternal engine, this reactor generates 20kW of constant power, with near zero loss in conversion.
 
 
 
@@ -229,10 +229,10 @@ items.ubrspiritspark.name=Spirit Spark
 items.ubrspiritspark.description=Living spirit energy imbued into a physical spark that never extinguishes.
 
 items.spiritalloy.name=Spirit Alloy
-items.spiritalloy.description=Forged by alloying metals with spiritual energy made manifest. This alloy defies some of the laws of physics.\n\nResource used in crafting recipes.
+items.spiritalloy.description=Forged by alloying metals with spiritual energy made manifest. This alloy defies some of the laws of physics, exhibiting both non-Euclidean and non-Newtonian properties.\n\nResource used in crafting recipes.
 
 items.eternalengine.name=Eternal Engine
-items.eternalengine.description=Using an eternally burning fire that requires no fuel, this engine generates free energy.\n\nResource used in crafting recipes.
+items.eternalengine.description=Using an eternally burning fire that requires no fuel, when active this fist-sized engine can generate a constant 20kW of free heat energy.\n\nResource used in crafting recipes and advanced generators.
 
 objects.ubrspiritfoundry.name=Spirit Foundry
 objects.ubrspiritfoundry.description=Rituals of imbueing spirit energy into tangible matter is performed here.
@@ -241,10 +241,10 @@ actions.spiritsparkritual.name=Create Sparks
 actions.spiritsparkritual.description=Ritual to create Spirit Sparks, a ciritical crafting ingredient in advanced occult actions.
 
 actions.spiritalloyritual.name=Forge Spirit Alloy
-actions.spiritalloyritual.description=Forged spirit energy alloy.
+actions.spiritalloyritual.description=Ritual to forge spirit energy alloy.
 
 actions.eternalengineritual.name=Forge Eternal Engine
-actions.eternalengineritual.description=Forged eternal fire engine.
+actions.eternalengineritual.description=Ritual to forge eternal fire engine.
 
 items.heavenlyarmor.name=Holy Forged Armor
 items.heavenlyarmor.description=Forged from Spirit Alloy, this armor has been additionally imbued with Holy energy.

@@ -55,16 +55,8 @@ items.base.veryrare.traderchance.rarity=1
 
 # Rework vanilla items
 
-# Adjust bread nad snadwiches
+# Adjust snadwiches (like a sandwich, but snadder)
 
-crafting.entity.bread.amount=8
-crafting.entity.bread.work=104
-crafting.entity.bread.costs.wheat=8
-crafting.entity.bread.costs.wood=1
-crafting.entity.bread.costs.water=4
-
-crafting.entity.sandwich.amount=1
-crafting.entity.sandwich.work=16
 crafting.entity.sandwich.costs.wheat=0
 crafting.entity.sandwich.costs.tomato=3
 crafting.entity.sandwich.costs.wood=0
@@ -75,13 +67,13 @@ crafting.entity.sandwich.costs.bread=1
 
 items.entity.resin.parents=items.base.level1,items.base.common,items.base.craftedresource
 crafting.entity.resin.parents=crafting.base.handling
-crafting.entity.resin.amount=4
+crafting.entity.resin.amount=5
 crafting.entity.resin.work=150
-crafting.entity.resin.research=composites
+crafting.entity.resin.research=minerals
 crafting.entity.resin.station.sawmill=1
 crafting.entity.resin.priority=15
 crafting.entity.resin.costs.wood=5
-crafting.entity.resin.costs.alcohol=1
+crafting.entity.resin.costs.ubrchemicals=1
 
 
 # Make Prima-Materia to be cheaper, but slower
@@ -90,7 +82,8 @@ items.entity.primamateria.parents=items.base.level3,items.base.rare,items.base.c
 crafting.entity.primamateria.amount=4
 crafting.entity.primamateria.work=3200
 crafting.entity.primamateria.costs.water=0
-crafting.entity.primamateria.costs.wood=4
+crafting.entity.primamateria.costs.wood=0
+crafting.entity.primamateria.costs.ubrenergyunit=4
 crafting.entity.primamateria.costs.stone=4
 crafting.entity.primamateria.costs.clay=4
 crafting.entity.primamateria.costs.metals=2
@@ -254,11 +247,28 @@ crafting.entity.holywords.tags.holycrafting=true
 # Energy
 
 items.entity.ubrenergyunit.parents=items.base.energy,items.base.common
-items.entity.ubrenergyunit.sprite=item_physics1
+items.entity.ubrenergyunit.sprite=item_ubrenergyunit
+
+# Update recipes to use energy instead of wood fuel
+
+crafting.entity.bricks.costs.wood=0
+crafting.entity.bricks.costs.ubrenergyunit=2
+
+crafting.entity.bread.costs.wood=0
+crafting.entity.bread.costs.ubrenergyunit=1
+
+crafting.entity.sandwich.costs.wood=0
+crafting.entity.sandwich.costs.ubrenergyunit=1
+
+crafting.entity.pasta.costs.wood=0
+crafting.entity.pasta.costs.ubrenergyunit=1
+
+crafting.entity.alcohol.costs.ubrenergyunit=1
 
 
 
 # Alloys
+# Note: Assume 20 is enough to make chest plate armor
 
 items.entity.ubralloys.parents=items.base.level4,items.base.common,items.base.craftedresource
 items.entity.ubralloys.sprite=item_ubralloys
@@ -281,10 +291,6 @@ crafting.entity.composites.costs.minerals=0
 crafting.entity.composites.costs.resin=4
 crafting.entity.composites.costs.ubralloys=2
 
-# Add enertronics to some loot areas
-objects.entity.factory.loot.0.ubralloys=1
-objects.entity.ruins.loot.0.ubralloys=1
-
 
 
 # Chemicals
@@ -305,11 +311,6 @@ crafting.entity.ubrchemicals.costs.minerals=2
 crafting.entity.ubrchemicals.costs.alcohol=1
 crafting.entity.ubrchemicals.costs.ubrenergyunit=5
 
-# Add enertronics to some loot areas
-objects.entity.miningtown.loot.0.ubrchemicals=1
-objects.entity.factory.loot.0.ubrchemicals=1
-objects.entity.ruins.loot.0.ubrchemicals=1
-
 
 
 # Reinforced Glass
@@ -329,11 +330,6 @@ crafting.entity.ubrglass.costs.stone=20
 crafting.entity.ubrglass.costs.ubrchemicals=1
 crafting.entity.ubrglass.costs.composites=1
 crafting.entity.ubrglass.costs.ubrenergyunit=50
-
-# Add enertronics to some loot areas
-objects.entity.miningtown.loot.0.ubrglass=1
-objects.entity.factory.loot.0.ubrglass=1
-objects.entity.ruins.loot.0.ubrglass=1
 
 
 
@@ -370,16 +366,10 @@ crafting.entity.ubrenertronics.research=composites
 crafting.entity.ubrenertronics.station.ubradvcrafting=1
 crafting.entity.ubrenertronics.properties.sound=cook
 crafting.entity.ubrenertronics.priority=5
-crafting.entity.ubrenertronics.costs.copper=2
-crafting.entity.ubrenertronics.costs.metals=2
+crafting.entity.ubrenertronics.costs.copper=5
+crafting.entity.ubrenertronics.costs.ubralloys=5
 crafting.entity.ubrenertronics.costs.ubrchemicals=1
 crafting.entity.ubrenertronics.costs.ubrenergyunit=10
-
-# Add enertronics to some loot areas
-objects.entity.hospital.loot.0.ubrenertronics=1
-objects.entity.military.loot.0.ubrenertronics=1
-objects.entity.factory.loot.0.ubrenertronics=1
-objects.entity.ruins.loot.0.ubrenertronics=1
 
 
 
@@ -424,7 +414,9 @@ crafting.entity.m16.costs.gunpowder=0
 crafting.entity.m16.costs.ubrbullets=10
 
 
+
 # Hydrocarbons
+# Assume 1 unit is about 1 liter
 
 items.entity.ubrhydrocarbons.parents=items.base.level6,items.base.rare,items.base.craftedresource
 items.entity.ubrhydrocarbons.sprite=item_alcohol

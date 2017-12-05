@@ -76,8 +76,8 @@ blueprints.entity.guardtower2.locked=true
 blueprints.entity.guardtower2.tags.defensestructure=true
 blueprints.entity.guardtower2.costs.boards=12
 blueprints.entity.guardtower2.costs.bricks=15
-blueprints.entity.guardtower2.costs.ubralloys=40
-blueprints.entity.guardtower2.costs.ubrglass=10
+blueprints.entity.guardtower2.costs.ubralloys=100
+blueprints.entity.guardtower2.costs.ubrglass=40
 
 
 # -----------------------------------------------------------------
@@ -140,7 +140,7 @@ blueprints.entity.ubrspiritfoundry.sprite=build_arcanefoundry
 blueprints.entity.ubrspiritfoundry.work=7777
 blueprints.entity.ubrspiritfoundry.research=secwafspiritenergy
 blueprints.entity.ubrspiritfoundry.costs.bricks=5
-blueprints.entity.ubrspiritfoundry.costs.ubralloys=10
+blueprints.entity.ubrspiritfoundry.costs.ubralloys=20
 blueprints.entity.ubrspiritfoundry.costs.stone=10
 blueprints.entity.ubrspiritfoundry.costs.aether=1
 
@@ -201,9 +201,9 @@ blueprints.entity.ubrsolarenergy.object=ubrsolarenergy
 blueprints.entity.ubrsolarenergy.work=4000
 blueprints.entity.ubrsolarenergy.research=composites
 blueprints.entity.ubrsolarenergy.generateattribute.charge=0
-blueprints.entity.ubrsolarenergy.costs.ubrglass=5
-blueprints.entity.ubrsolarenergy.costs.ubrenertronics=5
-blueprints.entity.ubrsolarenergy.costs.ubralloys=5
+blueprints.entity.ubrsolarenergy.costs.ubrglass=20
+blueprints.entity.ubrsolarenergy.costs.ubrenertronics=10
+blueprints.entity.ubrsolarenergy.costs.ubralloys=20
 blueprints.entity.ubrsolarenergy.costs.boards=4
 
 
@@ -215,7 +215,7 @@ objects.entity.ubrbiofuelgenerator.properties.cover=0.6
 objects.entity.ubrbiofuelgenerator.sprite=object_furnace
 
 objects.entity.ubrbiofuelgenerator.actions.collect.class=ActionTypeAddItems
-objects.entity.ubrbiofuelgenerator.actions.collect.items.ubrenergyunit=10
+objects.entity.ubrbiofuelgenerator.actions.collect.items.ubrenergyunit=20
 objects.entity.ubrbiofuelgenerator.actions.collect.setattribute.charge=na
 objects.entity.ubrbiofuelgenerator.actions.collect.work=1
 objects.entity.ubrbiofuelgenerator.actions.collect.requirements.charge=>e100
@@ -224,7 +224,7 @@ objects.entity.ubrbiofuelgenerator.actions.collect.sprite=action_gather
 objects.entity.ubrbiofuelgenerator.actions.collect.gatherlimitsitem=ubrenergyunit
 objects.entity.ubrbiofuelgenerator.actions.initiate.setattribute.charge=0
 objects.entity.ubrbiofuelgenerator.actions.initiate.work=1
-objects.entity.ubrbiofuelgenerator.actions.initiate.costs.ubrhydrocarbons=5
+objects.entity.ubrbiofuelgenerator.actions.initiate.costs.ubrhydrocarbons=7
 objects.entity.ubrbiofuelgenerator.actions.initiate.requirements.charge=na
 objects.entity.ubrbiofuelgenerator.actions.initiate.actiongroup=gatherwater
 objects.entity.ubrbiofuelgenerator.actions.initiate.gatherlimitsitem=ubrenergyunit
@@ -242,7 +242,7 @@ blueprints.entity.ubrbiofuelgenerator.work=800
 blueprints.entity.ubrbiofuelgenerator.research=ubrdistilling
 blueprints.entity.ubrbiofuelgenerator.generateattribute.charge=0
 blueprints.entity.ubrbiofuelgenerator.costs.ubrenertronics=5
-blueprints.entity.ubrbiofuelgenerator.costs.ubralloys=20
+blueprints.entity.ubrbiofuelgenerator.costs.ubralloys=80
 
 
 # Eternal Engine reactor
@@ -260,8 +260,9 @@ blueprints.entity.ubreternalreactor.work=1000
 blueprints.entity.ubreternalreactor.research=eternalfireresearch
 blueprints.entity.ubreternalreactor.generateattribute.charge=0
 blueprints.entity.ubreternalreactor.costs.eternalengine=1
-blueprints.entity.ubreternalreactor.costs.ubrenertronics=4
+blueprints.entity.ubreternalreactor.costs.ubrenertronics=6
 blueprints.entity.ubreternalreactor.costs.ubralloys=20
+blueprints.entity.ubreternalreactor.costs.spiritalloy=8
 
 
 
@@ -436,11 +437,6 @@ objects.entity.ubrdistillery.parents=objects.base.building
 objects.entity.ubrdistillery.sprite=object_shed
 objects.entity.ubrdistillery.size=2x2
 
-objects.entity.research1.actions.experiment.class=ActionTypeAddItems
-objects.entity.research1.actions.experiment.repeat=true
-objects.entity.research1.actions.experiment.ongoing=true
-objects.entity.research1.actions.experiment.items.physics1=1
-
 objects.entity.ubrdistillery.actions.distillalcohol.name=actions.distillalcohol.name
 objects.entity.ubrdistillery.actions.distillalcohol.description=actiongroup.distillalcohol.description
 objects.entity.ubrdistillery.actions.distillalcohol.class=ActionTypeAddItems
@@ -460,12 +456,13 @@ objects.entity.ubrdistillery.actions.refinebiofuel.description=actiongroup.refin
 objects.entity.ubrdistillery.actions.refinebiofuel.class=ActionTypeAddItems
 objects.entity.ubrdistillery.actions.refinebiofuel.repeat=true
 objects.entity.ubrdistillery.actions.refinebiofuel.ongoing=true
-objects.entity.ubrdistillery.actions.refinebiofuel.items.ubrhydrocarbons=25
-objects.entity.ubrdistillery.actions.refinebiofuel.work=2000
+# Energy cost per 1 hydrocarbon ~= 2.8
+objects.entity.ubrdistillery.actions.refinebiofuel.items.ubrhydrocarbons=50
+objects.entity.ubrdistillery.actions.refinebiofuel.work=4000
 objects.entity.ubrdistillery.actions.refinebiofuel.costs.wheat=50
-objects.entity.ubrdistillery.actions.refinebiofuel.costs.water=5
-objects.entity.ubrdistillery.actions.refinebiofuel.costs.alcohol=5
-objects.entity.ubrdistillery.actions.refinebiofuel.costs.ubrenergyunit=5
+objects.entity.ubrdistillery.actions.refinebiofuel.costs.water=10
+objects.entity.ubrdistillery.actions.refinebiofuel.costs.alcohol=10
+objects.entity.ubrdistillery.actions.refinebiofuel.costs.ubrenergyunit=10
 objects.entity.ubrdistillery.actions.refinebiofuel.actiongroup=craft
 objects.entity.ubrdistillery.actions.refinebiofuel.sprite=action_gather
 objects.entity.ubrdistillery.actions.refinebiofuel.gatherlimitsitem=alcohol
@@ -1396,10 +1393,10 @@ objects.entity.ubrmagiccircle5.actions.findstone.research=ubrritualsl5
 objects.entity.ubrmagiccircle5.actions.findstone.class=ActionTypeCreateCluster
 objects.entity.ubrmagiccircle5.actions.findstone.work=1250
 objects.entity.ubrmagiccircle5.actions.findstone.obj=rock
-objects.entity.ubrmagiccircle5.actions.findstone.clustercount=162-243
-objects.entity.ubrmagiccircle5.actions.findstone.countpercluster=81-162
-objects.entity.ubrmagiccircle5.actions.findstone.totalcount=972-1296
-objects.entity.ubrmagiccircle5.actions.findstone.clusterseparation=20
+objects.entity.ubrmagiccircle5.actions.findstone.clustercount=200-400
+objects.entity.ubrmagiccircle5.actions.findstone.countpercluster=100-200
+objects.entity.ubrmagiccircle5.actions.findstone.totalcount=1000-1400
+objects.entity.ubrmagiccircle5.actions.findstone.clusterseparation=10
 objects.entity.ubrmagiccircle5.actions.findstone.costs.wheat=6
 objects.entity.ubrmagiccircle5.actions.findstone.costs.herbs=6
 
@@ -1409,10 +1406,10 @@ objects.entity.ubrmagiccircle5.actions.findclay.research=ubrritualsl5
 objects.entity.ubrmagiccircle5.actions.findclay.class=ActionTypeCreateCluster
 objects.entity.ubrmagiccircle5.actions.findclay.work=1250
 objects.entity.ubrmagiccircle5.actions.findclay.obj=claymine
-objects.entity.ubrmagiccircle5.actions.findclay.clustercount=112-243
-objects.entity.ubrmagiccircle5.actions.findclay.countpercluster=81-162
-objects.entity.ubrmagiccircle5.actions.findclay.totalcount=810-1124
-objects.entity.ubrmagiccircle5.actions.findclay.clusterseparation=20
+objects.entity.ubrmagiccircle5.actions.findclay.clustercount=125-250
+objects.entity.ubrmagiccircle5.actions.findclay.countpercluster=100-200
+objects.entity.ubrmagiccircle5.actions.findclay.totalcount=1000-1400
+objects.entity.ubrmagiccircle5.actions.findclay.clusterseparation=10
 objects.entity.ubrmagiccircle5.actions.findclay.costs.wheat=12
 objects.entity.ubrmagiccircle5.actions.findclay.costs.herbs=12
 
@@ -1440,7 +1437,7 @@ objects.entity.ubrdarkaltar5.actions.soulharness.research=ubrspiritrituals5
 objects.entity.ubrdarkaltar5.actions.soulharness.class=ActionTypeCreateEffect
 objects.entity.ubrdarkaltar5.actions.soulharness.work=720
 objects.entity.ubrdarkaltar5.actions.soulharness.effect=ubrsoulharness5
-objects.entity.ubrdarkaltar5.actions.soulharness.duration=15360
+objects.entity.ubrdarkaltar5.actions.soulharness.duration=16000
 objects.entity.ubrdarkaltar5.actions.soulharness.costs.sulfur=4
 objects.entity.ubrdarkaltar5.actions.soulharness.costs.wheat=6
 
@@ -1450,7 +1447,7 @@ objects.entity.ubrdarkaltar5.actions.demonstamina.research=ubrspiritrituals5
 objects.entity.ubrdarkaltar5.actions.demonstamina.class=ActionTypeCreateEffect
 objects.entity.ubrdarkaltar5.actions.demonstamina.work=620
 objects.entity.ubrdarkaltar5.actions.demonstamina.effect=ubrdemonstamina5
-objects.entity.ubrdarkaltar5.actions.demonstamina.duration=15360
+objects.entity.ubrdarkaltar5.actions.demonstamina.duration=16000
 objects.entity.ubrdarkaltar5.actions.demonstamina.costs.sulfur=4
 objects.entity.ubrdarkaltar5.actions.demonstamina.costs.demonite=2
 objects.entity.ubrdarkaltar5.actions.demonstamina.costs.wheat=10
@@ -1460,7 +1457,7 @@ objects.entity.ubrdarkaltar5.actions.summonimps.sprite=action_summonimps
 objects.entity.ubrdarkaltar5.actions.summonimps.research=ubrspiritrituals5
 objects.entity.ubrdarkaltar5.actions.summonimps.class=ActionTypeSummonEnemies
 objects.entity.ubrdarkaltar5.actions.summonimps.work=43
-objects.entity.ubrdarkaltar5.actions.summonimps.enemy.imp=24-48
+objects.entity.ubrdarkaltar5.actions.summonimps.enemy.imp=45-60
 objects.entity.ubrdarkaltar5.actions.summonimps.costs.wheat=1
 objects.entity.ubrdarkaltar5.actions.summonimps.costs.tomato=1
 
@@ -1502,7 +1499,7 @@ objects.entity.ubrholyaltar5.actions.repelevil.research=ubrspiritrituals5
 objects.entity.ubrholyaltar5.actions.repelevil.work=1600
 objects.entity.ubrholyaltar5.actions.repelevil.awarenessadd=-100
 objects.entity.ubrholyaltar5.actions.repelevil.effect=ubrrepelevil5
-objects.entity.ubrholyaltar5.actions.repelevil.duration=6400
+objects.entity.ubrholyaltar5.actions.repelevil.duration=8000
 objects.entity.ubrholyaltar5.actions.repelevil.costs.holywater=2
 objects.entity.ubrholyaltar5.actions.repelevil.costs.herbs=10
 objects.entity.ubrholyaltar5.actions.repelevil.costs.holywords=1
@@ -1513,7 +1510,7 @@ objects.entity.ubrholyaltar5.actions.divineinspiration.research=ubrspiritrituals
 objects.entity.ubrholyaltar5.actions.divineinspiration.class=ActionTypeCreateEffect
 objects.entity.ubrholyaltar5.actions.divineinspiration.work=1200
 objects.entity.ubrholyaltar5.actions.divineinspiration.effect=ubrdivineinspiration5
-objects.entity.ubrholyaltar5.actions.divineinspiration.duration=15360
+objects.entity.ubrholyaltar5.actions.divineinspiration.duration=16000
 objects.entity.ubrholyaltar5.actions.divineinspiration.costs.holywater=1
 objects.entity.ubrholyaltar5.actions.divineinspiration.costs.wheat=4
 
@@ -1523,7 +1520,7 @@ objects.entity.ubrholyaltar5.actions.divinehealing.research=ubrspiritrituals5
 objects.entity.ubrholyaltar5.actions.divinehealing.class=ActionTypeCreateEffect
 objects.entity.ubrholyaltar5.actions.divinehealing.work=1000
 objects.entity.ubrholyaltar5.actions.divinehealing.effect=ubrdivinehealing5
-objects.entity.ubrholyaltar5.actions.divinehealing.duration=7680
+objects.entity.ubrholyaltar5.actions.divinehealing.duration=8000
 objects.entity.ubrholyaltar5.actions.divinehealing.costs.holywater=1
 objects.entity.ubrholyaltar5.actions.divinehealing.costs.herbs=4
 objects.entity.ubrholyaltar5.actions.divinehealing.costs.wheat=4
@@ -1534,7 +1531,7 @@ objects.entity.ubrholyaltar5.actions.defensiveaura.research=ubrspiritrituals5
 objects.entity.ubrholyaltar5.actions.defensiveaura.class=ActionTypeCreateEffect
 objects.entity.ubrholyaltar5.actions.defensiveaura.work=1600
 objects.entity.ubrholyaltar5.actions.defensiveaura.effect=ubrdefensiveaura5
-objects.entity.ubrholyaltar5.actions.defensiveaura.duration=23040
+objects.entity.ubrholyaltar5.actions.defensiveaura.duration=32000
 objects.entity.ubrholyaltar5.actions.defensiveaura.costs.holywater=1
 
 objects.entity.ubrholyaltar5.actions.evasiveaura.parents=ritual.base.generic
@@ -1543,7 +1540,7 @@ objects.entity.ubrholyaltar5.actions.evasiveaura.research=ubrspiritrituals5
 objects.entity.ubrholyaltar5.actions.evasiveaura.class=ActionTypeCreateEffect
 objects.entity.ubrholyaltar5.actions.evasiveaura.work=720
 objects.entity.ubrholyaltar5.actions.evasiveaura.effect=ubrevasiveaura5
-objects.entity.ubrholyaltar5.actions.evasiveaura.duration=23040
+objects.entity.ubrholyaltar5.actions.evasiveaura.duration=32000
 objects.entity.ubrholyaltar5.actions.evasiveaura.costs.wool=2
 objects.entity.ubrholyaltar5.actions.evasiveaura.costs.water=8
 
@@ -1569,7 +1566,7 @@ objects.entity.ubrarcanefoundry5.actions.logisticsritual.research=ubrarcaneritua
 objects.entity.ubrarcanefoundry5.actions.logisticsritual.class=ActionTypeCreateEffect
 objects.entity.ubrarcanefoundry5.actions.logisticsritual.work=600
 objects.entity.ubrarcanefoundry5.actions.logisticsritual.effect=ubrlogisticsritual5
-objects.entity.ubrarcanefoundry5.actions.logisticsritual.duration=11520
+objects.entity.ubrarcanefoundry5.actions.logisticsritual.duration=16000
 objects.entity.ubrarcanefoundry5.actions.logisticsritual.costs.boards=4
 objects.entity.ubrarcanefoundry5.actions.logisticsritual.costs.sulfur=2
 
@@ -1579,7 +1576,7 @@ objects.entity.ubrarcanefoundry5.actions.farsight.research=ubrarcanerituals5
 objects.entity.ubrarcanefoundry5.actions.farsight.class=ActionTypeCreateEffect
 objects.entity.ubrarcanefoundry5.actions.farsight.work=600
 objects.entity.ubrarcanefoundry5.actions.farsight.effect=ubrfarsight5
-objects.entity.ubrarcanefoundry5.actions.farsight.duration=11520
+objects.entity.ubrarcanefoundry5.actions.farsight.duration=16000
 objects.entity.ubrarcanefoundry5.actions.farsight.costs.metals=4
 objects.entity.ubrarcanefoundry5.actions.farsight.costs.wood=4
 objects.entity.ubrarcanefoundry5.actions.farsight.costs.sulfur=2
@@ -1590,7 +1587,7 @@ objects.entity.ubrarcanefoundry5.actions.eagleeye.research=ubrarcanerituals5
 objects.entity.ubrarcanefoundry5.actions.eagleeye.class=ActionTypeCreateEffect
 objects.entity.ubrarcanefoundry5.actions.eagleeye.work=900
 objects.entity.ubrarcanefoundry5.actions.eagleeye.effect=ubreagleeye5
-objects.entity.ubrarcanefoundry5.actions.eagleeye.duration=11520
+objects.entity.ubrarcanefoundry5.actions.eagleeye.duration=16000
 objects.entity.ubrarcanefoundry5.actions.eagleeye.costs.metals=8
 objects.entity.ubrarcanefoundry5.actions.eagleeye.costs.arrows=8
 objects.entity.ubrarcanefoundry5.actions.eagleeye.costs.ectoplasm=2
@@ -1601,7 +1598,7 @@ objects.entity.ubrarcanefoundry5.actions.concentration.research=ubrarcanerituals
 objects.entity.ubrarcanefoundry5.actions.concentration.class=ActionTypeCreateEffect
 objects.entity.ubrarcanefoundry5.actions.concentration.work=800
 objects.entity.ubrarcanefoundry5.actions.concentration.effect=concentrationritual
-objects.entity.ubrarcanefoundry5.actions.concentration.duration=23040
+objects.entity.ubrarcanefoundry5.actions.concentration.duration=64000
 objects.entity.ubrarcanefoundry5.actions.concentration.costs.fur=2
 objects.entity.ubrarcanefoundry5.actions.concentration.costs.wheat=8
 
@@ -1636,6 +1633,7 @@ objects.entity.hospital.loot.0.ubrenertronics=1
 # Military Base
 objects.entity.military.difficultymul=1.5
 objects.entity.military.loot.0.ubrenertronics=1
+objects.entity.military.harvest.0.ubrbullets=11
 
 # Mining Town
 objects.entity.miningtown.difficultymul=1.25
