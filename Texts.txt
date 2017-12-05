@@ -1,0 +1,461 @@
+# More transmutations
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+actions.coppertransmute.name=Copper Transmutation
+actions.coppertransmute.description=A ritual to transmutate Prima Materia into Copper.
+
+actions.stonetransmute.name=Stone Transmutation
+actions.stonetransmute.description=A ritual to transmutate Prima Materia into Stone.
+
+actions.claytransmute.name=Clay Transmutation
+actions.claytransmute.description=A ritual to transmutate Prima Materia into Clay.
+
+
+# Research Categories
+
+research.category.secretswaffe=Secrets
+
+
+# Research Subjects
+
+# Craft Extended
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+research.ubradvancedmachines.name=Advanced Machines
+research.ubrautomatedfarming.name=Automated Greenhouses
+research.ubrdistilling.name=Refining
+
+
+
+# Occult Extended
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+research.secwafspiritenergy.name=Spirit Energy Manifestation
+research.spiritalloyresearch.name=Alloying Spirit Energy
+research.eternalfireresearch.name=Eternal Engines
+
+
+# Greater
+
+research.secwafspiritenergy2.name=Spirit Energy Control
+
+research.heavenlyitemsresearch.name=Heavenly Crafting
+research.ubroccultitems2.name=Imbued Crafting
+research.ubroccultconsume2.name=Imbued Spells
+
+
+# Master
+
+research.secwafspiritenergy3.name=Spirit Energy Mastery
+research.ubroccultitems3.name=Master Crafting
+research.ubroccultconsume3.name=Master Spells
+
+
+# Evoker
+
+research.secwafspiritenergy4.name=Spirit Energy Evoking
+research.ubroccultitems4.name=Evoker Crafting
+research.ubroccultconsume4.name=Evoker Spells
+
+
+# Master Evoker
+
+research.secwafspiritenergy5.name=Masterful Spirit Evoking
+research.ubroccultitems5.name=Master Evoker Crafting
+research.ubroccultconsume5.name=Master Evoker Spells
+
+
+
+# Secrets
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+research.secwaffundamentalsecret1.name=Secrets of Existence
+research.secwafflevel1bonus1.name=Deeper Secrets
+research.secwafflevel1bonus2.name=Deeper Secrets
+
+research.secwaffundamentalsecret2.name=Secrets of Existence
+research.secwafflevel2bonus1.name=Deeper Secrets
+research.secwafflevel2bonus2.name=Deeper Secrets
+
+research.secwaffundamentalsecret3.name=Secrets of Existence
+research.secwafflevel3bonus1.name=Deeper Secrets
+research.secwafflevel3bonus2.name=Deeper Secrets
+
+research.secwaffundamentalsecret4.name=Secrets of Existence
+research.secwafflevel4bonus1.name=Deeper Secrets
+research.secwafflevel4bonus2.name=Deeper Secrets
+
+research.secwaffundamentalsecret5.name=Secrets of Existence
+research.secwafflevel5bonus1.name=Deeper Secrets
+research.secwafflevel5bonus2.name=Deeper Secrets
+
+research.secwaffundamentalsecret6.name=Secrets of Existence
+research.secwafflevel6bonus1.name=Deeper Secrets
+research.secwafflevel6bonus2.name=Deeper Secrets
+
+research.secwaffundamentalsecret7.name=Secrets of Existence
+research.secwafflevel7bonus1.name=Deeper Secrets
+research.secwafflevel7bonus2.name=Deeper Secrets
+
+research.secwaffundamentalsecret8.name=Secrets of Existence
+research.secwafflevel8bonus1.name=Deeper Secrets
+research.secwafflevel8bonus2.name=Deeper Secrets
+
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extended Crafting
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Energy Generators
+
+items.ubrenergyunit.name=Energy
+items.ubrenergyunit.description=1 kWh (One kilo-Watt hour) of electric energy.
+
+objects.ubrwoodfiredgenerator.name=Wood Fired Generator
+objects.ubrwoodfiredgenerator.description=Simplistic generator that generates 2kW of power by burning wood.
+
+objects.ubrsolarenergy.name=Solar Generator
+objects.ubrsolarenergy.description=Solar panels combined with battery packs. Generates 1kW of power.
+
+objects.ubreternalreactor.name=Eternal Reactor
+objects.ubreternalreactor.description=Using the constant, but infinite, energy provided by an eternal engine, this reactor generates 20kW of power.
+
+
+
+# High-Tech Materials
+
+items.ubralloys.name=High Tech Alloys
+items.ubralloys.description=High-tech alloys refined from metals and minerals.
+
+items.ubrchemicals.name=Chemicals
+items.ubrchemicals.description=Various chemicals for a wide variety of use, critical for more advanced crafting.
+
+items.ubrbullets.name=Ammunition
+items.ubrbullets.description=Boxes of ammunition of various standard calibers for use in firearms.
+
+items.ubrglass.name=Reinforced Glass
+items.ubrglass.description=Glass is a very useful material. From mirrors to telescopes to greenhouses. Reinforcing the glass allows for more uses and less maintenance.
+
+items.ubrtextiles.name=Hybrid Textiles
+items.ubrtextiles.description=Textiles made from interweaving cloth and treated plantfibre. Their uses are varied and critical to advancing an economy beyond subsistence.
+
+items.ubrenertronics.name=Enertronics
+items.ubrenertronics.description=Electronics and electrical equipment, for all of your digital information and electrical power needs.
+
+items.ubrhydrocarbons.name=Hydrocarbons
+items.ubrhydrocarbons.description=Refined hydrocarbons ranging from heavy to light, for various uses from lubricants to fuels.
+
+
+
+
+# More automation
+
+objects.ubradvcrafting.name=Advanced Workbench
+objects.ubradvcrafting.description=Full of advanced tools and a high temperature furnace, used to create complex materials and stuff. Requires power.
+
+objects.ubraquiferpump.name=Aquifer Pump
+objects.ubraquiferpump.description=Pumps water without any manual labour. Requires power.
+
+objects.automatedvegfarm.name=Greenhouse: Vegetable
+objects.automatedvegfarm.description=Irrigated greenhouse that grows vegetables. Only requires farmers to plant and harvest, tending is automatic. Requires power.
+
+objects.automatedwheatfarm.name=Greenhouse: Wheat
+objects.automatedwheatfarm.description=Irrigated greenhouse that grows wheat. Only requires farmers to plant and harvest, tending is automatic. Requires power.
+
+objects.automatedherbfarm.name=Greenhouse: Herb
+objects.automatedherbfarm.description=Irrigated greenhouse that grows herbs. Only requires farmers to plant and harvest, tending is automatic. Requires power.
+
+objects.ubrdistillery.name=Distillery
+objects.ubrdistillery.description=Distills alcohol and spiced drinks in bulk. Requires power.
+
+
+# Object Attributes
+
+object.working.attribute=Working
+
+object.distilling.attribute=Distilling
+
+object.brewing.attribute=Brewing
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extended Base / Farming
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+research.ubrconstruction2.name=Complex Construction
+research.ubrcolonydefense2.name=Hardened Defenses
+
+objects.guardtower2.name=Reinforced Guard Tower
+objects.guardtower2.description=Survivors inside will be more efficient in defending the colony.\n\nCan only be occupied during combat by survivors with ranged weapons.
+
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# More items
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+items.aether.description=Non-euclidean demi-matter resource used in crafting. \n\nCan be obtained in scavenge missions, and later transmuted. 
+
+
+abilities.exorcise2.name=Exorcise (Greater)
+abilities.cross2.name=Divine Protection
+
+items.ubrspiritspark.name=Spirit Spark
+items.ubrspiritspark.description=Living spirit energy imbued into a physical spark that never extinguishes.
+
+items.spiritalloy.name=Spirit Alloy
+items.spiritalloy.description=Forged by alloying metals with spiritual energy made manifest. This alloy defies some of the laws of physics.\n\nResource used in crafting recipes.
+
+items.eternalengine.name=Eternal Engine
+items.eternalengine.description=Using an eternally burning fire that requires no fuel, this engine generates free energy.\n\nResource used in crafting recipes.
+
+objects.ubrspiritfoundry.name=Spirit Foundry
+objects.ubrspiritfoundry.description=Rituals of imbueing spirit energy into tangible matter is performed here.
+
+actions.spiritsparkritual.name=Create Sparks
+actions.spiritsparkritual.description=Ritual to create Spirit Sparks, a ciritical crafting ingredient in advanced occult actions.
+
+actions.spiritalloyritual.name=Forge Spirit Alloy
+actions.spiritalloyritual.description=Forged spirit energy alloy.
+
+actions.eternalengineritual.name=Forge Eternal Engine
+actions.eternalengineritual.description=Forged eternal fire engine.
+
+items.heavenlyarmor.name=Holy Forged Armor
+items.heavenlyarmor.description=Forged from Spirit Alloy, this armor has been additionally imbued with Holy energy.
+
+items.heavenlysword.name=Holy Forged Sword
+items.heavenlysword.description=Forged from Spirit Alloy, this sword has been additionally imbued with Holy energy.
+
+items.heavenlypistol.name=Holy Forged Pistol
+items.heavenlypistol.description=Forged from Spirit Alloy, this pistol has been additionally imbued with Holy energy.
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extended Weapons
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+abilities.ubrinfernade.name=Thermobaric Grenade
+
+items.ubrinfernade.name=Thermobaric Grenade
+items.ubrinfernade.description=Very powerful grenade that blasts then target area apart, and then sets it on fire for good measure.
+
+items.ubrthermobaricgun.name=Thermobaric Launcher
+items.ubrthermobaricgun.description=Launches small thermobaric incendiaries that immolate the target.
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extended Rituals
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Greater
+
+research.ubrritualsl2.name=Greater Rituals
+research.ubrarcanerituals2.name=Greater Arcane Rituals
+research.ubrspiritrituals2.name=Greater Light and Dark Rituals
+
+objects.ubrmagiccircle2.name=Greater Magic Circle
+objects.ubrmagiccircle2.description=Something about this formation keeps the dabblers in the occult safe as they conduct their experiments.
+
+objects.ubrarcanefoundry2.name=Greater Arcane Foundry
+objects.ubrarcanefoundry2.description=Arcane rituals are performed here.
+
+objects.ubrdarkaltar2.name=Greater Dark Altar
+objects.ubrdarkaltar2.description=The dark arts are dangerous, but also powerful.
+
+objects.ubrholyaltar2.name=Greater Holy Altar
+objects.ubrholyaltar2.description=Not all magic is dark. Divine rituals can be performed here.
+
+
+# Master
+
+research.ubrritualsl3.name=Master Rituals
+research.ubrarcanerituals3.name=Master Arcane Rituals
+research.ubrspiritrituals3.name=Master Light and Dark Rituals
+
+objects.ubrmagiccircle3.name=Master Magic Circle
+objects.ubrmagiccircle3.description=Something about this formation keeps the dabblers in the occult safe as they conduct their experiments.
+
+objects.ubrarcanefoundry3.name=Master Arcane Foundry
+objects.ubrarcanefoundry3.description=Arcane rituals are performed here.
+
+objects.ubrdarkaltar3.name=Master Dark Altar
+objects.ubrdarkaltar3.description=The dark arts are dangerous, but also powerful.
+
+objects.ubrholyaltar3.name=Master Holy Altar
+objects.ubrholyaltar3.description=Not all magic is dark. Divine rituals can be performed here.
+
+
+# Evoker
+
+research.ubrritualsl4.name=Evoker Rituals
+research.ubrarcanerituals4.name=Evoker Arcane Rituals
+research.ubrspiritrituals4.name=Evoker Light and Dark Rituals
+
+objects.ubrmagiccircle4.name=Evoker Magic Circle
+objects.ubrmagiccircle4.description=Something about this formation keeps the dabblers in the occult safe as they conduct their experiments.
+
+objects.ubrarcanefoundry4.name=Evoker Arcane Foundry
+objects.ubrarcanefoundry4.description=Arcane rituals are performed here.
+
+objects.ubrdarkaltar4.name=Evoker Dark Altar
+objects.ubrdarkaltar4.description=The dark arts are dangerous, but also powerful.
+
+objects.ubrholyaltar4.name=Evoker Holy Altar
+objects.ubrholyaltar4.description=Not all magic is dark. Divine rituals can be performed here.
+
+
+# Master Evoker
+
+research.ubrritualsl5.name=Master Evoker Rituals
+research.ubrarcanerituals5.name=Master Evoker Arcane Rituals
+research.ubrspiritrituals5.name=Master Evoker Light and Dark Rituals
+
+objects.ubrmagiccircle5.name=Master Evoker Magic Circle
+objects.ubrmagiccircle5.description=Something about this formation keeps the dabblers in the occult safe as they conduct their experiments.
+
+objects.ubrarcanefoundry5.name=Master Evoker Arcane Foundry
+objects.ubrarcanefoundry5.description=Arcane rituals are performed here.
+
+objects.ubrdarkaltar5.name=Master Evoker Dark Altar
+objects.ubrdarkaltar5.description=The dark arts are dangerous, but also powerful.
+
+objects.ubrholyaltar5.name=Master Evoker Holy Altar
+objects.ubrholyaltar5.description=Not all magic is dark. Divine rituals can be performed here.
+
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extended Occult
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Greater
+
+items.ubrgreaterwarcharm2.name=Imbued War Pendant
+items.ubrgreaterwarcharm2.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
+
+items.ubrgreaterworkcharm2.name=Imbued Skill Pendant
+items.ubrgreaterworkcharm2.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
+
+items.ubrhexscroll2.name=Spell: Greater Bind
+items.ubrhexscroll2.description=Blasts a target with energy, damaging them and binding them.
+
+abilities.ubrhex2.name=Greater Hex
+abilities.ubrprotectionspell2.name=Greater Protection Spell
+abilities.ubrweakeningrune2.name=Greater Rune
+
+statuseffects.bless2.name=Blessed
+statuseffects.hex2.name=Hexed
+statuseffects.cross2.name=Sacred Protection
+
+
+
+# Master
+
+items.ubrgreaterwarcharm3.name=Master War Pendant
+items.ubrgreaterwarcharm3.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
+
+items.ubrgreaterworkcharm3.name=Master Skill Pendant
+items.ubrgreaterworkcharm3.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
+
+
+
+# Evoker
+
+items.ubrgreaterwarcharm4.name=Evoker War Pendant
+items.ubrgreaterwarcharm4.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
+
+items.ubrgreaterworkcharm4.name=Evoker Skill Pendant
+items.ubrgreaterworkcharm4.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
+
+
+
+# Master Evoker
+
+items.ubrgreaterwarcharm5.name=Master Evoker War Pendant
+items.ubrgreaterwarcharm5.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
+
+items.ubrgreaterworkcharm5.name=Master Evoker Skill Pendant
+items.ubrgreaterworkcharm5.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Tags
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Actions
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+actions.collect.name=Collect
+actions.initiate.name=Initiate
+
+actions.distillalcohol.name=Distill Alcohol
+actions.distillalcohol.description=Distills alcohol in bulk. Is faster, and requires less wheat overall, but is energy hungry.
+
+actions.refinehydrocarbons.name=Refine Hydrocarbons
+actions.refinehydrocarbons.description=Refines hydrocarbons from wheat and alcohol.
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Professions
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+professions.ubrextraordinaire.male=Demihuman
+
+professions.ubrextraordinaire.female=Demihuman
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Skills
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Extraordinaire
+skills.ubrextracrafter.name=Artificer
+skills.ubrextragatherer.name=Provider
+skills.ubrextraholy.name=Paladin
+skills.ubrextrasoldier.name=Elite
+
+skills.ubrexcombat1.name=Combat Specialist 1
+skills.ubrexcombat2.name=Combat Specialist 2
+skills.ubrexcombat3.name=Combat Specialist 3
+skills.ubrexcombat4.name=Combat Specialist 4
+skills.ubrexcombat5.name=Combat Specialist 5
+skills.ubrexcombat6.name=Combat Specialist 6
+
+skills.ubrexdefense1.name=Defense Specialist 1
+skills.ubrexdefense2.name=Defense Specialist 2
+skills.ubrexdefense3.name=Defense Specialist 3
+skills.ubrexdefense4.name=Defense Specialist 4
+skills.ubrexdefense5.name=Defense Specialist 5
+skills.ubrexdefense6.name=Defense Specialist 6
+
+skills.ubrexartisan1.name=Artisan 1
+skills.ubrexartisan2.name=Artisan 2
+skills.ubrexartisan3.name=Artisan 3
+skills.ubrexartisan4.name=Artisan 4
+skills.ubrexartisan5.name=Artisan 5
+skills.ubrexartisan6.name=Artisan 6
+
+skills.ubrexthinker1.name=Thinker 1
+skills.ubrexthinker2.name=Thinker 2
+skills.ubrexthinker3.name=Thinker 3
+skills.ubrexthinker4.name=Thinker 4
+skills.ubrexthinker5.name=Thinker 5
+skills.ubrexthinker6.name=Thinker 6
+
+skills.ubrexultcraft.name=Master Artificer
+skills.ubrexultholy.name=Pure Soul
+skills.ubrexultmagic.name=Arcane Master
+skills.ubrexultcombat.name=Unstoppable Force
+

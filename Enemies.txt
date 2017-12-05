@@ -1,0 +1,47 @@
+
+# Rehash human enemies to not appear to have very exotic weapons
+
+# Human Enemies 1
+
+enemies.entity.survivor1r.loot.scraps=3
+enemies.entity.survivor1r.loot.water=1
+enemies.entity.survivor1r.weapon=bow,crossbow,olympicbow
+
+enemies.entity.survivor1m.loot.scraps=3
+enemies.entity.survivor1m.loot.water=1
+enemies.entity.survivor1m.weapon=club,quarterstaff,baseballbat
+
+# Human Enemies 2
+
+enemies.entity.survivor2r.loot.weaponparts=0
+enemies.entity.survivor2r.loot.scraps=5
+enemies.entity.survivor2r.loot.water=2
+enemies.entity.survivor2r.loot.bread=1
+enemies.entity.survivor2r.loot.cannedfood=1
+enemies.entity.survivor2r.weapon=glock,nailgun
+
+enemies.entity.survivor2m.loot.metals=0
+enemies.entity.survivor2m.loot.scraps=5
+enemies.entity.survivor2m.loot.water=2
+enemies.entity.survivor2m.loot.bread=1
+enemies.entity.survivor2m.loot.cannedfood=1
+enemies.entity.survivor2m.weapon=combatknife,pipewrench
+
+# Human Enemies 3
+
+enemies.entity.survivor3r.loot.composites=0
+enemies.entity.survivor3r.loot.weaponparts=1
+enemies.entity.survivor3r.loot.scraps=10
+enemies.entity.survivor3r.loot.water=5
+enemies.entity.survivor3r.loot.bread=2
+enemies.entity.survivor3r.loot.cannedfood=2
+enemies.entity.survivor3r.weapon=jericho,huntingrifle
+
+enemies.entity.survivor3m.loot.minerals=0
+enemies.entity.survivor3m.loot.weaponparts=1
+enemies.entity.survivor3m.loot.scraps=10
+enemies.entity.survivor3m.loot.water=5
+enemies.entity.survivor3m.loot.bread=2
+enemies.entity.survivor3m.loot.cannedfood=2
+enemies.entity.survivor3m.weapon=demoniteknife,sledgehammer
+

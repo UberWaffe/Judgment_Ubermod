@@ -1,0 +1,526 @@
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extended Base / Farming
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Reinforced Guard Towers
+
+research.entity.ubrconstruction2.parents=research.base.farming,research.base.level4,research.base.unlock
+research.entity.ubrconstruction2.research=advancedlogistics
+research.entity.ubrconstruction2.effect=ubrconstruction2
+research.entity.ubrconstruction2.costs.physics1=5000
+research.entity.ubrconstruction2.costs.researchkit=2
+
+research.entity.ubrcolonydefense2.parents=research.base.farming,research.base.level4
+research.entity.ubrcolonydefense2.research=ubrconstruction2
+research.entity.ubrcolonydefense2.costs.physics1=3500
+
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Crafting Research Extended 
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Advanced Machines
+
+research.entity.ubradvancedmachines.parents=research.base.machines,research.base.level4,research.base.unlock
+research.entity.ubradvancedmachines.research=alchemicalweapons
+research.entity.ubradvancedmachines.costs.physics1=5000
+research.entity.ubradvancedmachines.costs.researchkit=2
+
+# Side branch 1 - Automated Farming
+
+research.entity.ubrautomatedfarming.parents=research.base.machines,research.base.level4
+research.entity.ubrautomatedfarming.research=ubradvancedmachines
+research.entity.ubrautomatedfarming.costs.physics1=4000
+
+# Side branch 2 - Distillery
+
+research.entity.ubrdistilling.parents=research.base.machines,research.base.level4
+research.entity.ubrdistilling.research=ubradvancedmachines
+research.entity.ubrdistilling.costs.physics1=4000
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Weapons Research Extended 
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Thermobaric Weapons
+
+research.entity.ubrthermobaricweapons.parents=research.base.firearms,research.base.level4,research.base.unlock
+research.entity.ubrthermobaricweapons.research=heavyweapons
+research.entity.ubrthermobaricweapons.costs.physics1=6000
+research.entity.ubrthermobaricweapons.costs.researchkit=4
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Occult Research Extended 
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Spirit Energy
+
+research.entity.secwafspiritenergy.parents=research.base.occult,research.base.level4,research.base.unlock
+research.entity.secwafspiritenergy.research=sacredcrafting
+research.entity.secwafspiritenergy.effect=secwafspiritenergy
+research.entity.secwafspiritenergy.costs.physics1=500
+research.entity.secwafspiritenergy.costs.occult1=3000
+research.entity.secwafspiritenergy.costs.researchkit=2
+
+# Side branch 1 - Spirit Alloy
+
+research.entity.spiritalloyresearch.parents=research.base.occult,research.base.level4
+research.entity.spiritalloyresearch.research=secwafspiritenergy
+research.entity.spiritalloyresearch.costs.physics1=500
+research.entity.spiritalloyresearch.costs.occult1=3000
+
+
+
+# Spirit Energy 2 - Greater
+
+research.entity.secwafspiritenergy2.parents=research.base.occult,research.base.level5,research.base.unlock
+research.entity.secwafspiritenergy2.research=secwafspiritenergy
+research.entity.secwafspiritenergy2.effect=secwafspiritenergy2
+research.entity.secwafspiritenergy2.costs.physics1=500
+research.entity.secwafspiritenergy2.costs.occult1=10000
+research.entity.secwafspiritenergy2.costs.researchkit=3
+research.entity.secwafspiritenergy2.costs.ubrspiritspark=50
+
+# Side branch 2 - Greater Occult Items
+
+research.entity.ubroccultitems2.parents=research.base.occult,research.base.level5
+research.entity.ubroccultitems2.research=secwafspiritenergy2
+research.entity.ubroccultitems2.costs.occult1=5000
+
+# Side branch 2 - Greater Occult Consumables
+
+research.entity.ubroccultconsume2.parents=research.base.occult,research.base.level5
+research.entity.ubroccultconsume2.research=ubroccultitems2
+research.entity.ubroccultconsume2.costs.occult1=5000
+
+
+
+# Spirit Energy 3 - Master
+
+research.entity.secwafspiritenergy3.parents=research.base.occult,research.base.level6,research.base.unlock
+research.entity.secwafspiritenergy3.research=secwafspiritenergy2
+research.entity.secwafspiritenergy3.effect=secwafspiritenergy3
+research.entity.secwafspiritenergy3.costs.physics1=500
+research.entity.secwafspiritenergy3.costs.occult1=40000
+research.entity.secwafspiritenergy3.costs.researchkit=5
+research.entity.secwafspiritenergy3.costs.ubrspiritspark=100
+
+# Side branch 1 - Master Occult Items
+
+research.entity.ubroccultitems3.parents=research.base.occult,research.base.level6
+research.entity.ubroccultitems3.research=secwafspiritenergy3
+research.entity.ubroccultitems3.costs.occult1=20000
+
+# Side branch 1 - Greater Occult Consumables
+
+research.entity.ubroccultconsume3.parents=research.base.occult,research.base.level6
+research.entity.ubroccultconsume3.research=ubroccultitems3
+research.entity.ubroccultconsume3.costs.occult1=20000
+
+# Side branch 2 - Upgraded Holy Items
+
+research.entity.heavenlyitemsresearch.parents=research.base.occult,research.base.level5
+research.entity.heavenlyitemsresearch.research=secwafspiritenergy3
+research.entity.heavenlyitemsresearch.costs.occult1=5000
+
+
+
+# Spirit Energy 4 - Evoker
+
+research.entity.secwafspiritenergy4.parents=research.base.occult,research.base.level7,research.base.unlock
+research.entity.secwafspiritenergy4.research=secwafspiritenergy3
+research.entity.secwafspiritenergy4.effect=secwafspiritenergy4
+research.entity.secwafspiritenergy4.costs.physics1=500
+research.entity.secwafspiritenergy4.costs.occult1=100000
+research.entity.secwafspiritenergy4.costs.researchkit=5
+research.entity.secwafspiritenergy4.costs.ubrspiritspark=100
+
+# Side branch 1 - Evoker Occult Items
+
+research.entity.ubroccultitems4.parents=research.base.occult,research.base.level7
+research.entity.ubroccultitems4.research=secwafspiritenergy4
+research.entity.ubroccultitems4.costs.occult1=50000
+
+# Side branch 1 - Evoker Occult Consumables
+
+research.entity.ubroccultconsume4.parents=research.base.occult,research.base.level7
+research.entity.ubroccultconsume4.research=ubroccultitems4
+research.entity.ubroccultconsume4.costs.occult1=50000
+
+# Side branch 2 - Eternal Fire
+
+research.entity.eternalfireresearch.parents=research.base.occult,research.base.level4
+research.entity.eternalfireresearch.research=secwafspiritenergy4
+research.entity.eternalfireresearch.costs.physics1=1500
+research.entity.eternalfireresearch.costs.occult1=2000
+
+
+# Spirit Energy 5 - Master Evoker
+
+research.entity.secwafspiritenergy5.parents=research.base.occult,research.base.level8,research.base.unlock
+research.entity.secwafspiritenergy5.research=secwafspiritenergy4
+research.entity.secwafspiritenergy5.effect=secwafspiritenergy5
+research.entity.secwafspiritenergy5.costs.physics1=500
+research.entity.secwafspiritenergy5.costs.occult1=250000
+research.entity.secwafspiritenergy5.costs.researchkit=10
+research.entity.secwafspiritenergy5.costs.ubrspiritspark=200
+
+# Side branch 1 - Master Evoker Occult Items
+
+research.entity.ubroccultitems5.parents=research.base.occult,research.base.level8
+research.entity.ubroccultitems5.research=secwafspiritenergy5
+research.entity.ubroccultitems5.costs.occult1=125000
+
+# Side branch 2 - Master Evoker Occult Consumables
+
+research.entity.ubroccultconsume5.parents=research.base.occult,research.base.level8
+research.entity.ubroccultconsume5.research=ubroccultitems5
+research.entity.ubroccultconsume5.costs.occult1=125000
+
+
+
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Rituals Research Extended 
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Greater Level
+
+research.entity.ubrritualsl2.parents=research.base.rituals,research.base.level4,research.base.unlock
+research.entity.ubrritualsl2.research=divineinspiration
+research.entity.ubrritualsl2.costs.occult1=3500
+research.entity.ubrritualsl2.costs.ubrspiritspark=20
+research.entity.ubrritualsl2.costs.researchkit=1
+
+research.entity.ubrarcanerituals2.parents=research.base.rituals,research.base.level4
+research.entity.ubrarcanerituals2.research=ubrritualsl2
+research.entity.ubrarcanerituals2.costs.occult1=1750
+research.entity.ubrarcanerituals2.costs.ubrspiritspark=10
+
+research.entity.ubrspiritrituals2.parents=research.base.rituals,research.base.level4
+research.entity.ubrspiritrituals2.research=ubrritualsl2
+research.entity.ubrspiritrituals2.costs.occult1=1750
+research.entity.ubrspiritrituals2.costs.ubrspiritspark=10
+
+
+# Master Level
+
+research.entity.ubrritualsl3.parents=research.base.rituals,research.base.level5,research.base.unlock
+research.entity.ubrritualsl3.research=ubrritualsl2
+research.entity.ubrritualsl3.costs.occult1=15000
+research.entity.ubrritualsl3.costs.ubrspiritspark=100
+research.entity.ubrritualsl3.costs.researchkit=2
+
+research.entity.ubrarcanerituals3.parents=research.base.rituals,research.base.level5
+research.entity.ubrarcanerituals3.research=ubrritualsl3
+research.entity.ubrarcanerituals3.costs.occult1=7500
+research.entity.ubrarcanerituals3.costs.ubrspiritspark=50
+
+research.entity.ubrspiritrituals3.parents=research.base.rituals,research.base.level5
+research.entity.ubrspiritrituals3.research=ubrritualsl3
+research.entity.ubrspiritrituals3.costs.occult1=7500
+research.entity.ubrspiritrituals3.costs.ubrspiritspark=50
+
+
+# Evoker Level
+
+research.entity.ubrritualsl4.parents=research.base.rituals,research.base.level6,research.base.unlock
+research.entity.ubrritualsl4.research=ubrritualsl3
+research.entity.ubrritualsl4.costs.occult1=50000
+research.entity.ubrritualsl4.costs.ubrspiritspark=500
+research.entity.ubrritualsl4.costs.researchkit=4
+
+research.entity.ubrarcanerituals4.parents=research.base.rituals,research.base.level6
+research.entity.ubrarcanerituals4.research=ubrritualsl4
+research.entity.ubrarcanerituals4.costs.occult1=25000
+research.entity.ubrarcanerituals4.costs.ubrspiritspark=250
+
+research.entity.ubrspiritrituals4.parents=research.base.rituals,research.base.level6
+research.entity.ubrspiritrituals4.research=ubrritualsl4
+research.entity.ubrspiritrituals4.costs.occult1=25000
+research.entity.ubrspiritrituals4.costs.ubrspiritspark=250
+
+
+# Master Evoker Level
+
+research.entity.ubrritualsl5.parents=research.base.rituals,research.base.level7,research.base.unlock
+research.entity.ubrritualsl5.research=ubrritualsl4
+research.entity.ubrritualsl5.costs.occult1=100000
+research.entity.ubrritualsl5.costs.ubrspiritspark=1000
+research.entity.ubrritualsl5.costs.researchkit=4
+
+research.entity.ubrarcanerituals5.parents=research.base.rituals,research.base.level7
+research.entity.ubrarcanerituals5.research=ubrritualsl5
+research.entity.ubrarcanerituals5.costs.occult1=50000
+research.entity.ubrarcanerituals5.costs.ubrspiritspark=500
+
+research.entity.ubrspiritrituals5.parents=research.base.rituals,research.base.level7
+research.entity.ubrspiritrituals5.research=ubrritualsl5
+research.entity.ubrspiritrituals5.costs.occult1=50000
+research.entity.ubrspiritrituals5.costs.ubrspiritspark=500
+
+
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Secrets research subjects
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set sprite for all secrets research.
+# All Fudge Waffe research subjects will inherit from this
+research.base.secretswaffe.sprite=research_secrets
+research.base.secretswaffe.category=secretswaffe
+
+research.category.secretswaffe.color=0,40,255
+research.category.secretswaffe.tabcolor=100,100,250
+
+
+# ---------------------------------------------- Level 1 ----------------------------------------------
+
+# Core branch
+
+research.entity.secwaffundamentalsecret1.parents=research.base.secretswaffe,research.base.level0,research.base.unlock
+research.entity.secwaffundamentalsecret1.costs.physics1=5000
+research.entity.secwaffundamentalsecret1.costs.occult1=5000
+research.entity.secwaffundamentalsecret1.costs.aether=250
+research.entity.secwaffundamentalsecret1.costs.ubrspiritspark=250
+research.entity.secwaffundamentalsecret1.costs.researchkit=4
+research.entity.secwaffundamentalsecret1.effect=secwaffundamentalsecret1
+
+# Bonus 1
+
+research.entity.secwafflevel1bonus1.parents=research.base.secretswaffe,research.base.level0
+research.entity.secwafflevel1bonus1.research=secwaffundamentalsecret1
+research.entity.secwafflevel1bonus1.costs.physics1=2500
+research.entity.secwafflevel1bonus1.costs.occult1=2500
+research.entity.secwafflevel1bonus1.effect=secwafflevel1bonus1
+
+# Bonus 2
+
+research.entity.secwafflevel1bonus2.parents=research.base.secretswaffe,research.base.level0
+research.entity.secwafflevel1bonus2.research=secwaffundamentalsecret1
+research.entity.secwafflevel1bonus2.costs.physics1=2500
+research.entity.secwafflevel1bonus2.costs.occult1=2500
+research.entity.secwafflevel1bonus2.effect=secwafflevel1bonus2
+
+
+# ---------------------------------------------- Level 2 ----------------------------------------------
+
+# Core branch
+
+research.entity.secwaffundamentalsecret2.parents=research.base.secretswaffe,research.base.level1,research.base.unlock
+research.entity.secwaffundamentalsecret2.research=secwaffundamentalsecret1
+research.entity.secwaffundamentalsecret2.costs.physics1=10000
+research.entity.secwaffundamentalsecret2.costs.occult1=10000
+research.entity.secwaffundamentalsecret2.costs.aether=500
+research.entity.secwaffundamentalsecret2.costs.ubrspiritspark=500
+research.entity.secwaffundamentalsecret2.costs.researchkit=4
+research.entity.secwaffundamentalsecret2.effect=secwaffundamentalsecret2
+
+# Bonus 1
+
+research.entity.secwafflevel2bonus1.parents=research.base.secretswaffe,research.base.level1
+research.entity.secwafflevel2bonus1.research=secwaffundamentalsecret2
+research.entity.secwafflevel2bonus1.costs.physics1=5000
+research.entity.secwafflevel2bonus1.costs.occult1=5000
+research.entity.secwafflevel2bonus1.effect=secwafflevel2bonus1
+
+# Bonus 2
+
+research.entity.secwafflevel2bonus2.parents=research.base.secretswaffe,research.base.level1
+research.entity.secwafflevel2bonus2.research=secwaffundamentalsecret2
+research.entity.secwafflevel2bonus2.costs.physics1=5000
+research.entity.secwafflevel2bonus2.costs.occult1=5000
+research.entity.secwafflevel2bonus2.effect=secwafflevel2bonus2
+
+
+# ---------------------------------------------- Level 3 ----------------------------------------------
+
+# Core branch
+
+research.entity.secwaffundamentalsecret3.parents=research.base.secretswaffe,research.base.level2,research.base.unlock
+research.entity.secwaffundamentalsecret3.research=secwaffundamentalsecret2
+research.entity.secwaffundamentalsecret3.costs.physics1=20000
+research.entity.secwaffundamentalsecret3.costs.occult1=20000
+research.entity.secwaffundamentalsecret3.costs.aether=1000
+research.entity.secwaffundamentalsecret3.costs.ubrspiritspark=1000
+research.entity.secwaffundamentalsecret3.costs.researchkit=4
+research.entity.secwaffundamentalsecret3.effect=secwaffundamentalsecret3
+
+# Bonus 1
+
+research.entity.secwafflevel3bonus1.parents=research.base.secretswaffe,research.base.level2
+research.entity.secwafflevel3bonus1.research=secwaffundamentalsecret3
+research.entity.secwafflevel3bonus1.costs.physics1=10000
+research.entity.secwafflevel3bonus1.costs.occult1=10000
+research.entity.secwafflevel3bonus1.effect=secwafflevel3bonus1
+
+# Bonus 2
+
+research.entity.secwafflevel3bonus2.parents=research.base.secretswaffe,research.base.level2
+research.entity.secwafflevel3bonus2.research=secwaffundamentalsecret3
+research.entity.secwafflevel3bonus2.costs.physics1=10000
+research.entity.secwafflevel3bonus2.costs.occult1=10000
+research.entity.secwafflevel3bonus2.effect=secwafflevel3bonus2
+
+
+# ---------------------------------------------- Level 4 ----------------------------------------------
+
+# Core branch
+
+research.entity.secwaffundamentalsecret4.parents=research.base.secretswaffe,research.base.level3,research.base.unlock
+research.entity.secwaffundamentalsecret4.research=secwaffundamentalsecret3
+research.entity.secwaffundamentalsecret4.costs.physics1=40000
+research.entity.secwaffundamentalsecret4.costs.occult1=40000
+research.entity.secwaffundamentalsecret4.costs.aether=2000
+research.entity.secwaffundamentalsecret4.costs.ubrspiritspark=2000
+research.entity.secwaffundamentalsecret4.costs.researchkit=4
+research.entity.secwaffundamentalsecret4.effect=secwaffundamentalsecret4
+
+# Bonus 1
+
+research.entity.secwafflevel4bonus1.parents=research.base.secretswaffe,research.base.level3
+research.entity.secwafflevel4bonus1.research=secwaffundamentalsecret4
+research.entity.secwafflevel4bonus1.costs.physics1=20000
+research.entity.secwafflevel4bonus1.costs.occult1=20000
+research.entity.secwafflevel4bonus1.effect=secwafflevel4bonus1
+
+# Bonus 2
+
+research.entity.secwafflevel4bonus2.parents=research.base.secretswaffe,research.base.level3
+research.entity.secwafflevel4bonus2.research=secwaffundamentalsecret4
+research.entity.secwafflevel4bonus2.costs.physics1=20000
+research.entity.secwafflevel4bonus2.costs.occult1=20000
+research.entity.secwafflevel4bonus2.effect=secwafflevel4bonus2
+
+
+# ---------------------------------------------- Level 5 ----------------------------------------------
+
+# Core branch
+
+research.entity.secwaffundamentalsecret5.parents=research.base.secretswaffe,research.base.level4,research.base.unlock
+research.entity.secwaffundamentalsecret5.research=secwaffundamentalsecret4
+research.entity.secwaffundamentalsecret5.costs.physics1=100000
+research.entity.secwaffundamentalsecret5.costs.occult1=100000
+research.entity.secwaffundamentalsecret5.costs.aether=4000
+research.entity.secwaffundamentalsecret5.costs.ubrspiritspark=4000
+research.entity.secwaffundamentalsecret5.costs.researchkit=8
+research.entity.secwaffundamentalsecret5.effect=secwaffundamentalsecret5
+
+# Bonus 1
+
+research.entity.secwafflevel5bonus1.parents=research.base.secretswaffe,research.base.level4
+research.entity.secwafflevel5bonus1.research=secwaffundamentalsecret5
+research.entity.secwafflevel5bonus1.costs.physics1=50000
+research.entity.secwafflevel5bonus1.costs.occult1=50000
+research.entity.secwafflevel5bonus1.effect=secwafflevel5bonus1
+
+# Bonus 2
+
+research.entity.secwafflevel5bonus2.parents=research.base.secretswaffe,research.base.level4
+research.entity.secwafflevel5bonus2.research=secwaffundamentalsecret5
+research.entity.secwafflevel5bonus2.costs.physics1=50000
+research.entity.secwafflevel5bonus2.costs.occult1=50000
+research.entity.secwafflevel5bonus2.effect=secwafflevel5bonus2
+
+
+# ---------------------------------------------- Level 6 ----------------------------------------------
+
+# Core branch
+
+research.entity.secwaffundamentalsecret6.parents=research.base.secretswaffe,research.base.level5,research.base.unlock
+research.entity.secwaffundamentalsecret6.research=secwaffundamentalsecret5
+research.entity.secwaffundamentalsecret6.costs.physics1=200000
+research.entity.secwaffundamentalsecret6.costs.occult1=200000
+research.entity.secwaffundamentalsecret6.costs.aether=8000
+research.entity.secwaffundamentalsecret6.costs.ubrspiritspark=8000
+research.entity.secwaffundamentalsecret6.costs.researchkit=16
+research.entity.secwaffundamentalsecret6.effect=secwaffundamentalsecret6
+
+# Bonus 1
+
+research.entity.secwafflevel6bonus1.parents=research.base.secretswaffe,research.base.level5
+research.entity.secwafflevel6bonus1.research=secwaffundamentalsecret6
+research.entity.secwafflevel6bonus1.costs.physics1=100000
+research.entity.secwafflevel6bonus1.costs.occult1=100000
+research.entity.secwafflevel6bonus1.effect=secwafflevel6bonus1
+
+# Bonus 2
+
+research.entity.secwafflevel6bonus2.parents=research.base.secretswaffe,research.base.level5
+research.entity.secwafflevel6bonus2.research=secwaffundamentalsecret6
+research.entity.secwafflevel6bonus2.costs.physics1=100000
+research.entity.secwafflevel6bonus2.costs.occult1=100000
+research.entity.secwafflevel6bonus2.effect=secwafflevel6bonus2
+
+
+# ---------------------------------------------- Level 7 ----------------------------------------------
+
+# Core branch
+
+research.entity.secwaffundamentalsecret7.parents=research.base.secretswaffe,research.base.level6,research.base.unlock
+research.entity.secwaffundamentalsecret7.research=secwaffundamentalsecret6
+research.entity.secwaffundamentalsecret7.costs.physics1=400000
+research.entity.secwaffundamentalsecret7.costs.occult1=400000
+research.entity.secwaffundamentalsecret7.costs.aether=16000
+research.entity.secwaffundamentalsecret7.costs.ubrspiritspark=16000
+research.entity.secwaffundamentalsecret7.costs.researchkit=32
+research.entity.secwaffundamentalsecret7.effect=secwaffundamentalsecret7
+
+# Bonus 1
+
+research.entity.secwafflevel7bonus1.parents=research.base.secretswaffe,research.base.level6
+research.entity.secwafflevel7bonus1.research=secwaffundamentalsecret7
+research.entity.secwafflevel7bonus1.costs.physics1=200000
+research.entity.secwafflevel7bonus1.costs.occult1=200000
+research.entity.secwafflevel7bonus1.effect=secwafflevel7bonus1
+
+# Bonus 2
+
+research.entity.secwafflevel7bonus2.parents=research.base.secretswaffe,research.base.level6
+research.entity.secwafflevel7bonus2.research=secwaffundamentalsecret7
+research.entity.secwafflevel7bonus2.costs.physics1=200000
+research.entity.secwafflevel7bonus2.costs.occult1=200000
+research.entity.secwafflevel7bonus2.effect=secwafflevel7bonus2
+
+
+# ---------------------------------------------- Level 8 ----------------------------------------------
+
+# Core branch
+
+research.entity.secwaffundamentalsecret8.parents=research.base.secretswaffe,research.base.level7,research.base.unlock
+research.entity.secwaffundamentalsecret8.research=secwaffundamentalsecret7
+research.entity.secwaffundamentalsecret8.costs.physics1=800000
+research.entity.secwaffundamentalsecret8.costs.occult1=800000
+research.entity.secwaffundamentalsecret8.costs.aether=32000
+research.entity.secwaffundamentalsecret8.costs.ubrspiritspark=32000
+research.entity.secwaffundamentalsecret8.costs.researchkit=64
+research.entity.secwaffundamentalsecret8.effect=secwaffundamentalsecret8
+
+# Bonus 1
+
+research.entity.secwafflevel8bonus1.parents=research.base.secretswaffe,research.base.level7
+research.entity.secwafflevel8bonus1.research=secwaffundamentalsecret8
+research.entity.secwafflevel8bonus1.costs.physics1=400000
+research.entity.secwafflevel8bonus1.costs.occult1=400000
+research.entity.secwafflevel8bonus1.effect=secwafflevel8bonus1
+
+# Bonus 2
+
+research.entity.secwafflevel8bonus2.parents=research.base.secretswaffe,research.base.level7
+research.entity.secwafflevel8bonus2.research=secwaffundamentalsecret8
+research.entity.secwafflevel8bonus2.costs.physics1=400000
+research.entity.secwafflevel8bonus2.costs.occult1=400000
+research.entity.secwafflevel8bonus2.effect=secwafflevel8bonus2
+
+
+
+

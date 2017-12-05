@@ -1,0 +1,107 @@
+# -----------------------------------------------------------------
+# Extraordinary profession
+# -----------------------------------------------------------------
+
+professions.entity.ubrextraordinaire.parents=professions.base.common
+
+
+# -----------------------------------------------------------------
+# Chance to get an Extraordinaire is very rare
+# -----------------------------------------------------------------
+
+professions.entity.ubrextraordinaire.generatechance=0.05
+
+
+# -----------------------------------------------------------------
+# Profession specific skills - one will always be chosen
+# -----------------------------------------------------------------
+
+professions.entity.ubrextraordinaire.skills.profskill.ubrextracrafter=true
+professions.entity.ubrextraordinaire.skills.profskill.ubrextragatherer=true
+professions.entity.ubrextraordinaire.skills.profskill.ubrextraholy=true
+professions.entity.ubrextraordinaire.skills.profskill.ubrextrasoldier=true
+
+
+# -----------------------------------------------------------------
+# Replace negative skills with good ones. I.e. This profession has a chance for a bonus good skill.
+# -----------------------------------------------------------------
+
+professions.entity.ubrextraordinaire.skills.negskill.smoker=false
+professions.entity.ubrextraordinaire.skills.negskill.weak=false
+professions.entity.ubrextraordinaire.skills.negskill.shortsighted=false
+professions.entity.ubrextraordinaire.skills.negskill.slow=false
+professions.entity.ubrextraordinaire.skills.negskill.elitist=false
+professions.entity.ubrextraordinaire.skills.negskill.lazy=false
+professions.entity.ubrextraordinaire.skills.negskill.anemic=false
+professions.entity.ubrextraordinaire.skills.negskill.technophobe=false
+professions.entity.ubrextraordinaire.skills.negskill.coward=false
+professions.entity.ubrextraordinaire.skills.negskill.addict=false
+professions.entity.ubrextraordinaire.skills.negskill.skeptic=false
+
+professions.entity.ubrextraordinaire.skills.negskill.brute=true
+professions.entity.ubrextraordinaire.skills.negskill.healthy=true
+professions.entity.ubrextraordinaire.skills.negskill.believer=true
+professions.entity.ubrextraordinaire.skills.negskill.clever=true
+professions.entity.ubrextraordinaire.skills.negskill.perceptive=true
+professions.entity.ubrextraordinaire.skills.negskill.nimble=true
+professions.entity.ubrextraordinaire.skills.negskill.alienabductee=true
+professions.entity.ubrextraordinaire.skills.negskill.bodybuilder=true
+professions.entity.ubrextraordinaire.skills.negskill.vegan=true
+professions.entity.ubrextraordinaire.skills.negskill.weirdo=true
+professions.entity.ubrextraordinaire.skills.negskill.meatlover=true
+professions.entity.ubrextraordinaire.skills.negskill.hippie=true
+professions.entity.ubrextraordinaire.skills.negskill.adventurous=true
+professions.entity.ubrextraordinaire.skills.negskill.laborer=true
+professions.entity.ubrextraordinaire.skills.negskill.physician=true
+professions.entity.ubrextraordinaire.skills.negskill.beserker=true
+professions.entity.ubrextraordinaire.skills.negskill.hardworking=true
+
+
+# -----------------------------------------------------------------
+# Skills available when leveling up
+# -----------------------------------------------------------------
+
+professions.entity.ubrextraordinaire.levels.1.skills.ubrexcombat=true
+professions.entity.ubrextraordinaire.levels.1.skills.ubrexdefense=true
+professions.entity.ubrextraordinaire.levels.1.skills.ubrexartisan=true
+professions.entity.ubrextraordinaire.levels.1.skills.ubrexthinker=true
+
+professions.entity.ubrextraordinaire.levels.2.skills.ubrexcombat=true
+professions.entity.ubrextraordinaire.levels.2.skills.ubrexdefense=true
+professions.entity.ubrextraordinaire.levels.2.skills.ubrexartisan=true
+professions.entity.ubrextraordinaire.levels.2.skills.ubrexthinker=true
+
+professions.entity.ubrextraordinaire.levels.3.skills.ubrexcombat=true
+professions.entity.ubrextraordinaire.levels.3.skills.ubrexdefense=true
+professions.entity.ubrextraordinaire.levels.3.skills.ubrexartisan=true
+professions.entity.ubrextraordinaire.levels.3.skills.ubrexthinker=true
+
+professions.entity.ubrextraordinaire.levels.4.skills.ubrexcombat=true
+professions.entity.ubrextraordinaire.levels.4.skills.ubrexdefense=true
+professions.entity.ubrextraordinaire.levels.4.skills.ubrexartisan=true
+professions.entity.ubrextraordinaire.levels.4.skills.ubrexthinker=true
+
+professions.entity.ubrextraordinaire.levels.5.skills.ubrexcombat=true
+professions.entity.ubrextraordinaire.levels.5.skills.ubrexdefense=true
+professions.entity.ubrextraordinaire.levels.5.skills.ubrexartisan=true
+professions.entity.ubrextraordinaire.levels.5.skills.ubrexthinker=true
+
+professions.entity.ubrextraordinaire.levels.6.skills.ubrexultcraft=true
+professions.entity.ubrextraordinaire.levels.6.skills.ubrexultholy=true
+professions.entity.ubrextraordinaire.levels.6.skills.ubrexultmagic=true
+professions.entity.ubrextraordinaire.levels.6.skills.ubrexultcombat=true
+
+professions.entity.ubrextraordinaire.levels.7.skills.ubrexcombat=true
+professions.entity.ubrextraordinaire.levels.7.skills.ubrexdefense=true
+professions.entity.ubrextraordinaire.levels.7.skills.ubrexartisan=true
+professions.entity.ubrextraordinaire.levels.7.skills.ubrexthinker=true
+
+professions.entity.ubrextraordinaire.levels.8.skills.ubrexcombat=true
+professions.entity.ubrextraordinaire.levels.8.skills.ubrexdefense=true
+professions.entity.ubrextraordinaire.levels.8.skills.ubrexartisan=true
+professions.entity.ubrextraordinaire.levels.8.skills.ubrexthinker=true
+
+professions.entity.ubrextraordinaire.levels.9.skills.ubrexcombat=true
+professions.entity.ubrextraordinaire.levels.9.skills.ubrexdefense=true
+professions.entity.ubrextraordinaire.levels.9.skills.ubrexartisan=true
+professions.entity.ubrextraordinaire.levels.9.skills.ubrexthinker=true

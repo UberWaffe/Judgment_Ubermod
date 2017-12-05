@@ -1,0 +1,83 @@
+﻿# Ability Effects
+
+statuseffects.entity.bless2.parents=statuseffects.base.positive
+statuseffects.entity.bless2.effect.damage=0.2
+statuseffects.entity.bless2.effect.accuracy=0.25
+statuseffects.entity.bless2.effect.evade=0.25
+
+statuseffects.entity.cross2.parents=statuseffects.base.positive
+statuseffects.entity.cross2.effect.defense=1.5
+statuseffects.entity.cross2.effect.evade=0.4
+statuseffects.entity.cross2.effect.accuracy=0.4
+statuseffects.entity.cross2.effect.walkspeed=-0.8
+
+
+
+# -----------------------------------------------------------------
+# Extended Weapons
+# -----------------------------------------------------------------
+
+statuseffects.entity.ubrthermobaricburn.parents=statuseffects.base.negative
+statuseffects.entity.ubrthermobaricburn.effect.damagereceived=0.30
+statuseffects.entity.ubrthermobaricburn.effect.walkspeed=-0.15
+statuseffects.entity.ubrthermobaricburn.effect.accuracy=-0.25
+
+
+# -----------------------------------------------------------------
+# Extended Occult
+# -----------------------------------------------------------------
+
+# Greater
+
+statuseffects.entity.ubrhex2.parents=statuseffects.base.negative
+statuseffects.entity.ubrhex2.effect.accuracy=-0.75
+statuseffects.entity.ubrhex2.effect.attackspeed=-0.5
+statuseffects.entity.ubrhex2.effect.damage=-0.1
+
+statuseffects.entity.ubrbuffspell2.parents=statuseffects.base.positive
+statuseffects.entity.ubrbuffspell2.effect.evade=0.35
+statuseffects.entity.ubrbuffspell2.effect.defense=1.35
+statuseffects.entity.ubrbuffspell2.effect.attackspeed=0.33
+statuseffects.entity.ubrbuffspell2.effect.damage=0.12
+
+
+# Master
+
+statuseffects.entity.ubrhex3.parents=statuseffects.base.negative
+statuseffects.entity.ubrhex3.effect.accuracy=-0.8
+statuseffects.entity.ubrhex3.effect.attackspeed=-0.55
+statuseffects.entity.ubrhex3.effect.damage=-0.15
+
+statuseffects.entity.ubrbuffspell3.parents=statuseffects.base.positive
+statuseffects.entity.ubrbuffspell3.effect.evade=0.4
+statuseffects.entity.ubrbuffspell3.effect.defense=1.4
+statuseffects.entity.ubrbuffspell3.effect.attackspeed=0.4
+statuseffects.entity.ubrbuffspell3.effect.damage=0.2
+
+
+# Evoker
+
+statuseffects.entity.ubrhex4.parents=statuseffects.base.negative
+statuseffects.entity.ubrhex4.effect.accuracy=-0.85
+statuseffects.entity.ubrhex4.effect.attackspeed=-0.6
+statuseffects.entity.ubrhex4.effect.damage=-0.2
+
+statuseffects.entity.ubrbuffspell4.parents=statuseffects.base.positive
+statuseffects.entity.ubrbuffspell4.effect.evade=0.45
+statuseffects.entity.ubrbuffspell4.effect.defense=1.45
+statuseffects.entity.ubrbuffspell4.effect.attackspeed=0.45
+statuseffects.entity.ubrbuffspell4.effect.damage=0.3
+
+
+# Master Evoker
+
+statuseffects.entity.ubrhex5.parents=statuseffects.base.negative
+statuseffects.entity.ubrhex5.effect.accuracy=-0.9
+statuseffects.entity.ubrhex5.effect.attackspeed=-0.65
+statuseffects.entity.ubrhex5.effect.damage=-0.25
+
+statuseffects.entity.ubrbuffspell5.parents=statuseffects.base.positive
+statuseffects.entity.ubrbuffspell5.effect.evade=0.5
+statuseffects.entity.ubrbuffspell5.effect.defense=1.5
+statuseffects.entity.ubrbuffspell5.effect.attackspeed=0.5
+statuseffects.entity.ubrbuffspell5.effect.damage=0.5
