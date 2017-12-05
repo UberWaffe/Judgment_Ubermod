@@ -1,0 +1,46 @@
+
+# Make plants grow 4 times slower. (Survivior hunger also divided by 4 in config file)
+# ----------------------------------------------------------------------
+
+objects.entity.tomatofarm.onupdate.grow.action=GainAttribute~maturity~0.05~0~100
+objects.entity.tomatofarm.onupdate.dry.action=GainAttribute~water~-0.0875~0~100
+
+objects.entity.wheatfarm.onupdate.grow.action=GainAttribute~maturity~0.0375~0~100
+objects.entity.wheatfarm.onupdate.dry.action=GainAttribute~water~-0.0875~0~100
+
+objects.entity.herbgarden.onupdate.grow.action=GainAttribute~maturity~0.025~0~100
+objects.entity.herbgarden.onupdate.dry.action=GainAttribute~water~-0.0875~0~100
+
+
+objects.entity.raincollector.onupdate.fill.action=GainAttribute~full~0.125~0~100
+
+
+# Slow down planted tree growth.
+# ----------------------------------------------------------------------
+
+objects.entity.tree.onupdate.grow.action=GainAttribute~maturity~0.00325~0~100
+
+
+# Also make wheat and herb farms cost wheat and herbs (respectively) to build.
+# I.e. you have to first go raid or trade some seed crops.
+# ----------------------------------------------------------------------
+
+blueprints.entity.tomatofarm.costs.tomato=6
+
+blueprints.entity.wheatfarm.costs.wheat=6
+
+blueprints.entity.herbgarden.costs.herbs=6
+
+objects.entity.farm.harvest.wheat=10
+
+
+# Make farm tending / feeding actually take resources
+# ----------------------------------------------------------------------
+
+objects.entity.tomatofarm.actions.water.costs.water=1
+
+objects.entity.wheatfarm.actions.water.costs.water=1
+
+objects.entity.herbgarden.actions.water.costs.water=1
+
+objects.entity.sheepfarm.actions.feed.costs.wheat=1

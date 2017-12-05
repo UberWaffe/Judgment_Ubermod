@@ -1,0 +1,10 @@
+
+# Adjust survivors sleeping
+
+survivors.config.hungerrate=0.05
+survivors.config.energydrain=0.02
+survivors.config.energypersecondsleep=0.2
+
+# Ensure that in a new game player can build at least 1 vegetable farm.
+
+config.freebuildings.tomatofarm=1
