@@ -589,7 +589,7 @@ objects.entity.ubrmagiccircle2.actions.findclay.costs.herbs=24
 
 blueprints.entity.ubrmagiccircle2.object=ubrmagiccircle2
 blueprints.entity.ubrmagiccircle2.sprite=build_magiccircle
-blueprints.entity.ubrmagiccircle2.work=2250
+blueprints.entity.ubrmagiccircle2.work=3000
 blueprints.entity.ubrmagiccircle2.research=ubrritualsl2
 blueprints.entity.ubrmagiccircle2.movable=false
 blueprints.entity.ubrmagiccircle2.costs.wood=7
@@ -656,7 +656,7 @@ objects.entity.ubrdarkaltar2.actions.mutate.costs.minerals=10
 
 blueprints.entity.ubrdarkaltar2.object=ubrdarkaltar2
 blueprints.entity.ubrdarkaltar2.sprite=build_darkaltar
-blueprints.entity.ubrdarkaltar2.work=2400
+blueprints.entity.ubrdarkaltar2.work=3000
 blueprints.entity.ubrdarkaltar2.research=ubrspiritrituals2
 blueprints.entity.ubrdarkaltar2.movable=false
 blueprints.entity.ubrdarkaltar2.costs.bricks=8
@@ -726,7 +726,7 @@ objects.entity.ubrholyaltar2.actions.evasiveaura.costs.water=16
 
 blueprints.entity.ubrholyaltar2.object=ubrholyaltar2
 blueprints.entity.ubrholyaltar2.sprite=build_holyaltar
-blueprints.entity.ubrholyaltar2.work=2800
+blueprints.entity.ubrholyaltar2.work=3000
 blueprints.entity.ubrholyaltar2.research=ubrspiritrituals2
 blueprints.entity.ubrholyaltar2.movable=false
 blueprints.entity.ubrholyaltar2.costs.bricks=5
@@ -878,7 +878,7 @@ objects.entity.ubrmagiccircle3.actions.findclay.costs.herbs=18
 
 blueprints.entity.ubrmagiccircle3.object=ubrmagiccircle3
 blueprints.entity.ubrmagiccircle3.sprite=build_magiccircle
-blueprints.entity.ubrmagiccircle3.work=6750
+blueprints.entity.ubrmagiccircle3.work=6000
 blueprints.entity.ubrmagiccircle3.research=ubrritualsl3
 blueprints.entity.ubrmagiccircle3.movable=false
 blueprints.entity.ubrmagiccircle3.costs.wood=7
@@ -945,7 +945,7 @@ objects.entity.ubrdarkaltar3.actions.mutate.costs.minerals=5
 
 blueprints.entity.ubrdarkaltar3.object=ubrdarkaltar3
 blueprints.entity.ubrdarkaltar3.sprite=build_darkaltar
-blueprints.entity.ubrdarkaltar3.work=7200
+blueprints.entity.ubrdarkaltar3.work=6000
 blueprints.entity.ubrdarkaltar3.research=ubrspiritrituals3
 blueprints.entity.ubrdarkaltar3.movable=false
 blueprints.entity.ubrdarkaltar3.costs.bricks=8
@@ -1013,7 +1013,7 @@ objects.entity.ubrholyaltar3.actions.evasiveaura.costs.water=12
 
 blueprints.entity.ubrholyaltar3.object=ubrholyaltar3
 blueprints.entity.ubrholyaltar3.sprite=build_holyaltar
-blueprints.entity.ubrholyaltar3.work=8400
+blueprints.entity.ubrholyaltar3.work=6000
 blueprints.entity.ubrholyaltar3.research=ubrspiritrituals3
 blueprints.entity.ubrholyaltar3.movable=false
 blueprints.entity.ubrholyaltar3.costs.bricks=5
@@ -1081,7 +1081,7 @@ objects.entity.ubrarcanefoundry3.actions.locatesurvivors.costs.ectoplasm=2
 
 blueprints.entity.ubrarcanefoundry3.object=ubrarcanefoundry3
 blueprints.entity.ubrarcanefoundry3.sprite=build_arcanefoundry
-blueprints.entity.ubrarcanefoundry3.work=3000
+blueprints.entity.ubrarcanefoundry3.work=6000
 blueprints.entity.ubrarcanefoundry3.research=ubrarcanerituals3
 blueprints.entity.ubrarcanefoundry3.costs.bricks=5
 blueprints.entity.ubrarcanefoundry3.costs.ectoplasm=10
@@ -1165,7 +1165,7 @@ objects.entity.ubrmagiccircle4.actions.findclay.costs.herbs=12
 
 blueprints.entity.ubrmagiccircle4.object=ubrmagiccircle4
 blueprints.entity.ubrmagiccircle4.sprite=build_magiccircle
-blueprints.entity.ubrmagiccircle4.work=20250
+blueprints.entity.ubrmagiccircle4.work=15000
 blueprints.entity.ubrmagiccircle4.research=ubrritualsl4
 blueprints.entity.ubrmagiccircle4.movable=false
 blueprints.entity.ubrmagiccircle4.costs.wood=7
@@ -1230,7 +1230,7 @@ objects.entity.ubrdarkaltar4.actions.mutate.costs.minerals=2
 
 blueprints.entity.ubrdarkaltar4.object=ubrdarkaltar4
 blueprints.entity.ubrdarkaltar4.sprite=build_darkaltar
-blueprints.entity.ubrdarkaltar4.work=7200
+blueprints.entity.ubrdarkaltar4.work=15000
 blueprints.entity.ubrdarkaltar4.research=ubrspiritrituals4
 blueprints.entity.ubrdarkaltar4.movable=false
 blueprints.entity.ubrdarkaltar4.costs.bricks=8
@@ -1297,7 +1297,7 @@ objects.entity.ubrholyaltar4.actions.evasiveaura.costs.water=8
 
 blueprints.entity.ubrholyaltar4.object=ubrholyaltar4
 blueprints.entity.ubrholyaltar4.sprite=build_holyaltar
-blueprints.entity.ubrholyaltar4.work=8400
+blueprints.entity.ubrholyaltar4.work=15000
 blueprints.entity.ubrholyaltar4.research=ubrspiritrituals4
 blueprints.entity.ubrholyaltar4.movable=false
 blueprints.entity.ubrholyaltar4.costs.bricks=5
@@ -1363,7 +1363,7 @@ objects.entity.ubrarcanefoundry4.actions.locatesurvivors.costs.holywater=2
 
 blueprints.entity.ubrarcanefoundry4.object=ubrarcanefoundry4
 blueprints.entity.ubrarcanefoundry4.sprite=build_arcanefoundry
-blueprints.entity.ubrarcanefoundry4.work=3000
+blueprints.entity.ubrarcanefoundry4.work=15000
 blueprints.entity.ubrarcanefoundry4.research=ubrarcanerituals4
 blueprints.entity.ubrarcanefoundry4.costs.bricks=5
 blueprints.entity.ubrarcanefoundry4.costs.ectoplasm=10
@@ -1446,7 +1446,7 @@ objects.entity.ubrmagiccircle5.actions.findclay.costs.herbs=12
 
 blueprints.entity.ubrmagiccircle5.object=ubrmagiccircle5
 blueprints.entity.ubrmagiccircle5.sprite=build_magiccircle
-blueprints.entity.ubrmagiccircle5.work=20250
+blueprints.entity.ubrmagiccircle5.work=30000
 blueprints.entity.ubrmagiccircle5.research=ubrritualsl5
 blueprints.entity.ubrmagiccircle5.movable=false
 blueprints.entity.ubrmagiccircle5.costs.wood=7
@@ -1510,7 +1510,7 @@ objects.entity.ubrdarkaltar5.actions.mutate.costs.sulfur=1
 
 blueprints.entity.ubrdarkaltar5.object=ubrdarkaltar5
 blueprints.entity.ubrdarkaltar5.sprite=build_darkaltar
-blueprints.entity.ubrdarkaltar5.work=7200
+blueprints.entity.ubrdarkaltar5.work=30000
 blueprints.entity.ubrdarkaltar5.research=ubrspiritrituals5
 blueprints.entity.ubrdarkaltar5.movable=false
 blueprints.entity.ubrdarkaltar5.costs.bricks=8
@@ -1577,7 +1577,7 @@ objects.entity.ubrholyaltar5.actions.evasiveaura.costs.water=8
 
 blueprints.entity.ubrholyaltar5.object=ubrholyaltar5
 blueprints.entity.ubrholyaltar5.sprite=build_holyaltar
-blueprints.entity.ubrholyaltar5.work=8400
+blueprints.entity.ubrholyaltar5.work=30000
 blueprints.entity.ubrholyaltar5.research=ubrspiritrituals5
 blueprints.entity.ubrholyaltar5.movable=false
 blueprints.entity.ubrholyaltar5.costs.bricks=5
@@ -1643,7 +1643,7 @@ objects.entity.ubrarcanefoundry5.actions.locatesurvivors.costs.holywater=1
 
 blueprints.entity.ubrarcanefoundry5.object=ubrarcanefoundry5
 blueprints.entity.ubrarcanefoundry5.sprite=build_arcanefoundry
-blueprints.entity.ubrarcanefoundry5.work=3000
+blueprints.entity.ubrarcanefoundry5.work=30000
 blueprints.entity.ubrarcanefoundry5.research=ubrarcanerituals5
 blueprints.entity.ubrarcanefoundry5.costs.bricks=5
 blueprints.entity.ubrarcanefoundry5.costs.ectoplasm=10
