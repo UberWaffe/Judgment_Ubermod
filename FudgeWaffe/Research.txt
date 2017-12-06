@@ -191,6 +191,38 @@ research.entity.ubroccultconsume5.research=ubroccultitems5
 research.entity.ubroccultconsume5.costs.occult1=125000
 
 
+# Spirit Energy 6 - Grand Evoker
+
+research.entity.secwafspiritenergy6.parents=research.base.occult,research.base.level9,research.base.unlock
+research.entity.secwafspiritenergy6.research=secwafspiritenergy5
+research.entity.secwafspiritenergy6.effect=secwafspiritenergy5
+research.entity.secwafspiritenergy6.costs.occult1=550000
+research.entity.secwafspiritenergy6.costs.researchkit=12
+research.entity.secwafspiritenergy6.costs.ubrspiritspark=300
+
+# Side branch 1 - Grand Evoker Occult Items
+
+research.entity.ubroccultitems6.parents=research.base.occult,research.base.level9
+research.entity.ubroccultitems6.research=secwafspiritenergy6
+research.entity.ubroccultitems6.costs.occult1=225000
+
+
+# Spirit Energy 7 - Grand Evoker
+
+research.entity.secwafspiritenergy7.parents=research.base.occult,research.base.level10,research.base.unlock
+research.entity.secwafspiritenergy7.research=secwafspiritenergy6
+research.entity.secwafspiritenergy7.effect=secwafspiritenergy5
+research.entity.secwafspiritenergy7.costs.occult1=900000
+research.entity.secwafspiritenergy7.costs.researchkit=14
+research.entity.secwafspiritenergy7.costs.ubrspiritspark=600
+
+# Side branch 1 - Grand Evoker Occult Items
+
+research.entity.ubroccultitems7.parents=research.base.occult,research.base.level10
+research.entity.ubroccultitems7.research=secwafspiritenergy7
+research.entity.ubroccultitems7.costs.occult1=450000
+
+
 
 
 
@@ -210,12 +242,10 @@ research.entity.ubrritualsl2.costs.researchkit=1
 research.entity.ubrarcanerituals2.parents=research.base.rituals,research.base.level4
 research.entity.ubrarcanerituals2.research=ubrritualsl2
 research.entity.ubrarcanerituals2.costs.occult1=1750
-research.entity.ubrarcanerituals2.costs.ubrspiritspark=10
 
 research.entity.ubrspiritrituals2.parents=research.base.rituals,research.base.level4
 research.entity.ubrspiritrituals2.research=ubrritualsl2
 research.entity.ubrspiritrituals2.costs.occult1=1750
-research.entity.ubrspiritrituals2.costs.ubrspiritspark=10
 
 
 # Master Level
@@ -229,12 +259,10 @@ research.entity.ubrritualsl3.costs.researchkit=2
 research.entity.ubrarcanerituals3.parents=research.base.rituals,research.base.level5
 research.entity.ubrarcanerituals3.research=ubrritualsl3
 research.entity.ubrarcanerituals3.costs.occult1=7500
-research.entity.ubrarcanerituals3.costs.ubrspiritspark=50
 
 research.entity.ubrspiritrituals3.parents=research.base.rituals,research.base.level5
 research.entity.ubrspiritrituals3.research=ubrritualsl3
 research.entity.ubrspiritrituals3.costs.occult1=7500
-research.entity.ubrspiritrituals3.costs.ubrspiritspark=50
 
 
 # Evoker Level
@@ -248,12 +276,10 @@ research.entity.ubrritualsl4.costs.researchkit=4
 research.entity.ubrarcanerituals4.parents=research.base.rituals,research.base.level6
 research.entity.ubrarcanerituals4.research=ubrritualsl4
 research.entity.ubrarcanerituals4.costs.occult1=25000
-research.entity.ubrarcanerituals4.costs.ubrspiritspark=250
 
 research.entity.ubrspiritrituals4.parents=research.base.rituals,research.base.level6
 research.entity.ubrspiritrituals4.research=ubrritualsl4
 research.entity.ubrspiritrituals4.costs.occult1=25000
-research.entity.ubrspiritrituals4.costs.ubrspiritspark=250
 
 
 # Master Evoker Level
@@ -267,12 +293,10 @@ research.entity.ubrritualsl5.costs.researchkit=4
 research.entity.ubrarcanerituals5.parents=research.base.rituals,research.base.level7
 research.entity.ubrarcanerituals5.research=ubrritualsl5
 research.entity.ubrarcanerituals5.costs.occult1=50000
-research.entity.ubrarcanerituals5.costs.ubrspiritspark=500
 
 research.entity.ubrspiritrituals5.parents=research.base.rituals,research.base.level7
 research.entity.ubrspiritrituals5.research=ubrritualsl5
 research.entity.ubrspiritrituals5.costs.occult1=50000
-research.entity.ubrspiritrituals5.costs.ubrspiritspark=500
 
 
 
@@ -297,9 +321,7 @@ research.category.secretswaffe.tabcolor=100,100,250
 research.entity.secwaffundamentalsecret1.parents=research.base.secretswaffe,research.base.level0,research.base.unlock
 research.entity.secwaffundamentalsecret1.costs.physics1=5000
 research.entity.secwaffundamentalsecret1.costs.occult1=5000
-research.entity.secwaffundamentalsecret1.costs.aether=250
-research.entity.secwaffundamentalsecret1.costs.ubrspiritspark=250
-research.entity.secwaffundamentalsecret1.costs.researchkit=4
+research.entity.secwaffundamentalsecret1.costs.ubrspiritspark=1
 research.entity.secwaffundamentalsecret1.effect=secwaffundamentalsecret1
 
 # Bonus 1
@@ -327,9 +349,7 @@ research.entity.secwaffundamentalsecret2.parents=research.base.secretswaffe,rese
 research.entity.secwaffundamentalsecret2.research=secwaffundamentalsecret1
 research.entity.secwaffundamentalsecret2.costs.physics1=10000
 research.entity.secwaffundamentalsecret2.costs.occult1=10000
-research.entity.secwaffundamentalsecret2.costs.aether=500
-research.entity.secwaffundamentalsecret2.costs.ubrspiritspark=500
-research.entity.secwaffundamentalsecret2.costs.researchkit=4
+research.entity.secwaffundamentalsecret2.costs.ubrspiritspark=1
 research.entity.secwaffundamentalsecret2.effect=secwaffundamentalsecret2
 
 # Bonus 1
@@ -357,9 +377,7 @@ research.entity.secwaffundamentalsecret3.parents=research.base.secretswaffe,rese
 research.entity.secwaffundamentalsecret3.research=secwaffundamentalsecret2
 research.entity.secwaffundamentalsecret3.costs.physics1=20000
 research.entity.secwaffundamentalsecret3.costs.occult1=20000
-research.entity.secwaffundamentalsecret3.costs.aether=1000
-research.entity.secwaffundamentalsecret3.costs.ubrspiritspark=1000
-research.entity.secwaffundamentalsecret3.costs.researchkit=4
+research.entity.secwaffundamentalsecret3.costs.ubrspiritspark=1
 research.entity.secwaffundamentalsecret3.effect=secwaffundamentalsecret3
 
 # Bonus 1
@@ -387,9 +405,7 @@ research.entity.secwaffundamentalsecret4.parents=research.base.secretswaffe,rese
 research.entity.secwaffundamentalsecret4.research=secwaffundamentalsecret3
 research.entity.secwaffundamentalsecret4.costs.physics1=40000
 research.entity.secwaffundamentalsecret4.costs.occult1=40000
-research.entity.secwaffundamentalsecret4.costs.aether=2000
-research.entity.secwaffundamentalsecret4.costs.ubrspiritspark=2000
-research.entity.secwaffundamentalsecret4.costs.researchkit=4
+research.entity.secwaffundamentalsecret4.costs.ubrspiritspark=1
 research.entity.secwaffundamentalsecret4.effect=secwaffundamentalsecret4
 
 # Bonus 1
@@ -417,9 +433,7 @@ research.entity.secwaffundamentalsecret5.parents=research.base.secretswaffe,rese
 research.entity.secwaffundamentalsecret5.research=secwaffundamentalsecret4
 research.entity.secwaffundamentalsecret5.costs.physics1=100000
 research.entity.secwaffundamentalsecret5.costs.occult1=100000
-research.entity.secwaffundamentalsecret5.costs.aether=4000
-research.entity.secwaffundamentalsecret5.costs.ubrspiritspark=4000
-research.entity.secwaffundamentalsecret5.costs.researchkit=8
+research.entity.secwaffundamentalsecret5.costs.ubrspiritspark=1
 research.entity.secwaffundamentalsecret5.effect=secwaffundamentalsecret5
 
 # Bonus 1
@@ -447,9 +461,7 @@ research.entity.secwaffundamentalsecret6.parents=research.base.secretswaffe,rese
 research.entity.secwaffundamentalsecret6.research=secwaffundamentalsecret5
 research.entity.secwaffundamentalsecret6.costs.physics1=200000
 research.entity.secwaffundamentalsecret6.costs.occult1=200000
-research.entity.secwaffundamentalsecret6.costs.aether=8000
-research.entity.secwaffundamentalsecret6.costs.ubrspiritspark=8000
-research.entity.secwaffundamentalsecret6.costs.researchkit=16
+research.entity.secwaffundamentalsecret6.costs.ubrspiritspark=1
 research.entity.secwaffundamentalsecret6.effect=secwaffundamentalsecret6
 
 # Bonus 1
@@ -477,9 +489,7 @@ research.entity.secwaffundamentalsecret7.parents=research.base.secretswaffe,rese
 research.entity.secwaffundamentalsecret7.research=secwaffundamentalsecret6
 research.entity.secwaffundamentalsecret7.costs.physics1=400000
 research.entity.secwaffundamentalsecret7.costs.occult1=400000
-research.entity.secwaffundamentalsecret7.costs.aether=16000
-research.entity.secwaffundamentalsecret7.costs.ubrspiritspark=16000
-research.entity.secwaffundamentalsecret7.costs.researchkit=32
+research.entity.secwaffundamentalsecret7.costs.ubrspiritspark=1
 research.entity.secwaffundamentalsecret7.effect=secwaffundamentalsecret7
 
 # Bonus 1
@@ -507,9 +517,7 @@ research.entity.secwaffundamentalsecret8.parents=research.base.secretswaffe,rese
 research.entity.secwaffundamentalsecret8.research=secwaffundamentalsecret7
 research.entity.secwaffundamentalsecret8.costs.physics1=800000
 research.entity.secwaffundamentalsecret8.costs.occult1=800000
-research.entity.secwaffundamentalsecret8.costs.aether=32000
-research.entity.secwaffundamentalsecret8.costs.ubrspiritspark=32000
-research.entity.secwaffundamentalsecret8.costs.researchkit=64
+research.entity.secwaffundamentalsecret8.costs.ubrspiritspark=1
 research.entity.secwaffundamentalsecret8.effect=secwaffundamentalsecret8
 
 # Bonus 1

@@ -1,4 +1,7 @@
 
+config.bonusexpmult=10
+config.nobonusexpmult=3.3
+
 config.startitems.physics1=2500000
 config.startitems.occult1=2500000
 config.startitems.researchmaterials=250
@@ -6,3 +9,11 @@ config.startitems.researchkit=250
 
 config.startitems.aether=25000
 config.startitems.ubrspiritspark=25000
+
+config.startitems.ubrgreaterworkcharm7=1
+config.startitems.ubrgreaterwarcharm7=1
+
+config.startitems.eternalengine=1
+config.startitems.ubrenertronics=6
+config.startitems.ubralloys=20
+config.startitems.spiritalloy=8
