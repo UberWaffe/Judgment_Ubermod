@@ -33,29 +33,6 @@ abilities.entity.cross2.effectprefabs=EffectProtectionSpellPrefab
 abilities.entity.cross2.effectsounds=attack_protection
 
 
-# Skill abilities
-
-abilities.entity.ubrskillhealarea2.parents=abilities.base.skillability,abilities.base.heal
-abilities.entity.ubrskillhealarea2.class=GrenadeAbility
-abilities.entity.ubrskillhealarea2.targetmode=Tile
-abilities.entity.ubrskillhealarea2.effectprefabs=EffectBoostareaSpellPrefab
-abilities.entity.ubrskillhealarea2.properties.aoe=3
-abilities.entity.ubrskillhealarea2.properties.range=30
-abilities.entity.ubrskillhealarea2.properties.healamount=1.0
-abilities.entity.ubrskillhealarea2.affects=allies
-
-abilities.entity.ubrcurse2.parents=abilities.base.skillability
-abilities.entity.ubrcurse2.name=abilities.hex.name
-abilities.entity.ubrcurse2.class=SingleTargetAbility
-abilities.entity.ubrcurse2.sprite=ability_hexscroll
-abilities.entity.ubrcurse2.targetmode=Enemy
-abilities.entity.ubrcurse2.properties.range=30
-abilities.entity.ubrcurse2.properties.damage=75
-abilities.entity.ubrcurse2.effect.ubrhex2=240
-abilities.entity.ubrcurse2.effectprefabs=EffectHexProjectilePrefab
-abilities.entity.ubrcurse2.effectsounds=attack_voodoo
-
-
 
 
 # -----------------------------------------------------------------

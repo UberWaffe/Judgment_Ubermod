@@ -275,9 +275,34 @@ skills.uesultdruid1.name=Druid I
 skills.uesultdruid2.name=Druid II
 
 abilities.uesultdruid1.name=Poison Touch
-abilities.uesultdruid2.name=Nature's Grip
+abilities.uesultdruid2.name=Nature's Grasp
 
 statuseffects.uesultdruid1.name=Poison Touch
-statuseffects.uesultdruid2.name=Nature's Grip
+statuseffects.uesultdruid2.name=Nature's Grasp
+
+
+
+# Fighter
+# ----------------------------------------------------------
+
+skills.uesultattack1.name=Elite Warrior I
+skills.uesultattack2.name=Elite Warrior II
+
+skills.uesultexecutioner1.name=Executioner I
+skills.uesultexecutioner2.name=Executioner II
+
+abilities.uesultexecutioner1.name=Bullet Storm
+abilities.uesultexecutioner2.name=Assassinate
+
+
+
+# Defender
+# ----------------------------------------------------------
+
+skills.uesultdefense1.name=Elite Defender I
+skills.uesultdefense2.name=Elite Defender II
+
+skills.uesultjuggernaught1.name=Juggernaught I
+skills.uesultjuggernaught2.name=Juggernaught II
 
 

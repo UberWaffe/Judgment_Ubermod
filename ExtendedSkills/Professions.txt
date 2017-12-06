@@ -73,7 +73,8 @@ professions.entity.engineer.levels.9.skills.uesdefthands=true
 professions.entity.engineer.levels.9.skills.craft=true
 professions.entity.engineer.levels.9.skills.build=true
 professions.entity.engineer.levels.9.skills.agility=true
-
+professions.entity.engineer.levels.10.skills.uesulttinkerer=true
+professions.entity.engineer.levels.10.skills.uesultindustrialist=true
 professions.entity.engineer.levels.11.skills.mine=true
 professions.entity.engineer.levels.11.skills.build=true
 professions.entity.engineer.levels.11.skills.craft=true
@@ -110,6 +111,8 @@ professions.entity.engineer.levels.19.skills.research=true
 professions.entity.engineer.levels.19.skills.mine=true
 professions.entity.engineer.levels.19.skills.techweapon=true
 professions.entity.engineer.levels.19.skills.toolweapon=true
+professions.entity.engineer.levels.20.skills.uesulttinkerer=true
+professions.entity.engineer.levels.20.skills.uesultindustrialist=true
 
 
 # ----------------------------------------------------------
@@ -127,7 +130,8 @@ professions.entity.fighter.levels.9.skills.uesvision=true
 professions.entity.fighter.levels.9.skills.ueshealrate=true
 professions.entity.fighter.levels.9.skills.agility=true
 professions.entity.fighter.levels.9.skills.occultist=true
-
+professions.entity.fighter.levels.10.skills.uesultattack=true
+professions.entity.fighter.levels.10.skills.uesultexecutioner=true
 professions.entity.fighter.levels.11.skills.ueshealrate=true
 professions.entity.fighter.levels.11.skills.damage=true
 professions.entity.fighter.levels.11.skills.agility=true
@@ -164,6 +168,8 @@ professions.entity.fighter.levels.19.skills.damage=true
 professions.entity.fighter.levels.19.skills.marksmanship=true
 professions.entity.fighter.levels.19.skills.rifles=true
 professions.entity.fighter.levels.19.skills.autoweapon=true
+professions.entity.fighter.levels.20.skills.uesultattack=true
+professions.entity.fighter.levels.20.skills.uesultexecutioner=true
 
 
 # ----------------------------------------------------------
@@ -181,7 +187,8 @@ professions.entity.defender.levels.9.skills.uesvision=true
 professions.entity.defender.levels.9.skills.agility=true
 professions.entity.defender.levels.9.skills.evasion=true
 professions.entity.defender.levels.9.skills.stalwart=true
-
+professions.entity.defender.levels.10.skills.uesultdefense=true
+professions.entity.defender.levels.10.skills.uesultjuggernaught=true
 professions.entity.defender.levels.11.skills.melee=true
 professions.entity.defender.levels.11.skills.stalwart=true
 professions.entity.defender.levels.11.skills.evasion=true
@@ -218,6 +225,8 @@ professions.entity.defender.levels.19.skills.evasion=true
 professions.entity.defender.levels.19.skills.damage=true
 professions.entity.defender.levels.19.skills.melee=true
 professions.entity.defender.levels.19.skills.meleedefense=true
+professions.entity.defender.levels.20.skills.uesultdefense=true
+professions.entity.defender.levels.20.skills.uesultjuggernaught=true
 
 
 # ----------------------------------------------------------
@@ -292,7 +301,8 @@ professions.entity.survivalist.levels.9.skills.uesmovement=true
 professions.entity.survivalist.levels.9.skills.uesvision=true
 professions.entity.survivalist.levels.9.skills.bows=true
 professions.entity.survivalist.levels.9.skills.marksmanship=true
-
+professions.entity.survivalist.levels.10.skills.uesultwilder=true
+professions.entity.survivalist.levels.10.skills.uesultdruid=true
 professions.entity.survivalist.levels.11.skills.uesvision=true
 professions.entity.survivalist.levels.11.skills.marksmanship=true
 professions.entity.survivalist.levels.11.skills.farming=true
@@ -329,6 +339,8 @@ professions.entity.survivalist.levels.19.skills.gather=true
 professions.entity.survivalist.levels.19.skills.pistols=true
 professions.entity.survivalist.levels.19.skills.farming=true
 professions.entity.survivalist.levels.19.skills.evasion=true
+professions.entity.survivalist.levels.20.skills.uesultwilder=true
+professions.entity.survivalist.levels.20.skills.uesultdruid=true
 
 
 

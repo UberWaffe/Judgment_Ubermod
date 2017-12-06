@@ -698,13 +698,13 @@ skills.entity.uesultspellblast1.effect.nutrition=0.5
 skills.entity.uesultspellblast1.effect.energy=0.5
 skills.entity.uesultspellblast1.effect.health=0.0
 skills.entity.uesultspellblast1.effect.workspeed=0.2
-skills.entity.uesultspellblast1.abilities.uesultspellblast1=2
+skills.entity.uesultspellblast1.abilities.uesultspellblast1=5
 
 skills.entity.uesultspellblast2.effect.nutrition=1.5
 skills.entity.uesultspellblast2.effect.energy=1.5
 skills.entity.uesultspellblast2.effect.health=1.0
 skills.entity.uesultspellblast2.effect.workspeed=0.5
-skills.entity.uesultspellblast2.abilities.uesultspellblast2=2
+skills.entity.uesultspellblast2.abilities.uesultspellblast2=1
 
 
 
@@ -748,10 +748,70 @@ skills.entity.uesultindustrialist2.effect.actiongroup_quarry=5.0
 # Fighter
 # ----------------------------------------------------------
 
+skills.entity.uesultattack1.effect.nutrition=0.5
+skills.entity.uesultattack1.effect.energy=0.5
+skills.entity.uesultattack1.effect.health=0.5
+skills.entity.uesultattack1.effect.workspeed=0.2
+skills.entity.uesultattack1.effect.accuracy=0.5
+skills.entity.uesultattack1.effect.damage=0.5
+skills.entity.uesultattack1.effect.attackspeed=0.5
+
+skills.entity.uesultattack2.effect.nutrition=1.5
+skills.entity.uesultattack2.effect.energy=1.5
+skills.entity.uesultattack2.effect.health=1.0
+skills.entity.uesultattack2.effect.workspeed=0.5
+skills.entity.uesultattack2.effect.accuracy=1.5
+skills.entity.uesultattack2.effect.damage=1.5
+skills.entity.uesultattack2.effect.attackspeed=1.5
+
+
+skills.entity.uesultexecutioner1.effect.nutrition=0.5
+skills.entity.uesultexecutioner1.effect.energy=0.5
+skills.entity.uesultexecutioner1.effect.health=0.0
+skills.entity.uesultexecutioner1.effect.workspeed=0.2
+skills.entity.uesultexecutioner1.abilities.uesultexecutioner1=2
+
+skills.entity.uesultexecutioner2.effect.nutrition=1.5
+skills.entity.uesultexecutioner2.effect.energy=1.5
+skills.entity.uesultexecutioner2.effect.health=1.0
+skills.entity.uesultexecutioner2.effect.workspeed=0.5
+skills.entity.uesultexecutioner2.abilities.uesultexecutioner2=1
+
 
 
 # Defender
 # ----------------------------------------------------------
+
+skills.entity.uesultdefense1.effect.nutrition=0.5
+skills.entity.uesultdefense1.effect.energy=0.5
+skills.entity.uesultdefense1.effect.health=0.5
+skills.entity.uesultdefense1.effect.workspeed=0.2
+skills.entity.uesultdefense1.effect.evade=0.5
+skills.entity.uesultdefense1.effect.defense=0.5
+skills.entity.uesultdefense1.effect.attackspeed=0.25
+skills.entity.uesultdefense1.effect.damage=0.25
+
+skills.entity.uesultdefense2.effect.nutrition=1.5
+skills.entity.uesultdefense2.effect.energy=1.5
+skills.entity.uesultdefense2.effect.health=1.0
+skills.entity.uesultdefense2.effect.workspeed=0.5
+skills.entity.uesultdefense2.effect.evade=1.5
+skills.entity.uesultdefense2.effect.defense=1.5
+skills.entity.uesultdefense2.effect.attackspeed=0.75
+skills.entity.uesultdefense2.effect.damage=0.75
+
+
+skills.entity.uesultjuggernaught1.effect.nutrition=0.5
+skills.entity.uesultjuggernaught1.effect.energy=0.5
+skills.entity.uesultjuggernaught1.effect.health=0.0
+skills.entity.uesultjuggernaught1.effect.workspeed=0.2
+skills.entity.uesultjuggernaught1.abilities.uesultjuggernaught1=4
+
+skills.entity.uesultjuggernaught2.effect.nutrition=1.5
+skills.entity.uesultjuggernaught2.effect.energy=1.5
+skills.entity.uesultjuggernaught2.effect.health=1.0
+skills.entity.uesultjuggernaught2.effect.workspeed=0.5
+skills.entity.uesultjuggernaught2.abilities.uesultjuggernaught2=1
 
 
 
