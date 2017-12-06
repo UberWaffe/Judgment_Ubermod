@@ -268,16 +268,16 @@ skills.uesultindustrialist2.name=Industrialist II
 # Survivalist
 # ----------------------------------------------------------
 
-skills.uesultwilder1.name=Wilder I
-skills.uesultwilder2.name=Wilder II
+skills.uesultwilder1.name=Provider I
+skills.uesultwilder2.name=Provider II
 
 skills.uesultdruid1.name=Druid I
 skills.uesultdruid2.name=Druid II
 
-abilities.uesultdruid1.name=Poison Touch
+abilities.uesultdruid1.name=Poison
 abilities.uesultdruid2.name=Nature's Grasp
 
-statuseffects.uesultdruid1.name=Poison Touch
+statuseffects.uesultdruid1.name=Poison
 statuseffects.uesultdruid2.name=Nature's Grasp
 
 
