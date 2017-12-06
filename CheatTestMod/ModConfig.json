@@ -1,0 +1,8 @@
+{
+	title: "Cheat Test Mod",
+	desc: "Gives loads of stuff at new game start, to allow rapid testing of other mod contents.",
+	uid: "727097734",
+	visibility: "2",
+	creator: "UberWaffe",
+	tags: "cheat",
+}

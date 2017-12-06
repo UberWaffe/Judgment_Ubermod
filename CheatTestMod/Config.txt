@@ -1,0 +1,8 @@
+
+config.startitems.physics1=2500000
+config.startitems.occult1=2500000
+config.startitems.researchmaterials=250
+config.startitems.researchkit=250
+
+config.startitems.aether=25000
+config.startitems.ubrspiritspark=25000
