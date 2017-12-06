@@ -696,7 +696,7 @@ skills.entity.uesultritualist2.effect.actiongroup_occultresearch=5.0
 
 skills.entity.uesultspellblast1.effect.nutrition=0.5
 skills.entity.uesultspellblast1.effect.energy=0.5
-skills.entity.uesultspellblast1.effect.health=0.0
+skills.entity.uesultspellblast1.effect.health=0.5
 skills.entity.uesultspellblast1.effect.workspeed=0.2
 skills.entity.uesultspellblast1.abilities.uesultspellblast1=5
 
@@ -728,7 +728,7 @@ skills.entity.uesulttinkerer2.effect.actiongroup_research=5.0
 
 skills.entity.uesultindustrialist1.effect.nutrition=0.5
 skills.entity.uesultindustrialist1.effect.energy=0.5
-skills.entity.uesultindustrialist1.effect.health=0.0
+skills.entity.uesultindustrialist1.effect.health=0.5
 skills.entity.uesultindustrialist1.effect.workspeed=0.2
 skills.entity.uesultindustrialist1.effect.actiongroup_build=1.5
 skills.entity.uesultindustrialist1.effect.actiongroup_mine=1.5
@@ -767,7 +767,7 @@ skills.entity.uesultattack2.effect.attackspeed=1.5
 
 skills.entity.uesultexecutioner1.effect.nutrition=0.5
 skills.entity.uesultexecutioner1.effect.energy=0.5
-skills.entity.uesultexecutioner1.effect.health=0.0
+skills.entity.uesultexecutioner1.effect.health=0.5
 skills.entity.uesultexecutioner1.effect.workspeed=0.2
 skills.entity.uesultexecutioner1.abilities.uesultexecutioner1=2
 
@@ -803,7 +803,7 @@ skills.entity.uesultdefense2.effect.damage=0.75
 
 skills.entity.uesultjuggernaught1.effect.nutrition=0.5
 skills.entity.uesultjuggernaught1.effect.energy=0.5
-skills.entity.uesultjuggernaught1.effect.health=0.0
+skills.entity.uesultjuggernaught1.effect.health=0.5
 skills.entity.uesultjuggernaught1.effect.workspeed=0.2
 skills.entity.uesultjuggernaught1.abilities.uesultjuggernaught1=4
 
@@ -841,7 +841,7 @@ skills.entity.uesultwilder2.effect.actiongroup_agri=5.0
 
 skills.entity.uesultdruid1.effect.nutrition=0.5
 skills.entity.uesultdruid1.effect.energy=0.5
-skills.entity.uesultdruid1.effect.health=0.0
+skills.entity.uesultdruid1.effect.health=0.5
 skills.entity.uesultdruid1.effect.workspeed=0.2
 skills.entity.uesultdruid1.abilities.uesultdruid1=2
 
