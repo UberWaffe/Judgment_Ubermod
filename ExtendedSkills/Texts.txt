@@ -1,0 +1,283 @@
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extended generic skills
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+skills.marksmanship4.name=Markmanship IV
+skills.marksmanship5.name=Markmanship V
+skills.marksmanship6.name=Markmanship VI
+skills.marksmanship7.name=Markmanship VII
+skills.marksmanship8.name=Markmanship VIII
+skills.marksmanship9.name=Markmanship IX
+
+skills.agility4.name=Agility IV
+skills.agility5.name=Agility V
+skills.agility6.name=Agility VI
+skills.agility7.name=Agility VII
+skills.agility8.name=Agility VIII
+skills.agility9.name=Agility IX
+
+skills.damage4.name=Damage IV
+skills.damage5.name=Damage V
+skills.damage6.name=Damage VI
+skills.damage7.name=Damage VII
+skills.damage8.name=Damage VIII
+skills.damage9.name=Damage IX
+
+skills.evasion4.name=Evasion IV
+skills.evasion5.name=Evasion V
+skills.evasion6.name=Evasion VI
+skills.evasion7.name=Evasion VII
+skills.evasion8.name=Evasion VIII
+skills.evasion9.name=Evasion IX
+
+skills.stalwart4.name=Stalwart IV
+skills.stalwart5.name=Stalwart V
+skills.stalwart6.name=Stalwart VI
+skills.stalwart7.name=Stalwart VII
+skills.stalwart8.name=Stalwart VIII
+skills.stalwart9.name=Stalwart IX
+
+skills.melee4.name=Melee IV
+skills.melee5.name=Melee V
+skills.melee6.name=Melee VI
+skills.melee7.name=Melee VII
+skills.melee8.name=Melee VIII
+skills.melee9.name=Melee IX
+
+skills.meleedefense4.name=Melee Defense IV
+skills.meleedefense5.name=Melee Defense V
+skills.meleedefense6.name=Melee Defense VI
+skills.meleedefense7.name=Melee Defense VII
+skills.meleedefense8.name=Melee Defense VIII
+skills.meleedefense9.name=Melee Defense IX
+
+skills.blunt4.name=Blunt Weapons IV
+skills.blunt5.name=Blunt Weapons V
+skills.blunt6.name=Blunt Weapons VI
+skills.blunt7.name=Blunt Weapons VII
+skills.blunt8.name=Blunt Weapons VIII
+skills.blunt9.name=Blunt Weapons IX
+
+skills.sharp4.name=Sharp Weapons IV
+skills.sharp5.name=Sharp Weapons V
+skills.sharp6.name=Sharp Weapons VI
+skills.sharp7.name=Sharp Weapons VII
+skills.sharp8.name=Sharp Weapons VIII
+skills.sharp9.name=Sharp Weapons IX
+
+skills.pistols4.name=Pistols IV
+skills.pistols5.name=Pistols V
+skills.pistols6.name=Pistols VI
+skills.pistols7.name=Pistols VII
+skills.pistols8.name=Pistols VIII
+skills.pistols9.name=Pistols IX
+
+skills.rifles4.name=Rifles IV
+skills.rifles5.name=Rifles V
+skills.rifles6.name=Rifles VI
+skills.rifles7.name=Rifles VII
+skills.rifles8.name=Rifles VIII
+skills.rifles9.name=Rifles IX
+
+skills.bows4.name=Archery IV
+skills.bows5.name=Archery V
+skills.bows6.name=Archery VI
+skills.bows7.name=Archery VII
+skills.bows8.name=Archery VIII
+skills.bows9.name=Archery IX
+
+skills.toolweapon4.name=Tools Expert IV
+skills.toolweapon5.name=Tools Expert V
+skills.toolweapon6.name=Tools Expert VI
+skills.toolweapon7.name=Tools Expert VII
+skills.toolweapon8.name=Tools Expert VIII
+skills.toolweapon9.name=Tools Expert IX
+
+skills.autoweapon4.name=Automatic Weapons IV
+skills.autoweapon5.name=Automatic Weapons V
+skills.autoweapon6.name=Automatic Weapons VI
+skills.autoweapon7.name=Automatic Weapons VII
+skills.autoweapon8.name=Automatic Weapons VIII
+skills.autoweapon9.name=Automatic Weapons IX
+
+skills.darkweapon4.name=Dark Weapons IV
+skills.darkweapon5.name=Dark Weapons V
+skills.darkweapon6.name=Dark Weapons VI
+skills.darkweapon7.name=Dark Weapons VII
+skills.darkweapon8.name=Dark Weapons VIII
+skills.darkweapon9.name=Dark Weapons IX
+
+skills.techweapon4.name=Tech Weapons IV
+skills.techweapon5.name=Tech Weapons V
+skills.techweapon6.name=Tech Weapons VI
+skills.techweapon7.name=Tech Weapons VII
+skills.techweapon8.name=Tech Weapons VIII
+skills.techweapon9.name=Tech Weapons IX
+
+skills.holyweapon4.name=Holy Weapons IV
+skills.holyweapon5.name=Holy Weapons V
+skills.holyweapon6.name=Holy Weapons VI
+skills.holyweapon7.name=Holy Weapons VII
+skills.holyweapon8.name=Holy Weapons VIII
+skills.holyweapon9.name=Holy Weapons IX
+
+skills.gather4.name=Gathering IV
+skills.gather5.name=Gathering V
+skills.gather6.name=Gathering VI
+skills.gather7.name=Gathering VII
+skills.gather8.name=Gathering VIII
+skills.gather9.name=Gathering IX
+
+skills.mine4.name=Mining IV
+skills.mine5.name=Mining V
+skills.mine6.name=Mining VI
+skills.mine7.name=Mining VII
+skills.mine8.name=Mining VIII
+skills.mine9.name=Mining IX
+
+skills.quarry4.name=Quarrying IV
+skills.quarry5.name=Quarrying V
+skills.quarry6.name=Quarrying VI
+skills.quarry7.name=Quarrying VII
+skills.quarry8.name=Quarrying VIII
+skills.quarry9.name=Quarrying IX
+
+skills.build4.name=Construction IV
+skills.build5.name=Construction V
+skills.build6.name=Construction VI
+skills.build7.name=Construction VII
+skills.build8.name=Construction VIII
+skills.build9.name=Construction IX
+
+skills.craft4.name=Crafting IV
+skills.craft5.name=Crafting V
+skills.craft6.name=Crafting VI
+skills.craft7.name=Crafting VII
+skills.craft8.name=Crafting VIII
+skills.craft9.name=Crafting IX
+
+skills.farming4.name=Farming IV
+skills.farming5.name=Farming V
+skills.farming6.name=Farming VI
+skills.farming7.name=Farming VII
+skills.farming8.name=Farming VIII
+skills.farming9.name=Farming IX
+
+skills.research4.name=Research IV
+skills.research5.name=Research V
+skills.research6.name=Research VI
+skills.research7.name=Research VII
+skills.research8.name=Research VIII
+skills.research9.name=Research IX
+
+skills.occultresearch4.name=Occult Research IV
+skills.occultresearch5.name=Occult Research V
+skills.occultresearch6.name=Occult Research VI
+skills.occultresearch7.name=Occult Research VII
+skills.occultresearch8.name=Occult Research VIII
+skills.occultresearch9.name=Occult Research IX
+
+skills.rituals4.name=Rituals IV
+skills.rituals5.name=Rituals V
+skills.rituals6.name=Rituals VI
+skills.rituals7.name=Rituals VII
+skills.rituals8.name=Rituals VIII
+skills.rituals9.name=Rituals IX
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Additional special skills
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+skills.uesvision.name=Farsight
+
+skills.ueshealrate1.name=Rapid healing I
+skills.ueshealrate2.name=Rapid healing II
+skills.ueshealrate3.name=Rapid healing III
+
+skills.uesdefthands1.name=Deft hands I
+skills.uesdefthands2.name=Deft hands II
+skills.uesdefthands3.name=Deft hands III
+
+skills.uesprayer1.name=Earnest prayer I
+skills.uesprayer2.name=Earnest prayer II
+skills.uesprayer3.name=Earnest prayer III
+
+skills.uesmovement1.name=Quick feet I
+skills.uesmovement2.name=Quick feet II
+skills.uesmovement3.name=Quick feet III
+
+skills.uessoulweaver1.name=Soul weaver I
+skills.uessoulweaver2.name=Soul weaver II
+skills.uessoulweaver3.name=Soul weaver III
+
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Ultimate skills
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Priest
+# ----------------------------------------------------------
+
+skills.uesultspiritsong1.name=Spirit Song I
+skills.uesultspiritsong2.name=Spirit Song II
+
+skills.uesultbless1.name=Empower Spirit I
+skills.uesultbless2.name=Empower Spirit II
+
+abilities.uesultbless1.name=Revival
+abilities.uesultbless2.name=Empower Spirit
+
+statuseffects.uesultbless1.name=Revival
+statuseffects.uesultbless2.name=Empower Spirit
+
+
+
+# Occultist
+# ----------------------------------------------------------
+
+skills.uesultritualist1.name=Ritualist I
+skills.uesultritualist2.name=Ritualist II
+
+skills.uesultspellblast1.name=Arcanist I
+skills.uesultspellblast2.name=Arcanist II
+
+abilities.uesultspellblast1.name=Magic Missile
+abilities.uesultspellblast2.name=Magic Blast
+
+statuseffects.uesultspellblast1.name=Magic Missile
+statuseffects.uesultspellblast2.name=Magic Blast
+
+
+
+# Engineer
+# ----------------------------------------------------------
+
+skills.uesulttinkerer1.name=Tinkerer I
+skills.uesulttinkerer2.name=Tinkerer II
+
+skills.uesultindustrialist1.name=Industrialist I
+skills.uesultindustrialist2.name=Industrialist II
+
+
+
+# Survivalist
+# ----------------------------------------------------------
+
+skills.uesultwilder1.name=Wilder I
+skills.uesultwilder2.name=Wilder II
+
+skills.uesultdruid1.name=Druid I
+skills.uesultdruid2.name=Druid II
+
+abilities.uesultdruid1.name=Poison Touch
+abilities.uesultdruid2.name=Nature's Grip
+
+statuseffects.uesultdruid1.name=Poison Touch
+statuseffects.uesultdruid2.name=Nature's Grip
+
+

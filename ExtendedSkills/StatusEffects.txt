@@ -1,0 +1,28 @@
+﻿
+# --------------------------------------------------------------------------------------------------------------------
+# Ultimate skills abilities effects
+# --------------------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------------------------
+# Priest
+# ----------------------------------------------------------
+
+statuseffects.entity.uesultbless1.parents=statuseffects.base.negative
+statuseffects.entity.uesultbless1.effect.defense=5
+
+
+# ----------------------------------------------------------
+# Occultist
+# ----------------------------------------------------------
+
+statuseffects.entity.uesultspellblast1.parents=statuseffects.base.negative
+statuseffects.entity.uesultspellblast1.effect.attackspeed=-0.25
+statuseffects.entity.uesultspellblast1.effect.evade=-0.25
+statuseffects.entity.uesultspellblast1.effect.walkspeed=-0.25
+statuseffects.entity.uesultspellblast1.effect.damagereceived=0.25
+
+statuseffects.entity.uesultspellblast2.parents=statuseffects.base.negative
+statuseffects.entity.uesultspellblast2.effect.attackspeed=-0.75
+statuseffects.entity.uesultspellblast2.effect.evade=-0.75
+statuseffects.entity.uesultspellblast2.effect.walkspeed=-0.75
+statuseffects.entity.uesultspellblast2.effect.damagereceived=0.75
