@@ -107,7 +107,7 @@ objects.entity.ubrspiritfoundry.sprite=object_arcanefoundry
 
 objects.entity.ubrspiritfoundry.actions.spiritsparkritual.parents=ritual.base.generic
 objects.entity.ubrspiritfoundry.actions.spiritsparkritual.sprite=action_divineinspiration
-objects.entity.ubrspiritfoundry.actions.spiritsparkritual.research=secwafspiritenergy
+objects.entity.ubrspiritfoundry.actions.spiritsparkritual.research=ubroccultenergy
 objects.entity.ubrspiritfoundry.actions.spiritsparkritual.class=ActionTypeAddItems
 objects.entity.ubrspiritfoundry.actions.spiritsparkritual.work=30000
 objects.entity.ubrspiritfoundry.actions.spiritsparkritual.items.ubrspiritspark=10
@@ -138,7 +138,7 @@ objects.entity.ubrspiritfoundry.actions.eternalengineritual.costs.ubralloys=5
 blueprints.entity.ubrspiritfoundry.object=ubrspiritfoundry
 blueprints.entity.ubrspiritfoundry.sprite=build_arcanefoundry
 blueprints.entity.ubrspiritfoundry.work=7777
-blueprints.entity.ubrspiritfoundry.research=secwafspiritenergy
+blueprints.entity.ubrspiritfoundry.research=ubroccultenergy
 blueprints.entity.ubrspiritfoundry.costs.bricks=5
 blueprints.entity.ubrspiritfoundry.costs.ubralloys=20
 blueprints.entity.ubrspiritfoundry.costs.stone=10
@@ -164,6 +164,7 @@ objects.entity.ubrhumvee.onattributechange.autofuelled.action=CreateTask~fuelled
 objects.entity.ubrhumvee.onattributechange.autofuelled.requirements.fuelled=<e5
 
 blueprints.entity.ubrhumvee.parents=blueprints.base.exterior
+blueprints.entity.ubrhumvee.sprite=object_humveebrown
 blueprints.entity.ubrhumvee.object=ubrhumvee
 blueprints.entity.ubrhumvee.work=50000
 blueprints.entity.ubrhumvee.research=ubrhumvee
@@ -172,8 +173,8 @@ blueprints.entity.ubrhumvee.restrictions.mapedge=5
 blueprints.entity.ubrhumvee.restrictions.nearother=ubrhumvee~500
 blueprints.entity.ubrhumvee.costs.ubralloys=500
 blueprints.entity.ubrhumvee.costs.ubrenertronics=20
-blueprints.entity.ubrhumvee.costs.ubrglass=10
-blueprints.entity.ubrhumvee.costs.ubrtextiles=80
+blueprints.entity.ubrhumvee.costs.ubrglass=40
+blueprints.entity.ubrhumvee.costs.ubrtextiles=100
 
 
 
@@ -293,6 +294,7 @@ blueprints.entity.ubreternalreactor.generateattribute.charge=0
 blueprints.entity.ubreternalreactor.costs.eternalengine=1
 blueprints.entity.ubreternalreactor.costs.ubrenertronics=6
 blueprints.entity.ubreternalreactor.costs.ubralloys=20
+blueprints.entity.ubreternalreactor.costs.ubrglass=2
 blueprints.entity.ubreternalreactor.costs.spiritalloy=8
 
 
@@ -309,7 +311,7 @@ objects.entity.ubraquiferpump.properties.cover=0.6
 objects.entity.ubraquiferpump.actions.collect.class=ActionTypeAddItems
 objects.entity.ubraquiferpump.actions.collect.items.water=100
 objects.entity.ubraquiferpump.actions.collect.setattribute.full=na
-objects.entity.ubraquiferpump.actions.collect.work=1000
+objects.entity.ubraquiferpump.actions.collect.work=100
 objects.entity.ubraquiferpump.actions.collect.requirements.full=>e100
 objects.entity.ubraquiferpump.actions.collect.actiongroup=gatherwater
 objects.entity.ubraquiferpump.actions.collect.sprite=action_gather

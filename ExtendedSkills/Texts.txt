@@ -305,4 +305,10 @@ skills.uesultdefense2.name=Elite Defender II
 skills.uesultjuggernaught1.name=Juggernaught I
 skills.uesultjuggernaught2.name=Juggernaught II
 
+abilities.uesultjuggernaught1.name=Fortress
+abilities.uesultjuggernaught2.name=Juggernaught
+
+statuseffects.uesultjuggernaught1.name=Fortress
+statuseffects.uesultjuggernaught2.name=Juggernaught
+
 

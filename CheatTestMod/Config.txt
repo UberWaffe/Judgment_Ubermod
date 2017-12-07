@@ -10,10 +10,10 @@ config.startitems.researchkit=250
 config.startitems.aether=25000
 config.startitems.ubrspiritspark=25000
 
-config.startitems.ubrgreaterworkcharm7=1
-config.startitems.ubrgreaterwarcharm7=1
+config.startitems.ubrgreaterworkcharm10=1
+config.startitems.ubrgreaterwarcharm10=1
 
-config.startitems.eternalengine=1
-config.startitems.ubrenertronics=6
-config.startitems.ubralloys=20
-config.startitems.spiritalloy=8
+
+
+config.freebuildings.stonehouse_6x5=2
+config.freebuildings.ubrsolarenergy=8

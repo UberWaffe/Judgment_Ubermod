@@ -13,25 +13,25 @@ effects.entity.ubrhumvee.effect.taskforcespeed=5.0
 # Extended Occult
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-effects.entity.secwafspiritenergy.sprite=effect_reduceawareness
-effects.entity.secwafspiritenergy.effect.workspeed=0.1
-effects.entity.secwafspiritenergy.effect.awarenessadd=-0.1
+effects.entity.ubroccultenergy.sprite=effect_reduceawareness
+effects.entity.ubroccultenergy.effect.workspeed=0.1
+effects.entity.ubroccultenergy.effect.awarenessadd=-0.1
 
-effects.entity.secwafspiritenergy2.sprite=effect_reduceawareness
-effects.entity.secwafspiritenergy2.effect.workspeed=0.1
-effects.entity.secwafspiritenergy2.effect.awarenessadd=-0.1
+effects.entity.ubroccultenergy2.sprite=effect_reduceawareness
+effects.entity.ubroccultenergy2.effect.workspeed=0.1
+effects.entity.ubroccultenergy2.effect.awarenessadd=-0.1
 
-effects.entity.secwafspiritenergy3.sprite=effect_reduceawareness
-effects.entity.secwafspiritenergy3.effect.workspeed=0.1
-effects.entity.secwafspiritenergy3.effect.awarenessadd=-0.1
+effects.entity.ubroccultenergy3.sprite=effect_reduceawareness
+effects.entity.ubroccultenergy3.effect.workspeed=0.1
+effects.entity.ubroccultenergy3.effect.awarenessadd=-0.1
 
-effects.entity.secwafspiritenergy4.sprite=effect_reduceawareness
-effects.entity.secwafspiritenergy4.effect.workspeed=0.15
-effects.entity.secwafspiritenergy4.effect.awarenessadd=-0.05
+effects.entity.ubroccultenergy4.sprite=effect_reduceawareness
+effects.entity.ubroccultenergy4.effect.workspeed=0.15
+effects.entity.ubroccultenergy4.effect.awarenessadd=-0.05
 
-effects.entity.secwafspiritenergy5.sprite=effect_reduceawareness
-effects.entity.secwafspiritenergy5.effect.workspeed=0.15
-effects.entity.secwafspiritenergy5.effect.awarenessadd=-0.05
+effects.entity.ubroccultenergy5.sprite=effect_reduceawareness
+effects.entity.ubroccultenergy5.effect.workspeed=0.15
+effects.entity.ubroccultenergy5.effect.awarenessadd=-0.05
 
 
 

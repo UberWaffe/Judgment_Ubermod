@@ -44,14 +44,14 @@ research.ubrthermobaricweapons.name=Thermobaric Weaponry
 # Occult Extended
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-research.secwafspiritenergy.name=Spirit Energy Manifestation
+research.ubroccultenergy.name=Spirit Energy Manifestation
 research.spiritalloyresearch.name=Alloying Spirit Energy
 research.eternalfireresearch.name=Eternal Engines
 
 
 # Greater
 
-research.secwafspiritenergy2.name=Spirit Energy Control
+research.ubroccultenergy2.name=Spirit Energy Control
 
 research.heavenlyitemsresearch.name=Heavenly Crafting
 research.ubroccultitems2.name=Imbued Crafting
@@ -60,47 +60,53 @@ research.ubroccultconsume2.name=Imbued Spells
 
 # Master
 
-research.secwafspiritenergy3.name=Spirit Energy Mastery
+research.ubroccultenergy3.name=Spirit Energy Mastery
 research.ubroccultitems3.name=Master Crafting
 research.ubroccultconsume3.name=Master Spells
 
 
 # Evoker
 
-research.secwafspiritenergy4.name=Spirit Energy Evoking
+research.ubroccultenergy4.name=Spirit Energy Evoking
 research.ubroccultitems4.name=Evoker Crafting
 research.ubroccultconsume4.name=Evoker Spells
 
 
 # Master Evoker
 
-research.secwafspiritenergy5.name=Masterful Spirit Evoking
+research.ubroccultenergy5.name=Masterful Spirit Evoking
 research.ubroccultitems5.name=Master Evoker Crafting
 research.ubroccultconsume5.name=Master Evoker Spells
 
 
 # Warlock
 
-research.secwafspiritenergy6.name=Warlock Spirit Mastery
+research.ubroccultenergy6.name=Warlock Spirit Mastery
 research.ubroccultitems6.name=Warlock Crafting
 
 
 # High Warlock
 
-research.secwafspiritenergy7.name=High Warlock Spirit Mastery
+research.ubroccultenergy7.name=High Warlock Spirit Mastery
 research.ubroccultitems7.name=High Warlock Crafting
 
 
 # Magnus
 
-research.secwafspiritenergy8.name=Magnus Spirit Mastery
+research.ubroccultenergy8.name=Magnus Spirit Mastery
 research.ubroccultitems8.name=Magnus Crafting
 
 
 # Arch-Magnus
 
-research.secwafspiritenergy9.name=Arch-Magnus Spirit Mastery
+research.ubroccultenergy9.name=Arch-Magnus Spirit Mastery
 research.ubroccultitems9.name=Arch-Magnus Crafting
+
+
+# Weaver
+
+research.ubroccultenergy10.name=Weaver Spirit Mastery
+research.ubroccultitems10.name=Weaver Crafting
 
 
 
@@ -489,6 +495,47 @@ statuseffects.ubrhex5.name=Master Evoker Bind
 
 abilities.ubrbuffspell5.name=Master Evoker Bless
 statuseffects.ubrbuffspell5.name=Master Evoker Bless
+
+
+
+# Warlock
+
+items.ubrgreaterwarcharm6.name=Warlock War Pendant
+items.ubrgreaterwarcharm6.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
+
+items.ubrgreaterworkcharm6.name=Warlock Skill Pendant
+items.ubrgreaterworkcharm6.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
+
+
+
+# High-Warlock
+
+items.ubrgreaterwarcharm7.name=High-Warlock War Pendant
+items.ubrgreaterwarcharm7.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
+
+items.ubrgreaterworkcharm7.name=High-Warlock Skill Pendant
+items.ubrgreaterworkcharm7.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
+
+
+
+# Magnus
+
+items.ubrgreaterwarcharm8.name=Magnus War Pendant
+items.ubrgreaterwarcharm8.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
+
+items.ubrgreaterworkcharm8.name=Magnus Skill Pendant
+items.ubrgreaterworkcharm8.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
+
+
+
+# Arch-Magnus
+
+items.ubrgreaterwarcharm9.name=Arch-Magnus War Pendant
+items.ubrgreaterwarcharm9.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
+
+items.ubrgreaterworkcharm9.name=Arch-Magnus Skill Pendant
+items.ubrgreaterworkcharm9.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
+
 
 
 

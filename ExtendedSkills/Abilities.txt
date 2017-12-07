@@ -38,7 +38,7 @@ abilities.entity.uesultbless2.affects=allies
 
 abilities.entity.uesultspellblast1.parents=abilities.base.skillability
 abilities.entity.uesultspellblast1.name=abilities.uesultspellblast1.name
-abilities.entity.uesultspellblast1.class=SingleTargetAbility
+abilities.entity.uesultspellblast1.class=GrenadeAbility
 abilities.entity.uesultspellblast1.sprite=ability_hexscroll
 abilities.entity.uesultspellblast1.targetmode=Enemy
 abilities.entity.uesultspellblast1.performtime=0.1
@@ -53,7 +53,7 @@ abilities.entity.uesultspellblast1.affects=enemies
 
 abilities.entity.uesultspellblast2.parents=abilities.base.skillability
 abilities.entity.uesultspellblast2.name=abilities.uesultspellblast2.name
-abilities.entity.uesultspellblast2.class=SingleTargetAbility
+abilities.entity.uesultspellblast2.class=GrenadeAbility
 abilities.entity.uesultspellblast2.sprite=ability_hexscroll
 abilities.entity.uesultspellblast2.targetmode=Enemy
 abilities.entity.uesultspellblast2.performtime=0.1
@@ -73,7 +73,7 @@ abilities.entity.uesultspellblast2.affects=enemies
 
 abilities.entity.uesultdruid1.parents=abilities.base.skillability
 abilities.entity.uesultdruid1.name=abilities.uesultdruid1.name
-abilities.entity.uesultdruid1.class=SingleTargetAbility
+abilities.entity.uesultdruid1.class=GrenadeAbility
 abilities.entity.uesultdruid1.sprite=ability_hexscroll
 abilities.entity.uesultdruid1.targetmode=Enemy
 abilities.entity.uesultdruid1.performtime=0.1
@@ -87,7 +87,7 @@ abilities.entity.uesultdruid1.affects=enemies
 
 abilities.entity.uesultdruid2.parents=abilities.base.skillability
 abilities.entity.uesultdruid2.name=abilities.uesultdruid2.name
-abilities.entity.uesultdruid2.class=SingleTargetAbility
+abilities.entity.uesultdruid2.class=GrenadeAbility
 abilities.entity.uesultdruid2.sprite=ability_entangle
 abilities.entity.uesultdruid2.targetmode=Enemy
 abilities.entity.uesultdruid2.performtime=0.1

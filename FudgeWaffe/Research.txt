@@ -68,17 +68,17 @@ research.entity.ubrthermobaricweapons.costs.researchkit=4
 
 # Spirit Energy
 
-research.entity.secwafspiritenergy.parents=research.base.occult,research.base.level4,research.base.unlock
-research.entity.secwafspiritenergy.research=sacredcrafting
-research.entity.secwafspiritenergy.effect=secwafspiritenergy
-research.entity.secwafspiritenergy.costs.physics1=500
-research.entity.secwafspiritenergy.costs.occult1=3000
-research.entity.secwafspiritenergy.costs.researchkit=2
+research.entity.ubroccultenergy.parents=research.base.occult,research.base.level4,research.base.unlock
+research.entity.ubroccultenergy.research=sacredcrafting
+research.entity.ubroccultenergy.effect=ubroccultenergy
+research.entity.ubroccultenergy.costs.physics1=500
+research.entity.ubroccultenergy.costs.occult1=3000
+research.entity.ubroccultenergy.costs.researchkit=2
 
 # Side branch 1 - Spirit Alloy
 
 research.entity.spiritalloyresearch.parents=research.base.occult,research.base.level4
-research.entity.spiritalloyresearch.research=secwafspiritenergy
+research.entity.spiritalloyresearch.research=ubroccultenergy
 research.entity.spiritalloyresearch.costs.physics1=500
 research.entity.spiritalloyresearch.costs.occult1=3000
 
@@ -86,18 +86,18 @@ research.entity.spiritalloyresearch.costs.occult1=3000
 
 # Spirit Energy 2 - Greater
 
-research.entity.secwafspiritenergy2.parents=research.base.occult,research.base.level5,research.base.unlock
-research.entity.secwafspiritenergy2.research=secwafspiritenergy
-research.entity.secwafspiritenergy2.effect=secwafspiritenergy2
-research.entity.secwafspiritenergy2.costs.physics1=500
-research.entity.secwafspiritenergy2.costs.occult1=10000
-research.entity.secwafspiritenergy2.costs.researchkit=3
-research.entity.secwafspiritenergy2.costs.ubrspiritspark=50
+research.entity.ubroccultenergy2.parents=research.base.occult,research.base.level5,research.base.unlock
+research.entity.ubroccultenergy2.research=ubroccultenergy
+research.entity.ubroccultenergy2.effect=ubroccultenergy2
+research.entity.ubroccultenergy2.costs.physics1=500
+research.entity.ubroccultenergy2.costs.occult1=10000
+research.entity.ubroccultenergy2.costs.researchkit=3
+research.entity.ubroccultenergy2.costs.ubrspiritspark=50
 
 # Side branch 2 - Greater Occult Items
 
 research.entity.ubroccultitems2.parents=research.base.occult,research.base.level5
-research.entity.ubroccultitems2.research=secwafspiritenergy2
+research.entity.ubroccultitems2.research=ubroccultenergy2
 research.entity.ubroccultitems2.costs.occult1=5000
 
 # Side branch 2 - Greater Occult Consumables
@@ -110,18 +110,18 @@ research.entity.ubroccultconsume2.costs.occult1=5000
 
 # Spirit Energy 3 - Master
 
-research.entity.secwafspiritenergy3.parents=research.base.occult,research.base.level6,research.base.unlock
-research.entity.secwafspiritenergy3.research=secwafspiritenergy2
-research.entity.secwafspiritenergy3.effect=secwafspiritenergy3
-research.entity.secwafspiritenergy3.costs.physics1=500
-research.entity.secwafspiritenergy3.costs.occult1=40000
-research.entity.secwafspiritenergy3.costs.researchkit=5
-research.entity.secwafspiritenergy3.costs.ubrspiritspark=100
+research.entity.ubroccultenergy3.parents=research.base.occult,research.base.level6,research.base.unlock
+research.entity.ubroccultenergy3.research=ubroccultenergy2
+research.entity.ubroccultenergy3.effect=ubroccultenergy3
+research.entity.ubroccultenergy3.costs.physics1=500
+research.entity.ubroccultenergy3.costs.occult1=40000
+research.entity.ubroccultenergy3.costs.researchkit=5
+research.entity.ubroccultenergy3.costs.ubrspiritspark=100
 
 # Side branch 1 - Master Occult Items
 
 research.entity.ubroccultitems3.parents=research.base.occult,research.base.level6
-research.entity.ubroccultitems3.research=secwafspiritenergy3
+research.entity.ubroccultitems3.research=ubroccultenergy3
 research.entity.ubroccultitems3.costs.occult1=20000
 
 # Side branch 1 - Greater Occult Consumables
@@ -133,25 +133,25 @@ research.entity.ubroccultconsume3.costs.occult1=20000
 # Side branch 2 - Upgraded Holy Items
 
 research.entity.heavenlyitemsresearch.parents=research.base.occult,research.base.level5
-research.entity.heavenlyitemsresearch.research=secwafspiritenergy3
+research.entity.heavenlyitemsresearch.research=ubroccultenergy3
 research.entity.heavenlyitemsresearch.costs.occult1=5000
 
 
 
 # Spirit Energy 4 - Evoker
 
-research.entity.secwafspiritenergy4.parents=research.base.occult,research.base.level7,research.base.unlock
-research.entity.secwafspiritenergy4.research=secwafspiritenergy3
-research.entity.secwafspiritenergy4.effect=secwafspiritenergy4
-research.entity.secwafspiritenergy4.costs.physics1=500
-research.entity.secwafspiritenergy4.costs.occult1=100000
-research.entity.secwafspiritenergy4.costs.researchkit=5
-research.entity.secwafspiritenergy4.costs.ubrspiritspark=100
+research.entity.ubroccultenergy4.parents=research.base.occult,research.base.level7,research.base.unlock
+research.entity.ubroccultenergy4.research=ubroccultenergy3
+research.entity.ubroccultenergy4.effect=ubroccultenergy4
+research.entity.ubroccultenergy4.costs.physics1=500
+research.entity.ubroccultenergy4.costs.occult1=100000
+research.entity.ubroccultenergy4.costs.researchkit=5
+research.entity.ubroccultenergy4.costs.ubrspiritspark=100
 
 # Side branch 1 - Evoker Occult Items
 
 research.entity.ubroccultitems4.parents=research.base.occult,research.base.level7
-research.entity.ubroccultitems4.research=secwafspiritenergy4
+research.entity.ubroccultitems4.research=ubroccultenergy4
 research.entity.ubroccultitems4.costs.occult1=50000
 
 # Side branch 1 - Evoker Occult Consumables
@@ -163,25 +163,25 @@ research.entity.ubroccultconsume4.costs.occult1=50000
 # Side branch 2 - Eternal Fire
 
 research.entity.eternalfireresearch.parents=research.base.occult,research.base.level4
-research.entity.eternalfireresearch.research=secwafspiritenergy4
+research.entity.eternalfireresearch.research=ubroccultenergy4
 research.entity.eternalfireresearch.costs.physics1=1500
 research.entity.eternalfireresearch.costs.occult1=2000
 
 
 # Spirit Energy 5 - Master Evoker
 
-research.entity.secwafspiritenergy5.parents=research.base.occult,research.base.level8,research.base.unlock
-research.entity.secwafspiritenergy5.research=secwafspiritenergy4
-research.entity.secwafspiritenergy5.effect=secwafspiritenergy5
-research.entity.secwafspiritenergy5.costs.physics1=500
-research.entity.secwafspiritenergy5.costs.occult1=250000
-research.entity.secwafspiritenergy5.costs.researchkit=10
-research.entity.secwafspiritenergy5.costs.ubrspiritspark=200
+research.entity.ubroccultenergy5.parents=research.base.occult,research.base.level8,research.base.unlock
+research.entity.ubroccultenergy5.research=ubroccultenergy4
+research.entity.ubroccultenergy5.effect=ubroccultenergy5
+research.entity.ubroccultenergy5.costs.physics1=500
+research.entity.ubroccultenergy5.costs.occult1=250000
+research.entity.ubroccultenergy5.costs.researchkit=10
+research.entity.ubroccultenergy5.costs.ubrspiritspark=200
 
 # Side branch 1 - Master Evoker Occult Items
 
 research.entity.ubroccultitems5.parents=research.base.occult,research.base.level8
-research.entity.ubroccultitems5.research=secwafspiritenergy5
+research.entity.ubroccultitems5.research=ubroccultenergy5
 research.entity.ubroccultitems5.costs.occult1=125000
 
 # Side branch 2 - Master Evoker Occult Consumables
@@ -191,36 +191,84 @@ research.entity.ubroccultconsume5.research=ubroccultitems5
 research.entity.ubroccultconsume5.costs.occult1=125000
 
 
-# Spirit Energy 6 - Grand Evoker
+# Spirit Energy 6 - Warlock
 
-research.entity.secwafspiritenergy6.parents=research.base.occult,research.base.level9,research.base.unlock
-research.entity.secwafspiritenergy6.research=secwafspiritenergy5
-research.entity.secwafspiritenergy6.effect=secwafspiritenergy5
-research.entity.secwafspiritenergy6.costs.occult1=550000
-research.entity.secwafspiritenergy6.costs.researchkit=12
-research.entity.secwafspiritenergy6.costs.ubrspiritspark=300
+research.entity.ubroccultenergy6.parents=research.base.occult,research.base.level9,research.base.unlock
+research.entity.ubroccultenergy6.research=ubroccultenergy5
+research.entity.ubroccultenergy6.effect=ubroccultenergy5
+research.entity.ubroccultenergy6.costs.occult1=550000
+research.entity.ubroccultenergy6.costs.researchkit=12
+research.entity.ubroccultenergy6.costs.ubrspiritspark=300
 
-# Side branch 1 - Grand Evoker Occult Items
+# Side branch 1 - Warlock Occult Items
 
 research.entity.ubroccultitems6.parents=research.base.occult,research.base.level9
-research.entity.ubroccultitems6.research=secwafspiritenergy6
+research.entity.ubroccultitems6.research=ubroccultenergy6
 research.entity.ubroccultitems6.costs.occult1=225000
 
 
-# Spirit Energy 7 - Grand Evoker
+# Spirit Energy 7 - High-Warlock
 
-research.entity.secwafspiritenergy7.parents=research.base.occult,research.base.level10,research.base.unlock
-research.entity.secwafspiritenergy7.research=secwafspiritenergy6
-research.entity.secwafspiritenergy7.effect=secwafspiritenergy5
-research.entity.secwafspiritenergy7.costs.occult1=900000
-research.entity.secwafspiritenergy7.costs.researchkit=14
-research.entity.secwafspiritenergy7.costs.ubrspiritspark=600
+research.entity.ubroccultenergy7.parents=research.base.occult,research.base.level10,research.base.unlock
+research.entity.ubroccultenergy7.research=ubroccultenergy6
+research.entity.ubroccultenergy7.effect=ubroccultenergy5
+research.entity.ubroccultenergy7.costs.occult1=900000
+research.entity.ubroccultenergy7.costs.researchkit=14
+research.entity.ubroccultenergy7.costs.ubrspiritspark=600
 
-# Side branch 1 - Grand Evoker Occult Items
+# Side branch 1 - High-Warlock Occult Items
 
 research.entity.ubroccultitems7.parents=research.base.occult,research.base.level10
-research.entity.ubroccultitems7.research=secwafspiritenergy7
+research.entity.ubroccultitems7.research=ubroccultenergy7
 research.entity.ubroccultitems7.costs.occult1=450000
+
+
+# Spirit Energy 8 - Magnus
+
+research.entity.ubroccultenergy8.parents=research.base.occult,research.base.level11,research.base.unlock
+research.entity.ubroccultenergy8.research=ubroccultenergy7
+research.entity.ubroccultenergy8.effect=ubroccultenergy5
+research.entity.ubroccultenergy8.costs.occult1=1600000
+research.entity.ubroccultenergy8.costs.researchkit=20
+research.entity.ubroccultenergy8.costs.ubrspiritspark=1000
+
+# Side branch 1 - Magnus Occult Items
+
+research.entity.ubroccultitems8.parents=research.base.occult,research.base.level11
+research.entity.ubroccultitems8.research=ubroccultenergy8
+research.entity.ubroccultitems8.costs.occult1=800000
+
+
+# Spirit Energy 9 - Arch-Magnus
+
+research.entity.ubroccultenergy9.parents=research.base.occult,research.base.level12,research.base.unlock
+research.entity.ubroccultenergy9.research=ubroccultenergy8
+research.entity.ubroccultenergy9.effect=ubroccultenergy5
+research.entity.ubroccultenergy9.costs.occult1=2500000
+research.entity.ubroccultenergy9.costs.researchkit=25
+research.entity.ubroccultenergy9.costs.ubrspiritspark=2000
+
+# Side branch 1 - Arch-Magnus Occult Items
+
+research.entity.ubroccultitems9.parents=research.base.occult,research.base.level12
+research.entity.ubroccultitems9.research=ubroccultenergy9
+research.entity.ubroccultitems9.costs.occult1=1250000
+
+
+# Spirit Energy 10 - Weaver
+
+research.entity.ubroccultenergy10.parents=research.base.occult,research.base.level13,research.base.unlock
+research.entity.ubroccultenergy10.research=ubroccultenergy9
+research.entity.ubroccultenergy10.effect=ubroccultenergy5
+research.entity.ubroccultenergy10.costs.occult1=4000000
+research.entity.ubroccultenergy10.costs.researchkit=30
+research.entity.ubroccultenergy10.costs.ubrspiritspark=4000
+
+# Side branch 1 - Weaver Occult Items
+
+research.entity.ubroccultitems10.parents=research.base.occult,research.base.level13
+research.entity.ubroccultitems10.research=ubroccultenergy10
+research.entity.ubroccultitems10.costs.occult1=2000000
 
 
 
