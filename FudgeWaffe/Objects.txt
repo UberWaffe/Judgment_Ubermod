@@ -113,6 +113,7 @@ objects.entity.ubrspiritfoundry.actions.spiritsparkritual.work=30000
 objects.entity.ubrspiritfoundry.actions.spiritsparkritual.items.ubrspiritspark=10
 objects.entity.ubrspiritfoundry.actions.spiritsparkritual.costs.aether=10
 objects.entity.ubrspiritfoundry.actions.spiritsparkritual.costs.holywords=1
+objects.entity.ubrspiritfoundry.actions.spiritsparkritual.costs.ubrenergyunit=100
 
 objects.entity.ubrspiritfoundry.actions.spiritalloyritual.parents=ritual.base.generic
 objects.entity.ubrspiritfoundry.actions.spiritalloyritual.sprite=action_divineinspiration

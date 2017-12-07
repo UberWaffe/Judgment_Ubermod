@@ -61,6 +61,13 @@ research.entity.ubrthermobaricweapons.costs.physics1=6000
 research.entity.ubrthermobaricweapons.costs.researchkit=4
 
 
+# Extreme Energy Density Storage
+
+research.entity.ubreedstorage.parents=research.base.firearms,research.base.level4
+research.entity.ubreedstorage.research=ubrthermobaricweapons
+research.entity.ubreedstorage.costs.physics1=5000
+
+
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Occult Research Extended 

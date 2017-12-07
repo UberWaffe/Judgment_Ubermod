@@ -37,6 +37,7 @@ research.ubrdistilling.name=Refining
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 research.ubrthermobaricweapons.name=Thermobaric Weaponry
+research.ubreedstorage.name=Extreme Energy Density Storage
 
 
 
@@ -313,6 +314,12 @@ items.ubrinfernade.description=Very powerful grenade that blasts then target are
 
 items.ubrthermobaricgun.name=Thermobaric Launcher
 items.ubrthermobaricgun.description=Launches small thermobaric incendiaries that immolate the target.
+
+
+items.ubrguassrifle.name=Guass Rifle
+items.ubrguassrifle.description=Launches small thermobaric incendiaries that immolate the target.
+
+abilities.ubrguassriflesnipe.name=Overcharged Shot
 
 
 

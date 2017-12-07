@@ -32,6 +32,8 @@ abilities.entity.cross2.effect.cross2=180
 abilities.entity.cross2.effectprefabs=EffectProtectionSpellPrefab
 abilities.entity.cross2.effectsounds=attack_protection
 
+abilities.entity.ubrguassriflesnipe.parents=abilities.base.snipe
+abilities.entity.ubrguassriflesnipe.properties.damage=200
 
 
 

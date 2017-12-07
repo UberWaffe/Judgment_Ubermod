@@ -504,6 +504,33 @@ crafting.entity.ubrthermobaricgun.costs.ubrenertronics=1
 crafting.entity.ubrthermobaricgun.costs.ubrhydrocarbons=200
 
 
+# Guass-Rifle
+
+items.entity.ubrguassrifle.parents=items.base.firearm,items.base.level2,items.base.rare
+items.entity.ubrguassrifle.tags.techweapon=true
+items.entity.ubrguassrifle.properties.damage=56
+items.entity.ubrguassrifle.properties.attackspeed=4
+items.entity.ubrguassrifle.properties.range=18
+items.entity.ubrguassrifle.properties.accuracy=100
+items.entity.ubrguassrifle.properties.attacksound=gauss_shot
+items.entity.ubrguassrifle.properties.prefab=coilgun
+items.entity.ubrguassrifle.properties.survivorattackanimation=SurvivorAssaultRifle
+items.entity.ubrguassrifle.properties.attackanimation=TransmutationGunAttackPrefab
+items.entity.ubrguassrifle.properties.hand=right
+items.entity.ubrguassrifle.skillreq.techweapon=true
+items.entity.ubrguassrifle.abilities.ubrguassriflesnipe=1
+
+crafting.entity.ubrguassrifle.amount=1
+crafting.entity.ubrguassrifle.work=30000
+crafting.entity.ubrguassrifle.research=ubreedstorage
+crafting.entity.ubrguassrifle.station.weaponsworkshop=1
+crafting.entity.ubrguassrifle.priority=5
+crafting.entity.ubrguassrifle.costs.composites=20
+crafting.entity.ubrguassrifle.costs.weaponparts=20
+crafting.entity.ubrguassrifle.costs.ubrenertronics=20
+crafting.entity.ubrguassrifle.costs.ubrenergyunit=10000
+crafting.entity.ubrguassrifle.costs.spiritalloy=4
+
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -573,7 +600,7 @@ crafting.entity.heavenlysword.priority=5
 crafting.entity.heavenlysword.tags.holycrafting2=true
 crafting.entity.heavenlysword.costs.holywords=5
 crafting.entity.heavenlysword.costs.holywater=50
-crafting.entity.heavenlysword.costs.spiritalloy=7
+crafting.entity.heavenlysword.costs.spiritalloy=10
 
 
 # Add a super Holy pistol
@@ -600,7 +627,7 @@ crafting.entity.heavenlypistol.station.holyforge=1
 crafting.entity.heavenlypistol.priority=5
 crafting.entity.heavenlypistol.costs.weaponparts=8
 crafting.entity.heavenlypistol.costs.holywater=6
-crafting.entity.heavenlypistol.costs.gunpowder=6
+crafting.entity.heavenlypistol.costs.ubrbullets=6
 crafting.entity.heavenlypistol.costs.holywords=3
 crafting.entity.heavenlypistol.costs.spiritalloy=7
 
