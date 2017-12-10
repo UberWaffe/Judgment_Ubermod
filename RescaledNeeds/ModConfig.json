@@ -1,10 +1,13 @@
 {
 	title: "Rescaled Needs Mod",
-	desc: "A personal mod. Rescales hunger and sleep to be slower to empty. But sleeping takes equally longer and food takes equally longer to grow.
-	You should need less survivors for tending farms, but will likely need more wheat farms since they are used for non-food items as well.
+	desc: "Rescales hunger and sleep to be slower to empty.
+But sleeping takes equally longer and food takes equally longer to grow.
+
+You should need less survivors for tending farms, but will likely need more wheat farms since they are used for non-food items as well.
+
 Not intended for public nudity.",
-	uid: "717097734",
-	visibility: "2",
+	uid: "1227661500",
+	visibility: "0",
 	creator: "UberWaffe",
 	tags: "balance",
 }

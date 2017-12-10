@@ -1,8 +1,8 @@
 {
 	title: "Extended Skills Mod",
 	desc: "Extends the levels for skills and the max level for survivors that new skills are pickable.",
-	uid: "717117734",
-	visibility: "2",
+	uid: "1227678809",
+	visibility: "0",
 	creator: "UberWaffe",
-	tags: "balance",
+	tags: "balance,skills",
 }
