@@ -35,149 +35,66 @@ effects.entity.ubroccultenergy5.effect.awarenessadd=-0.05
 
 
 
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Secrets research bonusses
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Broken into three trees.
+# Warfare - +10% Damage, +10% Defense, +10% Health
+# Economy - +10% Workspeed, +10% Extra scavenge
+# Arcane - +10% Ritual speed, -5% Awareness add, +5% Walkspeed, +10% Task force speed
 
-# Fundamental Secret - Level 1
-effects.entity.secwaffundamentalsecret1.sprite=effect_researchtravelspeed
-effects.entity.secwaffundamentalsecret1.effect.tag_farm_gainattribute_water=-0.05
-effects.entity.secwaffundamentalsecret1.effect.taskforcespeed=0.1
+# Start Research effect - All bonusses
 
-# Level 1 - Bonus 1
-effects.entity.secwafflevel1bonus1.sprite=effect_health
-effects.entity.secwafflevel1bonus1.effect.damage=0.1
-effects.entity.secwafflevel1bonus1.effect.health=0.1
-effects.entity.secwafflevel1bonus1.effect.healrate=0.1
-
-# Level 1 - Bonus 2
-effects.entity.secwafflevel1bonus2.sprite=effect_scavenge
-effects.entity.secwafflevel1bonus2.effect.workspeed=0.1
-effects.entity.secwafflevel1bonus2.effect.extrascavenge=0.1
-
-
-
-# Fundamental Secret - Level 2
-effects.entity.secwaffundamentalsecret2.sprite=effect_researchtravelspeed
-effects.entity.secwaffundamentalsecret2.effect.tag_farm_gainattribute_water=-0.05
-effects.entity.secwaffundamentalsecret2.effect.taskforcespeed=0.15
-
-# Level 2 - Bonus 1
-effects.entity.secwafflevel2bonus1.sprite=effect_health
-effects.entity.secwafflevel2bonus1.effect.damage=0.12
-effects.entity.secwafflevel2bonus1.effect.health=0.12
-effects.entity.secwafflevel2bonus1.effect.healrate=0.12
-
-# Level 2 - Bonus 2
-effects.entity.secwafflevel2bonus2.sprite=effect_scavenge
-effects.entity.secwafflevel2bonus2.effect.workspeed=0.15
-effects.entity.secwafflevel2bonus2.effect.extrascavenge=0.15
+effects.entity.ubrsecretstart.sprite=effect_health
+effects.entity.ubrsecretstart.effect.damage=0.1
+effects.entity.ubrsecretstart.effect.defense=0.1
+effects.entity.ubrsecretstart.effect.health=0.1
+effects.entity.ubrsecretstart.effect.workspeed=0.1
+effects.entity.ubrsecretstart.effect.extrascavenge=0.1
+effects.entity.ubrsecretstart.effect.actiongroup_rituals=0.1
+effects.entity.ubrsecretstart.effect.awarenessadd=-0.05
+effects.entity.ubrsecretstart.effect.walkspeed=0.05
+effects.entity.ubrsecretstart.effect.taskforcespeed=0.1
 
 
+# Warfare
 
-# Fundamental Secret - Level 3
-effects.entity.secwaffundamentalsecret3.sprite=effect_researchtravelspeed
-effects.entity.secwaffundamentalsecret3.effect.tag_farm_gainattribute_water=-0.05
-effects.entity.secwaffundamentalsecret3.effect.taskforcespeed=0.2
+effects.entity.ubrsecretwarfare1.sprite=effect_accuracy
+effects.entity.ubrsecretwarfare1.effect.damage=0.1
+effects.entity.ubrsecretwarfare1.effect.defense=0.1
+effects.entity.ubrsecretwarfare1.effect.health=0.1
 
-# Level 3 - Bonus 1
-effects.entity.secwafflevel3bonus1.sprite=effect_health
-effects.entity.secwafflevel3bonus1.effect.damage=0.15
-effects.entity.secwafflevel3bonus1.effect.health=0.15
-effects.entity.secwafflevel3bonus1.effect.healrate=0.15
-
-# Level 3 - Bonus 2
-effects.entity.secwafflevel3bonus2.sprite=effect_scavenge
-effects.entity.secwafflevel3bonus2.effect.workspeed=0.2
-effects.entity.secwafflevel3bonus2.effect.extrascavenge=0.2
+effects.entity.ubrsecretwarfare2.sprite=effect_accuracy
+effects.entity.ubrsecretwarfare2.effect.damage=0.2
+effects.entity.ubrsecretwarfare2.effect.defense=0.2
+effects.entity.ubrsecretwarfare2.effect.health=0.2
 
 
+# Economy
 
-# Fundamental Secret - Level 4
-effects.entity.secwaffundamentalsecret4.sprite=effect_researchtravelspeed
-effects.entity.secwaffundamentalsecret4.effect.tag_farm_gainattribute_water=-0.05
-effects.entity.secwaffundamentalsecret4.effect.taskforcespeed=0.25
+effects.entity.ubrsecretseconomy1.sprite=effect_divineinspiration
+effects.entity.ubrsecretseconomy1.effect.workspeed=0.1
+effects.entity.ubrsecretseconomy1.effect.extrascavenge=0.1
 
-# Level 4 - Bonus 1
-effects.entity.secwafflevel4bonus1.sprite=effect_health
-effects.entity.secwafflevel4bonus1.effect.damage=0.18
-effects.entity.secwafflevel4bonus1.effect.health=0.18
-effects.entity.secwafflevel4bonus1.effect.healrate=0.18
-
-# Level 4 - Bonus 2
-effects.entity.secwafflevel4bonus2.sprite=effect_scavenge
-effects.entity.secwafflevel4bonus2.effect.workspeed=0.25
-effects.entity.secwafflevel4bonus2.effect.extrascavenge=0.25
+effects.entity.ubrsecretseconomy2.sprite=effect_divineinspiration
+effects.entity.ubrsecretseconomy2.effect.workspeed=0.2
+effects.entity.ubrsecretseconomy2.effect.extrascavenge=0.2
 
 
+# Arcane
 
-# Fundamental Secret - Level 5
-effects.entity.secwaffundamentalsecret5.sprite=effect_researchtravelspeed
-effects.entity.secwaffundamentalsecret5.effect.tag_farm_gainattribute_water=-0.05
-effects.entity.secwaffundamentalsecret5.effect.taskforcespeed=0.3
+effects.entity.ubrsecretsarcane1.sprite=effect_evasiveaura
+effects.entity.ubrsecretsarcane1.effect.actiongroup_rituals=0.1
+effects.entity.ubrsecretsarcane1.effect.awarenessadd=-0.05
+effects.entity.ubrsecretsarcane1.effect.walkspeed=0.05
+effects.entity.ubrsecretsarcane1.effect.taskforcespeed=0.1
 
-# Level 5 - Bonus 1
-effects.entity.secwafflevel5bonus1.sprite=effect_health
-effects.entity.secwafflevel5bonus1.effect.damage=0.2
-effects.entity.secwafflevel5bonus1.effect.health=0.2
-effects.entity.secwafflevel5bonus1.effect.healrate=0.2
-
-# Level 5 - Bonus 2
-effects.entity.secwafflevel5bonus2.sprite=effect_scavenge
-effects.entity.secwafflevel5bonus2.effect.workspeed=0.3
-effects.entity.secwafflevel5bonus2.effect.extrascavenge=0.3
-
-
-
-# Fundamental Secret - Level 6
-effects.entity.secwaffundamentalsecret6.sprite=effect_researchtravelspeed
-effects.entity.secwaffundamentalsecret6.effect.workspeed=0.1
-effects.entity.secwaffundamentalsecret6.effect.taskforcespeed=0.35
-
-# Level 6 - Bonus 1
-effects.entity.secwafflevel6bonus1.sprite=effect_health
-effects.entity.secwafflevel6bonus1.effect.damage=0.25
-effects.entity.secwafflevel6bonus1.effect.health=0.25
-effects.entity.secwafflevel6bonus1.effect.healrate=0.25
-
-# Level 6 - Bonus 2
-effects.entity.secwafflevel6bonus2.sprite=effect_scavenge
-effects.entity.secwafflevel6bonus2.effect.workspeed=0.35
-effects.entity.secwafflevel6bonus2.effect.extrascavenge=0.35
-
-
-
-# Fundamental Secret - Level 7
-effects.entity.secwaffundamentalsecret7.sprite=effect_researchtravelspeed
-effects.entity.secwaffundamentalsecret7.effect.workspeed=0.15
-effects.entity.secwaffundamentalsecret7.effect.taskforcespeed=0.4
-
-# Level 7 - Bonus 1
-effects.entity.secwafflevel7bonus1.sprite=effect_health
-effects.entity.secwafflevel7bonus1.effect.damage=0.3
-effects.entity.secwafflevel7bonus1.effect.health=0.3
-effects.entity.secwafflevel7bonus1.effect.healrate=0.3
-
-# Level 7 - Bonus 2
-effects.entity.secwafflevel7bonus2.sprite=effect_scavenge
-effects.entity.secwafflevel7bonus2.effect.workspeed=0.4
-effects.entity.secwafflevel7bonus2.effect.extrascavenge=0.4
-
-
-
-# Fundamental Secret - Level 8
-effects.entity.secwaffundamentalsecret8.sprite=effect_researchtravelspeed
-effects.entity.secwaffundamentalsecret8.effect.workspeed=0.2
-effects.entity.secwaffundamentalsecret8.effect.taskforcespeed=0.5
-
-# Level 8 - Bonus 1
-effects.entity.secwafflevel8bonus1.sprite=effect_health
-effects.entity.secwafflevel8bonus1.effect.damage=0.4
-effects.entity.secwafflevel8bonus1.effect.health=0.4
-effects.entity.secwafflevel8bonus1.effect.healrate=0.4
-
-# Level 8 - Bonus 2
-effects.entity.secwafflevel8bonus2.sprite=effect_scavenge
-effects.entity.secwafflevel8bonus2.effect.workspeed=0.5
-
+effects.entity.ubrsecretsarcane2.sprite=effect_evasiveaura
+effects.entity.ubrsecretsarcane2.effect.actiongroup_rituals=0.2
+effects.entity.ubrsecretsarcane2.effect.awarenessadd=-0.1
+effects.entity.ubrsecretsarcane2.effect.walkspeed=0.1
+effects.entity.ubrsecretsarcane2.effect.taskforcespeed=0.2
 
 
 

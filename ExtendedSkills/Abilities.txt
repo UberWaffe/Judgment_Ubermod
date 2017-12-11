@@ -106,12 +106,14 @@ abilities.entity.uesultdruid2.affects=enemies
 # ----------------------------------------------------------
 
 abilities.entity.uesultexecutioner1.parents=abilities.base.weapongrenade
+abilities.entity.uesultexecutioner1.name=abilities.uesultexecutioner1.name
 abilities.entity.uesultexecutioner1.performtime=0.1
 abilities.entity.uesultexecutioner1.properties.range=8
 abilities.entity.uesultexecutioner1.properties.aoe=8
 abilities.entity.uesultexecutioner1.properties.damage=100
 
 abilities.entity.uesultexecutioner2.parents=abilities.base.snipe
+abilities.entity.uesultexecutioner2.name=abilities.uesultexecutioner1.name
 abilities.entity.uesultexecutioner2.performtime=0.1
 abilities.entity.uesultexecutioner2.properties.range=200
 abilities.entity.uesultexecutioner2.properties.damage=1250

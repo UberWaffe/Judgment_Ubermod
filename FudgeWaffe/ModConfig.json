@@ -1,9 +1,6 @@
 {
 	title: "Fudgewaffe Mod",
-	desc: "A personal mod.
-	
-Not intended for public nudity.",
-	uid: "717097732",
+	desc: "A late-game content mod. Adds various new research, items and objects. Mainly on the end of the research tree.",
 	visibility: "2",
 	creator: "UberWaffe",
 	tags: "enemies,research,items,locations",

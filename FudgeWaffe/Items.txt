@@ -507,6 +507,7 @@ crafting.entity.ubrthermobaricgun.costs.ubrhydrocarbons=200
 # Guass-Rifle
 
 items.entity.ubrguassrifle.parents=items.base.firearm,items.base.level2,items.base.rare
+items.entity.ubrguassrifle.sprite=item_coilgun
 items.entity.ubrguassrifle.tags.techweapon=true
 items.entity.ubrguassrifle.properties.damage=56
 items.entity.ubrguassrifle.properties.attackspeed=4
@@ -521,6 +522,7 @@ items.entity.ubrguassrifle.skillreq.techweapon=true
 items.entity.ubrguassrifle.abilities.ubrguassriflesnipe=1
 
 crafting.entity.ubrguassrifle.amount=1
+crafting.entity.ubrguassrifle.sprite=item_coilgun
 crafting.entity.ubrguassrifle.work=30000
 crafting.entity.ubrguassrifle.research=ubreedstorage
 crafting.entity.ubrguassrifle.station.weaponsworkshop=1
@@ -642,8 +644,8 @@ crafting.entity.heavenlypistol.costs.spiritalloy=7
 
 items.entity.ubrgreaterwarcharm2.parents=items.base.usable,items.base.level10,items.base.artifact1
 items.entity.ubrgreaterwarcharm2.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm2.effect.health=0.15
-items.entity.ubrgreaterwarcharm2.effect.healrate=0.15
+items.entity.ubrgreaterwarcharm2.effect.health=0.2
+items.entity.ubrgreaterwarcharm2.effect.healrate=0.2
 items.entity.ubrgreaterwarcharm2.effect.accuracy=0.1
 items.entity.ubrgreaterwarcharm2.effect.evade=0.1
 items.entity.ubrgreaterwarcharm2.effect.attackspeed=0.1
@@ -727,12 +729,13 @@ crafting.entity.ubrcross2.costs.alcohol=4
 
 items.entity.ubrgreaterwarcharm3.parents=items.base.usable,items.base.level10,items.base.artifact2
 items.entity.ubrgreaterwarcharm3.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm3.effect.health=0.25
-items.entity.ubrgreaterwarcharm3.effect.healrate=0.25
-items.entity.ubrgreaterwarcharm3.effect.accuracy=0.15
-items.entity.ubrgreaterwarcharm3.effect.evade=0.15
-items.entity.ubrgreaterwarcharm3.effect.attackspeed=0.15
-items.entity.ubrgreaterwarcharm3.effect.defense=0.15
+items.entity.ubrgreaterwarcharm3.effect.health=0.4
+items.entity.ubrgreaterwarcharm3.effect.healrate=0.4
+items.entity.ubrgreaterwarcharm3.effect.accuracy=0.2
+items.entity.ubrgreaterwarcharm3.effect.evade=0.2
+items.entity.ubrgreaterwarcharm3.effect.attackspeed=0.2
+items.entity.ubrgreaterwarcharm3.effect.defense=0.2
+items.entity.ubrgreaterwarcharm3.effect.damage=0.2
 
 crafting.entity.ubrgreaterwarcharm3.amount=1
 crafting.entity.ubrgreaterwarcharm3.work=70000
@@ -740,17 +743,17 @@ crafting.entity.ubrgreaterwarcharm3.research=ubroccultitems3
 crafting.entity.ubrgreaterwarcharm3.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm3.priority=5
 crafting.entity.ubrgreaterwarcharm3.costs.ubrgreaterworkcharm2=1
-crafting.entity.ubrgreaterwarcharm3.costs.ubrspiritspark=20
+crafting.entity.ubrgreaterwarcharm3.costs.ubrspiritspark=10
 
 
 items.entity.ubrgreaterworkcharm3.parents=items.base.usable,items.base.level10,items.base.artifact2
 items.entity.ubrgreaterworkcharm3.sprite=item_cross
-items.entity.ubrgreaterworkcharm3.effect.walkspeed=0.3
-items.entity.ubrgreaterworkcharm3.effect.workspeed=0.3
-items.entity.ubrgreaterworkcharm3.effect.nutrition=0.6
-items.entity.ubrgreaterworkcharm3.effect.energy=0.6
-items.entity.ubrgreaterworkcharm3.effect.hungerrate=-0.15
-items.entity.ubrgreaterworkcharm3.effect.energydrain=-0.15
+items.entity.ubrgreaterworkcharm3.effect.walkspeed=0.4
+items.entity.ubrgreaterworkcharm3.effect.workspeed=0.4
+items.entity.ubrgreaterworkcharm3.effect.nutrition=0.8
+items.entity.ubrgreaterworkcharm3.effect.energy=0.8
+items.entity.ubrgreaterworkcharm3.effect.hungerrate=-0.2
+items.entity.ubrgreaterworkcharm3.effect.energydrain=-0.2
 
 crafting.entity.ubrgreaterworkcharm3.amount=1
 crafting.entity.ubrgreaterworkcharm3.work=70000
@@ -758,7 +761,7 @@ crafting.entity.ubrgreaterworkcharm3.research=ubroccultitems3
 crafting.entity.ubrgreaterworkcharm3.station.holyforge=1
 crafting.entity.ubrgreaterworkcharm3.priority=5
 crafting.entity.ubrgreaterworkcharm3.costs.ubrgreaterworkcharm2=1
-crafting.entity.ubrgreaterworkcharm3.costs.ubrspiritspark=20
+crafting.entity.ubrgreaterworkcharm3.costs.ubrspiritspark=10
 
 
 # Combines Weaking Rune, Hex Scroll and Voodoo Doll
@@ -801,38 +804,39 @@ crafting.entity.ubrcross3.costs.alcohol=3
 
 items.entity.ubrgreaterwarcharm4.parents=items.base.usable,items.base.level10,items.base.artifact3
 items.entity.ubrgreaterwarcharm4.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm4.effect.health=0.5
-items.entity.ubrgreaterwarcharm4.effect.healrate=0.5
+items.entity.ubrgreaterwarcharm4.effect.health=0.6
+items.entity.ubrgreaterwarcharm4.effect.healrate=0.6
 items.entity.ubrgreaterwarcharm4.effect.accuracy=0.3
 items.entity.ubrgreaterwarcharm4.effect.evade=0.3
 items.entity.ubrgreaterwarcharm4.effect.attackspeed=0.3
 items.entity.ubrgreaterwarcharm4.effect.defense=0.3
+items.entity.ubrgreaterwarcharm4.effect.damage=0.3
 
 crafting.entity.ubrgreaterwarcharm4.amount=1
-crafting.entity.ubrgreaterwarcharm4.work=125000
+crafting.entity.ubrgreaterwarcharm4.work=105000
 crafting.entity.ubrgreaterwarcharm4.research=ubroccultitems4
 crafting.entity.ubrgreaterwarcharm4.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm4.priority=5
 crafting.entity.ubrgreaterwarcharm4.costs.ubrgreaterworkcharm3=1
-crafting.entity.ubrgreaterwarcharm4.costs.ubrspiritspark=40
+crafting.entity.ubrgreaterwarcharm4.costs.ubrspiritspark=15
 
 
 items.entity.ubrgreaterworkcharm4.parents=items.base.usable,items.base.level10,items.base.artifact3
 items.entity.ubrgreaterworkcharm4.sprite=item_cross
 items.entity.ubrgreaterworkcharm4.effect.walkspeed=0.6
 items.entity.ubrgreaterworkcharm4.effect.workspeed=0.6
-items.entity.ubrgreaterworkcharm4.effect.nutrition=1.2
-items.entity.ubrgreaterworkcharm4.effect.energy=1.2
-items.entity.ubrgreaterworkcharm4.effect.hungerrate=-0.2
-items.entity.ubrgreaterworkcharm4.effect.energydrain=-0.2
+items.entity.ubrgreaterworkcharm4.effect.nutrition=0.6
+items.entity.ubrgreaterworkcharm4.effect.energy=0.6
+items.entity.ubrgreaterworkcharm4.effect.hungerrate=-0.3
+items.entity.ubrgreaterworkcharm4.effect.energydrain=-0.3
 
 crafting.entity.ubrgreaterworkcharm4.amount=1
-crafting.entity.ubrgreaterworkcharm4.work=125000
+crafting.entity.ubrgreaterworkcharm4.work=105000
 crafting.entity.ubrgreaterworkcharm4.research=ubroccultitems4
 crafting.entity.ubrgreaterworkcharm4.station.holyforge=1
 crafting.entity.ubrgreaterworkcharm4.priority=5
 crafting.entity.ubrgreaterworkcharm4.costs.ubrgreaterworkcharm3=1
-crafting.entity.ubrgreaterworkcharm4.costs.ubrspiritspark=40
+crafting.entity.ubrgreaterworkcharm4.costs.ubrspiritspark=15
 
 
 # Combines Weaking Rune, Hex Scroll and Voodoo Doll
@@ -876,38 +880,39 @@ crafting.entity.ubrcross4.costs.alcohol=2
 
 items.entity.ubrgreaterwarcharm5.parents=items.base.usable,items.base.level10,items.base.artifact4
 items.entity.ubrgreaterwarcharm5.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm5.effect.health=1.0
-items.entity.ubrgreaterwarcharm5.effect.healrate=1.0
-items.entity.ubrgreaterwarcharm5.effect.accuracy=0.6
-items.entity.ubrgreaterwarcharm5.effect.evade=0.6
-items.entity.ubrgreaterwarcharm5.effect.attackspeed=0.6
-items.entity.ubrgreaterwarcharm5.effect.defense=0.6
+items.entity.ubrgreaterwarcharm5.effect.health=0.8
+items.entity.ubrgreaterwarcharm5.effect.healrate=0.8
+items.entity.ubrgreaterwarcharm5.effect.accuracy=0.4
+items.entity.ubrgreaterwarcharm5.effect.evade=0.4
+items.entity.ubrgreaterwarcharm5.effect.attackspeed=0.4
+items.entity.ubrgreaterwarcharm5.effect.defense=0.4
+items.entity.ubrgreaterwarcharm5.effect.damage=0.4
 
 crafting.entity.ubrgreaterwarcharm5.amount=1
-crafting.entity.ubrgreaterwarcharm5.work=175000
+crafting.entity.ubrgreaterwarcharm5.work=140000
 crafting.entity.ubrgreaterwarcharm5.research=ubroccultitems5
 crafting.entity.ubrgreaterwarcharm5.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm5.priority=5
 crafting.entity.ubrgreaterwarcharm5.costs.ubrgreaterworkcharm4=1
-crafting.entity.ubrgreaterwarcharm5.costs.ubrspiritspark=70
+crafting.entity.ubrgreaterwarcharm5.costs.ubrspiritspark=20
 
 
 items.entity.ubrgreaterworkcharm5.parents=items.base.usable,items.base.level10,items.base.artifact4
 items.entity.ubrgreaterworkcharm5.sprite=item_cross
-items.entity.ubrgreaterworkcharm5.effect.walkspeed=1.2
-items.entity.ubrgreaterworkcharm5.effect.workspeed=1.7
-items.entity.ubrgreaterworkcharm5.effect.nutrition=2.4
-items.entity.ubrgreaterworkcharm5.effect.energy=2.4
-items.entity.ubrgreaterworkcharm5.effect.hungerrate=-0.25
-items.entity.ubrgreaterworkcharm5.effect.energydrain=-0.25
+items.entity.ubrgreaterworkcharm5.effect.walkspeed=0.8
+items.entity.ubrgreaterworkcharm5.effect.workspeed=0.8
+items.entity.ubrgreaterworkcharm5.effect.nutrition=0.8
+items.entity.ubrgreaterworkcharm5.effect.energy=0.8
+items.entity.ubrgreaterworkcharm5.effect.hungerrate=-0.4
+items.entity.ubrgreaterworkcharm5.effect.energydrain=-0.4
 
 crafting.entity.ubrgreaterworkcharm5.amount=1
-crafting.entity.ubrgreaterworkcharm5.work=175000
+crafting.entity.ubrgreaterworkcharm5.work=140000
 crafting.entity.ubrgreaterworkcharm5.research=ubroccultitems5
 crafting.entity.ubrgreaterworkcharm5.station.holyforge=1
 crafting.entity.ubrgreaterworkcharm5.priority=5
 crafting.entity.ubrgreaterworkcharm5.costs.ubrgreaterworkcharm4=1
-crafting.entity.ubrgreaterworkcharm5.costs.ubrspiritspark=70
+crafting.entity.ubrgreaterworkcharm5.costs.ubrspiritspark=20
 
 
 # Combines Weaking Rune, Hex Scroll and Voodoo Doll
@@ -949,38 +954,39 @@ crafting.entity.ubrcross5.costs.medicine=2
 
 items.entity.ubrgreaterwarcharm6.parents=items.base.usable,items.base.level10,items.base.artifact5
 items.entity.ubrgreaterwarcharm6.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm6.effect.health=2.0
-items.entity.ubrgreaterwarcharm6.effect.healrate=2.0
-items.entity.ubrgreaterwarcharm6.effect.accuracy=1.2
-items.entity.ubrgreaterwarcharm6.effect.evade=1.2
-items.entity.ubrgreaterwarcharm6.effect.attackspeed=1.2
-items.entity.ubrgreaterwarcharm6.effect.defense=1.2
+items.entity.ubrgreaterwarcharm6.effect.health=1.2
+items.entity.ubrgreaterwarcharm6.effect.healrate=1.2
+items.entity.ubrgreaterwarcharm6.effect.accuracy=0.6
+items.entity.ubrgreaterwarcharm6.effect.evade=0.6
+items.entity.ubrgreaterwarcharm6.effect.attackspeed=0.6
+items.entity.ubrgreaterwarcharm6.effect.defense=0.6
+items.entity.ubrgreaterwarcharm6.effect.damage=0.6
 
 crafting.entity.ubrgreaterwarcharm6.amount=1
-crafting.entity.ubrgreaterwarcharm6.work=525000
+crafting.entity.ubrgreaterwarcharm6.work=175000
 crafting.entity.ubrgreaterwarcharm6.research=ubroccultitems6
 crafting.entity.ubrgreaterwarcharm6.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm6.priority=5
 crafting.entity.ubrgreaterwarcharm6.costs.ubrgreaterworkcharm5=1
-crafting.entity.ubrgreaterwarcharm6.costs.ubrspiritspark=200
+crafting.entity.ubrgreaterwarcharm6.costs.ubrspiritspark=25
 
 
 items.entity.ubrgreaterworkcharm6.parents=items.base.usable,items.base.level10,items.base.artifact5
 items.entity.ubrgreaterworkcharm6.sprite=item_cross
-items.entity.ubrgreaterworkcharm6.effect.walkspeed=2.4
-items.entity.ubrgreaterworkcharm6.effect.workspeed=3.4
-items.entity.ubrgreaterworkcharm6.effect.nutrition=4.8
-items.entity.ubrgreaterworkcharm6.effect.energy=4.8
-items.entity.ubrgreaterworkcharm6.effect.hungerrate=-0.3
-items.entity.ubrgreaterworkcharm6.effect.energydrain=-0.3
+items.entity.ubrgreaterworkcharm6.effect.walkspeed=1.2
+items.entity.ubrgreaterworkcharm6.effect.workspeed=1.2
+items.entity.ubrgreaterworkcharm6.effect.nutrition=1.2
+items.entity.ubrgreaterworkcharm6.effect.energy=1.2
+items.entity.ubrgreaterworkcharm6.effect.hungerrate=-0.5
+items.entity.ubrgreaterworkcharm6.effect.energydrain=-0.5
 
 crafting.entity.ubrgreaterworkcharm6.amount=1
-crafting.entity.ubrgreaterworkcharm6.work=525000
+crafting.entity.ubrgreaterworkcharm6.work=175000
 crafting.entity.ubrgreaterworkcharm6.research=ubroccultitems6
 crafting.entity.ubrgreaterworkcharm6.station.holyforge=1
 crafting.entity.ubrgreaterworkcharm6.priority=5
 crafting.entity.ubrgreaterworkcharm6.costs.ubrgreaterworkcharm5=1
-crafting.entity.ubrgreaterworkcharm6.costs.ubrspiritspark=200
+crafting.entity.ubrgreaterworkcharm6.costs.ubrspiritspark=25
 
 
 
@@ -989,39 +995,39 @@ crafting.entity.ubrgreaterworkcharm6.costs.ubrspiritspark=200
 
 items.entity.ubrgreaterwarcharm7.parents=items.base.usable,items.base.level10,items.base.artifact6
 items.entity.ubrgreaterwarcharm7.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm7.effect.health=4.0
-items.entity.ubrgreaterwarcharm7.effect.healrate=4.0
-items.entity.ubrgreaterwarcharm7.effect.accuracy=2.0
-items.entity.ubrgreaterwarcharm7.effect.evade=2.0
-items.entity.ubrgreaterwarcharm7.effect.attackspeed=2.0
-items.entity.ubrgreaterwarcharm7.effect.defense=2.0
-items.entity.ubrgreaterwarcharm7.effect.damage=2.0
+items.entity.ubrgreaterwarcharm7.effect.health=1.6
+items.entity.ubrgreaterwarcharm7.effect.healrate=1.6
+items.entity.ubrgreaterwarcharm7.effect.accuracy=0.8
+items.entity.ubrgreaterwarcharm7.effect.evade=0.8
+items.entity.ubrgreaterwarcharm7.effect.attackspeed=0.8
+items.entity.ubrgreaterwarcharm7.effect.defense=0.8
+items.entity.ubrgreaterwarcharm7.effect.damage=0.8
 
 crafting.entity.ubrgreaterwarcharm7.amount=1
-crafting.entity.ubrgreaterwarcharm7.work=1250000
+crafting.entity.ubrgreaterwarcharm7.work=210000
 crafting.entity.ubrgreaterwarcharm7.research=ubroccultitems7
 crafting.entity.ubrgreaterwarcharm7.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm7.priority=5
 crafting.entity.ubrgreaterwarcharm7.costs.ubrgreaterworkcharm6=1
-crafting.entity.ubrgreaterwarcharm7.costs.ubrspiritspark=500
+crafting.entity.ubrgreaterwarcharm7.costs.ubrspiritspark=30
 
 
 items.entity.ubrgreaterworkcharm7.parents=items.base.usable,items.base.level10,items.base.artifact6
 items.entity.ubrgreaterworkcharm7.sprite=item_cross
-items.entity.ubrgreaterworkcharm7.effect.walkspeed=2.5
-items.entity.ubrgreaterworkcharm7.effect.workspeed=7.0
-items.entity.ubrgreaterworkcharm7.effect.nutrition=10.0
-items.entity.ubrgreaterworkcharm7.effect.energy=10.0
-items.entity.ubrgreaterworkcharm7.effect.hungerrate=-0.5
-items.entity.ubrgreaterworkcharm7.effect.energydrain=-0.5
+items.entity.ubrgreaterworkcharm7.effect.walkspeed=1.6
+items.entity.ubrgreaterworkcharm7.effect.workspeed=1.6
+items.entity.ubrgreaterworkcharm7.effect.nutrition=1.6
+items.entity.ubrgreaterworkcharm7.effect.energy=1.6
+items.entity.ubrgreaterworkcharm7.effect.hungerrate=-0.6
+items.entity.ubrgreaterworkcharm7.effect.energydrain=-0.6
 
 crafting.entity.ubrgreaterworkcharm7.amount=1
-crafting.entity.ubrgreaterworkcharm7.work=1250000
+crafting.entity.ubrgreaterworkcharm7.work=210000
 crafting.entity.ubrgreaterworkcharm7.research=ubroccultitems7
 crafting.entity.ubrgreaterworkcharm7.station.holyforge=1
 crafting.entity.ubrgreaterworkcharm7.priority=5
 crafting.entity.ubrgreaterworkcharm7.costs.ubrgreaterworkcharm6=1
-crafting.entity.ubrgreaterworkcharm7.costs.ubrspiritspark=500
+crafting.entity.ubrgreaterworkcharm7.costs.ubrspiritspark=30
 
 
 
@@ -1030,39 +1036,39 @@ crafting.entity.ubrgreaterworkcharm7.costs.ubrspiritspark=500
 
 items.entity.ubrgreaterwarcharm8.parents=items.base.usable,items.base.level10,items.base.artifact7
 items.entity.ubrgreaterwarcharm8.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm8.effect.health=8.0
-items.entity.ubrgreaterwarcharm8.effect.healrate=8.0
-items.entity.ubrgreaterwarcharm8.effect.accuracy=4.0
-items.entity.ubrgreaterwarcharm8.effect.evade=4.0
-items.entity.ubrgreaterwarcharm8.effect.attackspeed=4.0
-items.entity.ubrgreaterwarcharm8.effect.defense=4.0
-items.entity.ubrgreaterwarcharm8.effect.damage=4.0
+items.entity.ubrgreaterwarcharm8.effect.health=2.0
+items.entity.ubrgreaterwarcharm8.effect.healrate=2.0
+items.entity.ubrgreaterwarcharm8.effect.accuracy=1.0
+items.entity.ubrgreaterwarcharm8.effect.evade=1.0
+items.entity.ubrgreaterwarcharm8.effect.attackspeed=1.0
+items.entity.ubrgreaterwarcharm8.effect.defense=1.0
+items.entity.ubrgreaterwarcharm8.effect.damage=1.0
 
 crafting.entity.ubrgreaterwarcharm8.amount=1
-crafting.entity.ubrgreaterwarcharm8.work=2500000
+crafting.entity.ubrgreaterwarcharm8.work=245000
 crafting.entity.ubrgreaterwarcharm8.research=ubroccultitems8
 crafting.entity.ubrgreaterwarcharm8.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm8.priority=5
 crafting.entity.ubrgreaterwarcharm8.costs.ubrgreaterworkcharm7=1
-crafting.entity.ubrgreaterwarcharm8.costs.ubrspiritspark=1000
+crafting.entity.ubrgreaterwarcharm8.costs.ubrspiritspark=35
 
 
 items.entity.ubrgreaterworkcharm8.parents=items.base.usable,items.base.level10,items.base.artifact7
 items.entity.ubrgreaterworkcharm8.sprite=item_cross
-items.entity.ubrgreaterworkcharm8.effect.walkspeed=5.0
-items.entity.ubrgreaterworkcharm8.effect.workspeed=15.0
-items.entity.ubrgreaterworkcharm8.effect.nutrition=10.0
-items.entity.ubrgreaterworkcharm8.effect.energy=10.0
-items.entity.ubrgreaterworkcharm8.effect.hungerrate=-0.6
-items.entity.ubrgreaterworkcharm8.effect.energydrain=-0.6
+items.entity.ubrgreaterworkcharm8.effect.walkspeed=2.0
+items.entity.ubrgreaterworkcharm8.effect.workspeed=2.0
+items.entity.ubrgreaterworkcharm8.effect.nutrition=2.0
+items.entity.ubrgreaterworkcharm8.effect.energy=2.0
+items.entity.ubrgreaterworkcharm8.effect.hungerrate=-0.7
+items.entity.ubrgreaterworkcharm8.effect.energydrain=-0.7
 
 crafting.entity.ubrgreaterworkcharm8.amount=1
-crafting.entity.ubrgreaterworkcharm8.work=2500000
+crafting.entity.ubrgreaterworkcharm8.work=245000
 crafting.entity.ubrgreaterworkcharm8.research=ubroccultitems8
 crafting.entity.ubrgreaterworkcharm8.station.holyforge=1
 crafting.entity.ubrgreaterworkcharm8.priority=5
 crafting.entity.ubrgreaterworkcharm8.costs.ubrgreaterworkcharm7=1
-crafting.entity.ubrgreaterworkcharm8.costs.ubrspiritspark=1000
+crafting.entity.ubrgreaterworkcharm8.costs.ubrspiritspark=35
 
 
 
@@ -1071,39 +1077,41 @@ crafting.entity.ubrgreaterworkcharm8.costs.ubrspiritspark=1000
 
 items.entity.ubrgreaterwarcharm9.parents=items.base.usable,items.base.level10,items.base.artifact8
 items.entity.ubrgreaterwarcharm9.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm9.effect.health=16.0
-items.entity.ubrgreaterwarcharm9.effect.healrate=16.0
-items.entity.ubrgreaterwarcharm9.effect.accuracy=8.0
-items.entity.ubrgreaterwarcharm9.effect.evade=8.0
-items.entity.ubrgreaterwarcharm9.effect.attackspeed=8.0
-items.entity.ubrgreaterwarcharm9.effect.defense=8.0
-items.entity.ubrgreaterwarcharm9.effect.damage=8.0
+items.entity.ubrgreaterwarcharm9.effect.health=3.0
+items.entity.ubrgreaterwarcharm9.effect.healrate=3.0
+items.entity.ubrgreaterwarcharm9.effect.accuracy=1.5
+items.entity.ubrgreaterwarcharm9.effect.evade=1.5
+items.entity.ubrgreaterwarcharm9.effect.attackspeed=1.5
+items.entity.ubrgreaterwarcharm9.effect.defense=1.5
+items.entity.ubrgreaterwarcharm9.effect.damage=1.5
+items.entity.ubrgreaterwarcharm9.effect.walkspeed=0.25
+items.entity.ubrgreaterwarcharm9.effect.vision=2
 
 crafting.entity.ubrgreaterwarcharm9.amount=1
-crafting.entity.ubrgreaterwarcharm9.work=5000000
+crafting.entity.ubrgreaterwarcharm9.work=280000
 crafting.entity.ubrgreaterwarcharm9.research=ubroccultitems9
 crafting.entity.ubrgreaterwarcharm9.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm9.priority=5
 crafting.entity.ubrgreaterwarcharm9.costs.ubrgreaterworkcharm8=1
-crafting.entity.ubrgreaterwarcharm9.costs.ubrspiritspark=2000
+crafting.entity.ubrgreaterwarcharm9.costs.ubrspiritspark=40
 
 
 items.entity.ubrgreaterworkcharm9.parents=items.base.usable,items.base.level10,items.base.artifact8
 items.entity.ubrgreaterworkcharm9.sprite=item_cross
-items.entity.ubrgreaterworkcharm9.effect.walkspeed=10.0
-items.entity.ubrgreaterworkcharm9.effect.workspeed=30.0
-items.entity.ubrgreaterworkcharm9.effect.nutrition=20.0
-items.entity.ubrgreaterworkcharm9.effect.energy=20.0
-items.entity.ubrgreaterworkcharm9.effect.hungerrate=-0.7
-items.entity.ubrgreaterworkcharm9.effect.energydrain=-0.7
+items.entity.ubrgreaterworkcharm9.effect.walkspeed=3.0
+items.entity.ubrgreaterworkcharm9.effect.workspeed=3.0
+items.entity.ubrgreaterworkcharm9.effect.nutrition=3.0
+items.entity.ubrgreaterworkcharm9.effect.energy=3.0
+items.entity.ubrgreaterworkcharm9.effect.hungerrate=-0.75
+items.entity.ubrgreaterworkcharm9.effect.energydrain=-0.75
 
 crafting.entity.ubrgreaterworkcharm9.amount=1
-crafting.entity.ubrgreaterworkcharm9.work=5000000
+crafting.entity.ubrgreaterworkcharm9.work=280000
 crafting.entity.ubrgreaterworkcharm9.research=ubroccultitems9
 crafting.entity.ubrgreaterworkcharm9.station.holyforge=1
 crafting.entity.ubrgreaterworkcharm9.priority=5
 crafting.entity.ubrgreaterworkcharm9.costs.ubrgreaterworkcharm8=1
-crafting.entity.ubrgreaterworkcharm9.costs.ubrspiritspark=2000
+crafting.entity.ubrgreaterworkcharm9.costs.ubrspiritspark=40
 
 
 
@@ -1112,37 +1120,39 @@ crafting.entity.ubrgreaterworkcharm9.costs.ubrspiritspark=2000
 
 items.entity.ubrgreaterwarcharm10.parents=items.base.usable,items.base.level10,items.base.artifact9
 items.entity.ubrgreaterwarcharm10.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm10.effect.health=30.0
-items.entity.ubrgreaterwarcharm10.effect.healrate=30.0
-items.entity.ubrgreaterwarcharm10.effect.accuracy=15.0
-items.entity.ubrgreaterwarcharm10.effect.evade=15.0
-items.entity.ubrgreaterwarcharm10.effect.attackspeed=15.0
-items.entity.ubrgreaterwarcharm10.effect.defense=15.0
-items.entity.ubrgreaterwarcharm10.effect.damage=15.0
+items.entity.ubrgreaterwarcharm10.effect.health=4.0
+items.entity.ubrgreaterwarcharm10.effect.healrate=4.0
+items.entity.ubrgreaterwarcharm10.effect.accuracy=2.0
+items.entity.ubrgreaterwarcharm10.effect.evade=2.0
+items.entity.ubrgreaterwarcharm10.effect.attackspeed=2.0
+items.entity.ubrgreaterwarcharm10.effect.defense=2.0
+items.entity.ubrgreaterwarcharm10.effect.damage=2.0
+items.entity.ubrgreaterwarcharm10.effect.walkspeed=0.5
+items.entity.ubrgreaterwarcharm10.effect.vision=4
 
 crafting.entity.ubrgreaterwarcharm10.amount=1
-crafting.entity.ubrgreaterwarcharm10.work=5000000
+crafting.entity.ubrgreaterwarcharm10.work=350000
 crafting.entity.ubrgreaterwarcharm10.research=ubroccultitems10
 crafting.entity.ubrgreaterwarcharm10.station.ubrspiritfoundry=1
 crafting.entity.ubrgreaterwarcharm10.priority=5
 crafting.entity.ubrgreaterwarcharm10.costs.ubrgreaterworkcharm9=1
-crafting.entity.ubrgreaterwarcharm10.costs.ubrspiritspark=4000
+crafting.entity.ubrgreaterwarcharm10.costs.ubrspiritspark=50
 
 
 items.entity.ubrgreaterworkcharm10.parents=items.base.usable,items.base.level10,items.base.artifact9
 items.entity.ubrgreaterworkcharm10.sprite=item_cross
-items.entity.ubrgreaterworkcharm10.effect.walkspeed=20.0
-items.entity.ubrgreaterworkcharm10.effect.workspeed=60.0
-items.entity.ubrgreaterworkcharm10.effect.nutrition=40.0
-items.entity.ubrgreaterworkcharm10.effect.energy=40.0
+items.entity.ubrgreaterworkcharm10.effect.walkspeed=5.0
+items.entity.ubrgreaterworkcharm10.effect.workspeed=5.0
+items.entity.ubrgreaterworkcharm10.effect.nutrition=5.0
+items.entity.ubrgreaterworkcharm10.effect.energy=5.0
 items.entity.ubrgreaterworkcharm10.effect.hungerrate=-0.8
 items.entity.ubrgreaterworkcharm10.effect.energydrain=-0.8
 
 crafting.entity.ubrgreaterworkcharm10.amount=1
-crafting.entity.ubrgreaterworkcharm10.work=5000000
+crafting.entity.ubrgreaterworkcharm10.work=350000
 crafting.entity.ubrgreaterworkcharm10.research=ubroccultitems10
 crafting.entity.ubrgreaterworkcharm10.station.holyforge=1
 crafting.entity.ubrgreaterworkcharm10.priority=5
 crafting.entity.ubrgreaterworkcharm10.costs.ubrgreaterworkcharm9=1
-crafting.entity.ubrgreaterworkcharm10.costs.ubrspiritspark=4000
+crafting.entity.ubrgreaterworkcharm10.costs.ubrspiritspark=50
 

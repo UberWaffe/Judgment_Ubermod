@@ -18,10 +18,6 @@ actions.claytransmute.description=A ritual to transmutate Prima Materia into Cla
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-research.category.secretswaffe=Secrets
-
-
-
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Craft Extended
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -115,38 +111,85 @@ research.ubroccultitems10.name=Weaver Crafting
 # Secrets
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-research.secwaffundamentalsecret1.name=Secrets of Existence
-research.secwafflevel1bonus1.name=Deeper Secrets
-research.secwafflevel1bonus2.name=Deeper Secrets
+research.category.ubrsecrets=Deeper Secrets
 
-research.secwaffundamentalsecret2.name=Secrets of Existence
-research.secwafflevel2bonus1.name=Deeper Secrets
-research.secwafflevel2bonus2.name=Deeper Secrets
+effects.ubrsecretstart.name=Deeper Secrets
 
-research.secwaffundamentalsecret3.name=Secrets of Existence
-research.secwafflevel3bonus1.name=Deeper Secrets
-research.secwafflevel3bonus2.name=Deeper Secrets
+effects.ubrsecretwarfare1.name=Warfare Secrets
+effects.ubrsecretwarfare2.name=Warfare Secrets
 
-research.secwaffundamentalsecret4.name=Secrets of Existence
-research.secwafflevel4bonus1.name=Deeper Secrets
-research.secwafflevel4bonus2.name=Deeper Secrets
+effects.ubrsecretseconomy1.name=Industry Secrets
+effects.ubrsecretseconomy2.name=Industry Secrets
 
-research.secwaffundamentalsecret5.name=Secrets of Existence
-research.secwafflevel5bonus1.name=Deeper Secrets
-research.secwafflevel5bonus2.name=Deeper Secrets
+effects.ubrsecretsarcane1.name=Arcane Secrets
+effects.ubrsecretsarcane2.name=Arcane Secrets
 
-research.secwaffundamentalsecret6.name=Secrets of Existence
-research.secwafflevel6bonus1.name=Deeper Secrets
-research.secwafflevel6bonus2.name=Deeper Secrets
+research.ubrsecretsstart.name=Deeper Secrets
 
-research.secwaffundamentalsecret7.name=Secrets of Existence
-research.secwafflevel7bonus1.name=Deeper Secrets
-research.secwafflevel7bonus2.name=Deeper Secrets
+research.ubrsecretwarfare1.name=Warfare Secrets I
+research.ubrsecretwarfare2.name=Warfare Secrets II
+research.ubrsecretwarfare3.name=Warfare Secrets III
+research.ubrsecretwarfare4.name=Warfare Secrets IV
+research.ubrsecretwarfare5.name=Warfare Secrets V
+research.ubrsecretwarfare6.name=Warfare Secrets VI
+research.ubrsecretwarfare7.name=Warfare Secrets VII
+research.ubrsecretwarfare8.name=Warfare Secrets VIII
+research.ubrsecretwarfare9.name=Warfare Secrets IX
+research.ubrsecretwarfare10.name=Warfare Secrets X
+research.ubrsecretwarfare11.name=Warfare Secrets XI
+research.ubrsecretwarfare12.name=Warfare Secrets XII
+research.ubrsecretwarfare13.name=Warfare Secrets XIII
+research.ubrsecretwarfare14.name=Warfare Secrets XIV
+research.ubrsecretwarfare15.name=Warfare Secrets XV
+research.ubrsecretwarfare16.name=Warfare Secrets XVI
+research.ubrsecretwarfare17.name=Warfare Secrets XVII
+research.ubrsecretwarfare18.name=Warfare Secrets XVIII
+research.ubrsecretwarfare19.name=Warfare Secrets XIX
+research.ubrsecretwarfare20.name=Warfare Secrets XX
 
-research.secwaffundamentalsecret8.name=Secrets of Existence
-research.secwafflevel8bonus1.name=Deeper Secrets
-research.secwafflevel8bonus2.name=Deeper Secrets
+research.ubrsecretseconomy1.name=Economy Secrets I
+research.ubrsecretseconomy2.name=Economy Secrets II
+research.ubrsecretseconomy3.name=Economy Secrets III
+research.ubrsecretseconomy4.name=Economy Secrets IV
+research.ubrsecretseconomy5.name=Economy Secrets V
+research.ubrsecretseconomy6.name=Economy Secrets VI
+research.ubrsecretseconomy7.name=Economy Secrets VII
+research.ubrsecretseconomy8.name=Economy Secrets VIII
+research.ubrsecretseconomy9.name=Economy Secrets IX
+research.ubrsecretseconomy10.name=Economy Secrets X
+research.ubrsecretseconomy10.name=Economy Secrets X
+research.ubrsecretseconomy11.name=Economy Secrets XI
+research.ubrsecretseconomy12.name=Economy Secrets XII
+research.ubrsecretseconomy13.name=Economy Secrets XIII
+research.ubrsecretseconomy14.name=Economy Secrets XIV
+research.ubrsecretseconomy15.name=Economy Secrets XV
+research.ubrsecretseconomy16.name=Economy Secrets XVI
+research.ubrsecretseconomy17.name=Economy Secrets XVII
+research.ubrsecretseconomy18.name=Economy Secrets XVIII
+research.ubrsecretseconomy19.name=Economy Secrets XIX
+research.ubrsecretseconomy20.name=Economy Secrets XX
 
+research.ubrsecretsarcane1.name=Arcane Secrets I
+research.ubrsecretsarcane2.name=Arcane Secrets II
+research.ubrsecretsarcane3.name=Arcane Secrets III
+research.ubrsecretsarcane4.name=Arcane Secrets IV
+research.ubrsecretsarcane5.name=Arcane Secrets V
+research.ubrsecretsarcane6.name=Arcane Secrets VI
+research.ubrsecretsarcane7.name=Arcane Secrets VII
+research.ubrsecretsarcane8.name=Arcane Secrets VIII
+research.ubrsecretsarcane9.name=Arcane Secrets IX
+research.ubrsecretsarcane10.name=Arcane Secrets X
+research.ubrsecretsarcane10.name=Arcane Secrets X
+research.ubrsecretsarcane11.name=Arcane Secrets XI
+research.ubrsecretsarcane12.name=Arcane Secrets XII
+research.ubrsecretsarcane13.name=Arcane Secrets XIII
+research.ubrsecretsarcane14.name=Arcane Secrets XIV
+research.ubrsecretsarcane15.name=Arcane Secrets XV
+research.ubrsecretsarcane16.name=Arcane Secrets XVI
+research.ubrsecretsarcane17.name=Arcane Secrets XVII
+research.ubrsecretsarcane18.name=Arcane Secrets XVIII
+research.ubrsecretsarcane19.name=Arcane Secrets XIX
+research.ubrsecretsarcane20.name=Arcane Secrets XX
 
 
 
@@ -542,6 +585,16 @@ items.ubrgreaterwarcharm9.description=A pendant forged with Spirit Sparks at its
 
 items.ubrgreaterworkcharm9.name=Arch-Magnus Skill Pendant
 items.ubrgreaterworkcharm9.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
+
+
+
+# Weaver
+
+items.ubrgreaterwarcharm10.name=Weaver War Pendant
+items.ubrgreaterwarcharm10.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
+
+items.ubrgreaterworkcharm10.name=Weaver Skill Pendant
+items.ubrgreaterworkcharm10.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
 
 
 

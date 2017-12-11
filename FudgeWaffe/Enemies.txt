@@ -1,5 +1,6 @@
 
-# Rehash human enemies to not appear to have very exotic weapons
+# Rehash human enemies to not appear to have very exotic weapons.
+# Also make their loot be more food and water than other goods.
 
 # Human Enemies 1
 
