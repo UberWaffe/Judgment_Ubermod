@@ -33,7 +33,7 @@ research.ubrdistilling.name=Refining
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 research.ubrthermobaricweapons.name=Thermobaric Weaponry
-research.ubreedstorage.name=Extreme Energy Density Storage
+research.ubreedstorage.name=Extreme Energy Density Capacitors
 
 
 
