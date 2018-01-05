@@ -158,7 +158,7 @@ objects.entity.ubrhumvee.effect.drive.requirements.fuelled=>0
 objects.entity.ubrhumvee.actions.fuelled.setattribute.fuelled=100
 objects.entity.ubrhumvee.actions.fuelled.work=10
 objects.entity.ubrhumvee.actions.fuelled.actiongroup=patrol
-objects.entity.ubrhumvee.actions.initiate.costs.ubrhydrocarbons=50
+objects.entity.ubrhumvee.actions.fuelled.costs.ubrhydrocarbons=50
 objects.entity.ubrhumvee.onupdate.wear.action=GainAttribute~fuelled~-0.01~0~100
 objects.entity.ubrhumvee.onupdate.wear.requirements.fuelled=>0
 objects.entity.ubrhumvee.onattributechange.autofuelled.action=CreateTask~fuelled
@@ -467,28 +467,31 @@ blueprints.entity.automatedherbfarm.costs.herbs=20
 
 # Distillery
 
-objects.entity.ubrdistillery.parents=objects.base.building
+objects.entity.ubrdistillery.parents=objects.base.playerbuilt
 objects.entity.ubrdistillery.sprite=object_ubraquiferpump
 objects.entity.ubrdistillery.size=2x2
 
+objects.entity.ubrdistillery.actions.distillalcohol.parents=ritual.base.generic
 objects.entity.ubrdistillery.actions.distillalcohol.name=actions.distillalcohol.name
-objects.entity.ubrdistillery.actions.distillalcohol.description=actiongroup.distillalcohol.description
+objects.entity.ubrdistillery.actions.distillalcohol.description=actions.distillalcohol.description
+objects.entity.ubrdistillery.actions.distillalcohol.sprite=action_gather
 objects.entity.ubrdistillery.actions.distillalcohol.class=ActionTypeAddItems
-objects.entity.ubrdistillery.actions.distillalcohol.repeat=true
+objects.entity.ubrdistillery.actions.distillalcohol.repeat=false
 objects.entity.ubrdistillery.actions.distillalcohol.items.alcohol=30
 objects.entity.ubrdistillery.actions.distillalcohol.work=540
 objects.entity.ubrdistillery.actions.distillalcohol.costs.wheat=50
 objects.entity.ubrdistillery.actions.distillalcohol.costs.water=30
 objects.entity.ubrdistillery.actions.distillalcohol.costs.ubrenergyunit=100
 objects.entity.ubrdistillery.actions.distillalcohol.actiongroup=craft
-objects.entity.ubrdistillery.actions.distillalcohol.sprite=action_gather
 objects.entity.ubrdistillery.actions.distillalcohol.gatherlimitsitem=alcohol
 
-objects.entity.ubrdistillery.actions.refinebiofuel.name=actions.refinehydrocarbons.name
-objects.entity.ubrdistillery.actions.refinebiofuel.description=actiongroup.refinehydrocarbons.description
-objects.entity.ubrdistillery.actions.refinebiofuel.class=ActionTypeAddItems
-objects.entity.ubrdistillery.actions.refinebiofuel.repeat=true
 # Energy cost per 1 hydrocarbon ~= 2.8
+objects.entity.ubrdistillery.actions.refinebiofuel.parents=ritual.base.generic
+objects.entity.ubrdistillery.actions.refinebiofuel.name=actions.refinehydrocarbons.name
+objects.entity.ubrdistillery.actions.refinebiofuel.description=actions.refinehydrocarbons.description
+objects.entity.ubrdistillery.actions.refinebiofuel.sprite=action_gather
+objects.entity.ubrdistillery.actions.refinebiofuel.class=ActionTypeAddItems
+objects.entity.ubrdistillery.actions.refinebiofuel.repeat=false
 objects.entity.ubrdistillery.actions.refinebiofuel.items.ubrhydrocarbons=50
 objects.entity.ubrdistillery.actions.refinebiofuel.work=4000
 objects.entity.ubrdistillery.actions.refinebiofuel.costs.wheat=50
@@ -496,7 +499,6 @@ objects.entity.ubrdistillery.actions.refinebiofuel.costs.water=10
 objects.entity.ubrdistillery.actions.refinebiofuel.costs.alcohol=10
 objects.entity.ubrdistillery.actions.refinebiofuel.costs.ubrenergyunit=10
 objects.entity.ubrdistillery.actions.refinebiofuel.actiongroup=craft
-objects.entity.ubrdistillery.actions.refinebiofuel.sprite=action_gather
 objects.entity.ubrdistillery.actions.refinebiofuel.gatherlimitsitem=ubrhydrocarbons
 
 blueprints.entity.ubrdistillery.parents=blueprints.base.interior

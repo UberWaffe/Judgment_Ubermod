@@ -491,17 +491,17 @@ skills.entity.craft9.effect.actiongroup_craft=1.3
 # skills.entity.farming2.effect.actiongroup_agri=0.3
 # skills.entity.farming3.effect.actiongroup_agri=0.5
 
-skills.entity.farming4.effect.actiongroup_farming=0.6
+skills.entity.farming4.effect.actiongroup_agri=0.6
 
-skills.entity.farming5.effect.actiongroup_farming=0.7
+skills.entity.farming5.effect.actiongroup_agri=0.7
 
-skills.entity.farming6.effect.actiongroup_farming=0.9
+skills.entity.farming6.effect.actiongroup_agri=0.9
 
-skills.entity.farming7.effect.actiongroup_farming=1.0
+skills.entity.farming7.effect.actiongroup_agri=1.0
 
-skills.entity.farming8.effect.actiongroup_farming=1.1
+skills.entity.farming8.effect.actiongroup_agri=1.1
 
-skills.entity.farming9.effect.actiongroup_farming=1.3
+skills.entity.farming9.effect.actiongroup_agri=1.3
 
 
 # Research

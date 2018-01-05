@@ -358,6 +358,8 @@ items.ubrinfernade.description=Very powerful grenade that blasts then target are
 items.ubrthermobaricgun.name=Thermobaric Launcher
 items.ubrthermobaricgun.description=Launches small thermobaric incendiaries that immolate the target.
 
+statuseffects.ubrthermobaricburn.name=Thermobaric Inferno
+
 
 items.ubrguassrifle.name=Guass Rifle
 items.ubrguassrifle.description=Launches small thermobaric incendiaries that immolate the target.

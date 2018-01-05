@@ -1,7 +1,33 @@
 {
 	title: "Fudgewaffe Mod",
-	desc: "A late-game content mod. Adds various new research, items and objects. Mainly on the end of the research tree.",
-	visibility: "2",
+	desc: "An additional content mod. Adds various new research, items and objects. Mainly on the end of the research tree.
+
+
+Electricity:
+Instead of wood as fuel, recipes now use electricity.
+Early on, the only means of generating electricity is a wood burning generator. (Basically, converts wood to energy 1:1)
+You will need to stockpile some scrap to get it. Survivors will auto fuel it.
+
+If you are having trouble keeping up with electric generation, I suggest not making bread. As in vanilla, it is a major consumer of fuel (wood, which is now electricty).
+
+Later on, getting a solar panel or two up will let you generate a small steady income of electricity that needs no further work.
+
+
+High tech items:
+Some later game items are required to make those items. Meaning you will have to go scavenge the first few of them in order to start making more on your own.
+
+I suggest getting a high tech workbench with your first few high tech items, so that you can become self sufficient.
+
+Sidenote: The high tech items are time consuming to make. Scavenging them is always good.
+
+
+
+Known issues:
+Many placeholder graphics. Need help from an artist.
+
+There is no 'upgrade building' option in modding. So higher tiers of the altars will clutter up the build menu. Sorry.",
+	uid: "1258057538",
+	visibility: "0",
 	creator: "UberWaffe",
 	tags: "enemies,research,items,locations",
 }

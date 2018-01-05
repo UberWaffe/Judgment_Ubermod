@@ -1,10 +1,10 @@
 {
 	title: "Rescaled Enemies Mod",
-	desc: "A personal mod. Rescales enemies so that there are bigger gaps between enemy levels.
+	desc: "Rescales enemies so that there are bigger gaps between enemy levels.
 	
-Not intended for public nudity.",
-	uid: "717097733",
-	visibility: "2",
+Meant to be used along with the FudgeWaffe mod.",
+	uid: "1258074208",
+	visibility: "0",
 	creator: "UberWaffe",
 	tags: "enemies,balance",
 }
