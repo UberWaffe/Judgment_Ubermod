@@ -506,7 +506,7 @@ crafting.entity.ubrthermobaricgun.costs.ubrhydrocarbons=200
 
 # Guass-Rifle
 
-items.entity.ubrguassrifle.parents=items.base.firearm,items.base.level2,items.base.rare
+items.entity.ubrguassrifle.parents=items.base.firearm,items.base.level7,items.base.veryrare
 items.entity.ubrguassrifle.sprite=item_coilgun
 items.entity.ubrguassrifle.tags.techweapon=true
 items.entity.ubrguassrifle.properties.damage=56
@@ -607,7 +607,7 @@ crafting.entity.heavenlysword.costs.spiritalloy=10
 
 # Add a super Holy pistol
 
-items.entity.heavenlypistol.parents=items.base.firearm,items.base.level3,items.base.uncommon
+items.entity.heavenlypistol.parents=items.base.firearm,items.base.level10,items.base.rare
 items.entity.heavenlypistol.sprite=item_blessedpistol
 items.entity.heavenlypistol.tags.pistol=true
 items.entity.heavenlypistol.tags.holyweapon=true

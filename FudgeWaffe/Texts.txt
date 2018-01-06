@@ -362,7 +362,7 @@ statuseffects.ubrthermobaricburn.name=Thermobaric Inferno
 
 
 items.ubrguassrifle.name=Guass Rifle
-items.ubrguassrifle.description=Launches small thermobaric incendiaries that immolate the target.
+items.ubrguassrifle.description=Fires slugs as hypersonic speeds via magnetic acceleration.
 
 abilities.ubrguassriflesnipe.name=Overcharged Shot
 
