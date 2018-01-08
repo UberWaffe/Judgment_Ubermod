@@ -276,11 +276,13 @@ blueprints.entity.ubrbiofuelgenerator.research=ubrdistilling
 blueprints.entity.ubrbiofuelgenerator.generateattribute.charge=0
 blueprints.entity.ubrbiofuelgenerator.costs.ubrenertronics=5
 blueprints.entity.ubrbiofuelgenerator.costs.ubralloys=80
+blueprints.entity.ubrbiofuelgenerator.costs.ubrhydrocarbons=70
 
 
 # Eternal Engine reactor
 
 objects.entity.ubreternalreactor.parents=objects.base.playerbuilt
+objects.entity.ubreternalreactor.sprite=object_furnace
 objects.entity.ubreternalreactor.size=1x1
 objects.entity.ubreternalreactor.properties.cover=0.4
 objects.entity.ubreternalreactor.onupdate.fill.action=GainAttribute~charge~2.0~0~100
@@ -288,6 +290,7 @@ objects.entity.ubreternalreactor.onupdate.harvest.action=SetAttributesAndAddItem
 objects.entity.ubreternalreactor.onupdate.harvest.requirements.charge=>e100
 
 blueprints.entity.ubreternalreactor.parents=blueprints.base.interior
+blueprints.entity.ubreternalreactor.sprite=build_furnace
 blueprints.entity.ubreternalreactor.object=ubreternalreactor
 blueprints.entity.ubreternalreactor.work=1000
 blueprints.entity.ubreternalreactor.research=eternalfireresearch

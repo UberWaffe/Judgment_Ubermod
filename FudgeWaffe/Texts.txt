@@ -327,7 +327,7 @@ objects.ubrspiritfoundry.name=Spirit Foundry
 objects.ubrspiritfoundry.description=Rituals of imbueing spirit energy into tangible matter is performed here.
 
 actions.spiritsparkritual.name=Create Sparks
-actions.spiritsparkritual.description=Ritual to create Spirit Sparks, a ciritical crafting ingredient in advanced occult actions.
+actions.spiritsparkritual.description=Ritual to create Spirit Sparks, a critical crafting ingredient when bending or breaking the laws of the universe.
 
 actions.spiritalloyritual.name=Forge Spirit Alloy
 actions.spiritalloyritual.description=Ritual to forge spirit energy alloy.
