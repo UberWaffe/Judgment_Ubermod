@@ -1,0 +1,261 @@
+# Difficulty milestones
+
+config.enemydifficulty.milestones.difftier0=0
+config.enemydifficulty.milestones.difftier0entry=10
+config.enemydifficulty.milestones.difftier0regular=20
+config.enemydifficulty.milestones.difftier0mid=50
+config.enemydifficulty.milestones.difftier0max=99
+
+config.enemydifficulty.milestones.difftier1=100
+config.enemydifficulty.milestones.difftier1mid=225
+config.enemydifficulty.milestones.difftier1max=349
+
+config.enemydifficulty.milestones.difftier2=350
+config.enemydifficulty.milestones.difftier2mid=525
+config.enemydifficulty.milestones.difftier2max=699
+
+config.enemydifficulty.milestones.difftier3=700
+config.enemydifficulty.milestones.difftier3mid=850
+config.enemydifficulty.milestones.difftier3max=999
+config.enemydifficulty.milestones.difftier3extra=2000
+
+
+
+# Enemy generator difficulty values
+# ---------------------------------
+
+# Tier 0
+
+config.enemydifficulty.tiers.0=0
+config.enemydifficulty.singlevalue.0=1
+config.enemydifficulty.amountpergroup.0=2-3
+config.enemydifficulty.totalcount.0=1
+config.enemydifficulty.totalcount.19=1
+
+config.enemydifficulty.totalcount.20=2-3
+
+config.enemydifficulty.totalcount.99=4-7
+
+
+# Tier 1
+
+config.enemydifficulty.tiers.100=1
+config.enemydifficulty.singlevalue.100=2
+config.enemydifficulty.totalcount.100=3-4
+
+config.enemydifficulty.amountpergroup.250=3-4
+
+config.enemydifficulty.totalcount.349=5-7
+
+
+# Tier 2
+
+config.enemydifficulty.tiers.350=2
+config.enemydifficulty.singlevalue.350=4
+config.enemydifficulty.amountpergroup.350=2-3
+config.enemydifficulty.totalcount.350=3-4
+
+config.enemydifficulty.amountpergroup.500=3-4
+
+
+# Tier 3
+
+config.enemydifficulty.tiers.700=3
+config.enemydifficulty.singlevalue.700=8
+config.enemydifficulty.amountpergroup.700=3
+config.enemydifficulty.totalcount.700=4-5
+
+config.enemydifficulty.amountpergroup.1000=3-4
+config.enemydifficulty.totalcount.1000=6-8
+
+config.enemydifficulty.amountpergroup.1500=4-5
+
+config.enemydifficulty.totalcount.2000=12-16
+
+config.enemydifficulty.totalcount.10000=30-40
+
+
+
+
+
+# loot max item types per difficulty
+config.loot.maxitems.0=2
+config.loot.maxitems.350=3
+config.loot.maxitems.700=4
+config.loot.maxitems.1200=5
+
+# each loot value per difficulty
+config.loot.value.0=90-140
+config.loot.value.100=200-250
+config.loot.value.350=350-500
+config.loot.value.700=700-800
+config.loot.value.1000=800-900
+config.loot.value.1400=900-1100
+config.loot.value.2000=1000-1400
+
+# Formula: for each step, divide the amount of time passed (in game minutes) within this step by the step's divisor. The sum up and add the base difficulty.
+# Currently difficulty increases by 10 every game day (or by 1 every 144 game minutes)
+# This yields time based difficulty.
+# Actual defense difficulty is time based difficulty * awarenessdifficultynormalized * ((awarenessmaxmultiplier - awarenessminmultiplier) + awarenessminmultiplier))
+#   for example if awareness effect is 0.5 - 2.5, an awareness normalized of 0.5 will be 1.5, an awareness normalized of 1 will be 2.5, and an a awareness normalized of 0 will be 0.5
+#   minimum is basedifficulty
+
+config.defensedifficulty.divisors.0=144
+config.defensedifficulty.basedifficulty=1
+
+# Formula: [basedifficulty] + defense_difficulty * [defensemultiplier] + [survivorcountmultiplier] * [survivorcount]; Minimum is [minimumdifficulty]
+# Rescue difficulty by number of survivors. defense_difficulty * [defensemultiplier] will be added on top of that.
+config.rescuedifficulty.defensemultiplier=0
+config.rescuedifficulty.survivorcount.0=10
+config.rescuedifficulty.survivorcount.4=10-59
+config.rescuedifficulty.survivorcount.6=80-150
+config.rescuedifficulty.survivorcount.8=100-349
+config.rescuedifficulty.survivorcount.10=280-450
+config.rescuedifficulty.survivorcount.12=350-699
+config.rescuedifficulty.survivorcount.14=600-900
+config.rescuedifficulty.survivorcount.16=700-850
+config.rescuedifficulty.survivorcount.18=850-999
+config.rescuedifficulty.survivorcount.20=1000-1300
+config.rescuedifficulty.survivorcount.22=1300-1600
+config.rescuedifficulty.survivorcount.24=1600-2000
+
+config.enemydifficulty.multipliers.defense.0=0.5
+config.enemydifficulty.multipliers.defense.20=0.9
+config.enemydifficulty.multipliers.defense.200=1.2
+config.enemydifficulty.multipliers.rescuedefense.0=0.35
+config.enemydifficulty.multipliers.randomevent.0=1
+config.enemydifficulty.multipliers.encounter.0=0.4
+config.enemydifficulty.multipliers.rescuestart.0=0.5
+
+# Chances of enemy being the tier below or above the combat difficulty's tier.
+# Values are -1 to 1. 0 means all enemies are of their current tier. -1 means all enemies are of the tier below (and double in amount). 1 means all enemies are of the tier above (and half in amount)
+config.tiermultiplierdefault=-0.25
+
+# Difficulty Levels
+
+# enemy progress - multiply time passed by this value for difficulty calculation purposes
+
+config.difficulty.preset.casual.enemyprogress=extremelyslow
+config.difficulty.preset.easy.enemyprogress=slow
+config.difficulty.preset.normal.enemyprogress=normal
+config.difficulty.preset.tough.enemyprogress=fast
+config.difficulty.preset.nightmare.enemyprogress=veryfast
+
+config.difficulty.variable.enemyprogress.extremelyslow=0.2
+config.difficulty.variable.enemyprogress.veryslow=0.4
+config.difficulty.variable.enemyprogress.slow=0.66
+config.difficulty.variable.enemyprogress.normal=1
+config.difficulty.variable.enemyprogress.fast=1.25
+config.difficulty.variable.enemyprogress.veryfast=2
+#config.difficulty.variable.enemyprogress.conf=0.5
+
+
+# needs rate - multiply hunger/thirst gane rate by this number
+
+config.difficulty.preset.casual.needsrate=verylow
+config.difficulty.preset.easy.needsrate=low
+config.difficulty.preset.normal.needsrate=normal
+config.difficulty.preset.tough.needsrate=high
+config.difficulty.preset.nightmare.needsrate=high
+
+config.difficulty.variable.needsrate.verylow=0.4
+config.difficulty.variable.needsrate.low=0.8
+config.difficulty.variable.needsrate.normal=1
+config.difficulty.variable.needsrate.high=1.2
+
+
+# work amount - divide work speed by this value, higher values mean tasks take longer to complete
+
+config.difficulty.preset.casual.workamount=verylow
+config.difficulty.preset.easy.workamount=low
+config.difficulty.preset.normal.workamount=normal
+config.difficulty.preset.tough.workamount=normal
+config.difficulty.preset.nightmare.workamount=high
+
+config.difficulty.variable.workamount.verylow=0.66
+config.difficulty.variable.workamount.low=0.9
+config.difficulty.variable.workamount.normal=1
+config.difficulty.variable.workamount.high=1.15
+#config.difficulty.variable.workrate.conf=2
+
+
+# amount of enemies. when randomly generating enemies - multiply the total value by this number
+
+config.difficulty.preset.casual.enemyamount=veryfew
+config.difficulty.preset.easy.enemyamount=few
+config.difficulty.preset.normal.enemyamount=normal
+config.difficulty.preset.tough.enemyamount=many
+config.difficulty.preset.nightmare.enemyamount=tons
+
+config.difficulty.variable.enemyamount.veryfew=0.4
+config.difficulty.variable.enemyamount.few=0.8
+config.difficulty.variable.enemyamount.normal=1
+config.difficulty.variable.enemyamount.many=1.25
+config.difficulty.variable.enemyamount.tons=1.5
+
+
+# enemy strength. multiply enemy stats (damage, armor, health, accuracy, evasion) by this number
+
+config.difficulty.preset.casual.enemystats=verylow
+config.difficulty.preset.easy.enemystats=low
+config.difficulty.preset.normal.enemystats=normal
+config.difficulty.preset.tough.enemystats=high
+config.difficulty.preset.nightmare.enemystats=veryhigh
+
+config.difficulty.variable.enemystats.verylow=0.6
+config.difficulty.variable.enemystats.low=0.9
+config.difficulty.variable.enemystats.normal=1
+config.difficulty.variable.enemystats.high=1.2
+config.difficulty.variable.enemystats.veryhigh=1.5
+
+
+# multiplies awareness gain rate
+
+config.difficulty.preset.casual.awarenessrate=veryslow
+config.difficulty.preset.easy.awarenessrate=slow
+config.difficulty.preset.normal.awarenessrate=normal
+config.difficulty.preset.tough.awarenessrate=fast
+config.difficulty.preset.nightmare.awarenessrate=veryfast
+
+config.difficulty.variable.awarenessrate.off=0
+config.difficulty.variable.awarenessrate.veryslow=0.25
+config.difficulty.variable.awarenessrate.slow=0.75
+config.difficulty.variable.awarenessrate.normal=1
+config.difficulty.variable.awarenessrate.fast=1.25
+config.difficulty.variable.awarenessrate.veryfast=2
+
+
+# how often enemies attack the colony. divide the minimum time between attacks by this value. lower values mean higher minimum time between attacks = lower attack frequency
+
+config.difficulty.preset.casual.defensefrequency=verylow
+config.difficulty.preset.easy.defensefrequency=low
+config.difficulty.preset.normal.defensefrequency=normal
+config.difficulty.preset.tough.defensefrequency=normal
+config.difficulty.preset.nightmare.defensefrequency=normal
+
+config.difficulty.variable.defensefrequency.off=0
+config.difficulty.variable.defensefrequency.verylow=0.25
+config.difficulty.variable.defensefrequency.low=0.66
+config.difficulty.variable.defensefrequency.normal=1
+config.difficulty.variable.defensefrequency.high=1.5
+#config.difficulty.variable.defensefrequency.conf=1.66
+
+# amount of research items needed to advance in research. Does not affect research points cost
+
+config.difficulty.preset.casual.researchitems=off
+config.difficulty.preset.easy.researchitems=normal
+config.difficulty.preset.normal.researchitems=normal
+config.difficulty.preset.tough.researchitems=normal
+config.difficulty.preset.nightmare.researchitems=normal
+
+config.difficulty.variable.researchitems.off=0
+config.difficulty.variable.researchitems.half=0.6
+config.difficulty.variable.researchitems.normal=1
+
+
+# Not implemented yet
+# multiplies total value of loot found in scavenge
+
+# multiplies research costs in research points
+
+# multiplier for amount of scraps available in debris

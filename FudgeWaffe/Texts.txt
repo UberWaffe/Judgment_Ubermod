@@ -605,6 +605,19 @@ items.ubrgreaterworkcharm10.description=A pendant forged with Spirit Sparks at i
 # Tags
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+rarity.veryrare.label=Very rare
+
+rarity.artifact1.label=Artifact
+rarity.artifact2.label=Artifact
+rarity.artifact3.label=Artifact
+rarity.artifact4.label=Artifact
+rarity.artifact5.label=Artifact
+rarity.artifact6.label=Artifact
+rarity.artifact7.label=Artifact
+rarity.artifact8.label=Artifact
+rarity.artifact9.label=Artifact
+rarity.artifact10.label=Artifact
+
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------

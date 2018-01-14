@@ -1,4 +1,26 @@
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Research Levels
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+research.base.level4.level=4
+research.base.level5.level=5
+research.base.level6.level=6
+research.base.level7.level=7
+research.base.level8.level=8
+research.base.level9.level=9
+research.base.level10.level=10
+research.base.level11.level=11
+research.base.level12.level=12
+research.base.level13.level=13
+research.base.level14.level=14
+research.base.level15.level=15
+research.base.level16.level=16
+research.base.level17.level=17
+research.base.level18.level=18
+research.base.level19.level=19
+research.base.level20.level=20
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Extended Base / Farming
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

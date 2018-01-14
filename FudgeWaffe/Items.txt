@@ -3,31 +3,31 @@
 
 items.base.level4.value=160
 items.base.level4.scrapbase=80
-items.base.level4.mindifficulty=2800
+items.base.level4.level=4
 
 items.base.level5.value=240
 items.base.level5.scrapbase=80
-items.base.level5.mindifficulty=5600
+items.base.level5.level=5
 
 items.base.level6.value=320
 items.base.level6.scrapbase=80
-items.base.level6.mindifficulty=1000000000000
+items.base.level6.level=6
 
 items.base.level7.value=480
 items.base.level7.scrapbase=80
-items.base.level7.mindifficulty=1000000000000
+items.base.level7.level=7
 
 items.base.level8.value=640
 items.base.level8.scrapbase=80
-items.base.level8.mindifficulty=1000000000000
+items.base.level8.level=8
 
 items.base.level9.value=800
 items.base.level9.scrapbase=80
-items.base.level9.mindifficulty=1000000000000
+items.base.level9.level=9
 
 items.base.level10.value=1100
 items.base.level10.scrapbase=80
-items.base.level10.mindifficulty=1000000000000
+items.base.level10.level=10
 
 
 # More types
@@ -39,47 +39,58 @@ items.base.energy.mindifficulty=1000000000000
 items.base.veryrare.valuemul.rarity=5
 items.base.veryrare.scrapmul.rarity=5
 items.base.veryrare.traderchance.rarity=1
+items.base.veryrare.rarity=veryrare
 
 # Artifact type items do not recycle for much scrap, but are worth loads in trade
 items.base.artifact1.valuemul.rarity=10
 items.base.artifact1.scrapmul.rarity=2
 items.base.artifact1.traderchance.rarity=1
+items.base.artifact1.rarity=artifact1
 
 items.base.artifact2.valuemul.rarity=13
 items.base.artifact2.scrapmul.rarity=2
 items.base.artifact2.traderchance.rarity=1
+items.base.artifact2.rarity=artifact2
 
 items.base.artifact3.valuemul.rarity=16
 items.base.artifact3.scrapmul.rarity=2
 items.base.artifact3.traderchance.rarity=1
+items.base.artifact3.rarity=artifact3
 
 items.base.artifact4.valuemul.rarity=20
 items.base.artifact4.scrapmul.rarity=2
 items.base.artifact4.traderchance.rarity=1
+items.base.artifact4.rarity=artifact4
 
 items.base.artifact5.valuemul.rarity=23
 items.base.artifact5.scrapmul.rarity=2
 items.base.artifact5.traderchance.rarity=1
+items.base.artifact5.rarity=artifact5
 
 items.base.artifact6.valuemul.rarity=26
 items.base.artifact6.scrapmul.rarity=2
 items.base.artifact6.traderchance.rarity=1
+items.base.artifact6.rarity=artifact6
 
 items.base.artifact7.valuemul.rarity=30
 items.base.artifact7.scrapmul.rarity=2
 items.base.artifact7.traderchance.rarity=1
+items.base.artifact7.rarity=artifact7
 
 items.base.artifact8.valuemul.rarity=33
 items.base.artifact8.scrapmul.rarity=2
 items.base.artifact8.traderchance.rarity=1
+items.base.artifact8.rarity=artifact8
 
 items.base.artifact9.valuemul.rarity=36
 items.base.artifact9.scrapmul.rarity=2
 items.base.artifact9.traderchance.rarity=1
+items.base.artifact9.rarity=artifact9
 
 items.base.artifact10.valuemul.rarity=40
 items.base.artifact10.scrapmul.rarity=2
 items.base.artifact10.traderchance.rarity=1
+items.base.artifact10.rarity=artifact10
 
 
 
