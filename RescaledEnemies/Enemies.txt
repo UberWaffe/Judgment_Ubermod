@@ -8,15 +8,9 @@ enemies.entity.imp.health=45
 enemies.entity.imp.loot.sulfur=1
 
 enemies.entity.fireimp.health=45
-
-enemies.entity.fireimp.mindifficulty=45
-
 enemies.entity.fireimp.loot.sulfur=1
 
 enemies.entity.weakdemon.health=75
-
-enemies.entity.weakdemon.mindifficulty=45
-
 enemies.entity.weakdemon.loot.sulfur=3
 
 
@@ -25,38 +19,20 @@ enemies.entity.weakdemon.loot.sulfur=3
 # Changed:
 #	health x2
 #	attackspeed x1.5
-#	difficultyval x2
-#	mindifficulty x2
-#	maxdifficulty x3
 #	loot x2
 
 enemies.entity.hellhound.health=40
 enemies.entity.hellhound.attackspeed=9
-
-enemies.entity.hellhound.mindifficulty=200
-enemies.entity.hellhound.maxdifficulty=2099
-enemies.entity.hellhound.difficultyval=160
-
 enemies.entity.hellhound.loot.sulfur=2
 enemies.entity.hellhound.loot.fur=2
 
 enemies.entity.werewolf.health=130
 enemies.entity.werewolf.attackspeed=9
 enemies.entity.werewolf.defense=5
-
-enemies.entity.werewolf.mindifficulty=200
-enemies.entity.werewolf.maxdifficulty=2099
-enemies.entity.werewolf.difficultyval=300
-
 enemies.entity.werewolf.loot.fur=4
 
 enemies.entity.reaper.health=120
 enemies.entity.reaper.attackspeed=7.5
-
-enemies.entity.reaper.mindifficulty=200
-enemies.entity.reaper.maxdifficulty=2099
-enemies.entity.reaper.difficultyval=200
-
 enemies.entity.reaper.loot.ectoplasm=2
 
 
@@ -65,43 +41,25 @@ enemies.entity.reaper.loot.ectoplasm=2
 # Changed:
 #	health x3
 #	attackspeed x2
-#	difficultyval x3
-#	mindifficulty x3
 #	loot x3
 
 enemies.entity.demon.health=270
 enemies.entity.demon.attackspeed=7.5
-
-enemies.entity.demon.difficultyval=600
-enemies.entity.demon.mindifficulty=1050
-
 enemies.entity.demon.loot.sulfur=6
 enemies.entity.demon.loot.demonite=3
 
 enemies.entity.possessed.health=345
 enemies.entity.possessed.attackspeed=9
-
-enemies.entity.possessed.difficultyval=600
-enemies.entity.possessed.mindifficulty=1050
-
 enemies.entity.possessed.loot.ectoplasm=3
 enemies.entity.possessed.loot.weaponparts=3
 
 enemies.entity.succubus.health=150
 enemies.entity.succubus.attackspeed=10.5
-
-enemies.entity.succubus.difficultyval=750
-enemies.entity.succubus.mindifficulty=1050
-
 enemies.entity.succubus.loot.fur=3
 enemies.entity.succubus.loot.demonite=3
 
 enemies.entity.ghost.health=120
 enemies.entity.ghost.attackspeed=7.5
-
-enemies.entity.ghost.difficultyval=600
-enemies.entity.ghost.mindifficulty=1050
-
 enemies.entity.ghost.loot.ectoplasm=6
 enemies.entity.ghost.loot.cloth=3
 
@@ -112,57 +70,36 @@ enemies.entity.ghost.loot.cloth=3
 #	health x5
 #	attackspeed x3
 #	loot x5
-#	difficultyval x5
-#	mindifficulty x5
 
 enemies.entity.legion.health=1375
 enemies.entity.legion.attackspeed=12
 enemies.entity.legion.defense=16
-
-enemies.entity.legion.difficultyval=2000
-enemies.entity.legion.mindifficulty=3500
-
 enemies.entity.legion.loot.demonite=10
 enemies.entity.legion.loot.fur=10
 
 enemies.entity.firespitter.health=475
 enemies.entity.firespitter.attackspeed=12
-
-enemies.entity.firespitter.difficultyval=2000
-enemies.entity.firespitter.mindifficulty=3500
-
 enemies.entity.firespitter.loot.ectoplasm=15
 enemies.entity.firespitter.loot.demonite=5
 
-# Change Lich to Level 3
-
 enemies.entity.lich.health=650
 enemies.entity.lich.attackspeed=15
-
-enemies.entity.lich.difficultyval=3250
-enemies.entity.lich.mindifficulty=3500
-
 enemies.entity.lich.loot.aether=5
 enemies.entity.lich.loot.demonite=15
+enemies.entity.lich.amount=0.75
 
-
-
-# Level 4
+# Buff Dark Angel to be the worst enemy
 # Changed:
 #	health x10
 #	attackspeed x6
 #	loot x10
-#	difficultyval x10
-#	mindifficulty x10
-
-# Change Dark Angel to level 4
 
 enemies.entity.darkangel.health=1450
 enemies.entity.darkangel.attackspeed=15
-
-enemies.entity.darkangel.difficultyval=6500
-enemies.entity.darkangel.mindifficulty=8000
-
+enemies.entity.darkangel.range=20
+enemies.entity.darkangel.accuracy=250
+enemies.entity.darkangel.vision=20
 enemies.entity.darkangel.loot.holywords=4
 enemies.entity.darkangel.loot.demonite=12
 enemies.entity.darkangel.loot.aether=4
+enemies.entity.darkangel.amount=0.3

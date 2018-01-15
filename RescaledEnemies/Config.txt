@@ -2,17 +2,6 @@
 
 
 
-# enemy group value per difficulty
-config.enemydifficulty.groupvalue.2000=2000-3000
-config.enemydifficulty.groupvalue.3000=3000-4000
-config.enemydifficulty.groupvalue.4000=4000-5000
-config.enemydifficulty.groupvalue.5000=5000-6000
-config.enemydifficulty.groupvalue.6000=6000-7000
-config.enemydifficulty.groupvalue.7000=7000-8000
-config.enemydifficulty.groupvalue.8000=8000-9000
-config.enemydifficulty.groupvalue.9000=9000-10000
-config.enemydifficulty.groupvalue.10000=10000
-
 
 # each loot value per difficulty
 config.loot.value.2000=1000-1400
@@ -33,7 +22,6 @@ config.loot.value.10000=4500-6000
 # Awareness growth: <growthbase> ** survivorcount per second
 # Awareness difficulty normalized: awareness / maxawareness
 config.awareness.minattackseparation=5600
-config.awareness.timechancedivisor=4500
 
 
 # Change min change to hit
@@ -44,8 +32,6 @@ config.hitchancemin=0.05
 
 
 # Cities are death traps.
-
-terrain.entity.city.difficulty.0=700-999
-terrain.entity.city.difficulty.25=800-1600
-terrain.entity.city.difficulty.30=1200-1999
-terrain.entity.city.difficulty.45=2000-2999
+terrain.entity.city.difficulty.0=difftier3 : difftier3mid
+terrain.entity.city.difficulty.35=difftier3mid : difftier4max
+terrain.entity.city.difficulty.50=difftier4mid : difftier4extra
