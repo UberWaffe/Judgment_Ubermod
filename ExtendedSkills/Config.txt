@@ -8,10 +8,14 @@
 # config.skilllevelcost.4=1500	# +500
 # config.skilllevelcost.5=2100	# +600
 
-config.skilllevelcost.6=2800	# +700
-config.skilllevelcost.7=3600	# +800
-config.skilllevelcost.8=4500	# +900
-config.skilllevelcost.9=5500	# +1000
+# +700
+config.skilllevelcost.6=2800	
+# +800
+config.skilllevelcost.7=3600
+# +900
+config.skilllevelcost.8=4500
+# +1000
+config.skilllevelcost.9=5500
 
 config.skilllevelcost.10=6600
 config.skilllevelcost.11=7800

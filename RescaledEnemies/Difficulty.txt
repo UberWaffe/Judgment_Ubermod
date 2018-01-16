@@ -5,37 +5,37 @@
 config.enemydifficulty.milestones.difftier4=1000
 config.enemydifficulty.milestones.difftier4mid=1500
 config.enemydifficulty.milestones.difftier4max=1999
-config.enemydifficulty.milestones.difftier4extra=2000
+config.enemydifficulty.milestones.difftier4extra=3000
 
 config.enemydifficulty.milestones.difftier5=2000
 config.enemydifficulty.milestones.difftier5mid=2500
 config.enemydifficulty.milestones.difftier5max=2999
-config.enemydifficulty.milestones.difftier5extra=2000
+config.enemydifficulty.milestones.difftier5extra=4000
 
 config.enemydifficulty.milestones.difftier6=3000
 config.enemydifficulty.milestones.difftier6mid=3500
 config.enemydifficulty.milestones.difftier6max=3999
-config.enemydifficulty.milestones.difftier6extra=2000
+config.enemydifficulty.milestones.difftier6extra=5000
 
 config.enemydifficulty.milestones.difftier7=4000
 config.enemydifficulty.milestones.difftier7mid=4500
 config.enemydifficulty.milestones.difftier7max=4999
-config.enemydifficulty.milestones.difftier7extra=2000
+config.enemydifficulty.milestones.difftier7extra=6000
 
 config.enemydifficulty.milestones.difftier8=5000
 config.enemydifficulty.milestones.difftier8mid=6000
 config.enemydifficulty.milestones.difftier8max=6999
-config.enemydifficulty.milestones.difftier8extra=2000
+config.enemydifficulty.milestones.difftier8extra=8000
 
 config.enemydifficulty.milestones.difftier9=7000
 config.enemydifficulty.milestones.difftier9mid=8000
 config.enemydifficulty.milestones.difftier9max=8999
-config.enemydifficulty.milestones.difftier9extra=2000
+config.enemydifficulty.milestones.difftier9extra=10000
 
 config.enemydifficulty.milestones.difftier10=9000
 config.enemydifficulty.milestones.difftier10mid=9500
 config.enemydifficulty.milestones.difftier10max=9999
-config.enemydifficulty.milestones.difftier10extra=2000
+config.enemydifficulty.milestones.difftier10extra=12000
 
 
 
@@ -43,58 +43,65 @@ config.enemydifficulty.milestones.difftier10extra=2000
 # Enemy generator difficulty values
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Tiers
+# --------------------------------------------------------------------------------
 # Tier 0
 config.enemydifficulty.tiers.0=0
-config.enemydifficulty.singlevalue.0=1
-config.enemydifficulty.amountpergroup.0=2-3
-config.enemydifficulty.totalcount.0=1
-config.enemydifficulty.totalcount.19=1
-
-config.enemydifficulty.totalcount.20=2-3
-
-config.enemydifficulty.totalcount.99=4-7
-
-# Stay tier 0 longer, but more enemies
-config.enemydifficulty.totalcount.199=6-9
-
-
+config.enemydifficulty.tiers.100=0
 # Tier 1
 # Min difficulty trigger: x2
 # Max difficulty trigger: x3
 config.enemydifficulty.tiers.200=1
-config.enemydifficulty.singlevalue.200=2
-config.enemydifficulty.totalcount.200=3-4
-
-config.enemydifficulty.amountpergroup.500=3-4
-
-config.enemydifficulty.totalcount.1049=5-7
-
-
+config.enemydifficulty.tiers.350=1
+config.enemydifficulty.tiers.700=1
 # Tier 2
 # Min difficulty trigger: x3
 # Max difficulty trigger: x5
 config.enemydifficulty.tiers.1050=2
-config.enemydifficulty.singlevalue.1050=4
-config.enemydifficulty.amountpergroup.1050=2-3
-config.enemydifficulty.totalcount.1050=3-4
-
-config.enemydifficulty.amountpergroup.2500=3-4
-
-
 # Tier 3
 # Min difficulty trigger: x5
 config.enemydifficulty.tiers.3500=3
+
+
+# Single Values
+# --------------------------------------------------------------------------------
+config.enemydifficulty.singlevalue.0=1
+config.enemydifficulty.singlevalue.100=1
+config.enemydifficulty.singlevalue.200=2
+config.enemydifficulty.singlevalue.350=2
+config.enemydifficulty.singlevalue.700=2
+config.enemydifficulty.singlevalue.1050=4
 config.enemydifficulty.singlevalue.3500=8
-config.enemydifficulty.amountpergroup.3500=3
+
+
+# Amount per Group
+# --------------------------------------------------------------------------------
+config.enemydifficulty.amountpergroup.0=2-3
+config.enemydifficulty.amountpergroup.100=2
+config.enemydifficulty.amountpergroup.350=2
+config.enemydifficulty.amountpergroup.550=3-4
+config.enemydifficulty.amountpergroup.700=3
+config.enemydifficulty.amountpergroup.1000=4
+config.enemydifficulty.amountpergroup.1500=5
+
+
+# Total Count
+# --------------------------------------------------------------------------------
+config.enemydifficulty.totalcount.0=1
+config.enemydifficulty.totalcount.19=1
+config.enemydifficulty.totalcount.20=2-3
+config.enemydifficulty.totalcount.99=4-7
+# Stay tier 0 longer, but more enemies
+config.enemydifficulty.totalcount.199=6-9
+# Tier 1
+config.enemydifficulty.totalcount.200=3-4
+config.enemydifficulty.totalcount.1049=5-7
+# Tier 2
+config.enemydifficulty.totalcount.1050=3-4
+# Tier 3
 config.enemydifficulty.totalcount.3500=4-5
-
-config.enemydifficulty.amountpergroup.5000=3-4
 config.enemydifficulty.totalcount.5000=6-8
-
-config.enemydifficulty.amountpergroup.7500=4-5
-
 config.enemydifficulty.totalcount.10000=12-16
-
 config.enemydifficulty.totalcount.50000=30-40
 
 
