@@ -1661,10 +1661,6 @@ blueprints.entity.ubrarcanefoundry5.costs.ubrspiritspark=20
 # Updated loots
 # -----------------------------------------------------------------
 
-# Hospital
-objects.entity.hospital.difficultymul=2.5
-objects.entity.hospital.loot.0.ubrenertronics=1
-
 # Military Base
 objects.entity.military.difficultymul=1.5
 objects.entity.military.loot.0.ubrenertronics=1
