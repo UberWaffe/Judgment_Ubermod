@@ -120,6 +120,21 @@ crafting.entity.resin.costs.wood=5
 crafting.entity.resin.costs.ubrchemicals=1
 
 
+# Make research kits craftable with high tech
+
+crafting.entity.researchkit.parents=crafting.base.handling
+crafting.entity.researchkit.amount=1
+crafting.entity.researchkit.work=1500
+crafting.entity.researchkit.research=ubrdistilling
+crafting.entity.researchkit.station.ubradvcrafting=1
+crafting.entity.researchkit.priority=5
+crafting.entity.researchkit.costs.physics1=2000
+crafting.entity.researchkit.costs.ubrchemicals=2
+crafting.entity.researchkit.costs.ubrglass=1
+crafting.entity.researchkit.costs.ubralloys=1
+crafting.entity.researchkit.costs.ubrenergyunit=20
+
+
 # Make Prima-Materia to be cheaper, but slower
 
 items.entity.primamateria.parents=items.base.level3,items.base.rare,items.base.craftedresource

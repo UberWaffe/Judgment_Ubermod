@@ -68,7 +68,7 @@ abilities.entity.uesultspellblast2.affects=enemies
 
 
 # ----------------------------------------------------------
-# Survivalist
+# Gather
 # ----------------------------------------------------------
 
 abilities.entity.uesultdruid1.parents=abilities.base.skillability
@@ -84,6 +84,10 @@ abilities.entity.uesultdruid1.effectprefabs=EffectHexProjectilePrefab,ElementalB
 abilities.entity.uesultdruid1.effectsounds=attack_voodoo
 abilities.entity.uesultdruid1.effect.uesultdruid1=30
 abilities.entity.uesultdruid1.affects=enemies
+
+# ----------------------------------------------------------
+# Farming
+# ----------------------------------------------------------
 
 abilities.entity.uesultdruid2.parents=abilities.base.skillability
 abilities.entity.uesultdruid2.name=abilities.uesultdruid2.name

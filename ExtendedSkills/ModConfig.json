@@ -1,6 +1,17 @@
 {
 	title: "Extended Skills Mod",
-	desc: "Extends the levels for skills and the max level for survivors that new skills are pickable.",
+	desc: "Extends the levels for skills and the max level for survivors that new skills are pickable.
+
+Known issues:
+REQUIRES NEW GAME.
+Given the how much the skill tree has changed, I couldn't make this backwards compatible. Apply this to an existing game will likely break.
+
+Balance:
+Given the new horizontal layout of the skills tree, there is limit space for the list. (at max 10 squares).
+As such, I had to cut level 7 to 9 of each skill tree, so they will not appear.
+Also, it is easier to get to the ultimate skill that it should be as a result.
+
+Balance feedback would be appreciated.",
 	uid: "1227678809",
 	visibility: "0",
 	creator: "UberWaffe",
