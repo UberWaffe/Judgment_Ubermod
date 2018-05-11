@@ -1,0 +1,13 @@
+# Trader definitions
+
+# Config
+
+# Crafted Items: Tech available if crafting tech and workstation tech available.
+#                Production available if tech available, and workstation exists
+# Gathered Items: Find action that has gatherlimits for this item. 
+#                 Tech available if have the tech to build the object, and also have the tech to perform the action.
+#                 Available - Have an object + have tech for action
+
+traders.config.desirability.crafting.notproducable=8
+
+traders.config.itemamount.artifact=0

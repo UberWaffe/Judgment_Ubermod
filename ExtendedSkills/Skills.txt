@@ -6,11 +6,11 @@
 # ----------------------------------------------------------
 # Ultimate skills
 # ----------------------------------------------------------
-#	Always includes +150% Nutrition.
-#	Always includes +150% Energy bonus.
-#	Always includes +100% Health bonus.
-#	Always includes +50% Workspeed bonus.
-#	Grant +500% in whatever skill it is the ultimate of
+#	Always includes +50% Nutrition.
+#	Always includes +50% Energy bonus.
+#	Always includes +20% Health bonus.
+#	Always includes +20% Workspeed bonus.
+#	Grant +100% in whatever skill it is the ultimate of
 #	Can include a special ability
 
 
@@ -39,10 +39,14 @@ skills.entity.marksmanrange2.effect.range=1
 
 skills.entity.marksmanrange3.effect.range=2
 
-skills.entity.uesultmarksmanship.effect.nutrition=1.5
-skills.entity.uesultmarksmanship.effect.energy=1.5
-skills.entity.uesultmarksmanship.effect.health=1.0
-skills.entity.uesultmarksmanship.effect.workspeed=0.5
+skills.entity.uessharpmind1.effect.workspeed=0.225
+
+skills.entity.uessharpmind2.effect.workspeed=0.25
+
+skills.entity.uesultmarksmanship.effect.nutrition=0.5
+skills.entity.uesultmarksmanship.effect.energy=0.5
+skills.entity.uesultmarksmanship.effect.health=0.2
+skills.entity.uesultmarksmanship.effect.workspeed=0.2
 skills.entity.uesultmarksmanship.effect.vision=9
 skills.entity.uesultmarksmanship.unlocks.equip.firearm=true
 skills.entity.uesultmarksmanship.unlocks.equip.sniper=true
@@ -95,10 +99,10 @@ skills.entity.damageexpert2.effect.attackspeed=0.2
 
 skills.entity.damageexpert3.effect.attackspeed=0.2
 
-skills.entity.uesultdamage.effect.nutrition=1.5
-skills.entity.uesultdamage.effect.energy=1.5
-skills.entity.uesultdamage.effect.health=1.0
-skills.entity.uesultdamage.effect.workspeed=0.5
+skills.entity.uesultdamage.effect.nutrition=0.5
+skills.entity.uesultdamage.effect.energy=0.5
+skills.entity.uesultdamage.effect.health=0.2
+skills.entity.uesultdamage.effect.workspeed=0.2
 skills.entity.uesultdamage.effect.vision=9
 skills.entity.uesultdamage.unlocks.equip.firearm=true
 skills.entity.uesultdamage.unlocks.equip.darkarmor=true
@@ -137,11 +141,11 @@ skills.entity.patroling2.effect.actiongroup_patrol=0.75
 
 skills.entity.patroling3.effect.actiongroup_patrol=1.0
 
-skills.entity.uesultevasion.effect.nutrition=1.5
-skills.entity.uesultevasion.effect.energy=1.5
-skills.entity.uesultevasion.effect.health=1.0
-skills.entity.uesultevasion.effect.workspeed=0.5
-skills.entity.uesultevasion.abilities.uesultjuggernaught1=6
+skills.entity.uesultevasion.effect.nutrition=0.5
+skills.entity.uesultevasion.effect.energy=0.5
+skills.entity.uesultevasion.effect.health=0.2
+skills.entity.uesultevasion.effect.workspeed=0.2
+skills.entity.uesultevasion.abilities.uesultjuggernaught1=3
 
 
 # Stalwart
@@ -168,10 +172,10 @@ skills.entity.ueshealrate1.effect.healrate=0.75
 
 skills.entity.ueshealrate2.effect.healrate=1.0
 
-skills.entity.uesultstalwart.effect.nutrition=1.5
-skills.entity.uesultstalwart.effect.energy=1.5
-skills.entity.uesultstalwart.effect.health=1.0
-skills.entity.uesultstalwart.effect.workspeed=0.5
+skills.entity.uesultstalwart.effect.nutrition=0.5
+skills.entity.uesultstalwart.effect.energy=0.5
+skills.entity.uesultstalwart.effect.health=0.2
+skills.entity.uesultstalwart.effect.workspeed=0.2
 skills.entity.uesultstalwart.abilities.uesultjuggernaught2=1
 
 
@@ -179,19 +183,19 @@ skills.entity.uesultstalwart.abilities.uesultjuggernaught2=1
 # ----------------------------------------------------------------------------------
 # skills.entity.melee1.effect.tag_melee_damage=0.075
 # skills.entity.melee2.effect.tag_melee_damage=0.1
-# skills.entity.melee3.effect.tag_melee_damage=0.15
+# skills.entity.melee3.effect.tag_melee_attackspeed=0.15
 
 skills.entity.melee4.effect.tag_melee_damage=0.175
 
 skills.entity.melee5.effect.tag_melee_damage=0.2
 
-skills.entity.melee6.effect.tag_melee_damage=0.25
+skills.entity.melee6.effect.tag_melee_attackspeed=0.25
 
 skills.entity.melee7.effect.tag_melee_damage=0.275
 
 skills.entity.melee8.effect.tag_melee_damage=0.3
 
-skills.entity.melee9.effect.tag_melee_damage=0.35
+skills.entity.melee9.effect.tag_melee_attackspeed=0.35
 
 # -- Skill Ultimates --
 
@@ -199,11 +203,12 @@ skills.entity.uesmovement1.effect.walkspeed=0.2
 
 skills.entity.uesmovement2.effect.walkspeed=0.3
 
-skills.entity.uesultmelee.effect.nutrition=1.5
-skills.entity.uesultmelee.effect.energy=1.5
-skills.entity.uesultmelee.effect.health=1.0
-skills.entity.uesultmelee.effect.workspeed=0.5
-skills.entity.uesultmelee.effect.tag_melee_damage=2.0
+skills.entity.uesultmelee.effect.nutrition=0.5
+skills.entity.uesultmelee.effect.energy=0.5
+skills.entity.uesultmelee.effect.health=0.2
+skills.entity.uesultmelee.effect.workspeed=0.2
+skills.entity.uesultmelee.effect.tag_melee_damage=0.3
+skills.entity.uesultmelee.effect.tag_melee_attackspeed=0.3
 skills.entity.uesultmelee.unlocks.equip.toolweapon=true
 skills.entity.uesultmelee.unlocks.equip.occultweapon=true
 
@@ -228,11 +233,11 @@ skills.entity.meleedefense9.effect.tag_melee_evade=0.35
 
 # -- Skill Ultimates --
 
-skills.entity.uesultmeleedefense.effect.nutrition=1.5
-skills.entity.uesultmeleedefense.effect.energy=1.5
-skills.entity.uesultmeleedefense.effect.health=1.0
-skills.entity.uesultmeleedefense.effect.workspeed=0.5
-skills.entity.uesultmeleedefense.effect.defense=2.0
+skills.entity.uesultmeleedefense.effect.nutrition=0.5
+skills.entity.uesultmeleedefense.effect.energy=0.5
+skills.entity.uesultmeleedefense.effect.health=0.2
+skills.entity.uesultmeleedefense.effect.workspeed=0.2
+skills.entity.uesultmeleedefense.effect.defense=0.5
 skills.entity.uesultmeleedefense.unlocks.equip.techarmor=true
 skills.entity.uesultmeleedefense.unlocks.equip.holyarmor=true
 skills.entity.uesultmeleedefense.unlocks.equip.naturearmor=true
@@ -328,22 +333,20 @@ skills.entity.pistols9.effect.tag_pistol_accuracy=0.25
 
 # -- Skill Ultimates --
 
-skills.entity.uesdefthands1.effect.workspeed=0.2
+skills.entity.uesdefthands1.effect.workspeed=0.225
 
-skills.entity.uesdefthands2.effect.workspeed=0.2
+skills.entity.uesdefthands2.effect.workspeed=0.25
 
 skills.entity.uesvision1.effect.vision=4
 
 skills.entity.uesvision2.effect.vision=5
 
-skills.entity.uesultpistols.effect.nutrition=1.5
-skills.entity.uesultpistols.effect.energy=1.5
-skills.entity.uesultpistols.effect.health=1.0
-skills.entity.uesultpistols.effect.workspeed=0.5
-skills.entity.uesultpistols.effect.tag_pistol_damage=1.0
-skills.entity.uesultpistols.effect.tag_pistol_accuracy=1.0
-skills.entity.uesultpistols.unlocks.equip.firearm=true
-skills.entity.uesultpistols.unlocks.equip.occultweapon=true
+skills.entity.uesultpistols.effect.nutrition=0.5
+skills.entity.uesultpistols.effect.energy=0.5
+skills.entity.uesultpistols.effect.health=0.2
+skills.entity.uesultpistols.effect.workspeed=0.2
+skills.entity.uesultpistols.effect.tag_pistol_damage=0.3
+skills.entity.uesultpistols.effect.tag_pistol_accuracy=0.3
 
 
 # Rifles
@@ -352,7 +355,7 @@ skills.entity.uesultpistols.unlocks.equip.occultweapon=true
 # skills.entity.rifles1.effect.tag_rifle_accuracy=0.05
 # skills.entity.rifles2.effect.tag_rifle_attackspeed=0.075
 # skills.entity.rifles2.effect.tag_rifle_accuracy=0.075
-# skills.entity.rifles3.effect.tag_rifle_attackspeed=0.1
+# skills.entity.rifles3.effect.tag_rifle_damage=0.1
 # skills.entity.rifles3.effect.tag_rifle_accuracy=0.1
 
 skills.entity.rifles4.effect.tag_rifle_attackspeed=0.125
@@ -362,7 +365,7 @@ skills.entity.rifles5.effect.tag_rifle_attackspeed=0.15
 skills.entity.rifles5.effect.tag_rifle_accuracy=0.15
 
 skills.entity.rifles6.effect.tag_rifle_attackspeed=0.175
-skills.entity.rifles6.effect.tag_rifle_accuracy=0.175
+skills.entity.rifles6.effect.tag_rifle_damage=0.175
 
 skills.entity.rifles7.effect.tag_rifle_attackspeed=0.2
 skills.entity.rifles7.effect.tag_rifle_accuracy=0.2
@@ -371,7 +374,7 @@ skills.entity.rifles8.effect.tag_rifle_attackspeed=0.225
 skills.entity.rifles8.effect.tag_rifle_accuracy=0.225
 
 skills.entity.rifles9.effect.tag_rifle_attackspeed=0.25
-skills.entity.rifles9.effect.tag_rifle_accuracy=0.25
+skills.entity.rifles9.effect.tag_rifle_damage=0.25
 
 # -- Skill Ultimates --
 
@@ -379,46 +382,46 @@ skills.entity.uesdodge1.effect.evade=0.1
 
 skills.entity.uesdodge2.effect.evade=0.125
 
-skills.entity.uesultrifles.effect.nutrition=1.5
-skills.entity.uesultrifles.effect.energy=1.5
-skills.entity.uesultrifles.effect.health=1.0
-skills.entity.uesultrifles.effect.workspeed=0.5
-skills.entity.uesultrifles.effect.tag_rifle_damage=1.0
-skills.entity.uesultrifles.effect.tag_rifle_attackspeed=1.0
-skills.entity.uesultrifles.unlocks.equip.techweapon=true
+skills.entity.uesultrifles.effect.nutrition=0.5
+skills.entity.uesultrifles.effect.energy=0.5
+skills.entity.uesultrifles.effect.health=0.2
+skills.entity.uesultrifles.effect.workspeed=0.2
+skills.entity.uesultrifles.effect.tag_rifle_damage=0.3
+skills.entity.uesultrifles.effect.tag_rifle_attackspeed=0.3
 skills.entity.uesultrifles.unlocks.equip.firearm=true
-skills.entity.uesultrifles.unlocks.equip.sniper=true
 
 
 # Bows
 # ----------------------------------------------------------------------------------
-# skills.entity.bows1.effect.tag_bow_accuracy=0.1
-# skills.entity.bows2.effect.tag_bow_accuracy=0.15
+# skills.entity.bows1.effect.tag_bow_attackspeed=0.05
+# skills.entity.bows1.effect.tag_bow_accuracy=0.05
+# skills.entity.bows2.effect.tag_bow_attackspeed=0.075
+# skills.entity.bows2.effect.tag_bow_accuracy=0.075
 # skills.entity.bows3.effect.tag_bow_accuracy=0.2
 
 skills.entity.bows4.effect.tag_bow_accuracy=0.25
 skills.entity.bows4.effect.tag_bow_attackspeed=0.05
 skills.entity.bows4.effect.tag_bow_damage=0.05
 
-skills.entity.bows5.effect.tag_bow_accuracy=0.3
-skills.entity.bows5.effect.tag_bow_attackspeed=0.05
-skills.entity.bows5.effect.tag_bow_damage=0.05
+skills.entity.bows5.effect.tag_bow_accuracy=0.1
+skills.entity.bows5.effect.tag_bow_attackspeed=0.15
+skills.entity.bows5.effect.tag_bow_damage=0.15
 
 skills.entity.bows6.effect.tag_bow_accuracy=0.05
 skills.entity.bows6.effect.tag_bow_attackspeed=0.35
 skills.entity.bows6.effect.tag_bow_damage=0.05
 
 skills.entity.bows7.effect.tag_bow_accuracy=0.05
-skills.entity.bows7.effect.tag_bow_attackspeed=0.4
-skills.entity.bows7.effect.tag_bow_damage=0.05
+skills.entity.bows7.effect.tag_bow_attackspeed=0.3
+skills.entity.bows7.effect.tag_bow_damage=0.15
 
 skills.entity.bows8.effect.tag_bow_accuracy=0.05
-skills.entity.bows8.effect.tag_bow_attackspeed=0.05
-skills.entity.bows8.effect.tag_bow_damage=0.45
+skills.entity.bows8.effect.tag_bow_attackspeed=0.15
+skills.entity.bows8.effect.tag_bow_damage=0.35
 
 skills.entity.bows9.effect.tag_bow_accuracy=0.05
-skills.entity.bows9.effect.tag_bow_attackspeed=0.05
-skills.entity.bows9.effect.tag_bow_damage=0.5
+skills.entity.bows9.effect.tag_bow_attackspeed=0.15
+skills.entity.bows9.effect.tag_bow_damage=0.4
 
 # -- Skill Ultimates --
 
@@ -426,41 +429,41 @@ skills.entity.uesrapidfire1.effect.attackspeed=0.2
 
 skills.entity.uesrapidfire2.effect.attackspeed=0.2
 
-skills.entity.uesultbows.effect.nutrition=1.5
-skills.entity.uesultbows.effect.energy=1.5
-skills.entity.uesultbows.effect.health=1.0
-skills.entity.uesultbows.effect.workspeed=0.5
-skills.entity.uesultbows.effect.tag_bow_damage=1.0
+skills.entity.uesultbows.effect.nutrition=0.5
+skills.entity.uesultbows.effect.energy=0.5
+skills.entity.uesultbows.effect.health=0.2
+skills.entity.uesultbows.effect.workspeed=0.2
+skills.entity.uesultbows.effect.tag_bow_damage=0.3
+skills.entity.uesultbows.effect.tag_bow_attackspeed=0.3
 skills.entity.uesultbows.effect.range=4
-skills.entity.uesultbows.unlocks.equip.occultweapon=true
 
 
 # Tools
 # ----------------------------------------------------------------------------------
 # skills.entity.toolweapon1.effect.tag_toolweapon_damage=0.1
 # skills.entity.toolweapon2.effect.tag_toolweapon_damage=0.15
-# skills.entity.toolweapon3.effect.tag_toolweapon_damage=0.2
+# skills.entity.toolweapon3.effect.tag_toolweapon_attackspeed=0.2
 
 skills.entity.toolweapon4.effect.tag_toolweapon_damage=0.25
 
 skills.entity.toolweapon5.effect.tag_toolweapon_damage=0.3
 
-skills.entity.toolweapon6.effect.tag_toolweapon_damage=0.35
+skills.entity.toolweapon6.effect.tag_toolweapon_attackspeed=0.35
 
 skills.entity.toolweapon7.effect.tag_toolweapon_damage=0.4
 
 skills.entity.toolweapon8.effect.tag_toolweapon_damage=0.45
 
-skills.entity.toolweapon9.effect.tag_toolweapon_damage=0.5
+skills.entity.toolweapon9.effect.tag_toolweapon_attackspeed=0.5
 
 # -- Skill Ultimates --
 
-skills.entity.uesulttoolweapon.effect.nutrition=1.5
-skills.entity.uesulttoolweapon.effect.energy=1.5
-skills.entity.uesulttoolweapon.effect.health=1.0
-skills.entity.uesulttoolweapon.effect.workspeed=0.5
-skills.entity.uesulttoolweapon.effect.tag_toolweapon_damage=1.0
-skills.entity.uesulttoolweapon.effect.tag_toolweapon_accuracy=1.0
+skills.entity.uesulttoolweapon.effect.nutrition=0.5
+skills.entity.uesulttoolweapon.effect.energy=0.5
+skills.entity.uesulttoolweapon.effect.health=0.2
+skills.entity.uesulttoolweapon.effect.workspeed=0.2
+skills.entity.uesulttoolweapon.effect.tag_toolweapon_damage=0.3
+skills.entity.uesulttoolweapon.effect.tag_toolweapon_attackspeed=0.3
 skills.entity.uesulttoolweapon.unlocks.equip.toolweapon=true
 
 
@@ -493,14 +496,12 @@ skills.entity.autoweapon9.effect.tag_automaticweapon_damage=0.25
 
 # -- Skill Ultimates --
 
-skills.entity.uesultautoweapon.effect.nutrition=1.5
-skills.entity.uesultautoweapon.effect.energy=1.5
-skills.entity.uesultautoweapon.effect.health=1.0
-skills.entity.uesultautoweapon.effect.workspeed=0.5
-skills.entity.uesultautoweapon.effect.tag_automaticweapon_attackspeed=1.0
-skills.entity.uesultautoweapon.effect.tag_automaticweapon_damage=1.0
-skills.entity.uesultautoweapon.unlocks.equip.techweapon=true
-skills.entity.uesultautoweapon.unlocks.equip.firearm=true
+skills.entity.uesultautoweapon.effect.nutrition=0.5
+skills.entity.uesultautoweapon.effect.energy=0.5
+skills.entity.uesultautoweapon.effect.health=0.2
+skills.entity.uesultautoweapon.effect.workspeed=0.2
+skills.entity.uesultautoweapon.effect.tag_automaticweapon_attackspeed=0.3
+skills.entity.uesultautoweapon.effect.tag_automaticweapon_damage=0.3
 
 
 # Dark weapons
@@ -523,20 +524,19 @@ skills.entity.darkweapon9.effect.tag_darkweapon_damage=0.5
 
 # -- Skill Ultimates --
 
-skills.entity.uesultdarkweapon.effect.nutrition=1.5
-skills.entity.uesultdarkweapon.effect.energy=1.5
-skills.entity.uesultdarkweapon.effect.health=1.0
-skills.entity.uesultdarkweapon.effect.workspeed=0.5
-skills.entity.uesultdarkweapon.effect.tag_darkweapon_damage=2.0
+skills.entity.uesultdarkweapon.effect.nutrition=0.5
+skills.entity.uesultdarkweapon.effect.energy=0.5
+skills.entity.uesultdarkweapon.effect.health=0.2
+skills.entity.uesultdarkweapon.effect.workspeed=0.2
+skills.entity.uesultdarkweapon.effect.tag_darkweapon_damage=0.6
 skills.entity.uesultdarkweapon.unlocks.equip.occultweapon=true
-skills.entity.uesultdarkweapon.unlocks.equip.darkarmor=true
 
 
 
 # Tech weapons
 # ----------------------------------------------------------------------------------
 # skills.entity.techweapon1.effect.tag_techweapon_accuracy=0.1
-# skills.entity.techweapon2.effect.tag_techweapon_accuracy=0.15
+# skills.entity.techweapon2.effect.tag_techweapon_damage=0.15
 # skills.entity.techweapon3.effect.tag_techweapon_accuracy=0.2
 
 skills.entity.techweapon4.effect.tag_techweapon_accuracy=0.25
@@ -559,11 +559,12 @@ skills.entity.uestinkerer1.effect.actiongroup_build_refund=0.05
 skills.entity.uestinkerer2.effect.actiongroup_craft_refund=0.1
 skills.entity.uestinkerer2.effect.actiongroup_build_refund=0.1
 
-skills.entity.uesulttechweapon.effect.nutrition=1.5
-skills.entity.uesulttechweapon.effect.energy=1.5
-skills.entity.uesulttechweapon.effect.health=1.0
-skills.entity.uesulttechweapon.effect.workspeed=0.5
-skills.entity.uesulttechweapon.effect.tag_techweapon_damage=2.0
+skills.entity.uesulttechweapon.effect.nutrition=0.5
+skills.entity.uesulttechweapon.effect.energy=0.5
+skills.entity.uesulttechweapon.effect.health=0.2
+skills.entity.uesulttechweapon.effect.workspeed=0.2
+skills.entity.uesulttechweapon.effect.tag_techweapon_damage=0.3
+skills.entity.uesulttechweapon.effect.tag_techweapon_attackspeed=0.3
 skills.entity.uesulttechweapon.unlocks.equip.techweapon=true
 
 
@@ -606,10 +607,10 @@ skills.entity.uesspiritsong1.effect.awarenessadd=-0.2
 skills.entity.uesspiritsong2.effect.workspeed=0.1
 skills.entity.uesspiritsong2.effect.awarenessadd=-0.3
 
-skills.entity.uesultholyweapon.effect.nutrition=1.5
-skills.entity.uesultholyweapon.effect.energy=1.5
-skills.entity.uesultholyweapon.effect.health=1.0
-skills.entity.uesultholyweapon.effect.workspeed=0.5
+skills.entity.uesultholyweapon.effect.nutrition=0.5
+skills.entity.uesultholyweapon.effect.energy=0.5
+skills.entity.uesultholyweapon.effect.health=0.2
+skills.entity.uesultholyweapon.effect.workspeed=0.2
 skills.entity.uesultholyweapon.unlocks.equip.occultweapon=true
 skills.entity.uesultholyweapon.unlocks.equip.holyarmor=true
 skills.entity.uesultholyweapon.abilities.uesultbless1=5
@@ -674,15 +675,14 @@ skills.entity.gatherexpert3.effect.nutrition=0.6
 skills.entity.gatherexpert3.effect.workspeed=0.2
 skills.entity.gatherexpert3.effect.walkspeed=0.2
 
-skills.entity.uesultgather.effect.nutrition=1.5
-skills.entity.uesultgather.effect.energy=1.5
-skills.entity.uesultgather.effect.health=1.0
-skills.entity.uesultgather.effect.workspeed=0.5
-skills.entity.uesultgather.effect.actiongroup_search=5.0
-skills.entity.uesultgather.effect.actiongroup_gatherwater=5.0
-skills.entity.uesultgather.effect.actiongroup_chop=5.0
-skills.entity.uesultgather.effect.actiongroup_quarry=5.0
-skills.entity.uesultgather.effect.actiongroup_agri=5.0
+skills.entity.uesultgather.effect.nutrition=0.5
+skills.entity.uesultgather.effect.energy=0.5
+skills.entity.uesultgather.effect.health=0.2
+skills.entity.uesultgather.effect.workspeed=0.2
+skills.entity.uesultgather.effect.actiongroup_search=1.0
+skills.entity.uesultgather.effect.actiongroup_gatherwater=1.0
+skills.entity.uesultgather.effect.actiongroup_chop=1.0
+skills.entity.uesultgather.effect.actiongroup_quarry=1.0
 skills.entity.uesultgather.unlocks.equip.naturearmor=true
 skills.entity.uesultgather.abilities.uesultdruid1=2
 
@@ -709,13 +709,13 @@ skills.entity.mine9.effect.actiongroup_mine=1.3
 
 skills.entity.mineefficiency2.effect.actiongroup_mine_double=0.3
 
-skills.entity.mineefficiency4.effect.actiongroup_mine_double=0.3
+skills.entity.mineefficiency3.effect.actiongroup_mine_double=0.3
 
-skills.entity.uesultmine.effect.nutrition=1.5
-skills.entity.uesultmine.effect.energy=1.5
-skills.entity.uesultmine.effect.health=1.0
-skills.entity.uesultmine.effect.workspeed=0.5
-skills.entity.uesultmine.effect.actiongroup_mine=5.0
+skills.entity.uesultmine.effect.nutrition=0.5
+skills.entity.uesultmine.effect.energy=0.5
+skills.entity.uesultmine.effect.health=0.2
+skills.entity.uesultmine.effect.workspeed=0.2
+skills.entity.uesultmine.effect.actiongroup_mine=1.5
 skills.entity.uesultmine.unlocks.equip.toolweapon=true
 
 
@@ -743,11 +743,11 @@ skills.entity.quarryefficiency2.effect.actiongroup_quarry_double=0.3
 
 skills.entity.quarryefficiency3.effect.actiongroup_quarry_double=0.4
 
-skills.entity.uesultquarry.effect.nutrition=1.5
-skills.entity.uesultquarry.effect.energy=1.5
-skills.entity.uesultquarry.effect.health=1.0
-skills.entity.uesultquarry.effect.workspeed=0.5
-skills.entity.uesultquarry.effect.actiongroup_quarry=5.0
+skills.entity.uesultquarry.effect.nutrition=0.5
+skills.entity.uesultquarry.effect.energy=0.5
+skills.entity.uesultquarry.effect.health=0.2
+skills.entity.uesultquarry.effect.workspeed=0.2
+skills.entity.uesultquarry.effect.actiongroup_quarry=1.5
 skills.entity.uesultquarry.unlocks.equip.toolweapon=true
 
 
@@ -777,11 +777,11 @@ skills.entity.buildsaver2.effect.actiongroup_build_refund=0.15
 
 skills.entity.buildsaver3.effect.actiongroup_build_refund=0.2
 
-skills.entity.uesultbuild.effect.nutrition=1.5
-skills.entity.uesultbuild.effect.energy=1.5
-skills.entity.uesultbuild.effect.health=1.0
-skills.entity.uesultbuild.effect.workspeed=0.5
-skills.entity.uesultbuild.effect.actiongroup_build=5.0
+skills.entity.uesultbuild.effect.nutrition=0.5
+skills.entity.uesultbuild.effect.energy=0.5
+skills.entity.uesultbuild.effect.health=0.2
+skills.entity.uesultbuild.effect.workspeed=0.2
+skills.entity.uesultbuild.effect.actiongroup_build=1.5
 skills.entity.uesultbuild.unlocks.equip.toolweapon=true
 skills.entity.uesultbuild.unlocks.build.defensestructure=true
 
@@ -815,11 +815,11 @@ skills.entity.craftexpert2.effect.actiongroup_craft_double=0.15
 
 skills.entity.craftexpert3.effect.actiongroup_craft_double=0.2
 
-skills.entity.uesultcraft.effect.nutrition=1.5
-skills.entity.uesultcraft.effect.energy=1.5
-skills.entity.uesultcraft.effect.health=1.0
-skills.entity.uesultcraft.effect.workspeed=0.5
-skills.entity.uesultcraft.effect.actiongroup_craft=5.0
+skills.entity.uesultcraft.effect.nutrition=0.5
+skills.entity.uesultcraft.effect.energy=0.5
+skills.entity.uesultcraft.effect.health=0.2
+skills.entity.uesultcraft.effect.workspeed=0.2
+skills.entity.uesultcraft.effect.actiongroup_craft=1.5
 
 
 # Farming
@@ -846,11 +846,11 @@ skills.entity.farmyield2.effect.actiongroup_farming_double=0.2
 
 skills.entity.farmyield3.effect.actiongroup_farming_double=0.2
 
-skills.entity.uesultfarming.effect.nutrition=1.5
-skills.entity.uesultfarming.effect.energy=1.5
-skills.entity.uesultfarming.effect.health=1.0
-skills.entity.uesultfarming.effect.workspeed=0.5
-skills.entity.uesultfarming.effect.actiongroup_agri=5.0
+skills.entity.uesultfarming.effect.nutrition=0.5
+skills.entity.uesultfarming.effect.energy=0.5
+skills.entity.uesultfarming.effect.health=0.2
+skills.entity.uesultfarming.effect.workspeed=0.2
+skills.entity.uesultfarming.effect.actiongroup_agri=1.0
 skills.entity.uesultfarming.unlocks.equip.naturearmor=true
 skills.entity.uesultfarming.abilities.uesultdruid2=1
 
@@ -879,13 +879,11 @@ skills.entity.selflearning2.effect.workspeed=0.25
 
 skills.entity.selflearning3.effect.workspeed=0.3
 
-skills.entity.uesultresearch.effect.nutrition=1.5
-skills.entity.uesultresearch.effect.energy=1.5
-skills.entity.uesultresearch.effect.health=1.0
-skills.entity.uesultresearch.effect.workspeed=0.5
-skills.entity.uesultresearch.effect.actiongroup_research=5.0
-skills.entity.uesultresearch.unlocks.equip.techarmor=true
-skills.entity.uesultresearch.unlocks.equip.techweapon=true
+skills.entity.uesultresearch.effect.nutrition=0.5
+skills.entity.uesultresearch.effect.energy=0.5
+skills.entity.uesultresearch.effect.health=0.2
+skills.entity.uesultresearch.effect.workspeed=0.2
+skills.entity.uesultresearch.effect.actiongroup_research=1.5
 
 
 
@@ -919,13 +917,12 @@ skills.entity.uesprayer2.effect.tag_holyweapon_accuracy=0.1
 skills.entity.uesprayer2.effect.tag_holyweapon_attackspeed=0.1
 skills.entity.uesprayer2.effect.tag_holyweapon_damage=0.1
 
-skills.entity.uesultoccultresearch.effect.nutrition=1.5
-skills.entity.uesultoccultresearch.effect.energy=1.5
-skills.entity.uesultoccultresearch.effect.health=1.0
-skills.entity.uesultoccultresearch.effect.workspeed=0.5
-skills.entity.uesultoccultresearch.effect.actiongroup_occultresearch=5.0
-skills.entity.uesultoccultresearch.unlocks.equip.occultweapon=true
-skills.entity.uesultoccultresearch.abilities.uesultspellblast1=5
+skills.entity.uesultoccultresearch.effect.nutrition=0.5
+skills.entity.uesultoccultresearch.effect.energy=0.5
+skills.entity.uesultoccultresearch.effect.health=0.2
+skills.entity.uesultoccultresearch.effect.workspeed=0.2
+skills.entity.uesultoccultresearch.effect.actiongroup_occultresearch=1.0
+skills.entity.uesultoccultresearch.abilities.uesultspellblast1=3
 
 
 # Rituals
@@ -956,13 +953,73 @@ skills.entity.uessoulweaver2.effect.actiongroup_rituals=0.6
 skills.entity.uessoulweaver2.effect.tag_holyweapon_damage=0.15
 skills.entity.uessoulweaver2.effect.tag_darkweapon_damage=0.15
 
-skills.entity.uesultrituals.effect.nutrition=1.5
-skills.entity.uesultrituals.effect.energy=1.5
-skills.entity.uesultrituals.effect.health=1.0
-skills.entity.uesultrituals.effect.workspeed=0.5
-skills.entity.uesultrituals.effect.actiongroup_rituals=5.0
-skills.entity.uesultrituals.unlocks.equip.occultweapon=true
+skills.entity.uesultrituals.effect.nutrition=0.5
+skills.entity.uesultrituals.effect.energy=0.5
+skills.entity.uesultrituals.effect.health=0.2
+skills.entity.uesultrituals.effect.workspeed=0.2
+skills.entity.uesultrituals.effect.actiongroup_rituals=1.0
 skills.entity.uesultrituals.abilities.uesultspellblast2=1
 
+
+# Resilient
+# ----------------------------------------------------------------------------------
+# skills.entity.resilient1.effect.defense=0.05
+# skills.entity.resilient2.effect.defense=0.075
+# skills.entity.resilient3.effect.defense=0.1
+
+skills.entity.resilient4.effect.defense=0.125
+
+skills.entity.resilient5.effect.defense=0.15
+
+skills.entity.resilient6.effect.defense=0.175
+
+skills.entity.resilient7.effect.defense=0.2
+
+skills.entity.resilient8.effect.defense=0.225
+
+skills.entity.resilient9.effect.defense=0.25
+
+# -- Skill Ultimates --
+
+skills.entity.dirtyfighting2.effect.armorpierce=0.3
+
+skills.entity.dirtyfighting3.effect.armorpierce=0.3
+
+skills.entity.uesultresilient.effect.nutrition=0.5
+skills.entity.uesultresilient.effect.energy=0.5
+skills.entity.uesultresilient.effect.health=0.2
+skills.entity.uesultresilient.effect.workspeed=0.2
+skills.entity.uesultresilient.effect.defense=0.5
+
+
+# Scouting
+# ----------------------------------------------------------------------------------
+# skills.entity.scouting1.effect.walkspeed=0.1
+# skills.entity.scouting2.effect.scoutrange=1
+# skills.entity.scouting3.effect.taskforcespeed=0.3
+
+skills.entity.scouting4.effect.walkspeed=0.15
+
+skills.entity.scouting5.effect.scoutrange=1
+
+skills.entity.scouting6.effect.taskforcespeed=0.4
+
+skills.entity.scouting7.effect.walkspeed=0.2
+
+skills.entity.scouting8.effect.scoutrange=2
+
+skills.entity.scouting9.effect.taskforcespeed=0.5
+
+# -- Skill Ultimates --
+
+skills.entity.uesultscouting.effect.nutrition=0.5
+skills.entity.uesultscouting.effect.energy=0.5
+skills.entity.uesultscouting.effect.health=0.2
+skills.entity.uesultscouting.effect.workspeed=0.2
+skills.entity.uesultscouting.effect.walkspeed=0.4
+skills.entity.uesultscouting.effect.scoutrange=4
+skills.entity.uesultscouting.effect.range=2
+skills.entity.uesultscouting.effect.vision=9
+skills.entity.uesultscouting.unlocks.equip.sniper=true
 
 

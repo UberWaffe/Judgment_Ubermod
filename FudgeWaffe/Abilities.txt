@@ -35,6 +35,15 @@ abilities.entity.cross2.effectsounds=attack_protection
 abilities.entity.ubrguassriflesnipe.parents=abilities.base.snipe
 abilities.entity.ubrguassriflesnipe.properties.damage=200
 
+abilities.entity.ubrempower.parents=abilities.base.armorselfboost
+abilities.entity.ubrempower.effect.ubrempower=10
+
+abilities.entity.ubrmtargrenade.parents=abilities.base.weapongrenade
+abilities.entity.ubrmtargrenade.properties.damage=60
+abilities.entity.ubrmtargrenade.properties.aoe=2
+abilities.entity.ubrmtargrenade.properties.range=14
+
+
 
 
 # -----------------------------------------------------------------
@@ -48,6 +57,10 @@ abilities.entity.ubrinfernade.properties.aoe=6
 abilities.entity.ubrinfernade.properties.range=12
 abilities.entity.ubrinfernade.effect.ubrthermobaricburn=60
 abilities.entity.ubrinfernade.effectprefabs=GrenadeProjectilePrefab,ElementalBombExplosionPrefab
+
+abilities.entity.ubrsnipe6.parents=abilities.base.snipe
+abilities.entity.ubrsnipe6.properties.damage=160
+abilities.entity.ubrsnipe6.properties.range=22
 
 
 

@@ -1,15 +1,25 @@
 
 # Make plants grow 4 times slower. (Survivior hunger also divided by 4 in config file)
+# Reduce tending required by half
 # ----------------------------------------------------------------------
 
 objects.entity.tomatofarm.onupdate.grow.action=GainAttribute~maturity~0.05~0~100
-objects.entity.tomatofarm.onupdate.dry.action=GainAttribute~water~-0.0875~0~100
+objects.entity.tomatofarm.onupdate.dry.action=GainAttribute~water~-0.175~0~100
 
 objects.entity.wheatfarm.onupdate.grow.action=GainAttribute~maturity~0.0375~0~100
-objects.entity.wheatfarm.onupdate.dry.action=GainAttribute~water~-0.0875~0~100
+objects.entity.wheatfarm.onupdate.dry.action=GainAttribute~water~-0.175~0~100
 
 objects.entity.herbgarden.onupdate.grow.action=GainAttribute~maturity~0.025~0~100
-objects.entity.herbgarden.onupdate.dry.action=GainAttribute~water~-0.0875~0~100
+objects.entity.herbgarden.onupdate.dry.action=GainAttribute~water~-0.175~0~100
+
+objects.entity.aloefarm.onupdate.grow.action=GainAttribute~maturity~0.0125~0~100
+objects.entity.aloefarm.onupdate.dry.action=GainAttribute~water~-0.15~0~100
+
+objects.entity.cottonfarm.onupdate.grow.action=GainAttribute~maturity~0.0125~0~100
+objects.entity.cottonfarm.onupdate.dry.action=GainAttribute~water~-0.15~0~100
+
+objects.entity.companionfarm.onupdate.grow.action=GainAttribute~maturity~0.025~0~100
+objects.entity.companionfarm.onupdate.dry.action=GainAttribute~water~-0.175~0~100
 
 
 objects.entity.raincollector.onupdate.fill.action=GainAttribute~full~0.125~0~100
@@ -31,6 +41,14 @@ blueprints.entity.wheatfarm.costs.wheat=6
 
 blueprints.entity.herbgarden.costs.herbs=6
 
+blueprints.entity.aloefarm.costs.aloe=6
+
+blueprints.entity.cottonfarm.costs.cotton=6
+
+blueprints.entity.companionfarm.costs.tomato=3
+blueprints.entity.companionfarm.costs.wheat=3
+blueprints.entity.companionfarm.costs.herbs=3
+
 objects.entity.farm.harvest.wheat=23
 
 
@@ -42,5 +60,11 @@ objects.entity.tomatofarm.actions.water.costs.water=1
 objects.entity.wheatfarm.actions.water.costs.water=1
 
 objects.entity.herbgarden.actions.water.costs.water=1
+
+objects.entity.aloefarm.actions.water.costs.water=1
+
+objects.entity.cottonfarm.actions.water.costs.water=1
+
+objects.entity.companionfarm.actions.water.costs.water=1
 
 objects.entity.sheepfarm.actions.feed.costs.wheat=1

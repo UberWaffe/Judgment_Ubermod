@@ -1,4 +1,8 @@
 
 # Boost infirmary healing
+# was 0
+survivors.config.healrate=0.00005
+# was 0.075
 survivors.config.healpermedicine=0.225
+# was 0.05
 survivors.config.healpersecondmedicine=0.1

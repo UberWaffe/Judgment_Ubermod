@@ -1,6 +1,8 @@
 {
 	title: "Fudgewaffe Mod",
-	desc: "An additional content mod. Adds various new research, items and objects. Mainly on the end of the research tree.
+	desc: "Release version compatible.
+
+An additional content mod. Adds various new research, items and objects. Mainly on the end of the research tree.
 
 
 Examples of added content:
@@ -8,7 +10,6 @@ Automated farms
 Water pumps
 Solar panels
 Higher tier rituals
-Thermobaric Weapons
 New research tree (for spending excess research points)
 Higher tiers of some items
 
@@ -16,11 +17,18 @@ Higher tiers of some items
 Electricity:
 Instead of wood as fuel, recipes now use electricity.
 Early on, the only means of generating electricity is a wood burning generator. (Basically, converts wood to energy 1:1)
-You will need to stockpile some scrap to get it. Survivors will auto fuel it.
+You will need to stockpile some scrap to get it. Survivors will auto fuel it. If you run out of wood they will stop auto-fueling it. Tell them at least once manually and they will start again.
+
 
 If you are having trouble keeping up with electric generation, I suggest not making bread. As in vanilla, it is a major consumer of fuel (wood, which is now electricty).
 
-Later on, getting a solar panel or two up will let you generate a small steady income of electricity that needs no further work.
+Mid game, you gain access to a distillery that can make Hydrocarbon fuel, powering a generator. This mainly uses wheat, so you need some decent farming.
+
+Later on, getting a solar panel or two up will let you generate a small steady income of electricity that needs no further work. 8 solar panels can supply a relatively energy hungry base.
+
+
+Mana:
+Once you research Arcane Rituals, you gain access to create mana at occult libraries (Cancel the research task, pick the mana chant task). It will not only keep your ritualists busy, but late game it becomes an important resource.
 
 
 High tech items:
@@ -28,7 +36,7 @@ Some late game items are required to make the advanced workbench, which is neede
 
 Meaning you will have to go scavenge the first few of them in order to start making more on your own.
 
-I suggest getting an advanced workbench with your first few high tech items, so that you can become self sufficient.
+I suggest getting an advanced workbench with your first few high tech items, so that you can become self sufficient once you have the technology.
 But should be sufficient scavenge around that you can get away for quite some time with not making your own.
 
 Sidenote: The high tech items are time consuming to make. Scavenging them is always good.

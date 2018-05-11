@@ -13,6 +13,9 @@ skills.marksmanship9.name=Markmanship IX
 skills.marksmanrange2.name=Bullseye II
 skills.marksmanrange3.name=Bullseye III
 
+skills.uessharpmind1.name=Sharp mind I
+skills.uessharpmind2.name=Sharp mind II
+
 skills.uesultmarksmanship.name=Brain Ventilator
 
 
@@ -188,7 +191,10 @@ skills.techweapon7.name=Tech Weapons VII
 skills.techweapon8.name=Tech Weapons VIII
 skills.techweapon9.name=Tech Weapons IX
 
-skills.uesulttechweapon.name=Butcher of innocence
+skills.uestinkerer1.name=Tinkerer I
+skills.uestinkerer2.name=Tinkerer II
+
+skills.uesulttechweapon.name=Technomancer
 
 
 skills.holyweapon4.name=Holy Weapons IV
@@ -298,7 +304,7 @@ skills.research9.name=Research IX
 skills.selflearning2.name=Self Learning II
 skills.selflearning3.name=Self Learning III
 
-skills.uesultresearch.name=Technomancer
+skills.uesultresearch.name=Techshaper
 
 
 skills.occultresearch4.name=Occult Research IV
@@ -326,6 +332,28 @@ skills.uessoulweaver2.name=Soul weaver II
 
 skills.uesultrituals.name=Ritualist
 
+
+skills.resilient4.name=Resilient IV
+skills.resilient5.name=Resilient V
+skills.resilient6.name=Resilient VI
+skills.resilient7.name=Resilient VII
+skills.resilient8.name=Resilient VIII
+skills.resilient9.name=Resilient IX
+
+skills.dirtyfighting2.name=Dirty Fighting II
+skills.dirtyfighting3.name=Dirty Fighting III
+
+skills.uesultresilient.name=Adamantine
+
+
+skills.scouting4.name=Scouting IV
+skills.scouting5.name=Scouting V
+skills.scouting6.name=Scouting VI
+skills.scouting7.name=Scouting VII
+skills.scouting8.name=Scouting VIII
+skills.scouting9.name=Scouting IX
+
+skills.uesultscouting.name=Eagle Eyed
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -376,7 +404,7 @@ abilities.uesultexecutioner2.name=Assassinate
 
 # Evasion
 # ----------------------------------------------------------
-abilities.uesultjuggernaught1.name=Fortress
+abilities.uesultjuggernaught1.name=Neo Dodger
 statuseffects.uesultjuggernaught1.name=Fortress
 
 

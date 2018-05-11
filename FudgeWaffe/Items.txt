@@ -1,32 +1,24 @@
 
 # New Item Levels
 
-items.base.level4.value=160
-items.base.level4.scrapbase=80
-items.base.level4.level=4
-
-items.base.level5.value=240
-items.base.level5.scrapbase=80
-items.base.level5.level=5
-
-items.base.level6.value=320
-items.base.level6.scrapbase=80
+items.base.level6.value=240
+items.base.level6.scrapbase=160
 items.base.level6.level=6
 
-items.base.level7.value=480
-items.base.level7.scrapbase=80
+items.base.level7.value=320
+items.base.level7.scrapbase=160
 items.base.level7.level=7
 
-items.base.level8.value=640
-items.base.level8.scrapbase=80
+items.base.level8.value=400
+items.base.level8.scrapbase=160
 items.base.level8.level=8
 
-items.base.level9.value=800
-items.base.level9.scrapbase=80
+items.base.level9.value=600
+items.base.level9.scrapbase=160
 items.base.level9.level=9
 
-items.base.level10.value=1100
-items.base.level10.scrapbase=80
+items.base.level10.value=800
+items.base.level10.scrapbase=160
 items.base.level10.level=10
 
 
@@ -35,62 +27,57 @@ items.base.level10.level=10
 items.base.energy.value=0
 items.base.energy.scrapbase=0
 items.base.energy.mindifficulty=1000000000000
+items.base.energy.traderchance.rarity=1
 
 items.base.veryrare.valuemul.rarity=5
 items.base.veryrare.scrapmul.rarity=5
-items.base.veryrare.traderchance.rarity=1
+items.base.veryrare.traderchance.rarity=-1
 items.base.veryrare.rarity=veryrare
 
-# Artifact type items do not recycle for much scrap, but are worth loads in trade
+# Artifact type items do not recycle for much scrap, but are worth loads in trade, but are never for sale by traders
+items.base.artifact.basedesirability=-99
+items.base.artifact.desirabilitycategory=artifact
+items.base.artifact.rarity=artifact
+
+items.base.artifact1.parents=items.base.artifact
 items.base.artifact1.valuemul.rarity=10
 items.base.artifact1.scrapmul.rarity=2
-items.base.artifact1.traderchance.rarity=1
-items.base.artifact1.rarity=artifact1
 
+items.base.artifact2.parents=items.base.artifact
 items.base.artifact2.valuemul.rarity=13
 items.base.artifact2.scrapmul.rarity=2
-items.base.artifact2.traderchance.rarity=1
-items.base.artifact2.rarity=artifact2
 
+items.base.artifact3.parents=items.base.artifact
 items.base.artifact3.valuemul.rarity=16
 items.base.artifact3.scrapmul.rarity=2
-items.base.artifact3.traderchance.rarity=1
-items.base.artifact3.rarity=artifact3
 
+items.base.artifact4.parents=items.base.artifact
 items.base.artifact4.valuemul.rarity=20
 items.base.artifact4.scrapmul.rarity=2
-items.base.artifact4.traderchance.rarity=1
-items.base.artifact4.rarity=artifact4
 
+items.base.artifact5.parents=items.base.artifact
 items.base.artifact5.valuemul.rarity=23
 items.base.artifact5.scrapmul.rarity=2
-items.base.artifact5.traderchance.rarity=1
-items.base.artifact5.rarity=artifact5
 
+items.base.artifact6.parents=items.base.artifact
 items.base.artifact6.valuemul.rarity=26
 items.base.artifact6.scrapmul.rarity=2
-items.base.artifact6.traderchance.rarity=1
-items.base.artifact6.rarity=artifact6
 
+items.base.artifact7.parents=items.base.artifact
 items.base.artifact7.valuemul.rarity=30
 items.base.artifact7.scrapmul.rarity=2
-items.base.artifact7.traderchance.rarity=1
-items.base.artifact7.rarity=artifact7
 
+items.base.artifact8.parents=items.base.artifact
 items.base.artifact8.valuemul.rarity=33
 items.base.artifact8.scrapmul.rarity=2
-items.base.artifact8.traderchance.rarity=1
-items.base.artifact8.rarity=artifact8
 
+items.base.artifact9.parents=items.base.artifact
 items.base.artifact9.valuemul.rarity=36
 items.base.artifact9.scrapmul.rarity=2
-items.base.artifact9.traderchance.rarity=1
-items.base.artifact9.rarity=artifact9
 
+items.base.artifact10.parents=items.base.artifact
 items.base.artifact10.valuemul.rarity=40
 items.base.artifact10.scrapmul.rarity=2
-items.base.artifact10.traderchance.rarity=1
-items.base.artifact10.rarity=artifact10
 
 
 
@@ -99,17 +86,16 @@ items.base.artifact10.rarity=artifact10
 
 # Rework vanilla items
 
-# Adjust snadwiches (like a sandwich, but snadder)
+# Adjust snadwiches (like a sandwich, but more snadderer)
 
 crafting.entity.sandwich.costs.wheat=0
 crafting.entity.sandwich.costs.tomato=3
-crafting.entity.sandwich.costs.wood=0
 crafting.entity.sandwich.costs.bread=1
 
 
 # Make resin craftable with better tech
 
-items.entity.resin.parents=items.base.level1,items.base.common,items.base.craftedresource
+items.entity.resin.parents=items.base.level1,items.base.common
 crafting.entity.resin.parents=crafting.base.handling
 crafting.entity.resin.amount=5
 crafting.entity.resin.work=150
@@ -118,6 +104,7 @@ crafting.entity.resin.station.sawmill=1
 crafting.entity.resin.priority=15
 crafting.entity.resin.costs.wood=5
 crafting.entity.resin.costs.ubrchemicals=1
+crafting.entity.resin.costs.ubrenergyunit=1
 
 
 # Make research kits craftable with high tech
@@ -127,40 +114,58 @@ crafting.entity.researchkit.amount=1
 crafting.entity.researchkit.work=1500
 crafting.entity.researchkit.research=ubrdistilling
 crafting.entity.researchkit.station.ubradvcrafting=1
-crafting.entity.researchkit.priority=5
+crafting.entity.researchkit.priority=7
 crafting.entity.researchkit.costs.physics1=2000
 crafting.entity.researchkit.costs.ubrchemicals=2
-crafting.entity.researchkit.costs.ubrglass=1
-crafting.entity.researchkit.costs.ubralloys=1
+crafting.entity.researchkit.costs.aluminum=1
 crafting.entity.researchkit.costs.ubrenergyunit=20
+
+
+# Make research data craftable with high tech
+
+crafting.entity.researchdata.parents=crafting.base.handling
+crafting.entity.researchdata.amount=1
+crafting.entity.researchdata.work=3000
+crafting.entity.researchdata.research=computers
+crafting.entity.researchdata.station.computerstation=1
+crafting.entity.researchdata.priority=7
+crafting.entity.researchdata.costs.physics1=8000
+crafting.entity.researchdata.costs.ubrenertronics=1
+crafting.entity.researchdata.costs.ubrenergyunit=20
+
+
+# Make research chip craftable with high tech
+
+crafting.entity.researchchip.parents=crafting.base.handling
+crafting.entity.researchchip.amount=1
+crafting.entity.researchchip.work=6000
+crafting.entity.researchchip.research=optics
+crafting.entity.researchchip.station.computerstation=1
+crafting.entity.researchchip.priority=7
+crafting.entity.researchchip.costs.physics1=32000
+crafting.entity.researchchip.costs.ubrenertronics=1
+crafting.entity.researchchip.costs.ubrenergyunit=20
 
 
 # Make Prima-Materia to be cheaper, but slower
 
 items.entity.primamateria.parents=items.base.level3,items.base.rare,items.base.craftedresource
 crafting.entity.primamateria.amount=4
-crafting.entity.primamateria.work=3200
+crafting.entity.primamateria.work=100
 crafting.entity.primamateria.costs.water=0
 crafting.entity.primamateria.costs.wood=0
-crafting.entity.primamateria.costs.ubrenergyunit=4
+crafting.entity.primamateria.costs.ubrenergyunit=8
 crafting.entity.primamateria.costs.stone=4
 crafting.entity.primamateria.costs.clay=4
 crafting.entity.primamateria.costs.metals=2
 crafting.entity.primamateria.costs.minerals=1
 crafting.entity.primamateria.costs.aether=1
-
-
-# Slightly boost Coilgun, but make slower to craft
-
-items.entity.coilgun.properties.range=10
-items.entity.coilgun.properties.accuracy=80
-crafting.entity.coilgun.work=1200
+crafting.entity.primamateria.costs.ubrmana=12
 
 
 # Adjust hunting rifle.
 
 items.entity.huntingrifle.parents=items.base.weapon,items.base.level3,items.base.rare
-items.entity.huntingrifle.tags.rifle=true
 items.entity.huntingrifle.properties.range=11
 items.entity.huntingrifle.skillreq.firearm=false
 
@@ -171,44 +176,7 @@ crafting.entity.huntingrifle.station.weaponsworkshop=1
 crafting.entity.huntingrifle.priority=7
 crafting.entity.huntingrifle.costs.metals=20
 crafting.entity.huntingrifle.costs.weaponparts=10
-crafting.entity.huntingrifle.costs.ubrbullets=5
-
-
-# Boost the Tool weapons to boost work stats, and make them craftable
-
-items.entity.nailgun.effect.actiongroup_build=0.6
-
-items.entity.pipewrench.effect.actiongroup_build=0.1
-items.entity.pipewrench.effect.actiongroup_craft=0.6
-
-crafting.entity.pipewrench.amount=1
-crafting.entity.pipewrench.work=600
-crafting.entity.pipewrench.research=pneumatic
-crafting.entity.pipewrench.station.workbench=1
-crafting.entity.pipewrench.priority=7
-crafting.entity.pipewrench.costs.metals=12
-crafting.entity.pipewrench.costs.cloth=1
-
-items.entity.sledgehammer.effect.actiongroup_build=0.1
-items.entity.sledgehammer.effect.actiongroup_mine=0.6
-items.entity.sledgehammer.effect.actiongroup_quarry=0.6
-
-crafting.entity.sledgehammer.amount=1
-crafting.entity.sledgehammer.work=600
-crafting.entity.sledgehammer.research=pneumatic
-crafting.entity.sledgehammer.station.workbench=1
-crafting.entity.sledgehammer.priority=7
-crafting.entity.sledgehammer.costs.metals=10
-crafting.entity.sledgehammer.costs.wood=1
-crafting.entity.sledgehammer.costs.cloth=2
-
-
-# Adjust Kevlar Vest
-
-crafting.entity.kevlararmor.work=1200
-crafting.entity.kevlararmor.costs.cloth=20
-crafting.entity.kevlararmor.costs.minerals=0
-crafting.entity.kevlararmor.costs.composites=6
+crafting.entity.huntingrifle.costs.ubrbullets=10
 
 
 
@@ -222,69 +190,78 @@ crafting.entity.sniper.costs.gunpowder=0
 crafting.entity.sniper.costs.obsidian=0
 
 
+# Boost Volcanic Bow
+items.entity.volcanicbow.properties.range=9
+
+
 # Boost M16 Rifle
 
-items.entity.m16.properties.attackspeed=7
-items.entity.m16.properties.range=11
+items.entity.m16.properties.range=12
 
 crafting.entity.m16.work=5080
-crafting.entity.m16.costs.composites=25
-crafting.entity.m16.costs.weaponparts=15
 
 
 # Boost 50cal
 
-items.entity.50cal.properties.damage=65
-items.entity.50cal.properties.attackspeed=2
-items.entity.50cal.properties.range=22
+items.entity.50cal.properties.range=24
 items.entity.50cal.effect.vision=5
 
 crafting.entity.50cal.work=6680
 crafting.entity.50cal.costs.obsidian=0
-crafting.entity.50cal.costs.weaponparts=25
-crafting.entity.50cal.costs.composites=25
+crafting.entity.50cal.costs.composites=20
+crafting.entity.50cal.costs.ubrbullets=10
 
 
+# Boost Minigun and make craftable
 
-# Boost Sacred Sword
+items.entity.minigun.properties.range=11
 
-items.entity.sacredsword.properties.attackspeed=6
-items.entity.sacredsword.properties.accuracy=100
-items.entity.sacredsword.effect.walkspeed=0.3
+crafting.entity.minigun.amount=1
+crafting.entity.minigun.work=20160
+crafting.entity.minigun.research=guidancesystems
+crafting.entity.minigun.station.weaponsworkshop=1
+crafting.entity.minigun.priority=5
+crafting.entity.minigun.costs.silicon=8
+crafting.entity.minigun.costs.titanium=15
+crafting.entity.minigun.costs.opticscable=2
+crafting.entity.minigun.costs.ubrbullets=80
 
-crafting.entity.sacredsword.work=5080
-crafting.entity.sacredsword.tags.holycrafting=true
-crafting.entity.sacredsword.costs.holywords=5
-crafting.entity.sacredsword.costs.holywater=50
-crafting.entity.sacredsword.costs.metals=20
+
+# Boost Guided Sniper
+
+items.entity.guidedsniper.properties.damage=76
+items.entity.guidedsniper.properties.range=30
+items.entity.guidedsniper.properties.accuracy=150
+items.entity.guidedsniper.effect.vision=5
+items.entity.guidedsniper.effect.walkspeed=-0.2
+items.entity.guidedsniper.effect.evade=-0.2
+
+crafting.entity.guidedsniper.work=10080
+crafting.entity.guidedsniper.costs.silicon=6
+crafting.entity.guidedsniper.costs.titanium=10
+crafting.entity.guidedsniper.costs.opticscable=5
+crafting.entity.guidedsniper.costs.ubrbullets=6
 
 
-# Boost Saint armor, and make craftable
+# Boost MTAR 21
 
-items.entity.saintsarmor.parents=items.base.armor,items.base.level3,items.base.rare
-items.entity.saintsarmor.properties.health=190
-items.entity.saintsarmor.properties.evade=32
-items.entity.saintsarmor.properties.defense=7
-items.entity.saintsarmor.skillreq.holyarmor=true
-items.entity.saintsarmor.abilities.blessall=1
-items.entity.saintsarmor.effect.vision=4
-items.entity.saintsarmor.effect.health=0.15
+items.entity.mtar21.tags.rifle=true
+items.entity.mtar21.tags.automaticweapon=true
+items.entity.mtar21.properties.range=16
 
-crafting.entity.saintsarmor.amount=1
-crafting.entity.saintsarmor.work=5080
-crafting.entity.saintsarmor.research=sacredcrafting
-crafting.entity.saintsarmor.station.holyforge=1
-crafting.entity.saintsarmor.priority=7
-crafting.entity.saintsarmor.tags.holycrafting=true
-crafting.entity.saintsarmor.costs.holywords=5
-crafting.entity.saintsarmor.costs.holywater=50
-crafting.entity.saintsarmor.costs.metals=20
-crafting.entity.saintsarmor.costs.cloth=5
+crafting.entity.mtar21.work=5220
+crafting.entity.mtar21.costs.composites=10
+crafting.entity.mtar21.costs.aluminum=10
+crafting.entity.mtar21.costs.weaponparts=15
+crafting.entity.mtar21.costs.ubrbullets=10
+
+
+# Boost Angelic Arbalest
+
+items.entity.angelicarbalest.properties.range=12
 
 
 # Make Holy Words craftable
-
-items.entity.holywords.parents=items.base.level3,items.base.rare
 
 crafting.entity.holywords.amount=1
 crafting.entity.holywords.work=5000
@@ -292,21 +269,81 @@ crafting.entity.holywords.research=sacredcrafting
 crafting.entity.holywords.properties.sound=research
 crafting.entity.holywords.station.occultresearch=1
 crafting.entity.holywords.priority=6
-crafting.entity.holywords.tags.holycrafting=true
 
 
+# Adjust arcane scrolls cost
+
+crafting.entity.arcanescrolls.costs.minerals=0
+crafting.entity.arcanescrolls.costs.aether=1
+crafting.entity.arcanescrolls.costs.cloth=1
 
 
+# Adjust batteries cost
+
+crafting.entity.batteries.costs.aluminum=1
+crafting.entity.batteries.costs.alcohol=0
+crafting.entity.batteries.costs.ubrchemicals=1
+crafting.entity.batteries.costs.ubrenergyunit=5
 
 
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Add new high-tech crafting materials
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Adjust silicon cost
+
+crafting.entity.silicon.amount=20
+crafting.entity.silicon.work=1600
+crafting.entity.silicon.costs.quartz=4
+crafting.entity.silicon.costs.stone=16
+crafting.entity.silicon.costs.ubrchemicals=2
+crafting.entity.silicon.costs.aluminum=1
+crafting.entity.silicon.costs.phosphorus=8
+crafting.entity.silicon.costs.ubrenergyunit=1000
+
+
+# Update glass cost to exclude diamonds, but be very high energy cost
+
+crafting.entity.glass.amount=20
+crafting.entity.glass.work=1600
+crafting.entity.glass.costs.quartz=3
+crafting.entity.glass.costs.diamonds=0
+crafting.entity.glass.costs.minerals=0
+crafting.entity.glass.costs.stone=17
+crafting.entity.glass.costs.ubrchemicals=1
+crafting.entity.glass.costs.ubrenergyunit=200
+
+
+# Make Plasma Packs craftable
+
+crafting.entity.plasmapack.amount=1
+crafting.entity.plasmapack.work=320
+crafting.entity.plasmapack.research=diamondfusing
+crafting.entity.plasmapack.station.ubradvcrafting=1
+crafting.entity.plasmapack.properties.sound=research
+crafting.entity.plasmapack.priority=6
+crafting.entity.plasmapack.costs.titanium=1
+crafting.entity.plasmapack.costs.ubrenertronics=1
+crafting.entity.plasmapack.costs.diamonds=1
+crafting.entity.plasmapack.costs.bloodruby=1
+crafting.entity.plasmapack.costs.ubrenergyunit=1000
+
+
+# Adjust titanium to take large amounts of energy, but less resources
+
+crafting.entity.titanium.amount=20
+crafting.entity.titanium.work=2000
+crafting.entity.titanium.costs.aloe=0
+crafting.entity.titanium.costs.ubrchemicals=8
+crafting.entity.titanium.costs.metals=10
+crafting.entity.titanium.costs.aluminum=10
+crafting.entity.titanium.costs.primamateria=1
+crafting.entity.titanium.costs.ubrenergyunit=1000
+
 
 # Energy
+# -----------------------------------------------
 
 items.entity.ubrenergyunit.parents=items.base.energy,items.base.common
 items.entity.ubrenergyunit.sprite=item_ubrenergyunit
+items.entity.ubrenergyunit.gatherlimits=true
+
 
 # Update recipes to use energy instead of wood fuel
 
@@ -324,33 +361,26 @@ crafting.entity.pasta.costs.ubrenergyunit=1
 
 crafting.entity.alcohol.costs.ubrenergyunit=1
 
+crafting.entity.oil.costs.ubrenergyunit=1
 
 
-# Alloys
-# Note: Assume 20 is enough to make chest plate armor
+# Make sawmill (Boards) take energy
 
-items.entity.ubralloys.parents=items.base.level4,items.base.common,items.base.craftedresource
-items.entity.ubralloys.sprite=item_ubralloys
-
-crafting.entity.ubralloys.parents=crafting.base.handling
-crafting.entity.ubralloys.sprite=item_ubralloys
-crafting.entity.ubralloys.amount=12
-crafting.entity.ubralloys.work=600
-crafting.entity.ubralloys.research=composites
-crafting.entity.ubralloys.station.ubradvcrafting=1
-crafting.entity.ubralloys.properties.sound=cook
-crafting.entity.ubralloys.priority=15
-crafting.entity.ubralloys.costs.metals=10
-crafting.entity.ubralloys.costs.minerals=5
-crafting.entity.ubralloys.costs.ubrenergyunit=20
-
-# Update composites to use the alloys
-crafting.entity.composites.costs.metals=0
-crafting.entity.composites.costs.minerals=0
-crafting.entity.composites.costs.resin=4
-crafting.entity.composites.costs.ubralloys=2
+crafting.entity.boards.costs.ubrenergyunit=1
 
 
+# Mana
+# -----------------------------------------------
+
+items.entity.ubrmana.parents=items.base.energy,items.base.rare
+items.entity.ubrmana.sprite=item_ubrmana
+items.entity.ubrmana.gatherlimits=true
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Add new high-tech crafting materials
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Chemicals
 
@@ -359,76 +389,76 @@ items.entity.ubrchemicals.sprite=item_ubrchemicals
 
 crafting.entity.ubrchemicals.parents=crafting.base.handling
 crafting.entity.ubrchemicals.sprite=item_ubrchemicals
-crafting.entity.ubrchemicals.amount=10
-crafting.entity.ubrchemicals.work=600
-crafting.entity.ubrchemicals.research=minerals
+crafting.entity.ubrchemicals.amount=16
+crafting.entity.ubrchemicals.work=1200
+crafting.entity.ubrchemicals.research=acidextraction
 crafting.entity.ubrchemicals.station.ubradvcrafting=1
 crafting.entity.ubrchemicals.properties.sound=research
 crafting.entity.ubrchemicals.priority=15
 crafting.entity.ubrchemicals.costs.water=9
 crafting.entity.ubrchemicals.costs.minerals=2
-crafting.entity.ubrchemicals.costs.alcohol=1
-crafting.entity.ubrchemicals.costs.ubrenergyunit=5
-
-
-
-# Reinforced Glass
-
-items.entity.ubrglass.parents=items.base.level4,items.base.common,items.base.craftedresource
-items.entity.ubrglass.sprite=item_ubrglass
-
-crafting.entity.ubrglass.parents=crafting.base.handling
-crafting.entity.ubrglass.sprite=item_ubrglass
-crafting.entity.ubrglass.amount=30
-crafting.entity.ubrglass.work=600
-crafting.entity.ubrglass.research=composites
-crafting.entity.ubrglass.station.ubradvcrafting=1
-crafting.entity.ubrglass.properties.sound=cook
-crafting.entity.ubrglass.priority=15
-crafting.entity.ubrglass.costs.stone=20
-crafting.entity.ubrglass.costs.ubrchemicals=1
-crafting.entity.ubrglass.costs.composites=1
-crafting.entity.ubrglass.costs.ubrenergyunit=50
+crafting.entity.ubrchemicals.costs.alcohol=4
+crafting.entity.ubrchemicals.costs.acid=3
+crafting.entity.ubrchemicals.costs.ubrenergyunit=8
 
 
 
 # Advanced Textiles
 
 items.entity.ubrtextiles.parents=items.base.level4,items.base.common,items.base.craftedresource
-items.entity.ubrtextiles.sprite=item_cloth
+items.entity.ubrtextiles.sprite=item_ubrtextiles
 
 crafting.entity.ubrtextiles.parents=crafting.base.handling
-crafting.entity.ubrtextiles.sprite=item_cloth
-crafting.entity.ubrtextiles.amount=20
-crafting.entity.ubrtextiles.work=1200
-crafting.entity.ubrtextiles.research=minerals
+crafting.entity.ubrtextiles.sprite=item_ubrtextiles
+crafting.entity.ubrtextiles.amount=50
+crafting.entity.ubrtextiles.work=2500
+crafting.entity.ubrtextiles.research=fiberextraction
 crafting.entity.ubrtextiles.station.ubradvcrafting=1
 crafting.entity.ubrtextiles.properties.sound=cook
 crafting.entity.ubrtextiles.priority=15
-crafting.entity.ubrtextiles.costs.cloth=16
-crafting.entity.ubrtextiles.costs.wood=2
+crafting.entity.ubrtextiles.costs.cotton=50
+crafting.entity.ubrtextiles.costs.silicon=4
 crafting.entity.ubrtextiles.costs.ubrchemicals=1
-crafting.entity.ubrtextiles.costs.ubrenergyunit=5
+crafting.entity.ubrtextiles.costs.ubrenergyunit=100
+
+
+# Exchange most cotton costs for textiles
+
+crafting.entity.opticscable.costs.cotton=0
+crafting.entity.opticscable.costs.ubrtextiles=1
+
+crafting.entity.celestialarmor.costs.cotton=0
+crafting.entity.celestialarmor.costs.ubrtextiles=28
+
+crafting.entity.armorofnight.costs.cotton=0
+crafting.entity.armorofnight.costs.ubrtextiles=40
+
+crafting.entity.bindingcurse.costs.cotton=0
+crafting.entity.bindingcurse.costs.ubrtextiles=6
+
+crafting.entity.angeldiadem.costs.cotton=0
+crafting.entity.angeldiadem.costs.ubrtextiles=8
 
 
 
 # Enertronics
 
-items.entity.ubrenertronics.parents=items.base.level4,items.base.rare,items.base.craftedresource
+items.entity.ubrenertronics.parents=items.base.level5,items.base.rare,items.base.craftedresource
 items.entity.ubrenertronics.sprite=item_ubrenertronics
 
 crafting.entity.ubrenertronics.parents=crafting.base.handling
 crafting.entity.ubrenertronics.sprite=item_ubrenertronics
-crafting.entity.ubrenertronics.amount=20
-crafting.entity.ubrenertronics.work=30000
-crafting.entity.ubrenertronics.research=composites
+crafting.entity.ubrenertronics.amount=40
+crafting.entity.ubrenertronics.work=20000
+crafting.entity.ubrenertronics.research=semiconductors
 crafting.entity.ubrenertronics.station.ubradvcrafting=1
 crafting.entity.ubrenertronics.properties.sound=cook
 crafting.entity.ubrenertronics.priority=15
-crafting.entity.ubrenertronics.costs.copper=5
-crafting.entity.ubrenertronics.costs.ubralloys=5
-crafting.entity.ubrenertronics.costs.ubrchemicals=1
-crafting.entity.ubrenertronics.costs.ubrenergyunit=10
+crafting.entity.ubrenertronics.costs.copper=40
+crafting.entity.ubrenertronics.costs.silicon=30
+crafting.entity.ubrenertronics.costs.aluminum=40
+crafting.entity.ubrenertronics.costs.ubrchemicals=8
+crafting.entity.ubrenertronics.costs.ubrenergyunit=80
 
 
 
@@ -477,7 +507,7 @@ crafting.entity.m16.costs.ubrbullets=10
 # Hydrocarbons
 # Assume 1 unit is about 1 liter
 
-items.entity.ubrhydrocarbons.parents=items.base.level6,items.base.rare,items.base.craftedresource
+items.entity.ubrhydrocarbons.parents=items.base.level3,items.base.rare,items.base.craftedresource
 items.entity.ubrhydrocarbons.sprite=item_alcohol
 
 # Energy cost per 1 hydrocarbon ~= 2.8
@@ -492,82 +522,25 @@ crafting.entity.ubrhydrocarbons.costs.alcohol=10
 crafting.entity.ubrhydrocarbons.costs.ubrenergyunit=10
 
 
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Extended Weapons
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Add craftable experience books
 
-# Thermobaric Grenade
+items.entity.ubrexpbook.parents=items.base.baseuse,items.base.level7,items.base.artifact1
+items.entity.ubrexpbook.sprite=item_pickles
+items.entity.ubrexpbook.baseaction.use.class=BaseActionAddExp
+items.entity.ubrexpbook.baseaction.use.exp=7500
 
-items.entity.ubrinfernade.parents=items.base.usable,items.base.level4,items.base.rare,items.base.consumable
-items.entity.ubrinfernade.sprite=item_flashbang
-items.entity.ubrinfernade.abilities.ubrinfernade=1
+crafting.entity.ubrexpbook.sprite=item_pickles
+crafting.entity.ubrexpbook.amount=1
+crafting.entity.ubrexpbook.work=500
+crafting.entity.ubrexpbook.research=ubroccultenergy4
+crafting.entity.ubrexpbook.properties.sound=cook
+crafting.entity.ubrexpbook.station.computerstation=1
+crafting.entity.ubrexpbook.priority=6
+crafting.entity.ubrexpbook.costs.physics1=5000
+crafting.entity.ubrexpbook.costs.occult1=5000
+crafting.entity.ubrexpbook.costs.pickles=1
+crafting.entity.ubrexpbook.costs.ubrmana=10
 
-crafting.entity.ubrinfernade.amount=1
-crafting.entity.ubrinfernade.work=1200
-crafting.entity.ubrinfernade.research=ubrthermobaricweapons
-crafting.entity.ubrinfernade.station.ubradvcrafting=1
-crafting.entity.ubrinfernade.priority=7
-crafting.entity.ubrinfernade.costs.ubralloys=2
-crafting.entity.ubrinfernade.costs.ubrtextiles=1
-crafting.entity.ubrinfernade.costs.gunpowder=1
-crafting.entity.ubrinfernade.costs.ubrhydrocarbons=10
-
-
-# Thermobaric Blaster
-
-items.entity.ubrthermobaricgun.parents=items.base.weapon,items.base.level5,items.base.veryrare
-items.entity.ubrthermobaricgun.sprite=item_combatshotgun
-items.entity.ubrthermobaricgun.tags.techweapon=true
-items.entity.ubrthermobaricgun.properties.damage=60
-items.entity.ubrthermobaricgun.properties.attackspeed=3
-items.entity.ubrthermobaricgun.properties.range=10
-items.entity.ubrthermobaricgun.properties.accuracy=80
-items.entity.ubrthermobaricgun.properties.attacksound=shotgun_shot
-items.entity.ubrthermobaricgun.properties.prefab=combatshotgun
-items.entity.ubrthermobaricgun.properties.survivorattackanimation=SurvivorShotgun
-items.entity.ubrthermobaricgun.properties.attackanimation=FirespitterAttackPrefab
-items.entity.ubrthermobaricgun.properties.hand=right
-items.entity.ubrthermobaricgun.hiteffect.ubrthermobaricburn=60
-
-crafting.entity.ubrthermobaricgun.amount=1
-crafting.entity.ubrthermobaricgun.work=24000
-crafting.entity.ubrthermobaricgun.research=ubrthermobaricweapons
-crafting.entity.ubrthermobaricgun.station.weaponsworkshop=1
-crafting.entity.ubrthermobaricgun.priority=7
-crafting.entity.ubrthermobaricgun.costs.composites=20
-crafting.entity.ubrthermobaricgun.costs.weaponparts=20
-crafting.entity.ubrthermobaricgun.costs.ubrenertronics=1
-crafting.entity.ubrthermobaricgun.costs.ubrhydrocarbons=200
-
-
-# Guass-Rifle
-
-items.entity.ubrguassrifle.parents=items.base.firearm,items.base.level7,items.base.veryrare
-items.entity.ubrguassrifle.sprite=item_coilgun
-items.entity.ubrguassrifle.tags.techweapon=true
-items.entity.ubrguassrifle.properties.damage=56
-items.entity.ubrguassrifle.properties.attackspeed=4
-items.entity.ubrguassrifle.properties.range=18
-items.entity.ubrguassrifle.properties.accuracy=100
-items.entity.ubrguassrifle.properties.attacksound=gauss_shot
-items.entity.ubrguassrifle.properties.prefab=coilgun
-items.entity.ubrguassrifle.properties.survivorattackanimation=SurvivorAssaultRifle
-items.entity.ubrguassrifle.properties.attackanimation=TransmutationGunAttackPrefab
-items.entity.ubrguassrifle.properties.hand=right
-items.entity.ubrguassrifle.skillreq.techweapon=true
-items.entity.ubrguassrifle.abilities.ubrguassriflesnipe=1
-
-crafting.entity.ubrguassrifle.amount=1
-crafting.entity.ubrguassrifle.sprite=item_coilgun
-crafting.entity.ubrguassrifle.work=30000
-crafting.entity.ubrguassrifle.research=ubreedstorage
-crafting.entity.ubrguassrifle.station.weaponsworkshop=1
-crafting.entity.ubrguassrifle.priority=7
-crafting.entity.ubrguassrifle.costs.composites=20
-crafting.entity.ubrguassrifle.costs.weaponparts=20
-crafting.entity.ubrguassrifle.costs.ubrenertronics=20
-crafting.entity.ubrguassrifle.costs.ubrenergyunit=10000
-crafting.entity.ubrguassrifle.costs.spiritalloy=4
 
 
 
@@ -575,99 +548,14 @@ crafting.entity.ubrguassrifle.costs.spiritalloy=4
 # Add new super crating items
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-items.entity.ubrspiritspark.parents=items.base.level9,items.base.common,items.base.craftedresource
+items.entity.ubrspiritspark.parents=items.base.level6,items.base.artifact1,items.base.craftedresource
 items.entity.ubrspiritspark.sprite=item_ubrspiritspark
 
-items.entity.spiritalloy.parents=items.base.level9,items.base.common,items.base.craftedresource
+items.entity.spiritalloy.parents=items.base.level7,items.base.artifact2,items.base.craftedresource
 items.entity.spiritalloy.sprite=item_spiritalloy
 
-items.entity.eternalengine.parents=items.base.level9,items.base.common,items.base.craftedresource
+items.entity.eternalengine.parents=items.base.level7,items.base.artifact3,items.base.craftedresource
 items.entity.eternalengine.sprite=item_eternalengine
-
-
-
-# Add a super Holy armor
-
-items.entity.heavenlyarmor.parents=items.base.armor,items.base.level10,items.base.rare
-items.entity.heavenlyarmor.properties.health=190
-items.entity.heavenlyarmor.properties.evade=35
-items.entity.heavenlyarmor.properties.defense=12
-items.entity.heavenlyarmor.skillreq.holyarmor=true
-items.entity.heavenlyarmor.abilities.blessall2=1
-items.entity.heavenlyarmor.effect.health=0.8
-items.entity.heavenlyarmor.effect.healrate=5
-items.entity.heavenlyarmor.effect.hungerrate=-0.2
-
-crafting.entity.heavenlyarmor.amount=1
-crafting.entity.heavenlyarmor.work=45000
-crafting.entity.heavenlyarmor.research=heavenlyitemsresearch
-crafting.entity.heavenlyarmor.station.holyforge=1
-crafting.entity.heavenlyarmor.priority=7
-crafting.entity.heavenlyarmor.tags.holycrafting2=true
-crafting.entity.heavenlyarmor.costs.holywords=5
-crafting.entity.heavenlyarmor.costs.holywater=30
-crafting.entity.heavenlyarmor.costs.spiritalloy=25
-crafting.entity.heavenlyarmor.costs.cloth=10
-
-
-# Add a super Holy sword
-
-items.entity.heavenlysword.parents=items.base.weapon,items.base.level10,items.base.rare
-items.entity.heavenlysword.tags.melee=true
-items.entity.heavenlysword.tags.sharp=true
-items.entity.heavenlysword.tags.holyweapon=true
-items.entity.heavenlysword.properties.damage=45
-items.entity.heavenlysword.properties.attackspeed=9
-items.entity.heavenlysword.properties.range=1
-items.entity.heavenlysword.properties.accuracy=100
-items.entity.heavenlysword.properties.attackmisssound=melee_attack
-items.entity.heavenlysword.properties.prefab=sacredsword
-items.entity.heavenlysword.properties.survivorattackanimation=SurvivorClub
-items.entity.heavenlysword.properties.hand=right
-items.entity.heavenlysword.skillreq.occultweapon=true
-items.entity.heavenlysword.abilities.exorcise2=1
-items.entity.heavenlysword.effect.evade=0.2
-items.entity.heavenlysword.effect.walkspeed=0.5
-items.entity.heavenlysword.effect.energydrain=-2
-
-crafting.entity.heavenlysword.amount=1
-crafting.entity.heavenlysword.work=45000
-crafting.entity.heavenlysword.research=heavenlyitemsresearch
-crafting.entity.heavenlysword.station.holyforge=1
-crafting.entity.heavenlysword.priority=7
-crafting.entity.heavenlysword.tags.holycrafting2=true
-crafting.entity.heavenlysword.costs.holywords=5
-crafting.entity.heavenlysword.costs.holywater=50
-crafting.entity.heavenlysword.costs.spiritalloy=10
-
-
-# Add a super Holy pistol
-
-items.entity.heavenlypistol.parents=items.base.firearm,items.base.level10,items.base.rare
-items.entity.heavenlypistol.sprite=item_blessedpistol
-items.entity.heavenlypistol.tags.pistol=true
-items.entity.heavenlypistol.tags.holyweapon=true
-items.entity.heavenlypistol.properties.damage=32
-items.entity.heavenlypistol.properties.attackspeed=8
-items.entity.heavenlypistol.properties.range=18
-items.entity.heavenlypistol.properties.accuracy=100
-items.entity.heavenlypistol.properties.attacksound=gun_attack
-items.entity.heavenlypistol.properties.prefab=blessedpistol
-items.entity.heavenlypistol.properties.survivorattackanimation=SurvivorGun
-items.entity.heavenlypistol.properties.attackanimation=BulletAttackPrefab
-items.entity.heavenlypistol.properties.hand=right
-items.entity.heavenlypistol.abilities.cross2=1
-
-crafting.entity.heavenlypistol.amount=1
-crafting.entity.heavenlypistol.work=45000
-crafting.entity.heavenlypistol.research=heavenlyitemsresearch
-crafting.entity.heavenlypistol.station.holyforge=1
-crafting.entity.heavenlypistol.priority=7
-crafting.entity.heavenlypistol.costs.weaponparts=8
-crafting.entity.heavenlypistol.costs.holywater=6
-crafting.entity.heavenlypistol.costs.ubrbullets=6
-crafting.entity.heavenlypistol.costs.holywords=3
-crafting.entity.heavenlypistol.costs.spiritalloy=7
 
 
 
@@ -675,173 +563,308 @@ crafting.entity.heavenlypistol.costs.spiritalloy=7
 # Extended Occult
 # -----------------------------------------------------------------
 
-# Greater
-# ---------------
+# Imbued Celestial Armor
 
-items.entity.ubrgreaterwarcharm2.parents=items.base.usable,items.base.level10,items.base.artifact1
-items.entity.ubrgreaterwarcharm2.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm2.effect.health=0.2
-items.entity.ubrgreaterwarcharm2.effect.healrate=0.2
-items.entity.ubrgreaterwarcharm2.effect.accuracy=0.1
-items.entity.ubrgreaterwarcharm2.effect.evade=0.1
-items.entity.ubrgreaterwarcharm2.effect.attackspeed=0.1
-items.entity.ubrgreaterwarcharm2.effect.defense=0.1
+items.entity.ubrcelestialarmor.parents=items.base.armor,items.base.level7,items.base.artifact1
+items.entity.ubrcelestialarmor.sprite=item_celestialarmor
+items.entity.ubrcelestialarmor.armormodel=armor2
+items.entity.ubrcelestialarmor.properties.health=380
+items.entity.ubrcelestialarmor.properties.evade=70
+items.entity.ubrcelestialarmor.properties.defense=24
+items.entity.ubrcelestialarmor.skillreq.holyarmor=true
+items.entity.ubrcelestialarmor.auras.blessaura.range=5
+items.entity.ubrcelestialarmor.auras.blessaura.effect.blessaura2=true
+items.entity.ubrcelestialarmor.auras.blessaura.targetmode=Ally
+items.entity.ubrcelestialarmor.auras.blessaura.prefab=PositiveAuraPrefab
+items.entity.ubrcelestialarmor.effect.tag_darkweapon_damage=-1.0
 
-crafting.entity.ubrgreaterwarcharm2.amount=1
-crafting.entity.ubrgreaterwarcharm2.work=35000
-crafting.entity.ubrgreaterwarcharm2.research=ubroccultitems2
-crafting.entity.ubrgreaterwarcharm2.station.ubrspiritfoundry=1
-crafting.entity.ubrgreaterwarcharm2.priority=500
-crafting.entity.ubrgreaterwarcharm2.costs.obsidian=10
-crafting.entity.ubrgreaterwarcharm2.costs.cloth=8
-crafting.entity.ubrgreaterwarcharm2.costs.mysticvines=6
-crafting.entity.ubrgreaterwarcharm2.costs.ubrspiritspark=5
-
-
-items.entity.ubrgreaterworkcharm2.parents=items.base.usable,items.base.level10,items.base.artifact1
-items.entity.ubrgreaterworkcharm2.sprite=item_cross
-items.entity.ubrgreaterworkcharm2.effect.walkspeed=0.2
-items.entity.ubrgreaterworkcharm2.effect.workspeed=0.4
-items.entity.ubrgreaterworkcharm2.effect.nutrition=0.2
-items.entity.ubrgreaterworkcharm2.effect.energy=0.2
-items.entity.ubrgreaterworkcharm2.effect.hungerrate=-0.1
-items.entity.ubrgreaterworkcharm2.effect.energydrain=-0.1
-
-crafting.entity.ubrgreaterworkcharm2.amount=1
-crafting.entity.ubrgreaterworkcharm2.work=35000
-crafting.entity.ubrgreaterworkcharm2.research=ubroccultitems2
-crafting.entity.ubrgreaterworkcharm2.station.holyforge=1
-crafting.entity.ubrgreaterworkcharm2.priority=500
-crafting.entity.ubrgreaterworkcharm2.costs.obsidian=1
-crafting.entity.ubrgreaterworkcharm2.costs.holywater=10
-crafting.entity.ubrgreaterworkcharm2.costs.holywords=4
-crafting.entity.ubrgreaterworkcharm2.costs.cloth=2
-crafting.entity.ubrgreaterworkcharm2.costs.mysticvines=2
-crafting.entity.ubrgreaterworkcharm2.costs.ubrspiritspark=5
+crafting.entity.ubrcelestialarmor.sprite=item_celestialarmor
+crafting.entity.ubrcelestialarmor.amount=1
+crafting.entity.ubrcelestialarmor.work=25200
+crafting.entity.ubrcelestialarmor.research=ubroccultarmor3
+crafting.entity.ubrcelestialarmor.station.holyforge=1
+crafting.entity.ubrcelestialarmor.priority=5
+crafting.entity.ubrcelestialarmor.costs.spiritalloy=20
+crafting.entity.ubrcelestialarmor.costs.ubrtextiles=28
+crafting.entity.ubrcelestialarmor.costs.bloodruby=10
+crafting.entity.ubrcelestialarmor.costs.permafrost=15
+crafting.entity.ubrcelestialarmor.costs.holywords=20
 
 
-# Combines Weaking Rune, Hex Scroll and Voodoo Doll
+# Imbued Celestial Armor
 
-items.entity.ubrhexscroll2.parents=items.base.usable,items.base.level6,items.base.common,items.base.consumable
-items.entity.ubrhexscroll2.abilities.ubrhexscroll2=1
-items.entity.ubrhexscroll2.sprite=item_hexscroll
+items.entity.ubrarmorofnight.parents=items.base.armor,items.base.level7,items.base.artifact1
+items.entity.ubrarmorofnight.sprite=item_armorofnight
+items.entity.ubrarmorofnight.armormodel=armor2
+items.entity.ubrarmorofnight.properties.health=370
+items.entity.ubrarmorofnight.properties.evade=75
+items.entity.ubrarmorofnight.properties.defense=16
+items.entity.ubrarmorofnight.skillreq.darkarmor=true
+items.entity.ubrarmorofnight.effect.walkspeed=0.1
+items.entity.ubrarmorofnight.auras.fear.range=3
+items.entity.ubrarmorofnight.auras.fear.effect.ubrfear2=true
+items.entity.ubrarmorofnight.auras.fear.targetmode=Enemy
+items.entity.ubrarmorofnight.auras.fear.prefab=SuccubusAuraPrefab
 
-crafting.entity.ubrhexscroll2.amount=1
-crafting.entity.ubrhexscroll2.work=480
-crafting.entity.ubrhexscroll2.research=ubroccultconsume2
-crafting.entity.ubrhexscroll2.station.occultresearch=1
-crafting.entity.ubrhexscroll2.sprite=item_hexscroll
-crafting.entity.ubrhexscroll2.priority=500
-crafting.entity.ubrhexscroll2.costs.ubrtextiles=2
-crafting.entity.ubrhexscroll2.costs.ectoplasm=2
-crafting.entity.ubrhexscroll2.costs.demonite=4
-
-
-# Combines Medkit and Cross (Heals and Protects)
-
-items.entity.ubrcross2.parents=items.base.usable,items.base.level6,items.base.common,items.base.consumable
-items.entity.ubrcross2.abilities.ubrbuffspell2=1
-items.entity.ubrcross2.sprite=item_protectionspell
-
-crafting.entity.ubrcross2.amount=1
-crafting.entity.ubrcross2.work=480
-crafting.entity.ubrcross2.research=ubroccultconsume2
-crafting.entity.ubrcross2.station.holyforge=1
-crafting.entity.ubrcross2.sprite=item_protectionspell
-crafting.entity.ubrcross2.priority=500
-crafting.entity.ubrcross2.costs.boards=1
-crafting.entity.ubrcross2.costs.holywater=8
-crafting.entity.ubrcross2.costs.medicine=4
-crafting.entity.ubrcross2.costs.alcohol=4
+crafting.entity.ubrarmorofnight.sprite=item_armorofnight
+crafting.entity.ubrarmorofnight.amount=1
+crafting.entity.ubrarmorofnight.work=34350
+crafting.entity.ubrarmorofnight.research=ubroccultarmor3
+crafting.entity.ubrarmorofnight.station.hellforge=1
+crafting.entity.ubrarmorofnight.priority=5
+crafting.entity.ubrarmorofnight.costs.spiritalloy=20
+crafting.entity.ubrarmorofnight.costs.ubrtextiles=28
+crafting.entity.ubrarmorofnight.costs.bloodruby=10
+crafting.entity.ubrarmorofnight.costs.permafrost=15
+crafting.entity.ubrarmorofnight.costs.hellsessence=12
 
 
+# Silent Choir Sword
+
+items.entity.ubrsacredsword.parents=items.base.weapon,items.base.level7,items.base.artifact1,items.base.lordofwar
+items.entity.ubrsacredsword.sprite=item_sacredsword
+items.entity.ubrsacredsword.tags.melee=true
+items.entity.ubrsacredsword.tags.sharp=true
+items.entity.ubrsacredsword.tags.holyweapon=true
+items.entity.ubrsacredsword.properties.damage=72
+items.entity.ubrsacredsword.properties.attackspeed=4
+items.entity.ubrsacredsword.properties.range=1
+items.entity.ubrsacredsword.properties.accuracy=125
+items.entity.ubrsacredsword.properties.attackmisssound=melee_attack
+items.entity.ubrsacredsword.properties.prefab=sacredsword
+items.entity.ubrsacredsword.properties.survivorattackanimation=SurvivorClub
+items.entity.ubrsacredsword.properties.hand=right
+items.entity.ubrsacredsword.skillreq.occultweapon=true
+items.entity.ubrsacredsword.hiteffect.transmute=9
+items.entity.ubrsacredsword.abilities.exorcise2=3
+items.entity.ubrsacredsword.effect.evade=0.2
+items.entity.ubrsacredsword.effect.defense=0.15
+items.entity.ubrsacredsword.effect.armorpierce=0.3
+items.entity.ubrsacredsword.effect.walkspeed=0.5
+
+crafting.entity.ubrsacredsword.sprite=item_sacredsword
+crafting.entity.ubrsacredsword.amount=1
+crafting.entity.ubrsacredsword.work=31150
+crafting.entity.ubrsacredsword.research=ubroccultweapons3
+crafting.entity.ubrsacredsword.station.holyforge=1
+crafting.entity.ubrsacredsword.priority=5
+crafting.entity.ubrsacredsword.costs.spiritalloy=10
+crafting.entity.ubrsacredsword.costs.bloodruby=10
+crafting.entity.ubrsacredsword.costs.permafrost=15
+crafting.entity.ubrsacredsword.costs.holywords=20
 
 
+# Imbued Plasma Charger
+
+items.entity.ubrplasmacharger.parents=items.base.weapon,items.base.level7,items.base.artifact1,items.base.lordofwar
+items.entity.ubrplasmacharger.sprite=item_plasmacharger
+items.entity.ubrplasmacharger.tags.techweapon=true
+items.entity.ubrplasmacharger.tags.holyweapon=true
+items.entity.ubrplasmacharger.properties.damage=140
+items.entity.ubrplasmacharger.properties.attackspeed=1.3
+items.entity.ubrplasmacharger.properties.range=10
+items.entity.ubrplasmacharger.properties.accuracy=120
+items.entity.ubrplasmacharger.properties.attacksound=plasma_shot
+items.entity.ubrplasmacharger.properties.prefab=plasmacharger
+items.entity.ubrplasmacharger.properties.survivorattackanimation=SurvivorPlasmaCharger
+items.entity.ubrplasmacharger.properties.attackanimation=PlasmachargerAttackPrefab
+items.entity.ubrplasmacharger.properties.hand=right
+items.entity.ubrplasmacharger.skillreq.occultweapon=true
+items.entity.ubrplasmacharger.skillreq.techweapon=true
+items.entity.ubrplasmacharger.hiteffect.transmute=9
+items.entity.ubrplasmacharger.splash.range=1
+items.entity.ubrplasmacharger.splash.damage=1
+items.entity.ubrplasmacharger.effect.walkspeed=-0.2
+items.entity.ubrplasmacharger.effect.evade=-0.2
+
+crafting.entity.ubrplasmacharger.sprite=item_plasmacharger
+crafting.entity.ubrplasmacharger.amount=1
+crafting.entity.ubrplasmacharger.work=43950
+crafting.entity.ubrplasmacharger.research=ubroccultweapons3
+crafting.entity.ubrplasmacharger.station.techworkshop=1
+crafting.entity.ubrplasmacharger.priority=5
+crafting.entity.ubrplasmacharger.costs.spiritalloy=10
+crafting.entity.ubrplasmacharger.costs.nitro=6
+crafting.entity.ubrplasmacharger.costs.hellsessence=5
+crafting.entity.ubrplasmacharger.costs.plasmapack=8
+crafting.entity.ubrplasmacharger.costs.opticscable=16
 
 
+# Sword of Slavering Nephilim
 
-# Master
-# ---------------
+items.entity.ubrswordofnephilim.parents=items.base.weapon,items.base.level7,items.base.artifact1,items.base.lordofwar
+items.entity.ubrswordofnephilim.sprite=item_swordofnephilim
+items.entity.ubrswordofnephilim.tags.melee=true
+items.entity.ubrswordofnephilim.tags.sharp=true
+items.entity.ubrswordofnephilim.tags.darkweapon=true
+items.entity.ubrswordofnephilim.properties.damage=48
+items.entity.ubrswordofnephilim.properties.attackspeed=5
+items.entity.ubrswordofnephilim.properties.range=1
+items.entity.ubrswordofnephilim.properties.accuracy=125
+items.entity.ubrswordofnephilim.properties.attackmisssound=melee_attack
+items.entity.ubrswordofnephilim.properties.prefab=swordofnephilim
+items.entity.ubrswordofnephilim.properties.survivorattackanimation=SurvivorKatana
+items.entity.ubrswordofnephilim.properties.hand=right
+items.entity.ubrswordofnephilim.skillreq.occultweapon=true
+items.entity.ubrswordofnephilim.abilities.swordhex=2
+items.entity.ubrswordofnephilim.effect.evade=0.15
+items.entity.ubrswordofnephilim.effect.defense=0.05
+items.entity.ubrswordofnephilim.effect.armorpierce=0.3
+items.entity.ubrswordofnephilim.hiteffect.demonitecurse=3
 
-items.entity.ubrgreaterwarcharm3.parents=items.base.usable,items.base.level10,items.base.artifact2
-items.entity.ubrgreaterwarcharm3.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm3.effect.health=0.4
-items.entity.ubrgreaterwarcharm3.effect.healrate=0.4
-items.entity.ubrgreaterwarcharm3.effect.accuracy=0.2
-items.entity.ubrgreaterwarcharm3.effect.evade=0.2
-items.entity.ubrgreaterwarcharm3.effect.attackspeed=0.2
-items.entity.ubrgreaterwarcharm3.effect.defense=0.2
-items.entity.ubrgreaterwarcharm3.effect.damage=0.2
-
-crafting.entity.ubrgreaterwarcharm3.amount=1
-crafting.entity.ubrgreaterwarcharm3.work=70000
-crafting.entity.ubrgreaterwarcharm3.research=ubroccultitems3
-crafting.entity.ubrgreaterwarcharm3.station.ubrspiritfoundry=1
-crafting.entity.ubrgreaterwarcharm3.priority=500
-crafting.entity.ubrgreaterwarcharm3.costs.ubrgreaterworkcharm2=1
-crafting.entity.ubrgreaterwarcharm3.costs.ubrspiritspark=10
-
-
-items.entity.ubrgreaterworkcharm3.parents=items.base.usable,items.base.level10,items.base.artifact2
-items.entity.ubrgreaterworkcharm3.sprite=item_cross
-items.entity.ubrgreaterworkcharm3.effect.walkspeed=0.4
-items.entity.ubrgreaterworkcharm3.effect.workspeed=0.8
-items.entity.ubrgreaterworkcharm3.effect.nutrition=0.4
-items.entity.ubrgreaterworkcharm3.effect.energy=0.4
-items.entity.ubrgreaterworkcharm3.effect.hungerrate=-0.2
-items.entity.ubrgreaterworkcharm3.effect.energydrain=-0.2
-
-crafting.entity.ubrgreaterworkcharm3.amount=1
-crafting.entity.ubrgreaterworkcharm3.work=70000
-crafting.entity.ubrgreaterworkcharm3.research=ubroccultitems3
-crafting.entity.ubrgreaterworkcharm3.station.holyforge=1
-crafting.entity.ubrgreaterworkcharm3.priority=500
-crafting.entity.ubrgreaterworkcharm3.costs.ubrgreaterworkcharm2=1
-crafting.entity.ubrgreaterworkcharm3.costs.ubrspiritspark=10
+crafting.entity.ubrswordofnephilim.sprite=item_swordofnephilim
+crafting.entity.ubrswordofnephilim.amount=1
+crafting.entity.ubrswordofnephilim.work=17850
+crafting.entity.ubrswordofnephilim.research=ubroccultweapons3
+crafting.entity.ubrswordofnephilim.station.hellforge=1
+crafting.entity.ubrswordofnephilim.priority=5
+crafting.entity.ubrswordofnephilim.costs.spiritalloy=10
+crafting.entity.ubrswordofnephilim.costs.hellsessence=4
+crafting.entity.ubrswordofnephilim.costs.bloodruby=5
 
 
-# Combines Weaking Rune, Hex Scroll and Voodoo Doll
+# Angelic Arbalest
 
-items.entity.ubrhexscroll3.parents=items.base.usable,items.base.level8,items.base.common,items.base.consumable
-items.entity.ubrhexscroll3.abilities.ubrhexscroll3=1
-items.entity.ubrhexscroll3.sprite=item_hexscroll
+items.entity.ubrangelicarbalest.parents=items.base.weapon,items.base.level7,items.base.artifact1,items.base.lordofwar
+items.entity.ubrangelicarbalest.sprite=item_angelicarbalest
+items.entity.ubrangelicarbalest.tags.bow=true
+items.entity.ubrangelicarbalest.tags.holyweapon=true
+items.entity.ubrangelicarbalest.properties.damage=56
+items.entity.ubrangelicarbalest.properties.attackspeed=4
+items.entity.ubrangelicarbalest.properties.range=14
+items.entity.ubrangelicarbalest.properties.accuracy=120
+items.entity.ubrangelicarbalest.properties.attacksound=bow_attack
+items.entity.ubrangelicarbalest.properties.prefab=angelicarbalest
+items.entity.ubrangelicarbalest.properties.survivorattackanimation=SurvivorBow
+items.entity.ubrangelicarbalest.properties.attackanimation=ArrowPrefab
+items.entity.ubrangelicarbalest.properties.hand=left
+items.entity.ubrangelicarbalest.skillreq.occultweapon=true
+items.entity.ubrangelicarbalest.effect.walkspeed=0.3
+items.entity.ubrangelicarbalest.effect.armorpierce=0.2
+items.entity.ubrangelicarbalest.hiteffect.ubrburn2=6
 
-crafting.entity.ubrhexscroll3.amount=1
-crafting.entity.ubrhexscroll3.work=960
-crafting.entity.ubrhexscroll3.research=ubroccultconsume3
-crafting.entity.ubrhexscroll3.station.occultresearch=1
-crafting.entity.ubrhexscroll3.sprite=item_hexscroll
-crafting.entity.ubrhexscroll3.priority=500
-crafting.entity.ubrhexscroll3.costs.ubrtextiles=2
-crafting.entity.ubrhexscroll3.costs.ectoplasm=2
-crafting.entity.ubrhexscroll3.costs.demonite=2
+crafting.entity.ubrangelicarbalest.sprite=item_angelicarbalest
+crafting.entity.ubrangelicarbalest.amount=1
+crafting.entity.ubrangelicarbalest.work=31600
+crafting.entity.ubrangelicarbalest.research=ubroccultweapons3
+crafting.entity.ubrangelicarbalest.station.holyforge=1
+crafting.entity.ubrangelicarbalest.priority=5
+crafting.entity.ubrangelicarbalest.costs.spiritalloy=10
+crafting.entity.ubrangelicarbalest.costs.bloodruby=12
+crafting.entity.ubrangelicarbalest.costs.diamonds=3
+crafting.entity.ubrangelicarbalest.costs.nitro=2
+crafting.entity.ubrangelicarbalest.costs.holywater=10
 
 
-# Combines Medkit and Cross (Heals and Protects)
+# Imbued War Suit
 
-items.entity.ubrcross3.parents=items.base.usable,items.base.level8,items.base.common,items.base.consumable
-items.entity.ubrcross3.abilities.ubrbuffspell3=1
-items.entity.ubrcross3.sprite=item_protectionspell
+items.entity.ubrcombatsuit.parents=items.base.armor,items.base.level7,items.base.artifact1
+items.entity.ubrcombatsuit.sprite=item_combatsuit
+items.entity.ubrcombatsuit.armormodel=armor2
+items.entity.ubrcombatsuit.properties.health=400
+items.entity.ubrcombatsuit.properties.evade=70
+items.entity.ubrcombatsuit.properties.defense=16
+items.entity.ubrcombatsuit.skillreq.techarmor=true
+items.entity.ubrcombatsuit.abilities.ubrempower=1
+items.entity.ubrcombatsuit.effect.accuracy=0.1
+items.entity.ubrcombatsuit.effect.vision=2
+items.entity.ubrcombatsuit.effect.tag_techweapon_attackspeed=0.2
 
-crafting.entity.ubrcross3.amount=1
-crafting.entity.ubrcross3.work=960
-crafting.entity.ubrcross3.research=ubroccultconsume3
-crafting.entity.ubrcross3.station.holyforge=1
-crafting.entity.ubrcross3.sprite=item_protectionspell
-crafting.entity.ubrcross3.priority=500
-crafting.entity.ubrcross3.costs.boards=1
-crafting.entity.ubrcross3.costs.holywater=8
-crafting.entity.ubrcross3.costs.medicine=3
-crafting.entity.ubrcross3.costs.alcohol=3
+crafting.entity.ubrcombatsuit.sprite=item_combatsuit
+crafting.entity.ubrcombatsuit.amount=1
+crafting.entity.ubrcombatsuit.work=28400
+crafting.entity.ubrcombatsuit.research=ubradvtecharmor
+crafting.entity.ubrcombatsuit.station.techworkshop=1
+crafting.entity.ubrcombatsuit.priority=5
+crafting.entity.ubrcombatsuit.costs.spiritalloy=20
+crafting.entity.ubrcombatsuit.costs.silicon=4
+crafting.entity.ubrcombatsuit.costs.nitro=4
+crafting.entity.ubrcombatsuit.costs.opticscable=3
+crafting.entity.ubrcombatsuit.costs.arcanescrolls=4
+crafting.entity.ubrcombatsuit.costs.plasmapack=1
+crafting.entity.ubrcombatsuit.costs.ubrenertronics=3
+
+
+# Advanced MTAR21
+
+items.entity.ubrmtar21.parents=items.base.firearm,items.base.level7,items.base.artifact1,items.base.lordofwar
+items.entity.ubrmtar21.sprite=item_mtar21
+items.entity.ubrmtar21.tags.rifle=true
+items.entity.ubrmtar21.tags.automaticweapon=true
+items.entity.ubrmtar21.properties.damage=31
+items.entity.ubrmtar21.properties.attackspeed=9
+items.entity.ubrmtar21.properties.range=17
+items.entity.ubrmtar21.properties.accuracy=115
+items.entity.ubrmtar21.properties.attacksound=gun_attack
+items.entity.ubrmtar21.properties.prefab=mtar
+items.entity.ubrmtar21.properties.survivorattackanimation=SurvivorAssaultRifle
+items.entity.ubrmtar21.properties.attackanimation=BulletAttackPrefab
+items.entity.ubrmtar21.properties.hand=right
+items.entity.ubrmtar21.abilities.ubrmtargrenade=1
+items.entity.ubrmtar21.effect.armorpierce=0.1
+items.entity.ubrmtar21.effect.vision=1
+items.entity.ubrmtar21.hiteffect.ubrshock=2
+
+crafting.entity.ubrmtar21.sprite=item_mtar21
+crafting.entity.ubrmtar21.amount=1
+crafting.entity.ubrmtar21.work=13050
+crafting.entity.ubrmtar21.research=ubradvtechweapon
+crafting.entity.ubrmtar21.station.weaponsworkshop=1
+crafting.entity.ubrmtar21.priority=5
+crafting.entity.ubrmtar21.costs.composites=10
+crafting.entity.ubrmtar21.costs.aluminum=10
+crafting.entity.ubrmtar21.costs.weaponparts=15
+crafting.entity.ubrmtar21.costs.spiritalloy=5
+crafting.entity.ubrmtar21.costs.ubrbullets=10
+
+
+# Advanced Beam Cannon
+
+items.entity.ubrbeamcannon.parents=items.base.weapon,items.base.level7,items.base.artifact1,items.base.lordofwar
+items.entity.ubrbeamcannon.sprite=item_beamcannon
+items.entity.ubrbeamcannon.tags.techweapon=true
+items.entity.ubrbeamcannon.properties.damage=64
+items.entity.ubrbeamcannon.properties.attackspeed=4
+items.entity.ubrbeamcannon.properties.range=18
+items.entity.ubrbeamcannon.properties.accuracy=110
+items.entity.ubrbeamcannon.properties.attacksound=ray_shot
+items.entity.ubrbeamcannon.properties.prefab=beamcanon
+items.entity.ubrbeamcannon.properties.survivorattackanimation=SurvivorShotgun
+items.entity.ubrbeamcannon.properties.attackanimation=BeamcanonAttackPrefab
+items.entity.ubrbeamcannon.properties.hand=right
+items.entity.ubrbeamcannon.skillreq.techweapon=true
+items.entity.ubrbeamcannon.hiteffect.ubrburn2=5
+items.entity.ubrbeamcannon.abilities.ubrsnipe6=1
+
+crafting.entity.ubrbeamcannon.sprite=item_beamcannon
+crafting.entity.ubrbeamcannon.amount=1
+crafting.entity.ubrbeamcannon.work=55150
+crafting.entity.ubrbeamcannon.research=ubradvtechweapon
+crafting.entity.ubrbeamcannon.station.techworkshop=1
+crafting.entity.ubrbeamcannon.priority=5
+crafting.entity.ubrbeamcannon.costs.spiritalloy=10
+crafting.entity.ubrbeamcannon.costs.silicon=8
+crafting.entity.ubrbeamcannon.costs.permafrost=10
+crafting.entity.ubrbeamcannon.costs.ubrenertronics=2
+crafting.entity.ubrbeamcannon.costs.glass=3
+crafting.entity.ubrbeamcannon.costs.plasmapack=4
+crafting.entity.ubrbeamcannon.costs.opticscable=2
+
 
 
 # Evoker
 # ---------------
 
+items.entity.ubrskillsaint.parents=items.base.baseuse,items.base.level7,items.base.artifact1
+items.entity.ubrskillsaint.sprite=item_angeldiadem
+items.entity.ubrskillsaint.baseaction.use.class=BaseActionAddSkill
+items.entity.ubrskillsaint.baseaction.use.skill=ubrsaintblood
+
+
 items.entity.ubrgreaterwarcharm4.parents=items.base.usable,items.base.level10,items.base.artifact3
-items.entity.ubrgreaterwarcharm4.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm4.effect.health=0.6
-items.entity.ubrgreaterwarcharm4.effect.healrate=0.6
+items.entity.ubrgreaterwarcharm4.sprite=item_angeldiadem
+items.entity.ubrgreaterwarcharm4.effect.health=1.0
+items.entity.ubrgreaterwarcharm4.effect.healrate=4.0
 items.entity.ubrgreaterwarcharm4.effect.accuracy=0.3
 items.entity.ubrgreaterwarcharm4.effect.evade=0.3
 items.entity.ubrgreaterwarcharm4.effect.attackspeed=0.3
@@ -849,347 +872,29 @@ items.entity.ubrgreaterwarcharm4.effect.defense=0.3
 items.entity.ubrgreaterwarcharm4.effect.damage=0.3
 
 crafting.entity.ubrgreaterwarcharm4.amount=1
-crafting.entity.ubrgreaterwarcharm4.work=105000
-crafting.entity.ubrgreaterwarcharm4.research=ubroccultitems4
-crafting.entity.ubrgreaterwarcharm4.station.ubrspiritfoundry=1
+crafting.entity.ubrgreaterwarcharm4.work=55000
+crafting.entity.ubrgreaterwarcharm4.research=ubroccultenergy4
+crafting.entity.ubrgreaterwarcharm4.station.holyforge=1
 crafting.entity.ubrgreaterwarcharm4.priority=500
-crafting.entity.ubrgreaterwarcharm4.costs.ubrgreaterworkcharm3=1
-crafting.entity.ubrgreaterwarcharm4.costs.ubrspiritspark=15
+crafting.entity.ubrgreaterwarcharm4.costs.angeldiadem=1
+crafting.entity.ubrgreaterwarcharm4.costs.ubrspiritspark=50
+crafting.entity.ubrgreaterwarcharm4.costs.ubrmana=1000
 
 
 items.entity.ubrgreaterworkcharm4.parents=items.base.usable,items.base.level10,items.base.artifact3
-items.entity.ubrgreaterworkcharm4.sprite=item_cross
-items.entity.ubrgreaterworkcharm4.effect.walkspeed=0.6
-items.entity.ubrgreaterworkcharm4.effect.workspeed=1.2
-items.entity.ubrgreaterworkcharm4.effect.nutrition=0.6
-items.entity.ubrgreaterworkcharm4.effect.energy=0.6
-items.entity.ubrgreaterworkcharm4.effect.hungerrate=-0.3
-items.entity.ubrgreaterworkcharm4.effect.energydrain=-0.3
+items.entity.ubrgreaterworkcharm4.sprite=item_pendantofinsight
+items.entity.ubrgreaterworkcharm4.effect.walkspeed=1.0
+items.entity.ubrgreaterworkcharm4.effect.workspeed=2.5
+items.entity.ubrgreaterworkcharm4.effect.nutrition=1.0
+items.entity.ubrgreaterworkcharm4.effect.energy=1.0
+items.entity.ubrgreaterworkcharm4.effect.hungerrate=-0.6
+items.entity.ubrgreaterworkcharm4.effect.energydrain=-0.6
 
 crafting.entity.ubrgreaterworkcharm4.amount=1
-crafting.entity.ubrgreaterworkcharm4.work=105000
-crafting.entity.ubrgreaterworkcharm4.research=ubroccultitems4
+crafting.entity.ubrgreaterworkcharm4.work=55000
+crafting.entity.ubrgreaterworkcharm4.research=ubroccultenergy4
 crafting.entity.ubrgreaterworkcharm4.station.holyforge=1
 crafting.entity.ubrgreaterworkcharm4.priority=500
-crafting.entity.ubrgreaterworkcharm4.costs.ubrgreaterworkcharm3=1
-crafting.entity.ubrgreaterworkcharm4.costs.ubrspiritspark=15
-
-
-# Combines Weaking Rune, Hex Scroll and Voodoo Doll
-
-items.entity.ubrhexscroll4.parents=items.base.usable,items.base.level10,items.base.common,items.base.consumable
-items.entity.ubrhexscroll4.abilities.ubrhexscroll4=2
-items.entity.ubrhexscroll4.sprite=item_hexscroll
-
-crafting.entity.ubrhexscroll4.amount=1
-crafting.entity.ubrhexscroll4.work=1920
-crafting.entity.ubrhexscroll4.research=ubroccultconsume4
-crafting.entity.ubrhexscroll4.station.occultresearch=1
-crafting.entity.ubrhexscroll4.sprite=item_hexscroll
-crafting.entity.ubrhexscroll4.priority=5
-crafting.entity.ubrhexscroll4.costs.ubrtextiles=2
-crafting.entity.ubrhexscroll4.costs.ectoplasm=2
-crafting.entity.ubrhexscroll4.costs.demonite=1
-
-
-# Combines Medkit and Cross (Heals and Protects)
-
-items.entity.ubrcross4.parents=items.base.usable,items.base.level10,items.base.common,items.base.consumable
-items.entity.ubrcross4.abilities.ubrbuffspell4=2
-items.entity.ubrcross4.sprite=item_protectionspell
-
-crafting.entity.ubrcross4.amount=1
-crafting.entity.ubrcross4.work=1920
-crafting.entity.ubrcross4.research=ubroccultconsume4
-crafting.entity.ubrcross4.station.holyforge=1
-crafting.entity.ubrcross4.sprite=item_protectionspell
-crafting.entity.ubrcross4.priority=5
-crafting.entity.ubrcross4.costs.boards=1
-crafting.entity.ubrcross4.costs.holywater=8
-crafting.entity.ubrcross4.costs.medicine=2
-crafting.entity.ubrcross4.costs.alcohol=2
-
-
-
-# Master Evoker
-# ---------------
-
-items.entity.ubrgreaterwarcharm5.parents=items.base.usable,items.base.level10,items.base.artifact4
-items.entity.ubrgreaterwarcharm5.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm5.effect.health=0.8
-items.entity.ubrgreaterwarcharm5.effect.healrate=0.8
-items.entity.ubrgreaterwarcharm5.effect.accuracy=0.4
-items.entity.ubrgreaterwarcharm5.effect.evade=0.4
-items.entity.ubrgreaterwarcharm5.effect.attackspeed=0.4
-items.entity.ubrgreaterwarcharm5.effect.defense=0.4
-items.entity.ubrgreaterwarcharm5.effect.damage=0.4
-
-crafting.entity.ubrgreaterwarcharm5.amount=1
-crafting.entity.ubrgreaterwarcharm5.work=140000
-crafting.entity.ubrgreaterwarcharm5.research=ubroccultitems5
-crafting.entity.ubrgreaterwarcharm5.station.ubrspiritfoundry=1
-crafting.entity.ubrgreaterwarcharm5.priority=500
-crafting.entity.ubrgreaterwarcharm5.costs.ubrgreaterworkcharm4=1
-crafting.entity.ubrgreaterwarcharm5.costs.ubrspiritspark=20
-
-
-items.entity.ubrgreaterworkcharm5.parents=items.base.usable,items.base.level10,items.base.artifact4
-items.entity.ubrgreaterworkcharm5.sprite=item_cross
-items.entity.ubrgreaterworkcharm5.effect.walkspeed=0.8
-items.entity.ubrgreaterworkcharm5.effect.workspeed=1.6
-items.entity.ubrgreaterworkcharm5.effect.nutrition=0.8
-items.entity.ubrgreaterworkcharm5.effect.energy=0.8
-items.entity.ubrgreaterworkcharm5.effect.hungerrate=-0.4
-items.entity.ubrgreaterworkcharm5.effect.energydrain=-0.4
-
-crafting.entity.ubrgreaterworkcharm5.amount=1
-crafting.entity.ubrgreaterworkcharm5.work=140000
-crafting.entity.ubrgreaterworkcharm5.research=ubroccultitems5
-crafting.entity.ubrgreaterworkcharm5.station.holyforge=1
-crafting.entity.ubrgreaterworkcharm5.priority=500
-crafting.entity.ubrgreaterworkcharm5.costs.ubrgreaterworkcharm4=1
-crafting.entity.ubrgreaterworkcharm5.costs.ubrspiritspark=20
-
-
-# Combines Weaking Rune, Hex Scroll and Voodoo Doll
-
-items.entity.ubrhexscroll5.parents=items.base.usable,items.base.level12,items.base.common,items.base.consumable
-items.entity.ubrhexscroll5.abilities.ubrhexscroll5=2
-items.entity.ubrhexscroll5.sprite=item_hexscroll
-
-crafting.entity.ubrhexscroll5.amount=1
-crafting.entity.ubrhexscroll5.work=3840
-crafting.entity.ubrhexscroll5.research=ubroccultconsume5
-crafting.entity.ubrhexscroll5.station.occultresearch=1
-crafting.entity.ubrhexscroll5.sprite=item_hexscroll
-crafting.entity.ubrhexscroll5.priority=500
-crafting.entity.ubrhexscroll5.costs.ubrtextiles=2
-crafting.entity.ubrhexscroll5.costs.ectoplasm=1
-
-
-# Combines Medkit and Cross (Heals and Protects)
-
-items.entity.ubrcross5.parents=items.base.usable,items.base.level12,items.base.common,items.base.consumable
-items.entity.ubrcross5.abilities.ubrbuffspell5=2
-items.entity.ubrcross5.sprite=item_protectionspell
-
-crafting.entity.ubrcross5.amount=1
-crafting.entity.ubrcross5.work=3840
-crafting.entity.ubrcross5.research=ubroccultconsume5
-crafting.entity.ubrcross5.station.holyforge=1
-crafting.entity.ubrcross5.sprite=item_protectionspell
-crafting.entity.ubrcross5.priority=500
-crafting.entity.ubrcross5.costs.boards=1
-crafting.entity.ubrcross5.costs.holywater=6
-crafting.entity.ubrcross5.costs.medicine=2
-
-
-
-# Warlock
-# ---------------
-
-items.entity.ubrgreaterwarcharm6.parents=items.base.usable,items.base.level10,items.base.artifact5
-items.entity.ubrgreaterwarcharm6.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm6.effect.health=1.2
-items.entity.ubrgreaterwarcharm6.effect.healrate=1.2
-items.entity.ubrgreaterwarcharm6.effect.accuracy=0.6
-items.entity.ubrgreaterwarcharm6.effect.evade=0.6
-items.entity.ubrgreaterwarcharm6.effect.attackspeed=0.6
-items.entity.ubrgreaterwarcharm6.effect.defense=0.6
-items.entity.ubrgreaterwarcharm6.effect.damage=0.6
-
-crafting.entity.ubrgreaterwarcharm6.amount=1
-crafting.entity.ubrgreaterwarcharm6.work=175000
-crafting.entity.ubrgreaterwarcharm6.research=ubroccultitems6
-crafting.entity.ubrgreaterwarcharm6.station.ubrspiritfoundry=1
-crafting.entity.ubrgreaterwarcharm6.priority=500
-crafting.entity.ubrgreaterwarcharm6.costs.ubrgreaterworkcharm5=1
-crafting.entity.ubrgreaterwarcharm6.costs.ubrspiritspark=25
-
-
-items.entity.ubrgreaterworkcharm6.parents=items.base.usable,items.base.level10,items.base.artifact5
-items.entity.ubrgreaterworkcharm6.sprite=item_cross
-items.entity.ubrgreaterworkcharm6.effect.walkspeed=1.2
-items.entity.ubrgreaterworkcharm6.effect.workspeed=2.4
-items.entity.ubrgreaterworkcharm6.effect.nutrition=1.2
-items.entity.ubrgreaterworkcharm6.effect.energy=1.2
-items.entity.ubrgreaterworkcharm6.effect.hungerrate=-0.5
-items.entity.ubrgreaterworkcharm6.effect.energydrain=-0.5
-
-crafting.entity.ubrgreaterworkcharm6.amount=1
-crafting.entity.ubrgreaterworkcharm6.work=175000
-crafting.entity.ubrgreaterworkcharm6.research=ubroccultitems6
-crafting.entity.ubrgreaterworkcharm6.station.holyforge=1
-crafting.entity.ubrgreaterworkcharm6.priority=500
-crafting.entity.ubrgreaterworkcharm6.costs.ubrgreaterworkcharm5=1
-crafting.entity.ubrgreaterworkcharm6.costs.ubrspiritspark=25
-
-
-
-# High-Warlock
-# ---------------
-
-items.entity.ubrgreaterwarcharm7.parents=items.base.usable,items.base.level10,items.base.artifact6
-items.entity.ubrgreaterwarcharm7.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm7.effect.health=1.6
-items.entity.ubrgreaterwarcharm7.effect.healrate=1.6
-items.entity.ubrgreaterwarcharm7.effect.accuracy=0.8
-items.entity.ubrgreaterwarcharm7.effect.evade=0.8
-items.entity.ubrgreaterwarcharm7.effect.attackspeed=0.8
-items.entity.ubrgreaterwarcharm7.effect.defense=0.8
-items.entity.ubrgreaterwarcharm7.effect.damage=0.8
-
-crafting.entity.ubrgreaterwarcharm7.amount=1
-crafting.entity.ubrgreaterwarcharm7.work=210000
-crafting.entity.ubrgreaterwarcharm7.research=ubroccultitems7
-crafting.entity.ubrgreaterwarcharm7.station.ubrspiritfoundry=1
-crafting.entity.ubrgreaterwarcharm7.priority=500
-crafting.entity.ubrgreaterwarcharm7.costs.ubrgreaterworkcharm6=1
-crafting.entity.ubrgreaterwarcharm7.costs.ubrspiritspark=30
-
-
-items.entity.ubrgreaterworkcharm7.parents=items.base.usable,items.base.level10,items.base.artifact6
-items.entity.ubrgreaterworkcharm7.sprite=item_cross
-items.entity.ubrgreaterworkcharm7.effect.walkspeed=1.6
-items.entity.ubrgreaterworkcharm7.effect.workspeed=3.2
-items.entity.ubrgreaterworkcharm7.effect.nutrition=1.6
-items.entity.ubrgreaterworkcharm7.effect.energy=1.6
-items.entity.ubrgreaterworkcharm7.effect.hungerrate=-0.6
-items.entity.ubrgreaterworkcharm7.effect.energydrain=-0.6
-
-crafting.entity.ubrgreaterworkcharm7.amount=1
-crafting.entity.ubrgreaterworkcharm7.work=210000
-crafting.entity.ubrgreaterworkcharm7.research=ubroccultitems7
-crafting.entity.ubrgreaterworkcharm7.station.holyforge=1
-crafting.entity.ubrgreaterworkcharm7.priority=500
-crafting.entity.ubrgreaterworkcharm7.costs.ubrgreaterworkcharm6=1
-crafting.entity.ubrgreaterworkcharm7.costs.ubrspiritspark=30
-
-
-
-# Magnus
-# ---------------
-
-items.entity.ubrgreaterwarcharm8.parents=items.base.usable,items.base.level10,items.base.artifact7
-items.entity.ubrgreaterwarcharm8.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm8.effect.health=2.0
-items.entity.ubrgreaterwarcharm8.effect.healrate=2.0
-items.entity.ubrgreaterwarcharm8.effect.accuracy=1.0
-items.entity.ubrgreaterwarcharm8.effect.evade=1.0
-items.entity.ubrgreaterwarcharm8.effect.attackspeed=1.0
-items.entity.ubrgreaterwarcharm8.effect.defense=1.0
-items.entity.ubrgreaterwarcharm8.effect.damage=1.0
-
-crafting.entity.ubrgreaterwarcharm8.amount=1
-crafting.entity.ubrgreaterwarcharm8.work=245000
-crafting.entity.ubrgreaterwarcharm8.research=ubroccultitems8
-crafting.entity.ubrgreaterwarcharm8.station.ubrspiritfoundry=1
-crafting.entity.ubrgreaterwarcharm8.priority=500
-crafting.entity.ubrgreaterwarcharm8.costs.ubrgreaterworkcharm7=1
-crafting.entity.ubrgreaterwarcharm8.costs.ubrspiritspark=35
-
-
-items.entity.ubrgreaterworkcharm8.parents=items.base.usable,items.base.level10,items.base.artifact7
-items.entity.ubrgreaterworkcharm8.sprite=item_cross
-items.entity.ubrgreaterworkcharm8.effect.walkspeed=2.0
-items.entity.ubrgreaterworkcharm8.effect.workspeed=4.0
-items.entity.ubrgreaterworkcharm8.effect.nutrition=2.0
-items.entity.ubrgreaterworkcharm8.effect.energy=2.0
-items.entity.ubrgreaterworkcharm8.effect.hungerrate=-0.7
-items.entity.ubrgreaterworkcharm8.effect.energydrain=-0.7
-
-crafting.entity.ubrgreaterworkcharm8.amount=1
-crafting.entity.ubrgreaterworkcharm8.work=245000
-crafting.entity.ubrgreaterworkcharm8.research=ubroccultitems8
-crafting.entity.ubrgreaterworkcharm8.station.holyforge=1
-crafting.entity.ubrgreaterworkcharm8.priority=500
-crafting.entity.ubrgreaterworkcharm8.costs.ubrgreaterworkcharm7=1
-crafting.entity.ubrgreaterworkcharm8.costs.ubrspiritspark=35
-
-
-
-# Arch-Magnus
-# ---------------
-
-items.entity.ubrgreaterwarcharm9.parents=items.base.usable,items.base.level10,items.base.artifact8
-items.entity.ubrgreaterwarcharm9.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm9.effect.health=3.0
-items.entity.ubrgreaterwarcharm9.effect.healrate=3.0
-items.entity.ubrgreaterwarcharm9.effect.accuracy=1.5
-items.entity.ubrgreaterwarcharm9.effect.evade=1.5
-items.entity.ubrgreaterwarcharm9.effect.attackspeed=1.5
-items.entity.ubrgreaterwarcharm9.effect.defense=1.5
-items.entity.ubrgreaterwarcharm9.effect.damage=1.5
-items.entity.ubrgreaterwarcharm9.effect.walkspeed=0.25
-items.entity.ubrgreaterwarcharm9.effect.vision=2
-
-crafting.entity.ubrgreaterwarcharm9.amount=1
-crafting.entity.ubrgreaterwarcharm9.work=280000
-crafting.entity.ubrgreaterwarcharm9.research=ubroccultitems9
-crafting.entity.ubrgreaterwarcharm9.station.ubrspiritfoundry=1
-crafting.entity.ubrgreaterwarcharm9.priority=500
-crafting.entity.ubrgreaterwarcharm9.costs.ubrgreaterworkcharm8=1
-crafting.entity.ubrgreaterwarcharm9.costs.ubrspiritspark=40
-
-
-items.entity.ubrgreaterworkcharm9.parents=items.base.usable,items.base.level10,items.base.artifact8
-items.entity.ubrgreaterworkcharm9.sprite=item_cross
-items.entity.ubrgreaterworkcharm9.effect.walkspeed=3.0
-items.entity.ubrgreaterworkcharm9.effect.workspeed=6.0
-items.entity.ubrgreaterworkcharm9.effect.nutrition=3.0
-items.entity.ubrgreaterworkcharm9.effect.energy=3.0
-items.entity.ubrgreaterworkcharm9.effect.hungerrate=-0.75
-items.entity.ubrgreaterworkcharm9.effect.energydrain=-0.75
-
-crafting.entity.ubrgreaterworkcharm9.amount=1
-crafting.entity.ubrgreaterworkcharm9.work=280000
-crafting.entity.ubrgreaterworkcharm9.research=ubroccultitems9
-crafting.entity.ubrgreaterworkcharm9.station.holyforge=1
-crafting.entity.ubrgreaterworkcharm9.priority=500
-crafting.entity.ubrgreaterworkcharm9.costs.ubrgreaterworkcharm8=1
-crafting.entity.ubrgreaterworkcharm9.costs.ubrspiritspark=40
-
-
-
-# Weaver
-# ---------------
-
-items.entity.ubrgreaterwarcharm10.parents=items.base.usable,items.base.level10,items.base.artifact9
-items.entity.ubrgreaterwarcharm10.sprite=item_elementalbomb
-items.entity.ubrgreaterwarcharm10.effect.health=4.0
-items.entity.ubrgreaterwarcharm10.effect.healrate=4.0
-items.entity.ubrgreaterwarcharm10.effect.accuracy=2.0
-items.entity.ubrgreaterwarcharm10.effect.evade=2.0
-items.entity.ubrgreaterwarcharm10.effect.attackspeed=2.0
-items.entity.ubrgreaterwarcharm10.effect.defense=2.0
-items.entity.ubrgreaterwarcharm10.effect.damage=2.0
-items.entity.ubrgreaterwarcharm10.effect.walkspeed=0.5
-items.entity.ubrgreaterwarcharm10.effect.vision=4
-
-crafting.entity.ubrgreaterwarcharm10.amount=1
-crafting.entity.ubrgreaterwarcharm10.work=350000
-crafting.entity.ubrgreaterwarcharm10.research=ubroccultitems10
-crafting.entity.ubrgreaterwarcharm10.station.ubrspiritfoundry=1
-crafting.entity.ubrgreaterwarcharm10.priority=500
-crafting.entity.ubrgreaterwarcharm10.costs.ubrgreaterworkcharm9=1
-crafting.entity.ubrgreaterwarcharm10.costs.ubrspiritspark=50
-
-
-items.entity.ubrgreaterworkcharm10.parents=items.base.usable,items.base.level10,items.base.artifact9
-items.entity.ubrgreaterworkcharm10.sprite=item_cross
-items.entity.ubrgreaterworkcharm10.effect.walkspeed=5.0
-items.entity.ubrgreaterworkcharm10.effect.workspeed=10.0
-items.entity.ubrgreaterworkcharm10.effect.nutrition=5.0
-items.entity.ubrgreaterworkcharm10.effect.energy=5.0
-items.entity.ubrgreaterworkcharm10.effect.hungerrate=-0.8
-items.entity.ubrgreaterworkcharm10.effect.energydrain=-0.8
-items.entity.ubrgreaterworkcharm10.effect.healrate=2.0
-
-crafting.entity.ubrgreaterworkcharm10.amount=1
-crafting.entity.ubrgreaterworkcharm10.work=350000
-crafting.entity.ubrgreaterworkcharm10.research=ubroccultitems10
-crafting.entity.ubrgreaterworkcharm10.station.holyforge=1
-crafting.entity.ubrgreaterworkcharm10.priority=500
-crafting.entity.ubrgreaterworkcharm10.costs.ubrgreaterworkcharm9=1
-crafting.entity.ubrgreaterworkcharm10.costs.ubrspiritspark=50
-
+crafting.entity.ubrgreaterworkcharm4.costs.pendantofinsight=1
+crafting.entity.ubrgreaterworkcharm4.costs.ubrspiritspark=50
+crafting.entity.ubrgreaterworkcharm4.costs.ubrmana=1000

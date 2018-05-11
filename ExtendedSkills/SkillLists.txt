@@ -116,10 +116,12 @@ skilllist.entity.research.ranks.5.research4=1
 skilllist.entity.research.ranks.6.research5=1
 skilllist.entity.research.ranks.7.research6=1
 skilllist.entity.research.ranks.8.selflearning2=1
+skilllist.entity.research.ranks.8.uesmovement1=1
 # skilllist.entity.research.ranks.9.research7=1
 # skilllist.entity.research.ranks.10.research8=1
 # skilllist.entity.research.ranks.11.research9=1
 skilllist.entity.research.ranks.9.selflearning3=1
+skilllist.entity.research.ranks.9.uesmovement2=1
 skilllist.entity.research.ranks.10.uesultresearch=1
 
 # skilllist.entity.occultresearch.parents=skilllist.base.work
@@ -172,10 +174,12 @@ skilllist.entity.marksmanship.ranks.5.marksmanship4=1
 skilllist.entity.marksmanship.ranks.6.marksmanship5=1
 skilllist.entity.marksmanship.ranks.7.marksmanship6=1
 skilllist.entity.marksmanship.ranks.8.marksmanrange2=1
+skilllist.entity.marksmanship.ranks.8.uessharpmind1=1
 # skilllist.entity.marksmanship.ranks.9.marksmanship7=1
 # skilllist.entity.marksmanship.ranks.10.marksmanship8=1
 # skilllist.entity.marksmanship.ranks.11.marksmanship9=1
 skilllist.entity.marksmanship.ranks.9.marksmanrange3=1
+skilllist.entity.marksmanship.ranks.9.uessharpmind2=1
 skilllist.entity.marksmanship.ranks.10.uesultmarksmanship=1
 
 # skilllist.entity.damage.parents=skilllist.base.combat
@@ -236,6 +240,49 @@ skilllist.entity.stalwart.ranks.8.ueshealrate1=1
 skilllist.entity.stalwart.ranks.9.stalwartexpert3=1
 skilllist.entity.stalwart.ranks.9.ueshealrate2=1
 skilllist.entity.stalwart.ranks.10.uesultstalwart=1
+
+# skilllist.entity.resilient.parents=skilllist.base.combat
+# skilllist.entity.resilient.ranks.1.resilient1=1
+# skilllist.entity.resilient.ranks.2.resilient2=1
+# skilllist.entity.resilient.ranks.3.resilient3=1
+# skilllist.entity.resilient.ranks.4.protection=1
+# skilllist.entity.resilient.ranks.4.satanist=1
+# skilllist.entity.resilient.ranks.4.dirtyfighting=1
+skilllist.entity.resilient.ranks.5.resilient4=1
+skilllist.entity.resilient.ranks.6.resilient5=1
+skilllist.entity.resilient.ranks.7.resilient6=1
+skilllist.entity.resilient.ranks.8.dirtyfighting2=1
+skilllist.entity.resilient.ranks.8.ueshealrate1=1
+# skilllist.entity.resilient.ranks.9.resilient7=1
+# skilllist.entity.resilient.ranks.10.resilient8=1
+# skilllist.entity.resilient.ranks.11.resilient9=1
+skilllist.entity.resilient.ranks.9.dirtyfighting3=1
+skilllist.entity.resilient.ranks.9.ueshealrate2=1
+skilllist.entity.resilient.ranks.10.uesultresilient=1
+
+# skilllist.entity.scouting.parents=skilllist.base.combat
+# skilllist.entity.scouting.ranks.1.scouting1=1
+# skilllist.entity.scouting.ranks.1.patroling=1
+# skilllist.entity.scouting.ranks.2.scouting2=1
+# skilllist.entity.scouting.ranks.2.spotting=1
+# skilllist.entity.scouting.ranks.3.scouting3=1
+# skilllist.entity.scouting.ranks.3.stealth=1
+# skilllist.entity.scouting.ranks.4.naturelover=1
+# skilllist.entity.scouting.ranks.4.sniper=1
+# skilllist.entity.scouting.ranks.4.marksmanrange=1
+skilllist.entity.scouting.ranks.5.scouting4=1
+skilllist.entity.scouting.ranks.6.scouting5=1
+skilllist.entity.scouting.ranks.7.scouting6=1
+skilllist.entity.scouting.ranks.8.stealth2=1
+skilllist.entity.scouting.ranks.8.marksmanrange2=1
+skilllist.entity.scouting.ranks.8.uessharpmind1=1
+# skilllist.entity.scouting.ranks.9.scouting7=1
+# skilllist.entity.scouting.ranks.10.scouting8=1
+# skilllist.entity.scouting.ranks.11.scouting9=1
+skilllist.entity.scouting.ranks.9.stealth3=1
+skilllist.entity.scouting.ranks.9.marksmanrange3=1
+skilllist.entity.scouting.ranks.9.uessharpmind2=1
+skilllist.entity.scouting.ranks.10.uesultscouting=1
 
 
 # Weapon Skills

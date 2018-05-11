@@ -12,6 +12,28 @@ actions.claytransmute.name=Clay Transmutation
 actions.claytransmute.description=A ritual to transmutate Prima Materia into Clay.
 
 
+actions.quartztransmute.name=Quartz Transmutation
+actions.quartztransmute.description=A ritual to transmutate Prima Materia into Quartz.
+
+actions.obsidiantransmute.name=Obsidian Transmutation
+actions.obsidiantransmute.description=A ritual to transmutate Prima Materia into Obsidian.
+
+actions.demonitetransmute.name=Demonite Transmutation
+actions.demonitetransmute.description=A ritual to transmutate Prima Materia into Demonite.
+
+actions.permafrosttransmute.name=Permafrost Crystal Transmutation
+actions.permafrosttransmute.description=A ritual to transmutate Prima Materia into Permafrost Crystal.
+
+actions.hellsessencetransmute.name=Hell's Essence Transmutation
+actions.hellsessencetransmute.description=A ritual to transmutate Prima Materia into Hell's Essence.
+
+actions.gemstransmute.name=Gems Transmutation
+actions.gemstransmute.description=A ritual to transmutate Prima Materia into Blood Rubies and Diamonds.
+
+actions.creatematter.name=Create Matter
+actions.creatematter.description=A ritual to multiply and transmute Prima Materia into a wide variety of raw resources.
+
+
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Research
@@ -23,8 +45,8 @@ actions.claytransmute.description=A ritual to transmutate Prima Materia into Cla
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 research.ubradvancedmachines.name=Advanced Machines
-research.ubrautomatedfarming.name=Automated Greenhouses
 research.ubrdistilling.name=Refining
+research.ubradvalchemy.name=Advanced Alchemy
 
 
 
@@ -41,70 +63,46 @@ research.ubreedstorage.name=Extreme Energy Density Capacitors
 # Occult Extended
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-research.ubroccultenergy.name=Spirit Energy Manifestation
-research.spiritalloyresearch.name=Alloying Spirit Energy
+research.ubroccultenergy.name=Spirit Energy Manipulation
+
+research.ubroccultenergy2.name=Spirit Energy Alloying
+
 research.eternalfireresearch.name=Eternal Engines
-
-
-# Greater
-
-research.ubroccultenergy2.name=Spirit Energy Control
-
-research.heavenlyitemsresearch.name=Heavenly Crafting
-research.ubroccultitems2.name=Imbued Crafting
-research.ubroccultconsume2.name=Imbued Spells
 
 
 # Master
 
 research.ubroccultenergy3.name=Spirit Energy Mastery
-research.ubroccultitems3.name=Master Crafting
-research.ubroccultconsume3.name=Master Spells
+research.ubroccultarmor3.name=Master Occult Armour
+research.ubroccultweapons3.name=Master Occult Weapons
 
 
-# Evoker
+# New Master Occult Items
 
-research.ubroccultenergy4.name=Spirit Energy Evoking
-research.ubroccultitems4.name=Evoker Crafting
-research.ubroccultconsume4.name=Evoker Spells
+items.ubrcelestialarmor.name=Sliver of Eternity
+items.ubrcelestialarmor.description=Upon thy breast I shall rest, and cover thy heart from wickedness. Around thy loins I shall be girthed, and lift thy spirit for the war. I shall shine, so others may see.
 
+items.ubrarmorofnight.name=Horrors of the Night
+items.ubrarmorofnight.description=I walked amongst them, and they knelt. In joyous revel their legs flailed as they clawed at their eyes, crying tears of blood in happiness. Oh my children, why do you scream? Why do you lament? None shall harm you underneath my fist.
+statuseffects.ubrfear2.name=Anguished
 
-# Master Evoker
+items.ubrsacredsword.name=Silent Choir
+items.ubrsacredsword.description=The blade sings its silent curve, and cleaves asunder the flesh of the wicked. Behold ye, sons of deceit, as it devours thy wailing.
 
-research.ubroccultenergy5.name=Masterful Spirit Evoking
-research.ubroccultitems5.name=Master Evoker Crafting
-research.ubroccultconsume5.name=Master Evoker Spells
+items.ubrplasmacharger.name=Plasma Rain
+items.ubrplasmacharger.description=Some may find it disconcerting for balls of blazing plasma to leave trails of glowing scripts and echoes of holy chants. But trial runs show a 37% increase in combat effectiveness. Earplugs are advised for atheists.
 
+items.ubrswordofnephilim.name=Sword Of Slavering Nephilim
+items.ubrswordofnephilim.description=The whispers grew more fervent as the blood of the innocent cried out. A hint of pleasure tainted the whispers, and they became more eager as the massacre grew more violent. To my horror, I realized I was the one whispering. -Memoir of a cultist
 
-# Warlock
+items.ubrangelicarbalest.name=Angelic Flaming Arbalest
+items.ubrangelicarbalest.description=I am capable of violence, but I will not revel in it. I am powerful, but I will temper it with compassion. I will bear this responsibility, treat this might bestowed on me as the noble burden it is. And I will willingly sacrifice myself to protect others. -Oath carved on the bow
 
-research.ubroccultenergy6.name=Warlock Spirit Mastery
-research.ubroccultitems6.name=Warlock Crafting
-
-
-# High Warlock
-
-research.ubroccultenergy7.name=High Warlock Spirit Mastery
-research.ubroccultitems7.name=High Warlock Crafting
-
-
-# Magnus
-
-research.ubroccultenergy8.name=Magnus Spirit Mastery
-research.ubroccultitems8.name=Magnus Crafting
 
 
 # Arch-Magnus
 
-research.ubroccultenergy9.name=Arch-Magnus Spirit Mastery
-research.ubroccultitems9.name=Arch-Magnus Crafting
-
-
-# Weaver
-
-research.ubroccultenergy10.name=Weaver Spirit Mastery
-research.ubroccultitems10.name=Weaver Crafting
-
+research.ubroccultenergy4.name=Arch-Magnus Evoking
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -209,7 +207,7 @@ items.ubrenergyunit.name=Energy
 items.ubrenergyunit.description=1 kWh (One kilo-Watt hour) of electric energy.
 
 objects.ubrwoodfiredgenerator.name=Wood Fired Generator
-objects.ubrwoodfiredgenerator.description=Simplistic generator that generates 2kW of power by burning wood.
+objects.ubrwoodfiredgenerator.description=Simplistic generator that generates 2kW of power by burning wood (1 wood = 1 energy).
 
 objects.ubrsolarenergy.name=Solar Generator
 objects.ubrsolarenergy.description=Solar panels combined with battery packs, providing 24 hour power. Generates 1kW of power.
@@ -224,20 +222,14 @@ objects.ubreternalreactor.description=Using the constant heat energy provided by
 
 # High-Tech Materials
 
-items.ubralloys.name=High Tech Alloys
-items.ubralloys.description=High-tech alloys refined from metals and minerals.
-
 items.ubrchemicals.name=Chemicals
 items.ubrchemicals.description=Various chemicals for a wide variety of use, critical for more advanced crafting.
 
 items.ubrbullets.name=Ammunition
 items.ubrbullets.description=Boxes of ammunition of various standard calibers for use in firearms.
 
-items.ubrglass.name=Reinforced Glass
-items.ubrglass.description=Glass is a very useful material. From mirrors to telescopes to greenhouses. Reinforcing the glass allows for more uses and less maintenance.
-
 items.ubrtextiles.name=Hybrid Textiles
-items.ubrtextiles.description=Textiles made from interweaving cloth and treated plantfibre. Their uses are varied and critical to advancing an economy beyond subsistence.
+items.ubrtextiles.description=Textiles made from woven cotton, strengthened with flexible silicone. Their uses are varied and critical to advancing an economy beyond subsistence.
 
 items.ubrenertronics.name=Enertronics
 items.ubrenertronics.description=Electronics and electrical equipment, for all of your digital information and electrical power needs.
@@ -254,16 +246,16 @@ objects.ubradvcrafting.name=Advanced Workbench
 objects.ubradvcrafting.description=Full of advanced tools and a high temperature furnace, used to create complex materials and stuff. Requires power.
 
 objects.ubraquiferpump.name=Aquifer Pump
-objects.ubraquiferpump.description=Pumps water without any manual labour. Requires power.
+objects.ubraquiferpump.description=Pumps large quantities of water but uses power.
 
-objects.automatedvegfarm.name=Greenhouse: Vegetable
-objects.automatedvegfarm.description=Irrigated greenhouse that grows vegetables. Only requires farmers to plant and harvest, tending is automatic. Requires power.
+objects.automatedcompanionfarm.name=Enchanted Greenhouse: Companion Crops
+objects.automatedcompanionfarm.description=Irrigated greenhouse enchanted with druid rituals, that grows vegetables, wheat and herbs. Only requires farmers to plant and harvest, tending is automatic. Requires power.
 
-objects.automatedwheatfarm.name=Greenhouse: Wheat
-objects.automatedwheatfarm.description=Irrigated greenhouse that grows wheat. Only requires farmers to plant and harvest, tending is automatic. Requires power.
+objects.automatedcottonfarm.name=Enchanted Greenhouse: Cotton
+objects.automatedcottonfarm.description=Irrigated greenhouse enchanted with druid rituals, that grows cotton. Only requires farmers to plant and harvest, tending is automatic. Requires power.
 
-objects.automatedherbfarm.name=Greenhouse: Herb
-objects.automatedherbfarm.description=Irrigated greenhouse that grows herbs. Only requires farmers to plant and harvest, tending is automatic. Requires power.
+objects.automatedaloefarm.name=Enchanted Greenhouse: Aloe
+objects.automatedaloefarm.description=Irrigated greenhouse enchanted with druid rituals, that grows aloe. Only requires farmers to plant and harvest, tending is automatic. Requires power.
 
 objects.ubrdistillery.name=Distillery
 objects.ubrdistillery.description=Distills alcohol and spiced drinks in bulk. Requires power.
@@ -285,13 +277,11 @@ object.fuelled.attribute=Fuelled
 # Extended Base / Farming
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-research.ubrconstruction2.name=Complex Construction
+research.ubrwoodgenerator.name=Wood fired generator
 
 # -----
-research.ubrcolonydefense2.name=Hardened Defenses
 
-objects.guardtower2.name=Reinforced Guard Tower
-objects.guardtower2.description=Survivors inside will be more efficient in defending the colony.\n\nCan only be occupied during combat by survivors with ranged weapons.
+research.ubrconstruction2.name=Complex Construction
 
 # -----
 research.ubrhumvee.name=Vehicle Travel
@@ -301,6 +291,42 @@ objects.ubrhumvee.description=When fuelled with refined hydrocarbon fuel this wi
 
 effects.ubrhumvee.name=Drive
 
+# -----
+
+research.ubrconstruction3.name=Automation and Industry
+
+research.ubrautomatedfarming.name=Automated Greenhouses
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extended Weapons
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+research.ubrcombinedtechs.name=Combined Occult and Physics Technology
+research.ubrcombinedtechs.description=Unify the applications of occult knowledge to extend technologies.
+
+research.ubradvtecharmor.name=Imbued Tech Armors
+research.ubradvtecharmor.description=Technologically advanced armors that used imbued spirit energy.
+
+research.ubradvtechweapon.name=Imbued Tech Weapons
+research.ubradvtechweapon.description=Technologically advanced weapons that used imbued spirit energy.
+
+
+items.ubrcombatsuit.name=War Suit
+items.ubrcombatsuit.description=Cutting edge mechanized suit, imbued with spirit energy to allow it to operate at levels beyond otherwise possible, and be self-sufficient energy wise.
+
+abilities.ubrempower.name=Empower Mk2
+statuseffects.ubrempower.name=Empowered
+
+
+items.ubrmtar21.name=MTAR 32
+items.ubrmtar21.description=A highly advanced assault rifle enchanted to function beyond what is otherwise capable. It has a powerful permanent shock enchantment upon it, granting it bullets an extra kick.
+
+statuseffects.ubrshock.name=Jolt
+
+
+items.ubrbeamcannon.name=Particle Cannon
+items.ubrbeamcannon.description=An advanced beam cannon that uses imbued enchantments to enhance the maximum peak power and focus the beam.
 
 
 
@@ -310,18 +336,21 @@ effects.ubrhumvee.name=Drive
 
 items.aether.description=Non-euclidean demi-matter resource used in crafting. \n\nCan be obtained in scavenge missions, and later transmuted. 
 
-
 abilities.exorcise2.name=Exorcise (Greater)
 abilities.cross2.name=Divine Protection
 
 items.ubrspiritspark.name=Spirit Spark
-items.ubrspiritspark.description=Living spirit energy imbued into a physical spark that never extinguishes.
+items.ubrspiritspark.description=Living spirit energy imbued into a physical spark that never extinguishes. Needed for all permanent self sustained enchantments.
 
 items.spiritalloy.name=Spirit Alloy
 items.spiritalloy.description=Forged by alloying metals with spiritual energy made manifest. This alloy defies some of the laws of physics, exhibiting both non-Euclidean and non-Newtonian properties.\n\nResource used in crafting recipes.
 
 items.eternalengine.name=Eternal Engine
 items.eternalengine.description=Using an eternally burning fire that requires no fuel, when active this fist-sized engine can generate a constant 20kW of free heat energy.\n\nResource used in crafting recipes and advanced generators.
+
+items.entity.selfhelp.parents=items.base.baseuse,items.base.level3,items.base.uncommon,items.base.traderonly
+items.entity.selfhelp.baseaction.use.class=BaseActionAddExp
+items.entity.selfhelp.baseaction.use.exp=1000
 
 objects.ubrspiritfoundry.name=Spirit Foundry
 objects.ubrspiritfoundry.description=Rituals of imbueing spirit energy into tangible matter is performed here.
@@ -334,16 +363,6 @@ actions.spiritalloyritual.description=Ritual to forge spirit energy alloy.
 
 actions.eternalengineritual.name=Forge Eternal Engine
 actions.eternalengineritual.description=Ritual to forge eternal fire engine.
-
-items.heavenlyarmor.name=Holy Forged Armor
-items.heavenlyarmor.description=Forged from Spirit Alloy, this armor has been additionally imbued with Holy energy.
-
-items.heavenlysword.name=Holy Forged Sword
-items.heavenlysword.description=Forged from Spirit Alloy, this sword has been additionally imbued with Holy energy.
-
-items.heavenlypistol.name=Holy Forged Pistol
-items.heavenlypistol.description=Forged from Spirit Alloy, this pistol has been additionally imbued with Holy energy.
-
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -366,55 +385,25 @@ items.ubrguassrifle.description=Fires slugs as hypersonic speeds via magnetic ac
 
 abilities.ubrguassriflesnipe.name=Overcharged Shot
 
+statuseffects.ubrburn2.name=Immolated
+
+
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Extended Rituals
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Greater
-
-research.ubrritualsl2.name=Greater Rituals
-research.ubrarcanerituals2.name=Greater Arcane Rituals
-research.ubrspiritrituals2.name=Greater Light and Dark Rituals
-
-objects.ubrmagiccircle2.name=Greater Magic Circle
-objects.ubrmagiccircle2.description=Something about this formation keeps the dabblers in the occult safe as they conduct their experiments.
-
-objects.ubrarcanefoundry2.name=Greater Arcane Foundry
-objects.ubrarcanefoundry2.description=Arcane rituals are performed here.
-
-objects.ubrdarkaltar2.name=Greater Dark Altar
-objects.ubrdarkaltar2.description=The dark arts are dangerous, but also powerful.
-
-objects.ubrholyaltar2.name=Greater Holy Altar
-objects.ubrholyaltar2.description=Not all magic is dark. Divine rituals can be performed here.
-
-
-# Master
-
-research.ubrritualsl3.name=Master Rituals
-research.ubrarcanerituals3.name=Master Arcane Rituals
-research.ubrspiritrituals3.name=Master Light and Dark Rituals
-
-objects.ubrmagiccircle3.name=Master Magic Circle
-objects.ubrmagiccircle3.description=Something about this formation keeps the dabblers in the occult safe as they conduct their experiments.
-
-objects.ubrarcanefoundry3.name=Master Arcane Foundry
-objects.ubrarcanefoundry3.description=Arcane rituals are performed here.
-
-objects.ubrdarkaltar3.name=Master Dark Altar
-objects.ubrdarkaltar3.description=The dark arts are dangerous, but also powerful.
-
-objects.ubrholyaltar3.name=Master Holy Altar
-objects.ubrholyaltar3.description=Not all magic is dark. Divine rituals can be performed here.
-
-
 # Evoker
 
 research.ubrritualsl4.name=Evoker Rituals
 research.ubrarcanerituals4.name=Evoker Arcane Rituals
 research.ubrspiritrituals4.name=Evoker Light and Dark Rituals
+research.ubrritualsdruid4.name=Evoker Druid Rituals
+research.ubrritualsreliquary4.name=Evoker Reliquary Rituals
+
+objects.ubrphilosopherstone2.name=Philosopher's Alchemical Engine
+objects.ubrphilosopherstone2.description=A complex legendary device used for advanced transmutation, where one substance becomes another.  
 
 objects.ubrmagiccircle4.name=Evoker Magic Circle
 objects.ubrmagiccircle4.description=Something about this formation keeps the dabblers in the occult safe as they conduct their experiments.
@@ -428,31 +417,43 @@ objects.ubrdarkaltar4.description=The dark arts are dangerous, but also powerful
 objects.ubrholyaltar4.name=Evoker Holy Altar
 objects.ubrholyaltar4.description=Not all magic is dark. Divine rituals can be performed here.
 
+objects.ubrdruidcircle4.name=Evoker Stone Circle
+objects.ubrdruidcircle4.description=Stone Circles engraved with runes have been used by druids to perform nature-related rituals since the very early days of humanity.
 
-# Master Evoker
+objects.ubrreliquary4.name=Evoker Stone Circle
+objects.ubrreliquary4.description=Stone Circles engraved with runes have been used by druids to perform nature-related rituals since the very early days of humanity.
 
-research.ubrritualsl5.name=Master Evoker Rituals
-research.ubrarcanerituals5.name=Master Evoker Arcane Rituals
-research.ubrspiritrituals5.name=Master Evoker Light and Dark Rituals
 
-objects.ubrmagiccircle5.name=Master Evoker Magic Circle
-objects.ubrmagiccircle5.description=Something about this formation keeps the dabblers in the occult safe as they conduct their experiments.
+actions.mysticgrowth.name=Mystic Growth
+actions.mysticgrowth.description=Imbues mystic vines with magic power, allowing them rapidly grow and produce more.
 
-objects.ubrarcanefoundry5.name=Master Evoker Arcane Foundry
-objects.ubrarcanefoundry5.description=Arcane rituals are performed here.
+actions.ubrdemonstamina4.name=Demon Stamina
+actions.ubrdemonstamina4.description=Bind demonic energies to survivors to keep them going without need for rest or food. Survivors will not lose energy while this ritual is active, and will become hungry 60% slower.
 
-objects.ubrdarkaltar5.name=Master Evoker Dark Altar
-objects.ubrdarkaltar5.description=The dark arts are dangerous, but also powerful.
+actions.ubrsummonghimps.name=Summon Hoard
+actions.ubrsummonghimps.description=Summons a large horde of enemies that then attack the colony. While very dangerous, they can provide very useful materials and experience if defeated.
 
-objects.ubrholyaltar5.name=Master Evoker Holy Altar
-objects.ubrholyaltar5.description=Not all magic is dark. Divine rituals can be performed here.
+actions.ubrdarktransmute.name=Dark Transmutaion
+actions.ubrdarktransmute.description=Imbues Prima Materia with dark energy, transforming it into all manner of hellish materials.
 
+actions.ubrdarktransmute2.name=Hellish Transmutaion
+actions.ubrdarktransmute2.description=Imbues Prima Materia with dark energy, transforming it into all manner of greater hellish materials.
 
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Extended Occult
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Mana and mana generation
+
+items.ubrmana.name=Mana
+items.ubrmana.description=Mana also known as arcane flux, is spiritual energy that can manipulate reality in ways that defy physics.
+
+actions.manachant.name=Mana Chant
+actions.manachant.description=A complex occult ritual that siphons mana from the spiritual plane, and transmutes it into physical form that can then later be easily tapped.
+
+
 
 abilities.ubrprotectionspell2.name=Greater Protection Spell
 abilities.ubrweakeningrune2.name=Greater Rune
@@ -508,6 +509,9 @@ statuseffects.ubrbuffspell3.name=Master Bless
 
 # Evoker
 
+items.ubrexpbook.name=Pickled Wisdom
+items.ubrexpbook.description=Stir in worldly knowledge, blend with eldritch whispers and horrors unknown and seal in the madness with essence of vinegar. Add salt to taste.
+
 items.ubrgreaterwarcharm4.name=Evoker War Pendant
 items.ubrgreaterwarcharm4.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
 
@@ -527,78 +531,15 @@ abilities.ubrbuffspell4.name=Evoker Bless
 statuseffects.ubrbuffspell4.name=Evoker Bless
 
 
+# Evoker Holy Alter skills
 
-# Master Evoker
+actions.divinebook.name=Divine Healing
+actions.divinebook.description=Opens a strong connection with the divine, to allow divine knowledge to be received.
 
-items.ubrgreaterwarcharm5.name=Master Evoker War Pendant
-items.ubrgreaterwarcharm5.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
+items.ubrskillsaint.name=Holy Book
+items.ubrskillsaint.description=A holy book, containing divine knowledge, and imbued with holy essence from Heaven. Granting the reader holy power.
 
-items.ubrgreaterworkcharm5.name=Master Evoker Skill Pendant
-items.ubrgreaterworkcharm5.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
-
-items.ubrhexscroll5.name=Spell: Master Evoker Bind
-items.ubrhexscroll5.description=Blasts a target with energy, damaging them and binding them.
-
-items.ubrcross5.name=Spell: Master Evoker Bless
-items.ubrcross5.description=Heals a atarget and places a powerful protective aura upon them.
-
-abilities.ubrhex5.name=Master Evoker Bind
-statuseffects.ubrhex5.name=Master Evoker Bind
-
-abilities.ubrbuffspell5.name=Master Evoker Bless
-statuseffects.ubrbuffspell5.name=Master Evoker Bless
-
-
-
-# Warlock
-
-items.ubrgreaterwarcharm6.name=Warlock War Pendant
-items.ubrgreaterwarcharm6.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
-
-items.ubrgreaterworkcharm6.name=Warlock Skill Pendant
-items.ubrgreaterworkcharm6.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
-
-
-
-# High-Warlock
-
-items.ubrgreaterwarcharm7.name=High-Warlock War Pendant
-items.ubrgreaterwarcharm7.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
-
-items.ubrgreaterworkcharm7.name=High-Warlock Skill Pendant
-items.ubrgreaterworkcharm7.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
-
-
-
-# Magnus
-
-items.ubrgreaterwarcharm8.name=Magnus War Pendant
-items.ubrgreaterwarcharm8.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
-
-items.ubrgreaterworkcharm8.name=Magnus Skill Pendant
-items.ubrgreaterworkcharm8.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
-
-
-
-# Arch-Magnus
-
-items.ubrgreaterwarcharm9.name=Arch-Magnus War Pendant
-items.ubrgreaterwarcharm9.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
-
-items.ubrgreaterworkcharm9.name=Arch-Magnus Skill Pendant
-items.ubrgreaterworkcharm9.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
-
-
-
-# Weaver
-
-items.ubrgreaterwarcharm10.name=Weaver War Pendant
-items.ubrgreaterwarcharm10.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
-
-items.ubrgreaterworkcharm10.name=Weaver Skill Pendant
-items.ubrgreaterworkcharm10.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
-
-
+skills.ubrsaintblood.name=Touched by the Divine
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -607,16 +548,7 @@ items.ubrgreaterworkcharm10.description=A pendant forged with Spirit Sparks at i
 
 rarity.veryrare.label=Very rare
 
-rarity.artifact1.label=Artifact
-rarity.artifact2.label=Artifact
-rarity.artifact3.label=Artifact
-rarity.artifact4.label=Artifact
-rarity.artifact5.label=Artifact
-rarity.artifact6.label=Artifact
-rarity.artifact7.label=Artifact
-rarity.artifact8.label=Artifact
-rarity.artifact9.label=Artifact
-rarity.artifact10.label=Artifact
+rarity.artifact.label=Artifact
 
 
 

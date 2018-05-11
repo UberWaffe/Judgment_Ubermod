@@ -22,16 +22,12 @@ effects.entity.ubroccultenergy2.effect.workspeed=0.1
 effects.entity.ubroccultenergy2.effect.awarenessadd=-0.1
 
 effects.entity.ubroccultenergy3.sprite=effect_reduceawareness
-effects.entity.ubroccultenergy3.effect.workspeed=0.1
+effects.entity.ubroccultenergy3.effect.workspeed=0.15
 effects.entity.ubroccultenergy3.effect.awarenessadd=-0.1
 
 effects.entity.ubroccultenergy4.sprite=effect_reduceawareness
-effects.entity.ubroccultenergy4.effect.workspeed=0.15
+effects.entity.ubroccultenergy4.effect.expgain=0.25
 effects.entity.ubroccultenergy4.effect.awarenessadd=-0.05
-
-effects.entity.ubroccultenergy5.sprite=effect_reduceawareness
-effects.entity.ubroccultenergy5.effect.workspeed=0.15
-effects.entity.ubroccultenergy5.effect.awarenessadd=-0.05
 
 
 
@@ -87,14 +83,12 @@ effects.entity.ubrsecretseconomy2.effect.extrascavenge=0.2
 effects.entity.ubrsecretsarcane1.sprite=effect_evasiveaura
 effects.entity.ubrsecretsarcane1.effect.actiongroup_rituals=0.1
 effects.entity.ubrsecretsarcane1.effect.awarenessadd=-0.05
-effects.entity.ubrsecretsarcane1.effect.walkspeed=0.05
-effects.entity.ubrsecretsarcane1.effect.taskforcespeed=0.1
+effects.entity.ubrsecretsarcane1.effect.expgain=0.05
 
 effects.entity.ubrsecretsarcane2.sprite=effect_evasiveaura
 effects.entity.ubrsecretsarcane2.effect.actiongroup_rituals=0.2
 effects.entity.ubrsecretsarcane2.effect.awarenessadd=-0.1
-effects.entity.ubrsecretsarcane2.effect.walkspeed=0.1
-effects.entity.ubrsecretsarcane2.effect.taskforcespeed=0.2
+effects.entity.ubrsecretsarcane2.effect.expgain=0.1
 
 
 
@@ -102,193 +96,67 @@ effects.entity.ubrsecretsarcane2.effect.taskforcespeed=0.2
 # Extended Rituals
 # -----------------------------------------------------------------
 
-# Greater level:
-#	x1.5 to effect.
-#	x3 to effect if no duration.
-#	x2.0 to duration.
-#	-20% resource cost.
-#	-50% resource cost and work cost if no proper scaling possible.
-
-effects.entity.ubrraining2.sprite=effect_raining
-effects.entity.ubrraining2.effect.tag_farm_gainattribute_maturity=0.75
-effects.entity.ubrraining2.effect.tag_farm_gainattribute_water=-0.75
-
-effects.entity.ubrluckybounty2.sprite=effect_extrascavenge
-effects.entity.ubrluckybounty2.effect.extrascavenge=0.15
-
-effects.entity.ubrsoulharness2.sprite=effect_soulharness
-effects.entity.ubrsoulharness2.effect.hungerrate=-0.45
-
-effects.entity.ubrdemonstamina2.sprite=effect_demonstamina
-effects.entity.ubrdemonstamina2.effect.energydrain=-15
-
-effects.entity.ubrrepelevil2.sprite=effect_evasiveaura
-effects.entity.ubrrepelevil2.effect.awarenessadd=-0.75
-
-effects.entity.ubrdivineinspiration2.sprite=effect_divineinspiration
-effects.entity.ubrdivineinspiration2.effect.workspeed=1.5
-
-effects.entity.ubrdivinehealing2.sprite=effect_divinehealing
-effects.entity.ubrdivinehealing2.effect.healrate=3
-
-effects.entity.ubrdefensiveaura2.sprite=effect_weakerattacks
-effects.entity.ubrdefensiveaura2.effect.attackdifficulty=-0.3
-
-effects.entity.ubrlogisticsritual2.sprite=effect_travelspeed
-effects.entity.ubrlogisticsritual2.effect.taskforcespeed=0.3
-
-effects.entity.ubreagleeye2.sprite=effect_accuracy
-effects.entity.ubreagleeye2.effect.accuracy=0.22
-
-effects.entity.ubrfarsight2.sprite=effect_scouting
-effects.entity.ubrfarsight2.effect.scoutrange=1
-effects.entity.ubrfarsight2.effect.taskforcespeed=0.15
-
-effects.entity.ubrevasiveaura2.sprite=effect_evasiveaura
-effects.entity.ubrevasiveaura2.effect.eventrate_mapevents=-0.75
-
-
-# Master level (applied to values of greater level):
-#	x1.5 to effect.
-#	x3 to effect if no duration.
-#	x2.0 to duration.
-#	-20% resource cost.
-#	-50% resource cost and work cost if no proper scaling possible.
-
-effects.entity.ubrraining3.sprite=effect_raining
-effects.entity.ubrraining3.effect.tag_farm_gainattribute_maturity=1.12
-effects.entity.ubrraining3.effect.tag_farm_gainattribute_water=-1.12
-
-effects.entity.ubrluckybounty3.sprite=effect_extrascavenge
-effects.entity.ubrluckybounty3.effect.extrascavenge=0.22
-
-effects.entity.ubrsoulharness3.sprite=effect_soulharness
-effects.entity.ubrsoulharness3.effect.hungerrate=-0.67
-
-effects.entity.ubrdemonstamina3.sprite=effect_demonstamina
-effects.entity.ubrdemonstamina3.effect.energydrain=-22
-
-effects.entity.ubrrepelevil3.sprite=effect_evasiveaura
-effects.entity.ubrrepelevil3.effect.awarenessadd=-1.5
-
-effects.entity.ubrdivineinspiration3.sprite=effect_divineinspiration
-effects.entity.ubrdivineinspiration3.effect.workspeed=2.25
-
-effects.entity.ubrdivinehealing3.sprite=effect_divinehealing
-effects.entity.ubrdivinehealing3.effect.healrate=4.5
-
-effects.entity.ubrdefensiveaura3.sprite=effect_weakerattacks
-effects.entity.ubrdefensiveaura3.effect.attackdifficulty=-0.45
-
-effects.entity.ubrlogisticsritual3.sprite=effect_travelspeed
-effects.entity.ubrlogisticsritual3.effect.taskforcespeed=0.8
-
-effects.entity.ubreagleeye3.sprite=effect_accuracy
-effects.entity.ubreagleeye3.effect.accuracy=0.33
-
-effects.entity.ubrfarsight3.sprite=effect_scouting
-effects.entity.ubrfarsight3.effect.scoutrange=2
-effects.entity.ubrfarsight3.effect.taskforcespeed=0.22
-
-effects.entity.ubrevasiveaura3.sprite=effect_evasiveaura
-effects.entity.ubrevasiveaura3.effect.eventrate_mapevents=-0.95
-effects.entity.ubrevasiveaura3.effect.taskforcespeed=0.3
-
-
-
 # Evoker level (applied to values of master level):
-#	x1.5 to effect.
-#	x3 to effect if no duration.
-#	x2.0 to duration.
-#	-20% resource cost.
+#	x4 to effect. (x10 to effect if no duration.)
+#	x5 to duration.
+#	+100% work cost.
+#	-25% resource cost.
 #	-50% resource cost and work cost if no proper scaling possible.
+#	Cost: +20 mana
 
 effects.entity.ubrraining4.sprite=effect_raining
-effects.entity.ubrraining4.effect.tag_farm_gainattribute_maturity=2.5
-effects.entity.ubrraining4.effect.tag_farm_gainattribute_water=-1.12
+effects.entity.ubrraining4.effect.tag_farm_gainattribute_maturity=2.0
+effects.entity.ubrraining4.effect.tag_farm_gainattribute_water=-2.0
 
 effects.entity.ubrluckybounty4.sprite=effect_extrascavenge
-effects.entity.ubrluckybounty4.effect.extrascavenge=0.33
-
-effects.entity.ubrsoulharness4.sprite=effect_soulharness
-effects.entity.ubrsoulharness4.effect.hungerrate=-1.0
-
-effects.entity.ubrdemonstamina4.sprite=effect_demonstamina
-effects.entity.ubrdemonstamina4.effect.energydrain=-33
-
-effects.entity.ubrrepelevil4.sprite=effect_evasiveaura
-effects.entity.ubrrepelevil4.effect.awarenessadd=-2.25
-
-effects.entity.ubrdivineinspiration4.sprite=effect_divineinspiration
-effects.entity.ubrdivineinspiration4.effect.workspeed=3.37
-
-effects.entity.ubrdivinehealing4.sprite=effect_divinehealing
-effects.entity.ubrdivinehealing4.effect.healrate=6.75
-
-effects.entity.ubrdefensiveaura4.sprite=effect_weakerattacks
-effects.entity.ubrdefensiveaura4.effect.attackdifficulty=-0.67
+effects.entity.ubrluckybounty4.effect.extrascavenge=0.4
 
 effects.entity.ubrlogisticsritual4.sprite=effect_travelspeed
-effects.entity.ubrlogisticsritual4.effect.taskforcespeed=2.0
+effects.entity.ubrlogisticsritual4.effect.taskforcespeed=0.8
 
 effects.entity.ubreagleeye4.sprite=effect_accuracy
-effects.entity.ubreagleeye4.effect.accuracy=0.75
+effects.entity.ubreagleeye4.effect.accuracy=0.6
+
+effects.entity.ubrconcentrationritual4.sprite=effect_research
+effects.entity.ubrconcentrationritual4.effect.actiongroup_research=1.6
+effects.entity.ubrconcentrationritual4.effect.actiongroup_occultresearch=1.6
+
+effects.entity.ubrdemonstamina4.sprite=effect_demonstamina
+effects.entity.ubrdemonstamina4.effect.hungerrate=-0.6
+effects.entity.ubrdemonstamina4.effect.energydrain=-20
+
+effects.entity.ubrrepelevil4.sprite=effect_weakerattacks
+effects.entity.ubrrepelevil4.effect.awarenessadd=-0.5
+effects.entity.ubrrepelevil4.effect.attackdifficulty=-0.8
+effects.entity.ubrrepelevil4.effect.eventrate_mapevents=-2.0
+
+effects.entity.ubrdivineinspiration4.sprite=effect_divineinspiration
+effects.entity.ubrdivineinspiration4.effect.workspeed=4
+
+effects.entity.ubrdivinehealing4.sprite=effect_divinehealing
+effects.entity.ubrdivinehealing4.effect.healrate=10
+
+
+
+effects.entity.ubrdefensiveaura4.sprite=effect_weakerattacks
+effects.entity.ubrevasiveaura4.sprite=effect_evasiveaura
+
 
 effects.entity.ubrfarsight4.sprite=effect_scouting
-effects.entity.ubrfarsight4.effect.scoutrange=3
-effects.entity.ubrfarsight4.effect.taskforcespeed=0.33
+effects.entity.ubrfarsight4.effect.scoutrange=4
 
-effects.entity.ubrevasiveaura4.sprite=effect_evasiveaura
-effects.entity.ubrevasiveaura4.effect.eventrate_mapevents=-0.95
-effects.entity.ubrevasiveaura4.effect.taskforcespeed=0.75
+# Special case: Make more expensive, boost even more
+effects.entity.ubrrally4.sprite=effect_rally
+effects.entity.ubrrally4.effect.expgain=2.0
 
+effects.entity.ubrblessingofthesaints4.sprite=effect_holyattack
+effects.entity.ubrblessingofthesaints4.effect.tag_holyweapon_damage=0.48
+effects.entity.ubrblessingofthesaints4.effect.tag_darkweapon_damage=-0.48
 
+effects.entity.ubrpetitiondarkspirits4.sprite=effect_darkattack
+effects.entity.ubrpetitiondarkspirits4.effect.tag_holyweapon_damage=-0.48
+effects.entity.ubrpetitiondarkspirits4.effect.tag_darkweapon_damage=0.48
 
-# Master Evoker level (applied to values of evoker level):
-#	x2 to effect.
-#	x3 to effect if no duration.
-#	x2.0 to duration.
-#	-20% resource cost.
-#	-50% resource cost and work cost if no proper scaling possible.
-
-effects.entity.ubrraining5.sprite=effect_raining
-effects.entity.ubrraining5.effect.tag_farm_gainattribute_maturity=5.0
-effects.entity.ubrraining5.effect.tag_farm_gainattribute_water=-1.12
-
-effects.entity.ubrluckybounty5.sprite=effect_extrascavenge
-effects.entity.ubrluckybounty5.effect.extrascavenge=0.66
-
-effects.entity.ubrsoulharness5.sprite=effect_soulharness
-effects.entity.ubrsoulharness5.effect.hungerrate=-2.0
-
-effects.entity.ubrdemonstamina5.sprite=effect_demonstamina
-effects.entity.ubrdemonstamina5.effect.energydrain=-66
-
-effects.entity.ubrrepelevil5.sprite=effect_evasiveaura
-effects.entity.ubrrepelevil5.effect.awarenessadd=-4.5
-
-effects.entity.ubrdivineinspiration5.sprite=effect_divineinspiration
-effects.entity.ubrdivineinspiration5.effect.workspeed=6.75
-
-effects.entity.ubrdivinehealing5.sprite=effect_divinehealing
-effects.entity.ubrdivinehealing5.effect.healrate=13.0
-
-effects.entity.ubrdefensiveaura5.sprite=effect_weakerattacks
-effects.entity.ubrdefensiveaura5.effect.attackdifficulty=-0.95
-
-effects.entity.ubrlogisticsritual5.sprite=effect_travelspeed
-effects.entity.ubrlogisticsritual5.effect.taskforcespeed=4.0
-
-effects.entity.ubreagleeye5.sprite=effect_accuracy
-effects.entity.ubreagleeye5.effect.accuracy=1.5
-
-effects.entity.ubrfarsight5.sprite=effect_scouting
-effects.entity.ubrfarsight5.effect.scoutrange=6
-effects.entity.ubrfarsight5.effect.taskforcespeed=0.66
-
-effects.entity.ubrevasiveaura5.sprite=effect_evasiveaura
-effects.entity.ubrevasiveaura5.effect.eventrate_mapevents=-0.95
-effects.entity.ubrevasiveaura5.effect.taskforcespeed=2.25
 
 
 # -----------------------------------------------------------------

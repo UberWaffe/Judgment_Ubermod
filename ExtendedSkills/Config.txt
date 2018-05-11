@@ -6,40 +6,64 @@
 # config.skilllevelcost.2=600	# +300
 # config.skilllevelcost.3=1000	# +400
 # config.skilllevelcost.4=1500	# +500
-# config.skilllevelcost.5=2100	# +600
+# config.skilllevelcost.5=2000	# +500
+# config.skilllevelcost.6=2500	# +500
+# config.skilllevelcost.7=3000	# +500
+# config.skilllevelcost.8=3500	# +500
+# config.skilllevelcost.9=4500	# +500
 
-# Level 5 and up grants 2 skill points per level, so up the xp cost per level more.
-# x1.25 penalty for extra skill point for level 6 and above
+# +100 more than previous difference per level
+config.skilllevelcost.10=5100
+config.skilllevelcost.11=5800
+config.skilllevelcost.12=6600
+config.skilllevelcost.13=7500
+config.skilllevelcost.14=8500
+# 14 : +1000
+config.skilllevelcost.15=9600
+config.skilllevelcost.16=10800
+config.skilllevelcost.17=12100
+config.skilllevelcost.18=13500
+config.skilllevelcost.19=15000
+# 19 : +1500
+config.skilllevelcost.20=16600
+config.skilllevelcost.21=18300
+config.skilllevelcost.22=20100
+config.skilllevelcost.23=22000
+config.skilllevelcost.24=24000
+# 24 : +2000
+config.skilllevelcost.25=26100
+config.skilllevelcost.26=28300
+config.skilllevelcost.27=30600
+config.skilllevelcost.28=33000
+config.skilllevelcost.29=35500
+# 29 : +2500
+config.skilllevelcost.30=38100
+config.skilllevelcost.31=40700
+config.skilllevelcost.32=43400
+config.skilllevelcost.33=46200
+config.skilllevelcost.34=49100
+# 34 : +3000
+config.skilllevelcost.35=52100
+config.skilllevelcost.36=55200
+config.skilllevelcost.37=58400
+config.skilllevelcost.38=61700
+config.skilllevelcost.39=65100
+# 39 : +3500
+config.skilllevelcost.40=68600
 
-# +700 x1.25 = +875
-config.skilllevelcost.6=2975	
-# +800 x1.25 = +1000
-config.skilllevelcost.7=3975
-# +900 x1.25 = +1125
-config.skilllevelcost.8=5100
-# +1000 x1.25 = +1250
-config.skilllevelcost.9=6350
 
-# +1100 x1.25 = +1375
-config.skilllevelcost.10=7725
-# +1200 x1.25 = +1500
-config.skilllevelcost.11=8225
-# +1300 x1.25 = +1625
-config.skilllevelcost.12=9850
-# +1400 x1.25 = +1750
-config.skilllevelcost.13=11600
-# 14 : +1500 x1.25 = +1875
-config.skilllevelcost.14=13475
-# +1600 x1.25 = +2000
-config.skilllevelcost.15=15475
-# +1700 x1.25 = +2125
-config.skilllevelcost.16=17600
-# +1800 x1.25 = +2250
-config.skilllevelcost.17=19850
-# +1900 x1.25 = +2375
-config.skilllevelcost.18=22225
-# 19 : +2000 x1.25 = +2500
-config.skilllevelcost.19=24725
-# +2100 x1.25 = +2625
-config.skilllevelcost.20=27400
+# config.skillpointsperlevel.0=1
+# config.skillpointsperlevel.5=2
+# config.skillpointsperlevel.6=1
+# config.skillpointsperlevel.10=2
 
+# Every 5th level grants 2 skill points
+config.skillpointsperlevel.11=1
+config.skillpointsperlevel.15=2
+config.skillpointsperlevel.16=1
+config.skillpointsperlevel.20=2
+config.skillpointsperlevel.21=1
+config.skillpointsperlevel.25=2
+config.skillpointsperlevel.26=1
+config.skillpointsperlevel.30=2
+config.skillpointsperlevel.40=4

@@ -1,5 +1,9 @@
 ﻿# Ability Effects
 
+statuseffects.entity.ubrbunked.parents=statuseffects.base.positive
+statuseffects.entity.ubrbunked.name=protectionspell
+statuseffects.entity.ubrbunked.effect.damagereceived=-0.50
+
 statuseffects.entity.bless2.parents=statuseffects.base.positive
 statuseffects.entity.bless2.effect.damage=0.2
 statuseffects.entity.bless2.effect.accuracy=0.25
@@ -10,6 +14,36 @@ statuseffects.entity.cross2.effect.defense=1.5
 statuseffects.entity.cross2.effect.evade=0.4
 statuseffects.entity.cross2.effect.accuracy=0.4
 statuseffects.entity.cross2.effect.walkspeed=-0.8
+
+statuseffects.entity.ubrburn2.parents=statuseffects.base.negative
+statuseffects.entity.ubrburn2.effect.damagereceived=0.15
+statuseffects.entity.ubrburn2.effect.evade=-0.15
+
+statuseffects.entity.ubrempower.parents=statuseffects.base.positive
+statuseffects.entity.ubrempower.effect.walkspeed=0.5
+statuseffects.entity.ubrempower.effect.attackspeed=0.2
+statuseffects.entity.ubrempower.effect.accuracy=0.2
+statuseffects.entity.ubrempower.effect.evade=0.4
+
+statuseffects.entity.ubrshock.parents=statuseffects.base.negative
+statuseffects.entity.ubrshock.name=ubrshock
+statuseffects.entity.ubrshock.effect.evade=-0.2
+statuseffects.entity.ubrshock.effect.attackspeed=-0.2
+statuseffects.entity.ubrshock.effect.walkspeed=-0.2
+
+
+#Aura Effects
+
+statuseffects.entity.blessaura2.parents=statuseffects.base.positive
+statuseffects.entity.blessaura2.name=bless
+statuseffects.entity.blessaura2.effect.damage=0.1
+statuseffects.entity.blessaura2.effect.accuracy=0.1
+statuseffects.entity.blessaura2.effect.evade=0.1
+statuseffects.entity.blessaura2.effect.walkspeed=0.1
+
+statuseffects.entity.ubrfear2.parents=statuseffects.base.positive
+statuseffects.entity.ubrfear2.effect.attackspeed=-0.2
+statuseffects.entity.ubrfear2.effect.walkspeed=-0.5
 
 
 

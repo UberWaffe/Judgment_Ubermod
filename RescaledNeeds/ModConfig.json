@@ -3,7 +3,7 @@
 	desc: "Rescales hunger and sleep to be slower to empty.
 But sleeping takes equally longer and food takes equally longer to grow.
 
-You should need less survivors for tending farms, but will likely need more wheat farms since they are used for non-food items as well.
+You should need less survivors for tending farms, but watering farms takes actual water. And feeding animals takes actual wheat.
 
 Not intended for public nudity.",
 	uid: "1227661500",

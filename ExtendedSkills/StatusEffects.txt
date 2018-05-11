@@ -11,12 +11,12 @@ statuseffects.entity.uesultbless1.parents=statuseffects.base.negative
 statuseffects.entity.uesultbless1.effect.defense=10.0
 
 statuseffects.entity.uesultbless2.parents=statuseffects.base.negative
-statuseffects.entity.uesultbless2.effect.evade=2.0
-statuseffects.entity.uesultbless2.effect.accuracy=2.0
-statuseffects.entity.uesultbless2.effect.defense=2.0
-statuseffects.entity.uesultbless2.effect.damage=2.0
-statuseffects.entity.uesultbless2.effect.attackspeed=2.0
-statuseffects.entity.uesultbless2.effect.walkspeed=2.0
+statuseffects.entity.uesultbless2.effect.evade=0.3
+statuseffects.entity.uesultbless2.effect.accuracy=0.3
+statuseffects.entity.uesultbless2.effect.defense=0.3
+statuseffects.entity.uesultbless2.effect.damage=0.3
+statuseffects.entity.uesultbless2.effect.attackspeed=0.3
+statuseffects.entity.uesultbless2.effect.walkspeed=0.3
 
 
 # ----------------------------------------------------------
@@ -24,16 +24,16 @@ statuseffects.entity.uesultbless2.effect.walkspeed=2.0
 # ----------------------------------------------------------
 
 statuseffects.entity.uesultspellblast1.parents=statuseffects.base.negative
-statuseffects.entity.uesultspellblast1.effect.attackspeed=-0.25
-statuseffects.entity.uesultspellblast1.effect.evade=-0.25
-statuseffects.entity.uesultspellblast1.effect.walkspeed=-0.25
-statuseffects.entity.uesultspellblast1.effect.damagereceived=0.25
+statuseffects.entity.uesultspellblast1.effect.attackspeed=-0.2
+statuseffects.entity.uesultspellblast1.effect.evade=-0.2
+statuseffects.entity.uesultspellblast1.effect.walkspeed=-0.2
+statuseffects.entity.uesultspellblast1.effect.damagereceived=0.2
 
 statuseffects.entity.uesultspellblast2.parents=statuseffects.base.negative
-statuseffects.entity.uesultspellblast2.effect.attackspeed=-0.75
-statuseffects.entity.uesultspellblast2.effect.evade=-0.75
-statuseffects.entity.uesultspellblast2.effect.walkspeed=-0.75
-statuseffects.entity.uesultspellblast2.effect.damagereceived=0.75
+statuseffects.entity.uesultspellblast2.effect.attackspeed=-0.3
+statuseffects.entity.uesultspellblast2.effect.evade=-0.3
+statuseffects.entity.uesultspellblast2.effect.walkspeed=-0.3
+statuseffects.entity.uesultspellblast2.effect.damagereceived=0.3
 
 
 # ----------------------------------------------------------
@@ -41,13 +41,13 @@ statuseffects.entity.uesultspellblast2.effect.damagereceived=0.75
 # ----------------------------------------------------------
 
 statuseffects.entity.uesultdruid1.parents=statuseffects.base.negative
-statuseffects.entity.uesultdruid1.effect.attackspeed=-0.75
-statuseffects.entity.uesultdruid1.effect.evade=-0.75
+statuseffects.entity.uesultdruid1.effect.attackspeed=-0.3
+statuseffects.entity.uesultdruid1.effect.damagereceived=0.3
 
 statuseffects.entity.uesultdruid2.parents=statuseffects.base.negative
-statuseffects.entity.uesultdruid2.effect.evade=-0.95
-statuseffects.entity.uesultdruid2.effect.attackspeed=-0.95
-statuseffects.entity.uesultdruid2.effect.walkspeed=-0.95
+statuseffects.entity.uesultdruid2.effect.evade=-0.5
+statuseffects.entity.uesultdruid2.effect.attackspeed=-0.1
+statuseffects.entity.uesultdruid2.effect.walkspeed=-0.5
 
 
 # ----------------------------------------------------------
@@ -55,12 +55,11 @@ statuseffects.entity.uesultdruid2.effect.walkspeed=-0.95
 # ----------------------------------------------------------
 
 statuseffects.entity.uesultjuggernaught1.parents=statuseffects.base.negative
-statuseffects.entity.uesultjuggernaught1.effect.accuracy=1.0
-statuseffects.entity.uesultjuggernaught1.effect.defense=2.0
-statuseffects.entity.uesultjuggernaught1.effect.evade=1.0
+statuseffects.entity.uesultjuggernaught1.effect.evade=0.75
+statuseffects.entity.uesultjuggernaught1.effect.walkspeed=-0.5
 
 statuseffects.entity.uesultjuggernaught2.parents=statuseffects.base.negative
-statuseffects.entity.uesultjuggernaught2.effect.accuracy=2.0
-statuseffects.entity.uesultjuggernaught2.effect.evade=2.0
-statuseffects.entity.uesultjuggernaught2.effect.defense=20.0
+statuseffects.entity.uesultjuggernaught2.effect.evade=0.5
+statuseffects.entity.uesultjuggernaught2.effect.defense=5.0
+statuseffects.entity.uesultjuggernaught2.effect.walkspeed=-0.85
 
