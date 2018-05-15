@@ -215,6 +215,7 @@ crafting.entity.50cal.costs.ubrbullets=10
 # Boost Minigun and make craftable
 
 items.entity.minigun.properties.range=11
+items.entity.minigun.properties.accuracy=40
 
 crafting.entity.minigun.amount=1
 crafting.entity.minigun.work=20160
@@ -229,7 +230,8 @@ crafting.entity.minigun.costs.ubrbullets=80
 
 # Boost Guided Sniper
 
-items.entity.guidedsniper.properties.damage=76
+items.entity.guidedsniper.properties.damage=106
+items.entity.guidedsniper.properties.attackspeed=2
 items.entity.guidedsniper.properties.range=30
 items.entity.guidedsniper.properties.accuracy=150
 items.entity.guidedsniper.effect.vision=5
@@ -736,7 +738,7 @@ items.entity.ubrangelicarbalest.properties.accuracy=120
 items.entity.ubrangelicarbalest.properties.attacksound=bow_attack
 items.entity.ubrangelicarbalest.properties.prefab=angelicarbalest
 items.entity.ubrangelicarbalest.properties.survivorattackanimation=SurvivorBow
-items.entity.ubrangelicarbalest.properties.attackanimation=ArrowPrefab
+items.entity.ubrangelicarbalest.properties.attackanimation=VolcanicbowAttackPrefab
 items.entity.ubrangelicarbalest.properties.hand=left
 items.entity.ubrangelicarbalest.skillreq.occultweapon=true
 items.entity.ubrangelicarbalest.effect.walkspeed=0.3
@@ -851,6 +853,67 @@ crafting.entity.ubrbeamcannon.costs.plasmapack=4
 crafting.entity.ubrbeamcannon.costs.opticscable=2
 
 
+# Laser Gattling Cannon
+
+items.entity.ubrminigun.parents=items.base.firearm,items.base.level7,items.base.artifact1,items.base.lordofwar
+items.entity.ubrminigun.sprite=item_minigun
+items.entity.ubrminigun.tags.automaticweapon=true
+items.entity.ubrminigun.tags.techweapon=true
+items.entity.ubrminigun.properties.damage=36
+items.entity.ubrminigun.properties.attackspeed=15
+items.entity.ubrminigun.properties.range=12
+items.entity.ubrminigun.properties.accuracy=50
+items.entity.ubrminigun.properties.attacksound=gun_attack
+items.entity.ubrminigun.properties.prefab=minigun
+items.entity.ubrminigun.properties.survivorattackanimation=SurvivorMinigun
+items.entity.ubrminigun.properties.attackanimation=BeamcanonAttackPrefab
+items.entity.ubrminigun.properties.hand=right
+items.entity.ubrminigun.skillreq.firearm=true
+items.entity.ubrminigun.effect.walkspeed=-0.1
+items.entity.ubrminigun.effect.evade=-0.1
+items.entity.ubrminigun.hiteffect.ubrburn2=5
+
+crafting.entity.ubrminigun.sprite=item_minigun
+crafting.entity.ubrminigun.amount=1
+crafting.entity.ubrminigun.work=130500
+crafting.entity.ubrminigun.research=ubradvtechweapon
+crafting.entity.ubrminigun.station.weaponsworkshop=1
+crafting.entity.ubrminigun.priority=5
+crafting.entity.ubrminigun.costs.silicon=8
+crafting.entity.ubrminigun.costs.weaponparts=15
+crafting.entity.ubrminigun.costs.opticscable=6
+crafting.entity.ubrminigun.costs.spiritalloy=15
+crafting.entity.ubrminigun.costs.permafrost=5
+crafting.entity.ubrminigun.costs.ubrenertronics=6
+crafting.entity.ubrminigun.costs.glass=2
+crafting.entity.ubrminigun.costs.plasmapack=8
+crafting.entity.ubrminigun.costs.ubrenergyunit=200
+
+
+# Empowered Deflector
+
+items.entity.ubrchargeddeflector.parents=items.base.usable,items.base.level7,items.base.artifact1
+items.entity.ubrchargeddeflector.sprite=item_chargeddeflector
+items.entity.ubrchargeddeflector.effect.evade=0.3
+items.entity.ubrchargeddeflector.effect.defense=0.6
+items.entity.ubrchargeddeflector.abilities.harden=1
+
+crafting.entity.ubrchargeddeflector.sprite=item_chargeddeflector
+crafting.entity.ubrchargeddeflector.amount=1
+crafting.entity.ubrchargeddeflector.work=56750
+crafting.entity.ubrchargeddeflector.research=ubradvtechweapon
+crafting.entity.ubrchargeddeflector.station.techworkshop=1
+crafting.entity.ubrchargeddeflector.priority=5
+crafting.entity.ubrchargeddeflector.costs.spiritalloy=10
+crafting.entity.ubrchargeddeflector.costs.plasmapack=12
+crafting.entity.ubrchargeddeflector.costs.batteries=3
+crafting.entity.ubrchargeddeflector.costs.bloodruby=10
+crafting.entity.ubrchargeddeflector.costs.opticscable=9
+crafting.entity.ubrchargeddeflector.costs.ubrenertronics=10
+crafting.entity.ubrchargeddeflector.costs.ubrenergyunit=1000
+
+
+
 
 # Evoker
 # ---------------
@@ -859,6 +922,13 @@ items.entity.ubrskillsaint.parents=items.base.baseuse,items.base.level7,items.ba
 items.entity.ubrskillsaint.sprite=item_angeldiadem
 items.entity.ubrskillsaint.baseaction.use.class=BaseActionAddSkill
 items.entity.ubrskillsaint.baseaction.use.skill=ubrsaintblood
+
+
+items.entity.ubrskilldevil.parents=items.base.baseuse,items.base.level7,items.base.artifact1
+items.entity.ubrskilldevil.sprite=item_handofglory
+items.entity.ubrskilldevil.baseaction.use.class=BaseActionAddSkill
+items.entity.ubrskilldevil.baseaction.use.skill=ubrdemonblood
+
 
 
 items.entity.ubrgreaterwarcharm4.parents=items.base.usable,items.base.level10,items.base.artifact3

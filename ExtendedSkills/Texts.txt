@@ -181,6 +181,9 @@ skills.darkweapon7.name=Dark Weapons VII
 skills.darkweapon8.name=Dark Weapons VIII
 skills.darkweapon9.name=Dark Weapons IX
 
+skills.uesdarkwhisper1.name=Unholy Supplication I
+skills.uesdarkwhisper2.name=Unholy Supplication II
+
 skills.uesultdarkweapon.name=Butcher of innocence
 
 
@@ -206,6 +209,9 @@ skills.holyweapon9.name=Holy Weapons IX
 
 skills.uesspiritsong1.name=Spirit Song I
 skills.uesspiritsong2.name=Spirit Song II
+
+skills.uesarcanechant1.name=Arcane Chant I
+skills.uesarcanechant2.name=Arcane Chant II
 
 skills.uesultholyweapon.name=Paladin
 
@@ -329,6 +335,9 @@ skills.rituals9.name=Rituals IX
 
 skills.uessoulweaver1.name=Soul weaver I
 skills.uessoulweaver2.name=Soul weaver II
+
+skills.uesspellweaver1.name=Spell weaver I
+skills.uesspellweaver2.name=Spell weaver II
 
 skills.uesultrituals.name=Ritualist
 

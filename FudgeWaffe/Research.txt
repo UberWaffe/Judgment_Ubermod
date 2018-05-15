@@ -75,12 +75,27 @@ research.entity.ubrautomatedfarming.costs.physics1=4000
 # Crafting Research Extended 
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# More Alchemy Transmutations
+
+research.entity.ubrtransmutestoneclay.parents=research.base.alchemy,research.base.level3
+research.entity.ubrtransmutestoneclay.research=mercurialmastery
+research.entity.ubrtransmutestoneclay.costs.physics1=2160
+research.entity.ubrtransmutestoneclay.costs.stone=100
+research.entity.ubrtransmutestoneclay.costs.clay=100
+
+research.entity.ubrtransmutecopper.parents=research.base.alchemy,research.base.level3
+research.entity.ubrtransmutecopper.research=ubrtransmutestoneclay
+research.entity.ubrtransmutecopper.costs.physics1=2160
+research.entity.ubrtransmutecopper.costs.copper=100
+
+
 # Advanced Machines
 
 research.entity.ubradvancedmachines.parents=research.base.machines,research.base.level4
 research.entity.ubradvancedmachines.research=glassworking
 research.entity.ubradvancedmachines.costs.physics1=5000
 research.entity.ubradvancedmachines.costs.researchdata=2
+
 
 # Advanced Alchemy
 
@@ -90,6 +105,37 @@ research.entity.ubradvalchemy.costs.physics1=16000
 research.entity.ubradvalchemy.costs.occult1=4000
 research.entity.ubradvalchemy.costs.ubrspiritspark=5
 research.entity.ubradvalchemy.costs.researchchip=2
+
+research.entity.ubradvalchemyobs.parents=research.base.woodworking,research.base.level6
+research.entity.ubradvalchemyobs.research=ubradvalchemy
+research.entity.ubradvalchemyobs.costs.physics1=16000
+research.entity.ubradvalchemyobs.costs.occult1=4000
+research.entity.ubradvalchemyobs.costs.obsidian=100
+
+research.entity.ubradvalchemyalu.parents=research.base.woodworking,research.base.level6
+research.entity.ubradvalchemyalu.research=ubradvalchemyobs
+research.entity.ubradvalchemyalu.costs.physics1=16000
+research.entity.ubradvalchemyalu.costs.occult1=4000
+research.entity.ubradvalchemyalu.costs.aluminum=200
+
+research.entity.ubradvalchemyqua.parents=research.base.woodworking,research.base.level6
+research.entity.ubradvalchemyqua.research=ubradvalchemyalu
+research.entity.ubradvalchemyqua.costs.physics1=16000
+research.entity.ubradvalchemyqua.costs.occult1=4000
+research.entity.ubradvalchemyqua.costs.quartz=100
+
+research.entity.ubradvalchemyfro.parents=research.base.woodworking,research.base.level6
+research.entity.ubradvalchemyfro.research=ubradvalchemyqua
+research.entity.ubradvalchemyfro.costs.physics1=16000
+research.entity.ubradvalchemyfro.costs.occult1=4000
+research.entity.ubradvalchemyfro.costs.permafrost=50
+
+research.entity.ubradvalchemygem.parents=research.base.woodworking,research.base.level6
+research.entity.ubradvalchemygem.research=ubradvalchemyfro
+research.entity.ubradvalchemygem.costs.physics1=16000
+research.entity.ubradvalchemygem.costs.occult1=4000
+research.entity.ubradvalchemygem.costs.bloodruby=200
+research.entity.ubradvalchemygem.costs.diamonds=200
 
 
 

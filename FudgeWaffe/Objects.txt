@@ -7,7 +7,7 @@
 
 # Update transmutation to be in bulk
 objects.entity.philosopherstone.actions.metaltransmute.work=600
-objects.entity.philosopherstone.actions.metaltransmute.items.metals=280
+objects.entity.philosopherstone.actions.metaltransmute.items.metals=200
 objects.entity.philosopherstone.actions.metaltransmute.costs.primamateria=20
 
 objects.entity.philosopherstone.actions.mineralstransmute.work=600
@@ -21,19 +21,18 @@ objects.entity.philosopherstone.actions.aethertransmute.costs.primamateria=20
 # Make copper transmutable
 
 objects.entity.philosopherstone.actions.coppertransmute.parents=ritual.base.generic
-objects.entity.philosopherstone.actions.coppertransmute.sprite=action_metaltransmute
-objects.entity.philosopherstone.actions.coppertransmute.research=mercurialmastery
+objects.entity.philosopherstone.actions.coppertransmute.sprite=item_copper
+objects.entity.philosopherstone.actions.coppertransmute.research=ubrtransmutecopper
 objects.entity.philosopherstone.actions.coppertransmute.class=ActionTypeAddItems
 objects.entity.philosopherstone.actions.coppertransmute.work=600
 objects.entity.philosopherstone.actions.coppertransmute.items.copper=360
 objects.entity.philosopherstone.actions.coppertransmute.costs.primamateria=20
-objects.entity.philosopherstone.actions.coppertransmute.costs.copper=80
 
 # Make stone transmutable
 
 objects.entity.philosopherstone.actions.stonetransmute.parents=ritual.base.generic
-objects.entity.philosopherstone.actions.stonetransmute.sprite=action_metaltransmute
-objects.entity.philosopherstone.actions.stonetransmute.research=mercurialmastery
+objects.entity.philosopherstone.actions.stonetransmute.sprite=item_stone
+objects.entity.philosopherstone.actions.stonetransmute.research=ubrtransmutestoneclay
 objects.entity.philosopherstone.actions.stonetransmute.class=ActionTypeAddItems
 objects.entity.philosopherstone.actions.stonetransmute.work=600
 objects.entity.philosopherstone.actions.stonetransmute.items.stone=300
@@ -42,8 +41,8 @@ objects.entity.philosopherstone.actions.stonetransmute.costs.primamateria=10
 # Make clay transmutable
 
 objects.entity.philosopherstone.actions.claytransmute.parents=ritual.base.generic
-objects.entity.philosopherstone.actions.claytransmute.sprite=action_metaltransmute
-objects.entity.philosopherstone.actions.claytransmute.research=mercurialmastery
+objects.entity.philosopherstone.actions.claytransmute.sprite=item_clay
+objects.entity.philosopherstone.actions.claytransmute.research=ubrtransmutestoneclay
 objects.entity.philosopherstone.actions.claytransmute.class=ActionTypeAddItems
 objects.entity.philosopherstone.actions.claytransmute.work=600
 objects.entity.philosopherstone.actions.claytransmute.items.clay=300
@@ -124,6 +123,7 @@ objects.entity.ubrspiritfoundry.actions.eternalengineritual.work=2000
 objects.entity.ubrspiritfoundry.actions.eternalengineritual.items.eternalengine=1
 objects.entity.ubrspiritfoundry.actions.eternalengineritual.costs.primamateria=5
 objects.entity.ubrspiritfoundry.actions.eternalengineritual.costs.bloodruby=1
+objects.entity.ubrspiritfoundry.actions.eternalengineritual.costs.hellsessence=5
 objects.entity.ubrspiritfoundry.actions.eternalengineritual.costs.ubrspiritspark=20
 objects.entity.ubrspiritfoundry.actions.eternalengineritual.costs.spiritalloy=5
 objects.entity.ubrspiritfoundry.actions.eternalengineritual.costs.ubrmana=40
@@ -350,8 +350,8 @@ objects.entity.automatedcompanionfarm.size=4x4
 objects.entity.automatedcompanionfarm.tags.farm=true
 objects.entity.automatedcompanionfarm.properties.cover=0.95
 objects.entity.automatedcompanionfarm.actions.harvest.class=ActionTypeAddItems
-objects.entity.automatedcompanionfarm.actions.harvest.items.tomato=40
-objects.entity.automatedcompanionfarm.actions.harvest.items.wheat=40
+objects.entity.automatedcompanionfarm.actions.harvest.items.tomato=60
+objects.entity.automatedcompanionfarm.actions.harvest.items.wheat=60
 objects.entity.automatedcompanionfarm.actions.harvest.items.herbs=40
 objects.entity.automatedcompanionfarm.actions.harvest.setattribute.maturity=na
 objects.entity.automatedcompanionfarm.actions.harvest.work=80
@@ -366,6 +366,7 @@ objects.entity.automatedcompanionfarm.actions.plant.requirements.maturity=na
 objects.entity.automatedcompanionfarm.actions.plant.actiongroup=agri
 objects.entity.automatedcompanionfarm.actions.plant.gatherlimitsitem=herbs
 objects.entity.automatedcompanionfarm.onupdate.grow.action=GainAttribute~maturity~0.05~0~100
+objects.entity.automatedcompanionfarm.onupdate.grow.requirements.maturity=>e0
 objects.entity.automatedcompanionfarm.onattributechange.autoharvest.action=CreateTask~harvest
 objects.entity.automatedcompanionfarm.onattributechange.autoharvest.requirements.maturity=>e100
 objects.entity.automatedcompanionfarm.onattributechange.autoplant.action=CreateTask~plant
@@ -376,7 +377,6 @@ blueprints.entity.automatedcompanionfarm.sprite=build_automatedvegfarm
 blueprints.entity.automatedcompanionfarm.object=automatedcompanionfarm
 blueprints.entity.automatedcompanionfarm.work=8000
 blueprints.entity.automatedcompanionfarm.research=ubrautomatedfarming
-blueprints.entity.automatedcompanionfarm.generateattribute.maturity=0
 blueprints.entity.automatedcompanionfarm.costs.ubrenertronics=4
 blueprints.entity.automatedcompanionfarm.costs.aluminum=10
 blueprints.entity.automatedcompanionfarm.costs.glass=60
@@ -412,6 +412,7 @@ objects.entity.automatedcottonfarm.actions.plant.requirements.maturity=na
 objects.entity.automatedcottonfarm.actions.plant.actiongroup=agri
 objects.entity.automatedcottonfarm.actions.plant.gatherlimitsitem=cotton
 objects.entity.automatedcottonfarm.onupdate.grow.action=GainAttribute~maturity~0.025~0~100
+objects.entity.automatedcottonfarm.onupdate.grow.requirements.maturity=>e0
 objects.entity.automatedcottonfarm.onattributechange.autoharvest.action=CreateTask~harvest
 objects.entity.automatedcottonfarm.onattributechange.autoharvest.requirements.maturity=>e100
 objects.entity.automatedcottonfarm.onattributechange.autoplant.action=CreateTask~plant
@@ -422,7 +423,6 @@ blueprints.entity.automatedcottonfarm.sprite=build_automatedvegfarm
 blueprints.entity.automatedcottonfarm.object=automatedcottonfarm
 blueprints.entity.automatedcottonfarm.work=8000
 blueprints.entity.automatedcottonfarm.research=ubrautomatedfarming
-blueprints.entity.automatedcottonfarm.generateattribute.maturity=0
 blueprints.entity.automatedcottonfarm.costs.ubrenertronics=4
 blueprints.entity.automatedcottonfarm.costs.aluminum=10
 blueprints.entity.automatedcottonfarm.costs.glass=60
@@ -456,6 +456,7 @@ objects.entity.automatedaloefarm.actions.plant.requirements.maturity=na
 objects.entity.automatedaloefarm.actions.plant.actiongroup=agri
 objects.entity.automatedaloefarm.actions.plant.gatherlimitsitem=aloe
 objects.entity.automatedaloefarm.onupdate.grow.action=GainAttribute~maturity~0.025~0~100
+objects.entity.automatedaloefarm.onupdate.grow.requirements.maturity=>e0
 objects.entity.automatedaloefarm.onattributechange.autoharvest.action=CreateTask~harvest
 objects.entity.automatedaloefarm.onattributechange.autoharvest.requirements.maturity=>e100
 objects.entity.automatedaloefarm.onattributechange.autoplant.action=CreateTask~plant
@@ -465,8 +466,7 @@ blueprints.entity.automatedaloefarm.parents=blueprints.base.exterior
 blueprints.entity.automatedaloefarm.sprite=build_automatedvegfarm
 blueprints.entity.automatedaloefarm.object=automatedaloefarm
 blueprints.entity.automatedaloefarm.work=8000
-blueprints.entity.automatedaloefarm.research=ubrautomatedfarming 
-blueprints.entity.automatedaloefarm.generateattribute.maturity=0
+blueprints.entity.automatedaloefarm.research=ubrautomatedfarming
 blueprints.entity.automatedaloefarm.costs.ubrenertronics=4
 blueprints.entity.automatedaloefarm.costs.aluminum=10
 blueprints.entity.automatedaloefarm.costs.glass=60
@@ -494,8 +494,7 @@ objects.entity.ubrdistillery.actions.distillalcohol.work=2160
 objects.entity.ubrdistillery.actions.distillalcohol.costs.wheat=500
 objects.entity.ubrdistillery.actions.distillalcohol.costs.water=300
 objects.entity.ubrdistillery.actions.distillalcohol.costs.ubrenergyunit=1200
-objects.entity.ubrdistillery.actions.distillalcohol.actiongroup=craft
-objects.entity.ubrdistillery.actions.distillalcohol.gatherlimitsitem=alcohol
+objects.entity.ubrdistillery.actions.distillalcohol.actiongroup=search
 
 blueprints.entity.ubrdistillery.parents=blueprints.base.interior
 blueprints.entity.ubrdistillery.sprite=object_ubraquiferpump
@@ -553,70 +552,65 @@ objects.entity.ubrphilosopherstone2.size=2x2
 
 objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.parents=ritual.base.generic
 objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.sprite=item_obsidian
-objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.research=ubradvalchemy
+objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.research=ubradvalchemyobs
 objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.class=ActionTypeAddItems
 objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.work=600
 objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.items.obsidian=50
-objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.costs.primamateria=2
-objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.costs.obsidian=30
-objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.costs.ubrenergyunit=50
-objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.costs.ubrmana=10
+objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.costs.primamateria=5
+objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.costs.ubrenergyunit=10
+objects.entity.ubrphilosopherstone2.actions.obsidiantransmute.costs.ubrmana=50
 
 objects.entity.ubrphilosopherstone2.actions.quartztransmute.parents=ritual.base.generic
 objects.entity.ubrphilosopherstone2.actions.quartztransmute.sprite=item_quartz
-objects.entity.ubrphilosopherstone2.actions.quartztransmute.research=ubradvalchemy
+objects.entity.ubrphilosopherstone2.actions.quartztransmute.research=ubradvalchemyqua
 objects.entity.ubrphilosopherstone2.actions.quartztransmute.class=ActionTypeAddItems
 objects.entity.ubrphilosopherstone2.actions.quartztransmute.work=600
 objects.entity.ubrphilosopherstone2.actions.quartztransmute.items.quartz=50
-objects.entity.ubrphilosopherstone2.actions.quartztransmute.costs.primamateria=4
-objects.entity.ubrphilosopherstone2.actions.quartztransmute.costs.quartz=30
-objects.entity.ubrphilosopherstone2.actions.quartztransmute.costs.ubrenergyunit=100
-objects.entity.ubrphilosopherstone2.actions.quartztransmute.costs.ubrmana=20
+objects.entity.ubrphilosopherstone2.actions.quartztransmute.costs.primamateria=5
+objects.entity.ubrphilosopherstone2.actions.quartztransmute.costs.ubrenergyunit=20
+objects.entity.ubrphilosopherstone2.actions.quartztransmute.costs.ubrmana=100
 
 objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.parents=ritual.base.generic
 objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.sprite=item_aluminum
-objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.research=ubradvalchemy
+objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.research=ubradvalchemyalu
 objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.class=ActionTypeAddItems
 objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.work=600
 objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.items.aluminum=40
-objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.costs.primamateria=3
-objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.costs.aluminum=10
-objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.costs.ubrenergyunit=200
-objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.costs.ubrmana=40
+objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.costs.primamateria=5
+objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.costs.ubrenergyunit=40
+objects.entity.ubrphilosopherstone2.actions.aluminumtransmute.costs.ubrmana=200
 
 objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.parents=ritual.base.generic
 objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.sprite=item_permafrost
-objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.research=ubradvalchemy
+objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.research=ubradvalchemyfro
 objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.class=ActionTypeAddItems
 objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.work=600
 objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.items.permafrost=40
 objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.costs.primamateria=10
-objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.costs.permafrost=30
-objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.costs.ubrenergyunit=200
-objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.costs.ubrmana=40
+objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.costs.ubrenergyunit=40
+objects.entity.ubrphilosopherstone2.actions.permafrosttransmute.costs.ubrmana=200
 
 objects.entity.ubrphilosopherstone2.actions.gemstransmute.parents=ritual.base.generic
 objects.entity.ubrphilosopherstone2.actions.gemstransmute.sprite=item_diamonds
-objects.entity.ubrphilosopherstone2.actions.gemstransmute.research=ubradvalchemy
+objects.entity.ubrphilosopherstone2.actions.gemstransmute.research=ubradvalchemygem
 objects.entity.ubrphilosopherstone2.actions.gemstransmute.class=ActionTypeAddItems
 objects.entity.ubrphilosopherstone2.actions.gemstransmute.work=600
 objects.entity.ubrphilosopherstone2.actions.gemstransmute.items.bloodruby=25
 objects.entity.ubrphilosopherstone2.actions.gemstransmute.items.diamonds=25
 objects.entity.ubrphilosopherstone2.actions.gemstransmute.costs.primamateria=10
-objects.entity.ubrphilosopherstone2.actions.gemstransmute.costs.bloodruby=15
-objects.entity.ubrphilosopherstone2.actions.gemstransmute.costs.diamonds=15
-objects.entity.ubrphilosopherstone2.actions.gemstransmute.costs.ubrenergyunit=200
-objects.entity.ubrphilosopherstone2.actions.gemstransmute.costs.ubrmana=40
+objects.entity.ubrphilosopherstone2.actions.gemstransmute.costs.ubrenergyunit=40
+objects.entity.ubrphilosopherstone2.actions.gemstransmute.costs.ubrmana=200
 
 objects.entity.ubrphilosopherstone2.actions.creatematter.parents=ritual.base.generic
 objects.entity.ubrphilosopherstone2.actions.creatematter.sprite=item_aether
 objects.entity.ubrphilosopherstone2.actions.creatematter.research=ubradvalchemy
 objects.entity.ubrphilosopherstone2.actions.creatematter.class=ActionTypeAddItems
 objects.entity.ubrphilosopherstone2.actions.creatematter.work=20000
-# Level 1 resources
+# Level 0 resources
 objects.entity.ubrphilosopherstone2.actions.creatematter.items.stone=800
 objects.entity.ubrphilosopherstone2.actions.creatematter.items.clay=800
 objects.entity.ubrphilosopherstone2.actions.creatematter.items.sulfur=800
+# Level 1 resources
 objects.entity.ubrphilosopherstone2.actions.creatematter.items.ectoplasm=400
 # Level 2 resources
 objects.entity.ubrphilosopherstone2.actions.creatematter.items.metals=200
@@ -639,9 +633,9 @@ objects.entity.ubrphilosopherstone2.actions.creatematter.items.bloodruby=25
 objects.entity.ubrphilosopherstone2.actions.creatematter.items.permafrost=25
 objects.entity.ubrphilosopherstone2.actions.creatematter.items.hellsessence=25
 # Cost
-objects.entity.ubrphilosopherstone2.actions.creatematter.costs.primamateria=100
-objects.entity.ubrphilosopherstone2.actions.creatematter.costs.ubrenergyunit=500
-objects.entity.ubrphilosopherstone2.actions.creatematter.costs.ubrmana=5000
+objects.entity.ubrphilosopherstone2.actions.creatematter.costs.primamateria=2000
+objects.entity.ubrphilosopherstone2.actions.creatematter.costs.ubrenergyunit=2000
+objects.entity.ubrphilosopherstone2.actions.creatematter.costs.ubrmana=10000
 
 blueprints.entity.ubrphilosopherstone2.object=ubrphilosopherstone2
 blueprints.entity.ubrphilosopherstone2.sprite=build_philosopherstone
@@ -857,6 +851,16 @@ objects.entity.ubrdarkaltar4.actions.mutate.class=ActionTypeMutate
 objects.entity.ubrdarkaltar4.actions.mutate.work=2
 objects.entity.ubrdarkaltar4.actions.mutate.costs.ubrmana=10
 
+objects.entity.ubrdarkaltar4.actions.demoncongress.parents=ritual.base.generic
+objects.entity.ubrdarkaltar4.actions.demoncongress.sprite=item_handofglory
+objects.entity.ubrdarkaltar4.actions.demoncongress.research=ubrspiritrituals4
+objects.entity.ubrdarkaltar4.actions.demoncongress.class=ActionTypeAddItems
+objects.entity.ubrdarkaltar4.actions.demoncongress.work=12000
+objects.entity.ubrdarkaltar4.actions.demoncongress.items.ubrskilldevil=1
+objects.entity.ubrdarkaltar4.actions.demoncongress.costs.aether=10
+objects.entity.ubrdarkaltar4.actions.demoncongress.costs.demonite=20
+objects.entity.ubrdarkaltar4.actions.demoncongress.costs.ubrmana=50
+
 blueprints.entity.ubrdarkaltar4.object=ubrdarkaltar4
 blueprints.entity.ubrdarkaltar4.sprite=build_darkaltar
 blueprints.entity.ubrdarkaltar4.work=15000
@@ -876,14 +880,14 @@ objects.entity.ubrholyaltar4.sprite=object_holyaltar
 objects.entity.ubrholyaltar4.actions.repelevil.parents=ritual.base.generic
 objects.entity.ubrholyaltar4.actions.repelevil.sprite=action_repelevil
 objects.entity.ubrholyaltar4.actions.repelevil.research=ubrspiritrituals4
-objects.entity.ubrholyaltar4.actions.repelevil.work=3200
-objects.entity.ubrholyaltar4.actions.repelevil.awarenessadd=-100
+objects.entity.ubrholyaltar4.actions.repelevil.class=ActionTypeCreateEffect
+objects.entity.ubrholyaltar4.actions.repelevil.work=4400
 objects.entity.ubrholyaltar4.actions.repelevil.effect=ubrrepelevil4
-objects.entity.ubrholyaltar4.actions.repelevil.duration=14400
-objects.entity.ubrholyaltar4.actions.repelevil.costs.holywater=2
-objects.entity.ubrholyaltar4.actions.repelevil.costs.herbs=10
+objects.entity.ubrholyaltar4.actions.repelevil.duration=28800
+objects.entity.ubrholyaltar4.actions.repelevil.costs.holywater=4
+objects.entity.ubrholyaltar4.actions.repelevil.costs.herbs=20
 objects.entity.ubrholyaltar4.actions.repelevil.costs.holywords=1
-objects.entity.ubrholyaltar4.actions.repelevil.costs.ubrmana=20
+objects.entity.ubrholyaltar4.actions.repelevil.costs.ubrmana=50
 
 objects.entity.ubrholyaltar4.actions.divineinspiration.parents=ritual.base.generic
 objects.entity.ubrholyaltar4.actions.divineinspiration.sprite=action_divineinspiration
@@ -969,7 +973,7 @@ objects.entity.ubrdruidcircle4.actions.runeofpower.costs.ubrmana=20
 objects.entity.ubrdruidcircle4.actions.mysticgrowth.parents=ritual.base.generic
 objects.entity.ubrdruidcircle4.actions.mysticgrowth.sprite=item_mysticvines
 objects.entity.ubrdruidcircle4.actions.mysticgrowth.research=ubrritualsdruid4
-objects.entity.ubrdruidcircle4.actions.mysticgrowth.class=ActionTypeGiveFreeObject
+objects.entity.ubrdruidcircle4.actions.mysticgrowth.class=ActionTypeAddItems
 objects.entity.ubrdruidcircle4.actions.mysticgrowth.work=10000
 objects.entity.ubrdruidcircle4.actions.mysticgrowth.items.mysticvines=80
 objects.entity.ubrdruidcircle4.actions.mysticgrowth.items.wood=400

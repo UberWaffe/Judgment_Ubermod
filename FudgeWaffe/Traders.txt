@@ -1,6 +1,16 @@
 # Trader definitions
 
+traders.entity.generic.maxitems=24
+
+
 # Config
+
+traders.config.desirability.tiers.difference.0=10
+traders.config.desirability.tiers.difference.1=13
+traders.config.desirability.tiers.difference.-1=8
+traders.config.desirability.tiers.difference.-2=6
+traders.config.desirability.tiers.difference.-3=3
+
 
 # Crafted Items: Tech available if crafting tech and workstation tech available.
 #                Production available if tech available, and workstation exists
@@ -8,6 +18,21 @@
 #                 Tech available if have the tech to build the object, and also have the tech to perform the action.
 #                 Available - Have an object + have tech for action
 
+traders.config.desirability.crafting.available=-1
+traders.config.desirability.crafting.techavailable=0
 traders.config.desirability.crafting.notproducable=8
+
+traders.config.desirability.haveitems.resource.0=6
+traders.config.desirability.haveitems.resource.10=5
+traders.config.desirability.haveitems.resource.25=3
+traders.config.desirability.haveitems.resource.100=1
+traders.config.desirability.haveitems.resource.200=-1
+traders.config.desirability.haveitems.resource.500=-3
+
+traders.config.desirability.haveitems.equipment.0=6
+
+traders.config.desirability.haveitems.consumable.0=6
+traders.config.desirability.haveitems.consumable.1=2
+
 
 traders.config.itemamount.artifact=0

@@ -126,9 +126,9 @@ effects.entity.ubrdemonstamina4.effect.hungerrate=-0.6
 effects.entity.ubrdemonstamina4.effect.energydrain=-20
 
 effects.entity.ubrrepelevil4.sprite=effect_weakerattacks
-effects.entity.ubrrepelevil4.effect.awarenessadd=-0.5
-effects.entity.ubrrepelevil4.effect.attackdifficulty=-0.8
-effects.entity.ubrrepelevil4.effect.eventrate_mapevents=-2.0
+effects.entity.ubrrepelevil4.effect.attackdifficulty=-0.3
+effects.entity.ubrrepelevil4.effect.awarenessadd=-3.0
+effects.entity.ubrrepelevil4.effect.eventrate_mapevents=-3.0
 
 effects.entity.ubrdivineinspiration4.sprite=effect_divineinspiration
 effects.entity.ubrdivineinspiration4.effect.workspeed=4

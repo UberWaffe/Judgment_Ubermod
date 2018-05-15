@@ -1,0 +1,21 @@
+﻿# On Hit Effects
+
+statuseffects.entity.rserendarmor.parents=statuseffects.base.negative
+statuseffects.entity.rserendarmor.effect.defense=-0.75
+
+
+#Aura Effects
+
+statuseffects.entity.rsebedazzled.parents=statuseffects.base.negative
+statuseffects.entity.rsebedazzled.effect.accuracy=-0.4
+statuseffects.entity.rsebedazzled.effect.attackspeed=-0.4
+
+statuseffects.entity.rselichchill.parents=statuseffects.base.negative
+statuseffects.entity.rselichchill.name=frostgrenade
+statuseffects.entity.rselichchill.effect.walkspeed=-0.3
+statuseffects.entity.rselichchill.effect.attackspeed=-0.2
+statuseffects.entity.rselichchill.effect.evade=-0.2
+
+statuseffects.entity.rsefrenzy.parents=statuseffects.base.positive
+statuseffects.entity.rsefrenzy.effect.attackspeed=0.2
+statuseffects.entity.rsefrenzy.effect.walkspeed=0.3

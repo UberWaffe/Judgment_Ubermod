@@ -47,7 +47,7 @@ skills.entity.uesultmarksmanship.effect.nutrition=0.5
 skills.entity.uesultmarksmanship.effect.energy=0.5
 skills.entity.uesultmarksmanship.effect.health=0.2
 skills.entity.uesultmarksmanship.effect.workspeed=0.2
-skills.entity.uesultmarksmanship.effect.vision=9
+skills.entity.uesultmarksmanship.effect.vision=4
 skills.entity.uesultmarksmanship.unlocks.equip.firearm=true
 skills.entity.uesultmarksmanship.unlocks.equip.sniper=true
 skills.entity.uesultmarksmanship.abilities.uesultexecutioner2=1
@@ -103,7 +103,7 @@ skills.entity.uesultdamage.effect.nutrition=0.5
 skills.entity.uesultdamage.effect.energy=0.5
 skills.entity.uesultdamage.effect.health=0.2
 skills.entity.uesultdamage.effect.workspeed=0.2
-skills.entity.uesultdamage.effect.vision=9
+skills.entity.uesultdamage.effect.vision=4
 skills.entity.uesultdamage.unlocks.equip.firearm=true
 skills.entity.uesultdamage.unlocks.equip.darkarmor=true
 skills.entity.uesultdamage.abilities.uesultexecutioner1=2
@@ -524,6 +524,12 @@ skills.entity.darkweapon9.effect.tag_darkweapon_damage=0.5
 
 # -- Skill Ultimates --
 
+skills.entity.uesdarkwhisper1.effect.tag_darkweapon_attackspeed=0.4
+skills.entity.uesdarkwhisper1.effect.awarenessadd=0.2
+
+skills.entity.uesdarkwhisper2.effect.tag_darkweapon_attackspeed=0.6
+skills.entity.uesdarkwhisper2.effect.awarenessadd=0.3
+
 skills.entity.uesultdarkweapon.effect.nutrition=0.5
 skills.entity.uesultdarkweapon.effect.energy=0.5
 skills.entity.uesultdarkweapon.effect.health=0.2
@@ -606,6 +612,12 @@ skills.entity.uesspiritsong1.effect.awarenessadd=-0.2
 
 skills.entity.uesspiritsong2.effect.workspeed=0.1
 skills.entity.uesspiritsong2.effect.awarenessadd=-0.3
+
+skills.entity.uesarcanechant1.effect.actiongroup_rituals=0.5
+skills.entity.uesarcanechant1.effect.actiongroup_occultresearch=0.5
+
+skills.entity.uesarcanechant2.effect.actiongroup_rituals=0.65
+skills.entity.uesarcanechant2.effect.actiongroup_occultresearch=0.65
 
 skills.entity.uesultholyweapon.effect.nutrition=0.5
 skills.entity.uesultholyweapon.effect.energy=0.5
@@ -953,6 +965,12 @@ skills.entity.uessoulweaver2.effect.actiongroup_rituals=0.6
 skills.entity.uessoulweaver2.effect.tag_holyweapon_damage=0.15
 skills.entity.uessoulweaver2.effect.tag_darkweapon_damage=0.15
 
+skills.entity.uesspellweaver1.effect.actiongroup_rituals=0.75
+skills.entity.uesspellweaver1.effect.actiongroup_occultresearch=0.25
+
+skills.entity.uesspellweaver2.effect.actiongroup_rituals=1.0
+skills.entity.uesspellweaver2.effect.actiongroup_occultresearch=0.3
+
 skills.entity.uesultrituals.effect.nutrition=0.5
 skills.entity.uesultrituals.effect.energy=0.5
 skills.entity.uesultrituals.effect.health=0.2
@@ -1019,7 +1037,7 @@ skills.entity.uesultscouting.effect.workspeed=0.2
 skills.entity.uesultscouting.effect.walkspeed=0.4
 skills.entity.uesultscouting.effect.scoutrange=4
 skills.entity.uesultscouting.effect.range=2
-skills.entity.uesultscouting.effect.vision=9
+skills.entity.uesultscouting.effect.vision=4
 skills.entity.uesultscouting.unlocks.equip.sniper=true
 
 

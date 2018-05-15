@@ -3,12 +3,21 @@
 # ---------------------------------------------------
 
 # Touched by the Divine
-skills.entity.ubrsaintblood.effect.damage=0.25
-skills.entity.ubrsaintblood.effect.evade=0.25
-skills.entity.ubrsaintblood.effect.accuracy=0.25
-skills.entity.ubrsaintblood.effect.health=0.5
+skills.entity.ubrsaintblood.effect.workspeed=1.0
+skills.entity.ubrsaintblood.effect.health=0.25
 skills.entity.ubrsaintblood.effect.energy=0.5
 skills.entity.ubrsaintblood.effect.nutrition=0.5
 skills.entity.ubrsaintblood.effect.tag_holyweapon_defense=0.5
 skills.entity.ubrsaintblood.effect.tag_darkweapon_damage=-3.0
 skills.entity.ubrsaintblood.abilities.exorcise2=2
+
+
+# Bound to the Darkness
+skills.entity.ubrdemonblood.effect.damage=0.5
+skills.entity.ubrdemonblood.effect.evade=0.25
+skills.entity.ubrdemonblood.effect.accuracy=0.25
+skills.entity.ubrdemonblood.effect.health=0.5
+skills.entity.ubrdemonblood.effect.energy=0.5
+skills.entity.ubrdemonblood.effect.nutrition=0.5
+skills.entity.ubrdemonblood.effect.tag_darkweapon_damage=0.75
+skills.entity.ubrdemonblood.effect.tag_holyweapon_defense=-3.0

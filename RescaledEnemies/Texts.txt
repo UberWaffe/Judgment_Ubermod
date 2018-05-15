@@ -1,0 +1,59 @@
+
+# Enemies
+
+enemies.rseimp.name=Truespawn Imp
+enemies.rseimp.description=Truespawn are demons that have fully manifested in the world, thus have their full power. Lowliest of demon-kind, tend to attack in large groups. Quick and agile.
+
+enemies.rsefireimp.name=Truespawn Fire Imp
+enemies.rsefireimp.description=Truespawn are demons that have fully manifested in the world, thus have their full power. Cousin of the lowly imp, this one spits fire, but not very hot fire.
+
+enemies.rsehellhound.name=Truespawn Hellhound
+enemies.rsehellhound.description=Truespawn are demons that have fully manifested in the world, thus have their full power. They fall easily, but don't let them get near, as their bite was designed to shred anything in seconds.
+
+enemies.rseweakdemon.name=Truespawn Minor Demon
+enemies.rseweakdemon.description=Truespawn are demons that have fully manifested in the world, thus have their full power. Cannon fodder from hell.
+
+enemies.rsedemon.name=Truespawn Demon
+enemies.rsedemon.description=Truespawn are demons that have fully manifested in the world, thus have their full power. A full demon. Hell's basic infantry.
+
+enemies.rsepossessed.name=Possessed Sniper
+enemies.rsepossessed.description=Human beings possessed by demons, unable to control their urge to kill. These carry military grade sniper rifles.
+
+enemies.rsereaper.name=Reaper of the Fifth Circle
+enemies.rsereaper.description=A Reaper, come to collect human souls to feed the armies of hell.
+
+enemies.rsesuccubus.name=Truespawn Succubus
+enemies.rsesuccubus.description=Truespawn are demons that have fully manifested in the world, thus have their full power. Demoness known for her ability to entice male humans to do her bidding.
+
+enemies.rsedarkangel.name=Truespawn Fallen Angel
+enemies.rsedarkangel.description=Truespawn are demons that have fully manifested in the world, thus have their full power. Originally from heaven, now leading the forces of hell. No one knows what caused their fall from grace, or whether it was a choice they made.
+
+enemies.rselegion.name=Truespawn Legion
+enemies.rselegion.description=Truespawn are demons that have fully manifested in the world, thus have their full power. A huge hulk of a demon, very slow with strong armor. Weaker weapons can barely penetrate its hide.
+
+enemies.rsefirespitter.name=Truespawn Caorthannach
+enemies.rsefirespitter.description=Truespawn are demons that have fully manifested in the world, thus have their full power. A fire spitting demon, do not let this one get too close.
+
+enemies.rselich.name=Arch Lich
+enemies.rselich.description=Truespawn are demons that have fully manifested in the world, thus have their full power. The souls of powerful dead witches, escaped from hell and now wreck havoc on Earth. Very dangerous beings.
+
+enemies.rseshedim.name=Truespawn Shedim
+enemies.rseshedim.description=Truespawn are demons that have fully manifested in the world, thus have their full power. Said to be the the descendants of serpents, these are some of the meanest most dangerous denizens of Hell.
+
+enemies.rsemorax.name=Truespawn Morax
+enemies.rsemorax.description=Truespawn are demons that have fully manifested in the world, thus have their full power. One of the highest ranking demons in Hell, it possesses lesser demons who assume it's form and gain tremendous power.
+
+enemies.rsebelial.name=Truespawn Belial
+enemies.rsebelial.description=Truespawn are demons that have fully manifested in the world, thus have their full power. High ranking demons carrying slingshots that shoot powerful flaming projectiles.
+
+enemies.rsedemogorgon.name=Truespawn Demogorgon
+enemies.rsedemogorgon.description=Truespawn are demons that have fully manifested in the world, thus have their full power. Two heads and tentacles, when you smell their odor, you know the end is near.
+
+enemies.rsecerberus.name=Truespawn Cerberus
+enemies.rsecerberus.description=Truespawn are demons that have fully manifested in the world, thus have their full power. These are the alpha hellhounds, with 3 heads and 3 times the punch. Don't let them get near!
+
+
+
+statuseffects.rsebedazzled.name=Bedazzled
+statuseffects.rserendarmor.name=Rend Armor
+statuseffects.rsefrenzy.name=Frenzied

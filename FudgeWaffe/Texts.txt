@@ -46,6 +46,15 @@ actions.creatematter.description=A ritual to multiply and transmute Prima Materi
 
 research.ubradvancedmachines.name=Advanced Machines
 research.ubrdistilling.name=Refining
+
+research.ubrtransmutecopper.name=Transmute Copper
+research.ubrtransmutestoneclay.name=Transmute Stone and Clay
+research.ubradvalchemyobs.name=Transmute Obsidian
+research.ubradvalchemyalu.name=Transmute Aluminum
+research.ubradvalchemyqua.name=Transmute Quartz
+research.ubradvalchemyfro.name=Transmute Perma Frost
+research.ubradvalchemygem.name=Transmute Gems
+
 research.ubradvalchemy.name=Advanced Alchemy
 
 
@@ -329,6 +338,14 @@ items.ubrbeamcannon.name=Particle Cannon
 items.ubrbeamcannon.description=An advanced beam cannon that uses imbued enchantments to enhance the maximum peak power and focus the beam.
 
 
+items.ubrminigun.name=Laser Gattling Cannon
+items.ubrminigun.description=A very heavy rapid-fire laser cannon, using rotary gattling system for cooling.
+
+
+items.ubrchargeddeflector.name=Empowered Deflector
+items.ubrchargeddeflector.description=A powerful portable deflector shield generator, powered by arcane magics and at the cutting edge of science.
+
+
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 # More items
@@ -430,7 +447,7 @@ actions.mysticgrowth.description=Imbues mystic vines with magic power, allowing 
 actions.ubrdemonstamina4.name=Demon Stamina
 actions.ubrdemonstamina4.description=Bind demonic energies to survivors to keep them going without need for rest or food. Survivors will not lose energy while this ritual is active, and will become hungry 60% slower.
 
-actions.ubrsummonghimps.name=Summon Hoard
+actions.ubrsummonghimps.name=Summon Horde
 actions.ubrsummonghimps.description=Summons a large horde of enemies that then attack the colony. While very dangerous, they can provide very useful materials and experience if defeated.
 
 actions.ubrdarktransmute.name=Dark Transmutaion
@@ -463,49 +480,6 @@ statuseffects.hex2.name=Hexed
 statuseffects.cross2.name=Sacred Protection
 
 
-# Greater
-
-items.ubrgreaterwarcharm2.name=Imbued War Pendant
-items.ubrgreaterwarcharm2.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
-
-items.ubrgreaterworkcharm2.name=Imbued Skill Pendant
-items.ubrgreaterworkcharm2.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
-
-items.ubrhexscroll2.name=Spell: Greater Bind
-items.ubrhexscroll2.description=Blasts a target with energy, damaging them and binding them.
-
-items.ubrcross2.name=Spell: Greater Bless
-items.ubrcross2.description=Heals a atarget and places a powerful protective aura upon them.
-
-abilities.ubrhex2.name=Greater Bind
-statuseffects.ubrhex2.name=Greater Bind
-
-abilities.ubrbuffspell2.name=Greater Bless
-statuseffects.ubrbuffspell2.name=Greater Bless
-
-
-
-# Master
-
-items.ubrgreaterwarcharm3.name=Master War Pendant
-items.ubrgreaterwarcharm3.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
-
-items.ubrgreaterworkcharm3.name=Master Skill Pendant
-items.ubrgreaterworkcharm3.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
-
-items.ubrhexscroll3.name=Spell: Master Bind
-items.ubrhexscroll3.description=Blasts a target with energy, damaging them and binding them.
-
-items.ubrcross3.name=Spell: Master Bless
-items.ubrcross3.description=Heals a atarget and places a powerful protective aura upon them.
-
-abilities.ubrhex3.name=Master Bind
-statuseffects.ubrhex3.name=Master Bind
-
-abilities.ubrbuffspell3.name=Master Bless
-statuseffects.ubrbuffspell3.name=Master Bless
-
-
 
 # Evoker
 
@@ -518,28 +492,28 @@ items.ubrgreaterwarcharm4.description=A pendant forged with Spirit Sparks at its
 items.ubrgreaterworkcharm4.name=Evoker Skill Pendant
 items.ubrgreaterworkcharm4.description=A pendant forged with Spirit Sparks at its core, granting the user great focus and ability in daily tasks.
 
-items.ubrhexscroll4.name=Spell: Evoker Bind
-items.ubrhexscroll4.description=Blasts a target with energy, damaging them and binding them.
-
 items.ubrcross4.name=Spell: Evoker Bless
 items.ubrcross4.description=Heals a atarget and places a powerful protective aura upon them.
-
-abilities.ubrhex4.name=Evoker Bind
-statuseffects.ubrhex4.name=Evoker Bind
-
-abilities.ubrbuffspell4.name=Evoker Bless
-statuseffects.ubrbuffspell4.name=Evoker Bless
 
 
 # Evoker Holy Alter skills
 
-actions.divinebook.name=Divine Healing
+actions.divinebook.name=Divine Knowledge
 actions.divinebook.description=Opens a strong connection with the divine, to allow divine knowledge to be received.
 
 items.ubrskillsaint.name=Holy Book
 items.ubrskillsaint.description=A holy book, containing divine knowledge, and imbued with holy essence from Heaven. Granting the reader holy power.
 
 skills.ubrsaintblood.name=Touched by the Divine
+
+
+actions.demoncongress.name=Demonic Congress
+actions.demoncongress.description=Open a rift into the most vile realms of hell, and for the simple price of your soul, you can have desire itself. I mean, what a steal, only simple minded fools still believe in souls.
+
+items.ubrskilldevil.name=Idle Hands
+items.ubrskilldevil.description=An act both unholy and vile beyond description. But power beckons, and all you must do is participate...
+
+skills.ubrdemonblood.name=Demonic Congress
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
