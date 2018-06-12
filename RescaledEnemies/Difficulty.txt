@@ -1,145 +1,50 @@
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Difficulty milestones
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Formula: for each step, divide the amount of time passed (in game minutes) within this step by the step's divisor. The sum up and add the base difficulty.
+# Currently difficulty increases by 10 every game day (or by 1 every 144 game minutes)
+# This yields time based difficulty.
+# Actual defense difficulty is time based difficulty * awarenessdifficultynormalized * ((awarenessmaxmultiplier - awarenessminmultiplier) + awarenessminmultiplier))
+#   for example if awareness effect is 0.5 - 2.5, an awareness normalized of 0.5 will be 1.5, an awareness normalized of 1 will be 2.5, and an a awareness normalized of 0 will be 0.5
+#   minimum is basedifficulty
 
-# config.enemydifficulty.milestones.difftier3=700
-# config.enemydifficulty.milestones.difftier3mid=900
-# config.enemydifficulty.milestones.difftier3max=1099
+config.defensedifficulty.divisors.0=576
+config.defensedifficulty.basedifficulty=1
 
-# config.enemydifficulty.milestones.difftier4=1100
-# config.enemydifficulty.milestones.difftier4mid=1300
-# config.enemydifficulty.milestones.difftier4max=1499
-
-# config.enemydifficulty.milestones.difftier5=1500
-# config.enemydifficulty.milestones.difftier5mid=1800
-# config.enemydifficulty.milestones.difftier5max=2100
-# config.enemydifficulty.milestones.difftier5extra=3000
-
-config.enemydifficulty.milestones.difftier6=3001
-config.enemydifficulty.milestones.difftier6mid=3500
-config.enemydifficulty.milestones.difftier6max=3999
-
-config.enemydifficulty.milestones.difftier7=4000
-config.enemydifficulty.milestones.difftier7mid=4500
-config.enemydifficulty.milestones.difftier7max=4999
-
-config.enemydifficulty.milestones.difftier8=5000
-config.enemydifficulty.milestones.difftier8mid=6000
-config.enemydifficulty.milestones.difftier8max=6999
-
-config.enemydifficulty.milestones.difftier9=7000
-config.enemydifficulty.milestones.difftier9mid=8000
-config.enemydifficulty.milestones.difftier9max=8999
-
-config.enemydifficulty.milestones.difftier10=9000
-config.enemydifficulty.milestones.difftier10mid=9500
-config.enemydifficulty.milestones.difftier10max=9999
-
-
-
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Enemy generator difficulty values
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-# Tier 4
-# config.enemydifficulty.tiers.1100=4
-# config.enemydifficulty.singlevalue.1100=16
-# config.enemydifficulty.amountpergroup.1100=3
-# config.enemydifficulty.totalcount.1100=5-6
-# config.enemydifficulty.amountpergroup.1300=4-5
-
-# Tier 5
-# config.enemydifficulty.tiers.1500=5
-# config.enemydifficulty.singlevalue.1500=32
-# config.enemydifficulty.amountpergroup.1500=3
-# config.enemydifficulty.totalcount.1500=5-6
-# config.enemydifficulty.amountpergroup.1700=4-5
-# config.enemydifficulty.totalcount.1900=11-14
-# Undo normal tier 5 settings above 2000
-# config.enemydifficulty.totalcount.2100=16-20
-# config.enemydifficulty.totalcount.10000=30-40
-
-# Tier 6
-
-config.enemydifficulty.tiers.2000=6
-config.enemydifficulty.singlevalue.2000=64
-config.enemydifficulty.amountpergroup.2000=4-5
-config.enemydifficulty.totalcount.2100=11-14
-
-
-# Tier 7
-
-config.enemydifficulty.tiers.4000=7
-config.enemydifficulty.singlevalue.4000=128
-config.enemydifficulty.amountpergroup.4000=4-5
-config.enemydifficulty.totalcount.4000=11-14
-
-
-# Tier 8
-
-config.enemydifficulty.tiers.6000=8
-config.enemydifficulty.singlevalue.6000=256
-config.enemydifficulty.amountpergroup.6000=4-5
-config.enemydifficulty.totalcount.6000=11-14
-
-
-# Tier 9
-
-config.enemydifficulty.tiers.8000=9
-config.enemydifficulty.singlevalue.8000=512
-config.enemydifficulty.amountpergroup.8000=4-5
-config.enemydifficulty.totalcount.8000=11-14
-
-
-# Tier 10
-
-config.enemydifficulty.tiers.10000=10
-config.enemydifficulty.singlevalue.10000=1024
-config.enemydifficulty.amountpergroup.10000=4-5
-config.enemydifficulty.totalcount.10000=11-14
-
-config.enemydifficulty.amountpergroup.15000=5-6
-config.enemydifficulty.totalcount.15000=16-20
-
-config.enemydifficulty.amountpergroup.20000=6-7
-config.enemydifficulty.totalcount.20000=24-34
-
-config.enemydifficulty.amountpergroup.25000=7-9
-config.enemydifficulty.totalcount.25000=30-40
-=
-config.enemydifficulty.totalcount.30000=40-50
+# Chances of enemy being the tier below or above the combat difficulty's tier.
+# Values are -1 to 1. 0 means all enemies are of their current tier. -1 means all enemies are of the tier below (and double in amount). 1 means all enemies are of the tier above (and half in amount)
+config.tiermultiplierdefault=-0.50
 
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # loot max item types per difficulty
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# config.loot.maxitems.700=4
-# config.loot.maxitems.1200=5
 
-config.loot.maxitems.3000=6
-config.loot.maxitems.4000=7
-config.loot.maxitems.5000=8
-config.loot.maxitems.6000=9
-config.loot.maxitems.7000=10
-config.loot.maxitems.8000=11
-config.loot.maxitems.9000=12
-config.loot.maxitems.10000=13
+config.loot.maxitems.0=2
+config.loot.maxitems.350=4
+config.loot.maxitems.700=6
+config.loot.maxitems.1200=7
+# New entries
+config.loot.maxitems.2100=9
+config.loot.maxitems.3600=12
 
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # each loot value per difficulty
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# config.loot.value.1500=1700-2100
-# config.loot.value.1700=1900-2400
-# config.loot.value.2100=2100-2700
 
-config.loot.value.3000=2600-3600
-config.loot.value.4000=3500-5100
-config.loot.value.5000=5000-6100
-config.loot.value.6000=6000-7100
-config.loot.value.7000=7000-8100
-config.loot.value.8000=8000-9100
-config.loot.value.9000=9000-10100
-config.loot.value.10000=10000-11100
+config.loot.value.0=90-140
+# +20%
+config.loot.value.100=240-300
+# +30%
+config.loot.value.350=455-650
+# +40%
+config.loot.value.700=980-1120
+# +50%
+config.loot.value.1100=1800-2400
+# +100%
+config.loot.value.1500=3400-4200
+# +150%
+config.loot.value.1700=4750-6000
+# +200%
+config.loot.value.2100=6300-11100
+# New entries
+config.loot.value.3600=12000-16000

@@ -482,7 +482,7 @@ skills.entity.autoweapon4.effect.tag_automaticweapon_damage=0.125
 skills.entity.autoweapon5.effect.tag_automaticweapon_attackspeed=0.15
 skills.entity.autoweapon5.effect.tag_automaticweapon_damage=0.15
 
-skills.entity.autoweapon6effect.tag_automaticweapon_attackspeed=0.175
+skills.entity.autoweapon6.effect.tag_automaticweapon_attackspeed=0.175
 skills.entity.autoweapon6.effect.tag_automaticweapon_damage=0.175
 
 skills.entity.autoweapon7.effect.tag_automaticweapon_attackspeed=0.2

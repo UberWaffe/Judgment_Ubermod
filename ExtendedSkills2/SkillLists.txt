@@ -1,0 +1,560 @@
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Work
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# skilllist.entity.gather.parents=skilllist.base.work
+# skilllist.entity.gather.ranks.1.gather1=1
+# skilllist.entity.gather.ranks.2.gather2=1
+# skilllist.entity.gather.ranks.3.gather3=1
+# skilllist.entity.gather.ranks.4.gatherefficiency=1
+# skilllist.entity.gather.ranks.4.gatherexpert=1
+# skilllist.entity.gather.ranks.4.naturelover=1
+skilllist.entity.gather.ranks.5.gather4=4
+skilllist.entity.gather.ranks.6.gather5=4
+skilllist.entity.gather.ranks.7.gather6=4
+skilllist.entity.gather.ranks.8.gatherefficiency2=4
+skilllist.entity.gather.ranks.8.gatherexpert2=4
+skilllist.entity.gather.ranks.9.gatherefficiency3=4
+skilllist.entity.gather.ranks.9.gatherexpert3=4
+skilllist.entity.gather.ranks.10.uesultgather=10
+
+# skilllist.entity.mine.parents=skilllist.base.work
+# skilllist.entity.mine.ranks.1.mine1=1
+# skilllist.entity.mine.ranks.2.mine2=1
+# skilllist.entity.mine.ranks.3.mine3=1
+# skilllist.entity.mine.ranks.4.mineefficiency=1
+# skilllist.entity.mine.ranks.4.toolsman=1
+skilllist.entity.mine.ranks.5.mine4=4
+skilllist.entity.mine.ranks.6.mine5=4
+skilllist.entity.mine.ranks.7.mine6=4
+skilllist.entity.mine.ranks.8.mineefficiency2=4
+skilllist.entity.mine.ranks.9.mineefficiency3=4
+skilllist.entity.mine.ranks.10.uesultmine=10
+
+# skilllist.entity.quarry.parents=skilllist.base.work
+# skilllist.entity.quarry.ranks.1.quarry1=1
+# skilllist.entity.quarry.ranks.2.quarry2=1
+# skilllist.entity.quarry.ranks.3.quarry3=1
+# skilllist.entity.quarry.ranks.4.quarryefficiency=1
+# skilllist.entity.quarry.ranks.4.toolsman=1
+skilllist.entity.quarry.ranks.5.quarry4=4
+skilllist.entity.quarry.ranks.6.quarry5=4
+skilllist.entity.quarry.ranks.7.quarry6=4
+skilllist.entity.quarry.ranks.8.quarryefficiency2=4
+skilllist.entity.quarry.ranks.9.quarryefficiency3=4
+skilllist.entity.quarry.ranks.10.uesultquarry=10
+
+# skilllist.entity.build.parents=skilllist.base.work
+# skilllist.entity.build.ranks.1.build1=1
+# skilllist.entity.build.ranks.2.build2=1
+# skilllist.entity.build.ranks.3.build3=1
+# skilllist.entity.build.ranks.4.buildsaver=1
+# skilllist.entity.build.ranks.4.builddefense=1
+# skilllist.entity.build.ranks.4.toolsman=1
+skilllist.entity.build.ranks.5.build4=4
+skilllist.entity.build.ranks.6.build5=4
+skilllist.entity.build.ranks.7.build6=4
+skilllist.entity.build.ranks.8.buildsaver2=4
+skilllist.entity.build.ranks.9.buildsaver3=4
+skilllist.entity.build.ranks.10.uesultbuild=10
+
+# skilllist.entity.craft.parents=skilllist.base.work
+# skilllist.entity.craft.ranks.1.craft1=1
+# skilllist.entity.craft.ranks.2.craft2=1
+# skilllist.entity.craft.ranks.3.craft3=1
+# skilllist.entity.craft.ranks.4.craftsaver=1
+# skilllist.entity.craft.ranks.4.craftexpert=1
+skilllist.entity.craft.ranks.5.craft4=4
+skilllist.entity.craft.ranks.6.craft5=4
+skilllist.entity.craft.ranks.7.craft6=4
+skilllist.entity.craft.ranks.8.craftsaver2=4
+skilllist.entity.craft.ranks.8.craftexpert2=4
+skilllist.entity.craft.ranks.9.craftsaver3=4
+skilllist.entity.craft.ranks.9.craftexpert3=4
+skilllist.entity.craft.ranks.10.uesultcraft=10
+
+
+# skilllist.entity.farming.parents=skilllist.base.work
+# skilllist.entity.farming.ranks.1.farming1=1
+# skilllist.entity.farming.ranks.2.farming2=1
+# skilllist.entity.farming.ranks.3.farming3=1
+# skilllist.entity.farming.ranks.4.farmyield=1
+skilllist.entity.farming.ranks.5.farming4=4
+skilllist.entity.farming.ranks.6.farming5=4
+skilllist.entity.farming.ranks.7.farming6=4
+skilllist.entity.farming.ranks.8.farmyield2=4
+skilllist.entity.farming.ranks.9.farmyield3=4
+skilllist.entity.farming.ranks.10.uesultfarming=10
+
+# skilllist.entity.research.parents=skilllist.base.work
+# skilllist.entity.research.ranks.1.research1=1
+# skilllist.entity.research.ranks.2.research2=1
+# skilllist.entity.research.ranks.3.research3=1
+# skilllist.entity.research.ranks.4.selflearning=1
+# skilllist.entity.research.ranks.4.techie=1
+# skilllist.entity.research.ranks.4.techfighter=1
+skilllist.entity.research.ranks.5.research4=4
+skilllist.entity.research.ranks.6.research5=4
+skilllist.entity.research.ranks.7.research6=4
+skilllist.entity.research.ranks.8.selflearning2=4
+skilllist.entity.research.ranks.8.uesmovement1=4
+skilllist.entity.research.ranks.9.selflearning3=4
+skilllist.entity.research.ranks.9.uesmovement2=4
+skilllist.entity.research.ranks.10.uesultresearch=10
+
+# skilllist.entity.occultresearch.parents=skilllist.base.work
+# skilllist.entity.occultresearch.ranks.1.occultresearch1=1
+# skilllist.entity.occultresearch.ranks.2.occultresearch2=1
+# skilllist.entity.occultresearch.ranks.3.occultresearch3=1
+# skilllist.entity.occultresearch.ranks.4.selflearning=1
+# skilllist.entity.occultresearch.ranks.4.satanist=1
+# skilllist.entity.occultresearch.ranks.4.holyman=1
+skilllist.entity.occultresearch.ranks.5.occultresearch4=4
+skilllist.entity.occultresearch.ranks.6.occultresearch5=4
+skilllist.entity.occultresearch.ranks.7.occultresearch6=4
+skilllist.entity.occultresearch.ranks.8.uesprayer1=4
+skilllist.entity.occultresearch.ranks.8.uesarcanechant1=4
+skilllist.entity.occultresearch.ranks.9.uesprayer2=4
+skilllist.entity.occultresearch.ranks.9.uesarcanechant2=4
+skilllist.entity.occultresearch.ranks.10.uesultoccultresearch=10
+
+# skilllist.entity.rituals.parents=skilllist.base.work
+# skilllist.entity.rituals.ranks.1.rituals1=1
+# skilllist.entity.rituals.ranks.2.rituals2=1
+# skilllist.entity.rituals.ranks.3.rituals3=1
+# skilllist.entity.rituals.ranks.4.ritualefficiency=1
+# skilllist.entity.rituals.ranks.4.cursing=1
+# skilllist.entity.rituals.ranks.4.consecration=1
+skilllist.entity.rituals.ranks.5.rituals4=4
+skilllist.entity.rituals.ranks.6.rituals5=4
+skilllist.entity.rituals.ranks.7.rituals6=4
+skilllist.entity.rituals.ranks.8.uessoulweaver1=4
+skilllist.entity.rituals.ranks.8.uesspellweaver1=4
+skilllist.entity.rituals.ranks.9.uessoulweaver2=4
+skilllist.entity.rituals.ranks.9.uesspellweaver2=4
+skilllist.entity.rituals.ranks.10.uesultrituals=10
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Combat
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# skilllist.entity.marksmanship.parents=skilllist.base.combat
+# skilllist.entity.marksmanship.ranks.1.marksmanship1=1
+# skilllist.entity.marksmanship.ranks.1.spotting=1
+# skilllist.entity.marksmanship.ranks.2.marksmanship2=1
+# skilllist.entity.marksmanship.ranks.3.marksmanship3=1
+# skilllist.entity.marksmanship.ranks.4.weaponspecialist=1
+# skilllist.entity.marksmanship.ranks.4.sniper=1
+# skilllist.entity.marksmanship.ranks.4.marksmanrange=1
+skilllist.entity.marksmanship.ranks.5.marksmanship4=4
+skilllist.entity.marksmanship.ranks.6.marksmanship5=4
+skilllist.entity.marksmanship.ranks.7.marksmanship6=4
+skilllist.entity.marksmanship.ranks.8.marksmanrange2=4
+skilllist.entity.marksmanship.ranks.8.uessharpmind1=4
+skilllist.entity.marksmanship.ranks.9.marksmanrange3=4
+skilllist.entity.marksmanship.ranks.9.uessharpmind2=4
+skilllist.entity.marksmanship.ranks.10.uesultmarksmanship=10
+
+# skilllist.entity.damage.parents=skilllist.base.combat
+# skilllist.entity.damage.ranks.1.damage1=1
+# skilllist.entity.damage.ranks.2.damage2=1
+# skilllist.entity.damage.ranks.3.damage3=1
+# skilllist.entity.damage.ranks.4.damageexpert=1
+# skilllist.entity.damage.ranks.4.weaponspecialist=1
+# skilllist.entity.damage.ranks.4.satanist=1
+skilllist.entity.damage.ranks.5.damage4=4
+skilllist.entity.damage.ranks.6.damage5=4
+skilllist.entity.damage.ranks.7.damage6=4
+skilllist.entity.damage.ranks.8.damageexpert2=4
+skilllist.entity.damage.ranks.9.damageexpert3=4
+skilllist.entity.damage.ranks.10.uesultdamage=10
+
+# skilllist.entity.evasion.parents=skilllist.base.combat
+# skilllist.entity.evasion.ranks.1.evasion1=1
+# skilllist.entity.evasion.ranks.1.patroling=1
+# skilllist.entity.evasion.ranks.2.evasion2=1
+# skilllist.entity.evasion.ranks.2.stealth=1
+# skilllist.entity.evasion.ranks.3.evasion3=1
+# skilllist.entity.evasion.ranks.4.evadeexpert=1
+# skilllist.entity.evasion.ranks.4.naturelover=1
+skilllist.entity.evasion.ranks.5.evasion4=4
+skilllist.entity.evasion.ranks.6.evasion5=4
+skilllist.entity.evasion.ranks.7.evasion6=4
+skilllist.entity.evasion.ranks.8.evasionexpert2=4
+skilllist.entity.evasion.ranks.8.stealth2=4
+skilllist.entity.evasion.ranks.8.patroling2=4
+skilllist.entity.evasion.ranks.9.evasionexpert3=4
+skilllist.entity.evasion.ranks.9.stealth3=4
+skilllist.entity.evasion.ranks.9.patroling3=4
+skilllist.entity.evasion.ranks.10.uesultevasion=10
+
+# skilllist.entity.stalwart.parents=skilllist.base.combat
+# skilllist.entity.stalwart.ranks.1.stalwart1=1
+# skilllist.entity.stalwart.ranks.1.healingrate=1
+# skilllist.entity.stalwart.ranks.2.stalwart2=1
+# skilllist.entity.stalwart.ranks.3.stalwart3=1
+# skilllist.entity.stalwart.ranks.4.healing=1
+# skilllist.entity.stalwart.ranks.4.protection=1
+# skilllist.entity.stalwart.ranks.4.holyman=1
+skilllist.entity.stalwart.ranks.5.stalwart4=4
+skilllist.entity.stalwart.ranks.6.stalwart5=4
+skilllist.entity.stalwart.ranks.7.stalwart6=4
+skilllist.entity.stalwart.ranks.8.stalwartexpert2=4
+skilllist.entity.stalwart.ranks.8.ueshealrate1=4
+skilllist.entity.stalwart.ranks.9.stalwartexpert3=4
+skilllist.entity.stalwart.ranks.9.ueshealrate2=4
+skilllist.entity.stalwart.ranks.10.uesultstalwart=10
+
+# skilllist.entity.resilient.parents=skilllist.base.combat
+# skilllist.entity.resilient.ranks.1.resilient1=1
+# skilllist.entity.resilient.ranks.2.resilient2=1
+# skilllist.entity.resilient.ranks.3.resilient3=1
+# skilllist.entity.resilient.ranks.4.protection=1
+# skilllist.entity.resilient.ranks.4.satanist=1
+# skilllist.entity.resilient.ranks.4.dirtyfighting=1
+skilllist.entity.resilient.ranks.5.resilient4=4
+skilllist.entity.resilient.ranks.6.resilient5=4
+skilllist.entity.resilient.ranks.7.resilient6=4
+skilllist.entity.resilient.ranks.8.dirtyfighting2=4
+skilllist.entity.resilient.ranks.8.ueshealrate1=4
+skilllist.entity.resilient.ranks.9.dirtyfighting3=4
+skilllist.entity.resilient.ranks.9.ueshealrate2=4
+skilllist.entity.resilient.ranks.10.uesultresilient=10
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Weapon Skills
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# skilllist.entity.melee.parents=skilllist.base.weapon
+# skilllist.entity.melee.ranks.1.melee1=1
+# skilllist.entity.melee.ranks.2.melee2=1
+# skilllist.entity.melee.ranks.3.melee3=1
+# skilllist.entity.melee.ranks.4.toolsman=1
+# skilllist.entity.melee.ranks.4.occultist=1
+skilllist.entity.melee.ranks.5.melee4=4
+skilllist.entity.melee.ranks.6.melee5=4
+skilllist.entity.melee.ranks.7.melee6=4
+skilllist.entity.melee.ranks.8.stealth2=4
+skilllist.entity.melee.ranks.8.uesmovement1=4
+skilllist.entity.melee.ranks.9.stealth3=4
+skilllist.entity.melee.ranks.9.uesmovement2=4
+skilllist.entity.melee.ranks.10.uesultmelee=10
+
+# skilllist.entity.meleedefense.parents=skilllist.base.weapon
+# skilllist.entity.meleedefense.ranks.1.meleedefense1=1
+# skilllist.entity.meleedefense.ranks.2.meleedefense2=1
+# skilllist.entity.meleedefense.ranks.3.meleedefense3=1
+# skilllist.entity.meleedefense.ranks.4.occultist=1
+# skilllist.entity.meleedefense.ranks.4.protection=1
+# skilllist.entity.meleedefense.ranks.4.armormaster=1
+skilllist.entity.meleedefense.ranks.5.meleedefense4=4
+skilllist.entity.meleedefense.ranks.6.meleedefense5=4
+skilllist.entity.meleedefense.ranks.7.meleedefense6=4
+skilllist.entity.meleedefense.ranks.8.stealth2=4
+skilllist.entity.meleedefense.ranks.8.ueshealrate1=4
+skilllist.entity.meleedefense.ranks.9.stealth3=4
+skilllist.entity.meleedefense.ranks.9.ueshealrate2=4
+skilllist.entity.meleedefense.ranks.10.uesultmeleedefense=10
+
+# skilllist.entity.pistols.parents=skilllist.base.weapon
+# skilllist.entity.pistols.ranks.1.pistols1=1
+# skilllist.entity.pistols.ranks.2.pistols2=1
+# skilllist.entity.pistols.ranks.3.pistols3=1
+# skilllist.entity.pistols.ranks.4.weaponspecialist=1
+# skilllist.entity.pistols.ranks.4.occultist=1
+skilllist.entity.pistols.ranks.5.pistols4=4
+skilllist.entity.pistols.ranks.6.pistols5=4
+skilllist.entity.pistols.ranks.7.pistols6=4
+skilllist.entity.pistols.ranks.8.uesdefthands1=4
+skilllist.entity.pistols.ranks.8.uesvision1=4
+skilllist.entity.pistols.ranks.9.uesdefthands2=4
+skilllist.entity.pistols.ranks.9.uesvision2=4
+skilllist.entity.pistols.ranks.10.uesultpistols=10
+
+# skilllist.entity.rifles.parents=skilllist.base.weapon
+# skilllist.entity.rifles.ranks.1.rifles1=1
+# skilllist.entity.rifles.ranks.2.rifles2=1
+# skilllist.entity.rifles.ranks.3.rifles3=1
+# skilllist.entity.rifles.ranks.4.techfighter=1
+# skilllist.entity.rifles.ranks.4.weaponspecialist=1
+# skilllist.entity.rifles.ranks.4.sniper=1
+skilllist.entity.rifles.ranks.5.rifles4=4
+skilllist.entity.rifles.ranks.6.rifles5=4
+skilllist.entity.rifles.ranks.7.rifles6=4
+skilllist.entity.rifles.ranks.8.uesdodge1=4
+skilllist.entity.rifles.ranks.8.uesvision1=4
+skilllist.entity.rifles.ranks.9.uesdodge2=4
+skilllist.entity.rifles.ranks.9.uesvision2=4
+skilllist.entity.rifles.ranks.10.uesultrifles=10
+
+# skilllist.entity.bows.parents=skilllist.base.weapon
+# skilllist.entity.bows.ranks.1.bows1=1
+# skilllist.entity.bows.ranks.2.bows2=1
+# skilllist.entity.bows.ranks.3.bows3=1
+# skilllist.entity.bows.ranks.4.occultist=1
+# skilllist.entity.bows.ranks.4.cursing=1
+# skilllist.entity.bows.ranks.4.damageexpert=1
+skilllist.entity.bows.ranks.5.bows4=4
+skilllist.entity.bows.ranks.6.bows5=4
+skilllist.entity.bows.ranks.7.bows6=4
+skilllist.entity.bows.ranks.8.uesrapidfire1=4
+skilllist.entity.bows.ranks.8.uesvision1=4
+skilllist.entity.bows.ranks.9.uesrapidfire2=4
+skilllist.entity.bows.ranks.9.uesvision2=4
+skilllist.entity.bows.ranks.10.uesultbows=10
+
+# skilllist.entity.toolweapon.parents=skilllist.base.weapon
+# skilllist.entity.toolweapon.ranks.1.toolweapon1=1
+# skilllist.entity.toolweapon.ranks.2.toolweapon2=1
+# skilllist.entity.toolweapon.ranks.3.toolweapon3=1
+# skilllist.entity.toolweapon.ranks.4.toolsman=1
+# skilllist.entity.toolweapon.ranks.4.selflearning=1
+skilllist.entity.toolweapon.ranks.5.toolweapon4=4
+skilllist.entity.toolweapon.ranks.6.toolweapon5=4
+skilllist.entity.toolweapon.ranks.7.toolweapon6=4
+skilllist.entity.toolweapon.ranks.8.selflearning2=4
+skilllist.entity.toolweapon.ranks.8.gatherexpert2=4
+skilllist.entity.toolweapon.ranks.8.gatherefficiency2=4
+skilllist.entity.toolweapon.ranks.9.selflearning3=4
+skilllist.entity.toolweapon.ranks.9.gatherexpert3=4
+skilllist.entity.toolweapon.ranks.9.gatherefficiency3=4
+skilllist.entity.toolweapon.ranks.10.uesulttoolweapon=10
+
+# skilllist.entity.autoweapon.parents=skilllist.base.weapon
+# skilllist.entity.autoweapon.ranks.1.autoweapon1=1
+# skilllist.entity.autoweapon.ranks.2.autoweapon2=1
+# skilllist.entity.autoweapon.ranks.3.autoweapon3=1
+# skilllist.entity.autoweapon.ranks.4.weaponspecialist=1
+# skilllist.entity.autoweapon.ranks.4.techfighter=1
+# skilllist.entity.autoweapon.ranks.4.rage=1
+skilllist.entity.autoweapon.ranks.5.autoweapon4=4
+skilllist.entity.autoweapon.ranks.6.autoweapon5=4
+skilllist.entity.autoweapon.ranks.7.autoweapon6=4
+skilllist.entity.autoweapon.ranks.8.uesrapidfire1=4
+skilllist.entity.autoweapon.ranks.8.evadeexpert2=4
+skilllist.entity.autoweapon.ranks.9.uesrapidfire2=4
+skilllist.entity.autoweapon.ranks.9.evadeexpert3=4
+skilllist.entity.autoweapon.ranks.10.uesultautoweapon=10
+
+# skilllist.entity.darkweapon.parents=skilllist.base.weapon
+# skilllist.entity.darkweapon.ranks.1.darkweapon1=1
+# skilllist.entity.darkweapon.ranks.2.darkweapon2=1
+# skilllist.entity.darkweapon.ranks.3.darkweapon3=1
+# skilllist.entity.darkweapon.ranks.4.occultist=1
+# skilllist.entity.darkweapon.ranks.4.cursing=1
+skilllist.entity.darkweapon.ranks.5.darkweapon4=4
+skilllist.entity.darkweapon.ranks.6.darkweapon5=4
+skilllist.entity.darkweapon.ranks.7.darkweapon6=4
+skilllist.entity.darkweapon.ranks.8.stealth2=4
+skilllist.entity.darkweapon.ranks.8.ueshealrate1=4
+skilllist.entity.darkweapon.ranks.8.uesdarkwhisper1=4
+skilllist.entity.darkweapon.ranks.9.stealth3=4
+skilllist.entity.darkweapon.ranks.9.ueshealrate2=4
+skilllist.entity.darkweapon.ranks.9.uesdarkwhisper2=4
+skilllist.entity.darkweapon.ranks.10.uesultdarkweapon=10
+
+# skilllist.entity.techweapon.parents=skilllist.base.weapon
+# skilllist.entity.techweapon.ranks.1.techweapon1=1
+# skilllist.entity.techweapon.ranks.2.techweapon2=1
+# skilllist.entity.techweapon.ranks.3.techweapon3=1
+# skilllist.entity.techweapon.ranks.4.techfighter=1
+# skilllist.entity.techweapon.ranks.4.techie=1
+skilllist.entity.techweapon.ranks.5.techweapon4=4
+skilllist.entity.techweapon.ranks.6.techweapon5=4
+skilllist.entity.techweapon.ranks.7.techweapon6=4
+skilllist.entity.techweapon.ranks.8.uestinkerer1=4
+skilllist.entity.techweapon.ranks.9.uestinkerer2=4
+skilllist.entity.techweapon.ranks.10.uesulttechweapon=10
+
+# skilllist.entity.holyweapon.parents=skilllist.base.weapon
+# skilllist.entity.holyweapon.ranks.1.holyweapon1=1
+# skilllist.entity.holyweapon.ranks.2.holyweapon2=1
+# skilllist.entity.holyweapon.ranks.3.holyweapon3=1
+# skilllist.entity.holyweapon.ranks.4.occultist=1
+# skilllist.entity.holyweapon.ranks.4.healing=1
+skilllist.entity.holyweapon.ranks.5.holyweapon4=4
+skilllist.entity.holyweapon.ranks.6.holyweapon5=4
+skilllist.entity.holyweapon.ranks.7.holyweapon6=4
+skilllist.entity.holyweapon.ranks.8.uesspiritsong1=4
+skilllist.entity.holyweapon.ranks.8.uesarcanechant1=4
+skilllist.entity.holyweapon.ranks.9.uesspiritsong2=4
+skilllist.entity.holyweapon.ranks.9.uesarcanechant2=4
+skilllist.entity.holyweapon.ranks.10.uesultholyweapon=10
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Class Unique
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Unique Scout
+# ----------------------------------------------------------------------------------
+# skilllist.entity.scouting.parents=skilllist.base.combat
+# skilllist.entity.scouting.ranks.1.scouting1=1
+# skilllist.entity.scouting.ranks.1.patroling=1
+# skilllist.entity.scouting.ranks.2.scouting2=1
+# skilllist.entity.scouting.ranks.2.spotting=1
+# skilllist.entity.scouting.ranks.3.scouting3=1
+# skilllist.entity.scouting.ranks.3.stealth=1
+# skilllist.entity.scouting.ranks.4.naturelover=1
+# skilllist.entity.scouting.ranks.4.sniper=1
+# skilllist.entity.scouting.ranks.4.marksmanrange=1
+skilllist.entity.scouting.ranks.5.scouting4=4
+skilllist.entity.scouting.ranks.6.scouting5=4
+skilllist.entity.scouting.ranks.7.scouting6=4
+skilllist.entity.scouting.ranks.8.stealth2=4
+skilllist.entity.scouting.ranks.8.marksmanrange2=4
+skilllist.entity.scouting.ranks.8.uessharpmind1=4
+skilllist.entity.scouting.ranks.9.stealth3=4
+skilllist.entity.scouting.ranks.9.marksmanrange3=4
+skilllist.entity.scouting.ranks.9.uessharpmind2=4
+skilllist.entity.scouting.ranks.10.uesultscouting=10
+
+
+# Unique Priest
+# ----------------------------------------------------------------------------------
+skilllist.entity.uesuniquepriest.parents=skilllist.base.work
+skilllist.entity.uesuniquepriest.ranks.1.uesuniquepriest1=1
+skilllist.entity.uesuniquepriest.ranks.2.uesuniquepriest2=1
+skilllist.entity.uesuniquepriest.ranks.3.uesuniquepriest3=1
+skilllist.entity.uesuniquepriest.ranks.4.uesdarkchants1=1
+skilllist.entity.uesuniquepriest.ranks.4.uesholychants1=1
+skilllist.entity.uesuniquepriest.ranks.5.uesuniquepriest4=4
+skilllist.entity.uesuniquepriest.ranks.6.uesuniquepriest5=4
+skilllist.entity.uesuniquepriest.ranks.7.uesuniquepriest6=4
+skilllist.entity.uesuniquepriest.ranks.8.uesdarkchants2=4
+skilllist.entity.uesuniquepriest.ranks.8.uesholychants2=4
+skilllist.entity.uesuniquepriest.ranks.9.uesdarkchants3=4
+skilllist.entity.uesuniquepriest.ranks.9.uesholychants3=4
+skilllist.entity.uesuniquepriest.ranks.10.uesultuniquepriest=10
+
+
+# Unique Engineer
+# ----------------------------------------------------------------------------------
+skilllist.entity.uesuniqueengineer.parents=skilllist.base.work
+skilllist.entity.uesuniqueengineer.ranks.1.uesuniqueengineer1=1
+skilllist.entity.uesuniqueengineer.ranks.2.uesuniqueengineer2=1
+skilllist.entity.uesuniqueengineer.ranks.3.uesuniqueengineer3=1
+skilllist.entity.uesuniqueengineer.ranks.4.uesagriengi1=1
+skilllist.entity.uesuniqueengineer.ranks.4.uesindustryengi1=1
+skilllist.entity.uesuniqueengineer.ranks.4.uesmineengi1=1
+skilllist.entity.uesuniqueengineer.ranks.5.uesuniqueengineer4=4
+skilllist.entity.uesuniqueengineer.ranks.6.uesuniqueengineer5=4
+skilllist.entity.uesuniqueengineer.ranks.7.uesuniqueengineer6=4
+skilllist.entity.uesuniqueengineer.ranks.8.uesagriengi2=4
+skilllist.entity.uesuniqueengineer.ranks.8.uesindustryengi2=4
+skilllist.entity.uesuniqueengineer.ranks.8.uesmineengi2=4
+skilllist.entity.uesuniqueengineer.ranks.9.uesagriengi3=4
+skilllist.entity.uesuniqueengineer.ranks.9.uesindustryengi3=4
+skilllist.entity.uesuniqueengineer.ranks.9.uesmineengi3=4
+skilllist.entity.uesuniqueengineer.ranks.10.uesultuniqueengineer=10
+
+
+# Unique Fighter
+# ----------------------------------------------------------------------------------
+skilllist.entity.uesuniquefighter.parents=skilllist.base.work
+skilllist.entity.uesuniquefighter.ranks.1.uesuniquefighter1=1
+skilllist.entity.uesuniquefighter.ranks.2.uesuniquefighter2=1
+skilllist.entity.uesuniquefighter.ranks.3.uesuniquefighter3=1
+skilllist.entity.uesuniquefighter.ranks.4.uesfightmelee1=1
+skilllist.entity.uesuniquefighter.ranks.4.uesfightspecial1=1
+skilllist.entity.uesuniquefighter.ranks.5.uesuniquefighter4=4
+skilllist.entity.uesuniquefighter.ranks.6.uesuniquefighter5=4
+skilllist.entity.uesuniquefighter.ranks.7.uesuniquefighter6=4
+skilllist.entity.uesuniquefighter.ranks.8.uesfightmelee2=4
+skilllist.entity.uesuniquefighter.ranks.8.uesfightspecial2=4
+skilllist.entity.uesuniquefighter.ranks.9.uesfightmelee3=4
+skilllist.entity.uesuniquefighter.ranks.9.uesfightspecial3=4
+skilllist.entity.uesuniquefighter.ranks.10.uesultuniquefighter=10
+
+
+# Unique Occultist
+# ----------------------------------------------------------------------------------
+skilllist.entity.uesuniqueoccultist.parents=skilllist.base.work
+skilllist.entity.uesuniqueoccultist.ranks.1.uesuniqueoccultist1=1
+skilllist.entity.uesuniqueoccultist.ranks.2.uesuniqueoccultist2=1
+skilllist.entity.uesuniqueoccultist.ranks.3.uesuniqueoccultist3=1
+skilllist.entity.uesuniqueoccultist.ranks.4.uesenchanter1=1
+skilllist.entity.uesuniqueoccultist.ranks.4.ueswarmage1=1
+skilllist.entity.uesuniqueoccultist.ranks.5.uesuniqueoccultist4=4
+skilllist.entity.uesuniqueoccultist.ranks.6.uesuniqueoccultist5=4
+skilllist.entity.uesuniqueoccultist.ranks.7.uesuniqueoccultist6=4
+skilllist.entity.uesuniqueoccultist.ranks.8.uesenchanter2=4
+skilllist.entity.uesuniqueoccultist.ranks.8.ueswarmage2=4
+skilllist.entity.uesuniqueoccultist.ranks.9.uesenchanter3=4
+skilllist.entity.uesuniqueoccultist.ranks.9.ueswarmage3=4
+skilllist.entity.uesuniqueoccultist.ranks.10.uesultuniqueoccultist=10
+
+
+# Unique Survivalist
+# ----------------------------------------------------------------------------------
+skilllist.entity.uesuniquesurvivalist.parents=skilllist.base.work
+skilllist.entity.uesuniquesurvivalist.ranks.1.uesuniquesurvivalist1=1
+skilllist.entity.uesuniquesurvivalist.ranks.2.uesuniquesurvivalist2=1
+skilllist.entity.uesuniquesurvivalist.ranks.3.uesuniquesurvivalist3=1
+skilllist.entity.uesuniquesurvivalist.ranks.4.ueshomemaker1=1
+skilllist.entity.uesuniquesurvivalist.ranks.4.uesstalwartsurv1=1
+skilllist.entity.uesuniquesurvivalist.ranks.5.uesuniquesurvivalist4=4
+skilllist.entity.uesuniquesurvivalist.ranks.6.uesuniquesurvivalist5=4
+skilllist.entity.uesuniquesurvivalist.ranks.7.uesuniquesurvivalist6=4
+skilllist.entity.uesuniquesurvivalist.ranks.8.ueshomemaker2=4
+skilllist.entity.uesuniquesurvivalist.ranks.8.uesstalwartsurv2=4
+skilllist.entity.uesuniquesurvivalist.ranks.9.ueshomemaker3=4
+skilllist.entity.uesuniquesurvivalist.ranks.9.uesstalwartsurv3=4
+skilllist.entity.uesuniquesurvivalist.ranks.10.uesultuniquesurvivalist=10
+
+
+# Unique Defender
+# ----------------------------------------------------------------------------------
+skilllist.entity.uesuniquedefender.parents=skilllist.base.work
+skilllist.entity.uesuniquedefender.ranks.1.uesuniquedefender1=1
+skilllist.entity.uesuniquedefender.ranks.2.uesuniquedefender2=1
+skilllist.entity.uesuniquedefender.ranks.3.uesuniquedefender3=1
+skilllist.entity.uesuniquedefender.ranks.4.ueshardened1=1
+skilllist.entity.uesuniquedefender.ranks.4.uessearchcraft1=1
+skilllist.entity.uesuniquedefender.ranks.5.uesuniquedefender4=4
+skilllist.entity.uesuniquedefender.ranks.6.uesuniquedefender5=4
+skilllist.entity.uesuniquedefender.ranks.7.uesuniquedefender6=4
+skilllist.entity.uesuniquedefender.ranks.8.ueshardened2=4
+skilllist.entity.uesuniquedefender.ranks.8.uessearchcraft2=4
+skilllist.entity.uesuniquedefender.ranks.9.ueshardened3=4
+skilllist.entity.uesuniquedefender.ranks.9.uessearchcraft3=4
+skilllist.entity.uesuniquedefender.ranks.10.uesultuniquedefender=10
+
+
+# Unique Academic
+# ----------------------------------------------------------------------------------
+skilllist.entity.uesuniqueacademic.parents=skilllist.base.work
+skilllist.entity.uesuniqueacademic.ranks.1.uesuniqueacademic1=1
+skilllist.entity.uesuniqueacademic.ranks.2.uesuniqueacademic2=1
+skilllist.entity.uesuniqueacademic.ranks.3.uesuniqueacademic3=1
+skilllist.entity.uesuniqueacademic.ranks.4.uesagricraft1=1
+skilllist.entity.uesuniqueacademic.ranks.4.uesmegamind1=1
+skilllist.entity.uesuniqueacademic.ranks.5.uesuniqueacademic4=4
+skilllist.entity.uesuniqueacademic.ranks.6.uesuniqueacademic5=4
+skilllist.entity.uesuniqueacademic.ranks.7.uesuniqueacademic6=4
+skilllist.entity.uesuniqueacademic.ranks.8.uesagricraft2=4
+skilllist.entity.uesuniqueacademic.ranks.8.uesmegamind2=4
+skilllist.entity.uesuniqueacademic.ranks.9.uesagricraft3=4
+skilllist.entity.uesuniqueacademic.ranks.9.uesmegamind3=4
+skilllist.entity.uesuniqueacademic.ranks.10.uesultuniqueacademic=10
+
+
+# Unique Academic
+# ----------------------------------------------------------------------------------
+skilllist.entity.uesuniqueartisan.parents=skilllist.base.work
+skilllist.entity.uesuniqueartisan.ranks.1.uesuniqueartisan1=1
+skilllist.entity.uesuniqueartisan.ranks.2.uesuniqueartisan2=1
+skilllist.entity.uesuniqueartisan.ranks.3.uesuniqueartisan3=1
+skilllist.entity.uesuniqueartisan.ranks.4.uesuniqueartisan4=1
+skilllist.entity.uesuniqueartisan.ranks.5.uesuniqueartisan5=4
+skilllist.entity.uesuniqueartisan.ranks.6.uesuniqueartisan6=4
+skilllist.entity.uesuniqueartisan.ranks.7.uesuniqueartisan7=4
+skilllist.entity.uesuniqueartisan.ranks.8.uesuniqueartisan8=4
+skilllist.entity.uesuniqueartisan.ranks.9.uesuniqueartisan9=4
+skilllist.entity.uesuniqueartisan.ranks.10.uesultuniqueartisan=10
+
+

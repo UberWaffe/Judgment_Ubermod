@@ -1,0 +1,9 @@
+
+# Clusters
+clusters.metals.distancefromedge=4
+
+clusters.minerals.distancefromedge=4
+
+clusters.diamonds.distancefromedge=4
+
+clusters.bloodruby.distancefromedge=4

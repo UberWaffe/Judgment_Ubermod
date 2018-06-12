@@ -83,8 +83,14 @@ research.entity.ubrtransmutestoneclay.costs.physics1=2160
 research.entity.ubrtransmutestoneclay.costs.stone=100
 research.entity.ubrtransmutestoneclay.costs.clay=100
 
+research.entity.ubrtransmutemetalmin.parents=research.base.alchemy,research.base.level3
+research.entity.ubrtransmutemetalmin.research=ubrtransmutestoneclay
+research.entity.ubrtransmutemetalmin.costs.physics1=2160
+research.entity.ubrtransmutemetalmin.costs.metals=100
+research.entity.ubrtransmutemetalmin.costs.minerals=100
+
 research.entity.ubrtransmutecopper.parents=research.base.alchemy,research.base.level3
-research.entity.ubrtransmutecopper.research=ubrtransmutestoneclay
+research.entity.ubrtransmutecopper.research=ubrtransmutemetalmin
 research.entity.ubrtransmutecopper.costs.physics1=2160
 research.entity.ubrtransmutecopper.costs.copper=100
 
@@ -116,7 +122,7 @@ research.entity.ubradvalchemyalu.parents=research.base.woodworking,research.base
 research.entity.ubradvalchemyalu.research=ubradvalchemyobs
 research.entity.ubradvalchemyalu.costs.physics1=16000
 research.entity.ubradvalchemyalu.costs.occult1=4000
-research.entity.ubradvalchemyalu.costs.aluminum=200
+research.entity.ubradvalchemyalu.costs.aluminum=1000
 
 research.entity.ubradvalchemyqua.parents=research.base.woodworking,research.base.level6
 research.entity.ubradvalchemyqua.research=ubradvalchemyalu
@@ -124,18 +130,24 @@ research.entity.ubradvalchemyqua.costs.physics1=16000
 research.entity.ubradvalchemyqua.costs.occult1=4000
 research.entity.ubradvalchemyqua.costs.quartz=100
 
-research.entity.ubradvalchemyfro.parents=research.base.woodworking,research.base.level6
-research.entity.ubradvalchemyfro.research=ubradvalchemyqua
-research.entity.ubradvalchemyfro.costs.physics1=16000
-research.entity.ubradvalchemyfro.costs.occult1=4000
-research.entity.ubradvalchemyfro.costs.permafrost=50
-
 research.entity.ubradvalchemygem.parents=research.base.woodworking,research.base.level6
-research.entity.ubradvalchemygem.research=ubradvalchemyfro
+research.entity.ubradvalchemygem.research=ubradvalchemyqua
 research.entity.ubradvalchemygem.costs.physics1=16000
 research.entity.ubradvalchemygem.costs.occult1=4000
 research.entity.ubradvalchemygem.costs.bloodruby=200
-research.entity.ubradvalchemygem.costs.diamonds=200
+research.entity.ubradvalchemygem.costs.diamonds=500
+
+research.entity.ubradvalchemyphos.parents=research.base.woodworking,research.base.level6
+research.entity.ubradvalchemyphos.research=ubradvalchemygem
+research.entity.ubradvalchemyphos.costs.physics1=16000
+research.entity.ubradvalchemyphos.costs.occult1=4000
+research.entity.ubradvalchemyphos.costs.phosphorus=500
+
+research.entity.ubradvalchemyfro.parents=research.base.woodworking,research.base.level6
+research.entity.ubradvalchemyfro.research=ubradvalchemyphos
+research.entity.ubradvalchemyfro.costs.physics1=16000
+research.entity.ubradvalchemyfro.costs.occult1=4000
+research.entity.ubradvalchemyfro.costs.permafrost=50
 
 
 
@@ -243,6 +255,10 @@ research.entity.ubroccultenergy4.costs.ubrspiritspark=1000
 # Rituals Research Extended 
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+research.entity.ubrmanadynamo.parents=research.base.rituals,research.base.level1
+research.entity.ubrmanadynamo.research=spiritguide
+research.entity.ubrmanadynamo.costs.occult1=240
+
 # Evoker Level
 
 research.entity.ubrritualsl4.parents=research.base.rituals,research.base.level6,research.base.unlock
@@ -286,7 +302,7 @@ research.category.ubrsecrets.tabcolor=100,100,250
 
 # ---------------------------------------------- Base Initial ----------------------------------------------
 
-research.entity.ubrsecretsstart.parents=research.base.ubrsecrets,research.base.level0,research.base.unlock
+research.entity.ubrsecretsstart.parents=research.base.ubrsecrets,research.base.level5,research.base.unlock
 research.entity.ubrsecretsstart.costs.physics1=5000
 research.entity.ubrsecretsstart.costs.occult1=5000
 research.entity.ubrsecretsstart.costs.ubrspiritspark=10
@@ -295,25 +311,25 @@ research.entity.ubrsecretsstart.effect=ubrsecretstart
 
 # ---------------------------------------------- Warfare ----------------------------------------------
 
-research.entity.ubrsecretwarfare1.parents=research.base.ubrsecrets,research.base.level1
+research.entity.ubrsecretwarfare1.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare1.research=ubrsecretsstart
 research.entity.ubrsecretwarfare1.costs.physics1=10000
 research.entity.ubrsecretwarfare1.costs.occult1=10000
 research.entity.ubrsecretwarfare1.effect=ubrsecretwarfare1
 
-research.entity.ubrsecretwarfare2.parents=research.base.ubrsecrets,research.base.level2
+research.entity.ubrsecretwarfare2.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare2.research=ubrsecretwarfare1
 research.entity.ubrsecretwarfare2.costs.physics1=20000
 research.entity.ubrsecretwarfare2.costs.occult1=20000
 research.entity.ubrsecretwarfare2.effect=ubrsecretwarfare1
 
-research.entity.ubrsecretwarfare3.parents=research.base.ubrsecrets,research.base.level3
+research.entity.ubrsecretwarfare3.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare3.research=ubrsecretwarfare2
 research.entity.ubrsecretwarfare3.costs.physics1=30000
 research.entity.ubrsecretwarfare3.costs.occult1=30000
 research.entity.ubrsecretwarfare3.effect=ubrsecretwarfare1
 
-research.entity.ubrsecretwarfare4.parents=research.base.ubrsecrets,research.base.level4
+research.entity.ubrsecretwarfare4.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare4.research=ubrsecretwarfare3
 research.entity.ubrsecretwarfare4.costs.physics1=40000
 research.entity.ubrsecretwarfare4.costs.occult1=40000
@@ -325,91 +341,91 @@ research.entity.ubrsecretwarfare5.costs.physics1=50000
 research.entity.ubrsecretwarfare5.costs.occult1=50000
 research.entity.ubrsecretwarfare5.effect=ubrsecretwarfare1
 
-research.entity.ubrsecretwarfare6.parents=research.base.ubrsecrets,research.base.level6
+research.entity.ubrsecretwarfare6.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare6.research=ubrsecretwarfare5
 research.entity.ubrsecretwarfare6.costs.physics1=60000
 research.entity.ubrsecretwarfare6.costs.occult1=60000
 research.entity.ubrsecretwarfare6.effect=ubrsecretwarfare1
 
-research.entity.ubrsecretwarfare7.parents=research.base.ubrsecrets,research.base.level7
+research.entity.ubrsecretwarfare7.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare7.research=ubrsecretwarfare6
 research.entity.ubrsecretwarfare7.costs.physics1=70000
 research.entity.ubrsecretwarfare7.costs.occult1=70000
 research.entity.ubrsecretwarfare7.effect=ubrsecretwarfare1
 
-research.entity.ubrsecretwarfare8.parents=research.base.ubrsecrets,research.base.level8
+research.entity.ubrsecretwarfare8.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare8.research=ubrsecretwarfare7
 research.entity.ubrsecretwarfare8.costs.physics1=80000
 research.entity.ubrsecretwarfare8.costs.occult1=80000
 research.entity.ubrsecretwarfare8.effect=ubrsecretwarfare1
 
-research.entity.ubrsecretwarfare9.parents=research.base.ubrsecrets,research.base.level9
+research.entity.ubrsecretwarfare9.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare9.research=ubrsecretwarfare8
 research.entity.ubrsecretwarfare9.costs.physics1=90000
 research.entity.ubrsecretwarfare9.costs.occult1=90000
 research.entity.ubrsecretwarfare9.effect=ubrsecretwarfare1
 
-research.entity.ubrsecretwarfare10.parents=research.base.ubrsecrets,research.base.level10
+research.entity.ubrsecretwarfare10.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare10.research=ubrsecretwarfare9
 research.entity.ubrsecretwarfare10.costs.physics1=100000
 research.entity.ubrsecretwarfare10.costs.occult1=100000
 research.entity.ubrsecretwarfare10.effect=ubrsecretwarfare1
 
-research.entity.ubrsecretwarfare11.parents=research.base.ubrsecrets,research.base.level11
+research.entity.ubrsecretwarfare11.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare11.research=ubrsecretwarfare10
 research.entity.ubrsecretwarfare11.costs.physics1=150000
 research.entity.ubrsecretwarfare11.costs.occult1=150000
 research.entity.ubrsecretwarfare11.effect=ubrsecretwarfare2
 
-research.entity.ubrsecretwarfare12.parents=research.base.ubrsecrets,research.base.level12
+research.entity.ubrsecretwarfare12.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare12.research=ubrsecretwarfare11
 research.entity.ubrsecretwarfare12.costs.physics1=200000
 research.entity.ubrsecretwarfare12.costs.occult1=200000
 research.entity.ubrsecretwarfare12.effect=ubrsecretwarfare2
 
-research.entity.ubrsecretwarfare13.parents=research.base.ubrsecrets,research.base.level13
+research.entity.ubrsecretwarfare13.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare13.research=ubrsecretwarfare12
 research.entity.ubrsecretwarfare13.costs.physics1=250000
 research.entity.ubrsecretwarfare13.costs.occult1=250000
 research.entity.ubrsecretwarfare13.effect=ubrsecretwarfare2
 
-research.entity.ubrsecretwarfare14.parents=research.base.ubrsecrets,research.base.level14
+research.entity.ubrsecretwarfare14.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare14.research=ubrsecretwarfare13
 research.entity.ubrsecretwarfare14.costs.physics1=300000
 research.entity.ubrsecretwarfare14.costs.occult1=300000
 research.entity.ubrsecretwarfare14.effect=ubrsecretwarfare2
 
-research.entity.ubrsecretwarfare15.parents=research.base.ubrsecrets,research.base.level15
+research.entity.ubrsecretwarfare15.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare15.research=ubrsecretwarfare14
 research.entity.ubrsecretwarfare15.costs.physics1=350000
 research.entity.ubrsecretwarfare15.costs.occult1=350000
 research.entity.ubrsecretwarfare15.effect=ubrsecretwarfare2
 
-research.entity.ubrsecretwarfare16.parents=research.base.ubrsecrets,research.base.level16
+research.entity.ubrsecretwarfare16.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare16.research=ubrsecretwarfare15
 research.entity.ubrsecretwarfare16.costs.physics1=400000
 research.entity.ubrsecretwarfare16.costs.occult1=400000
 research.entity.ubrsecretwarfare16.effect=ubrsecretwarfare2
 
-research.entity.ubrsecretwarfare17.parents=research.base.ubrsecrets,research.base.level17
+research.entity.ubrsecretwarfare17.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare17.research=ubrsecretwarfare16
 research.entity.ubrsecretwarfare17.costs.physics1=450000
 research.entity.ubrsecretwarfare17.costs.occult1=450000
 research.entity.ubrsecretwarfare17.effect=ubrsecretwarfare2
 
-research.entity.ubrsecretwarfare18.parents=research.base.ubrsecrets,research.base.level18
+research.entity.ubrsecretwarfare18.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare18.research=ubrsecretwarfare17
 research.entity.ubrsecretwarfare18.costs.physics1=500000
 research.entity.ubrsecretwarfare18.costs.occult1=500000
 research.entity.ubrsecretwarfare18.effect=ubrsecretwarfare2
 
-research.entity.ubrsecretwarfare19.parents=research.base.ubrsecrets,research.base.level19
+research.entity.ubrsecretwarfare19.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare19.research=ubrsecretwarfare18
 research.entity.ubrsecretwarfare19.costs.physics1=550000
 research.entity.ubrsecretwarfare19.costs.occult1=550000
 research.entity.ubrsecretwarfare19.effect=ubrsecretwarfare2
 
-research.entity.ubrsecretwarfare20.parents=research.base.ubrsecrets,research.base.level20
+research.entity.ubrsecretwarfare20.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretwarfare20.research=ubrsecretwarfare19
 research.entity.ubrsecretwarfare20.costs.physics1=600000
 research.entity.ubrsecretwarfare20.costs.occult1=600000
@@ -418,25 +434,25 @@ research.entity.ubrsecretwarfare20.effect=ubrsecretwarfare2
 
 # ---------------------------------------------- Economy ----------------------------------------------
 
-research.entity.ubrsecretseconomy1.parents=research.base.ubrsecrets,research.base.level1
+research.entity.ubrsecretseconomy1.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy1.research=ubrsecretsstart
 research.entity.ubrsecretseconomy1.costs.physics1=10000
 research.entity.ubrsecretseconomy1.costs.occult1=10000
 research.entity.ubrsecretseconomy1.effect=ubrsecretseconomy1
 
-research.entity.ubrsecretseconomy2.parents=research.base.ubrsecrets,research.base.level2
+research.entity.ubrsecretseconomy2.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy2.research=ubrsecretseconomy1
 research.entity.ubrsecretseconomy2.costs.physics1=20000
 research.entity.ubrsecretseconomy2.costs.occult1=20000
 research.entity.ubrsecretseconomy2.effect=ubrsecretseconomy1
 
-research.entity.ubrsecretseconomy3.parents=research.base.ubrsecrets,research.base.level3
+research.entity.ubrsecretseconomy3.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy3.research=ubrsecretseconomy2
 research.entity.ubrsecretseconomy3.costs.physics1=30000
 research.entity.ubrsecretseconomy3.costs.occult1=30000
 research.entity.ubrsecretseconomy3.effect=ubrsecretseconomy1
 
-research.entity.ubrsecretseconomy4.parents=research.base.ubrsecrets,research.base.level4
+research.entity.ubrsecretseconomy4.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy4.research=ubrsecretseconomy3
 research.entity.ubrsecretseconomy4.costs.physics1=40000
 research.entity.ubrsecretseconomy4.costs.occult1=40000
@@ -448,91 +464,91 @@ research.entity.ubrsecretseconomy5.costs.physics1=50000
 research.entity.ubrsecretseconomy5.costs.occult1=50000
 research.entity.ubrsecretseconomy5.effect=ubrsecretseconomy1
 
-research.entity.ubrsecretseconomy6.parents=research.base.ubrsecrets,research.base.level6
+research.entity.ubrsecretseconomy6.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy6.research=ubrsecretseconomy5
 research.entity.ubrsecretseconomy6.costs.physics1=60000
 research.entity.ubrsecretseconomy6.costs.occult1=60000
 research.entity.ubrsecretseconomy6.effect=ubrsecretseconomy1
 
-research.entity.ubrsecretseconomy7.parents=research.base.ubrsecrets,research.base.level7
+research.entity.ubrsecretseconomy7.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy7.research=ubrsecretseconomy6
 research.entity.ubrsecretseconomy7.costs.physics1=70000
 research.entity.ubrsecretseconomy7.costs.occult1=70000
 research.entity.ubrsecretseconomy7.effect=ubrsecretseconomy1
 
-research.entity.ubrsecretseconomy8.parents=research.base.ubrsecrets,research.base.level8
+research.entity.ubrsecretseconomy8.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy8.research=ubrsecretseconomy7
 research.entity.ubrsecretseconomy8.costs.physics1=80000
 research.entity.ubrsecretseconomy8.costs.occult1=80000
 research.entity.ubrsecretseconomy8.effect=ubrsecretseconomy1
 
-research.entity.ubrsecretseconomy9.parents=research.base.ubrsecrets,research.base.level9
+research.entity.ubrsecretseconomy9.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy9.research=ubrsecretseconomy8
 research.entity.ubrsecretseconomy9.costs.physics1=90000
 research.entity.ubrsecretseconomy9.costs.occult1=90000
 research.entity.ubrsecretseconomy9.effect=ubrsecretseconomy1
 
-research.entity.ubrsecretseconomy10.parents=research.base.ubrsecrets,research.base.level10
+research.entity.ubrsecretseconomy10.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy10.research=ubrsecretseconomy9
 research.entity.ubrsecretseconomy10.costs.physics1=100000
 research.entity.ubrsecretseconomy10.costs.occult1=100000
 research.entity.ubrsecretseconomy10.effect=ubrsecretseconomy1
 
-research.entity.ubrsecretseconomy11.parents=research.base.ubrsecrets,research.base.level11
+research.entity.ubrsecretseconomy11.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy11.research=ubrsecretseconomy10
 research.entity.ubrsecretseconomy11.costs.physics1=150000
 research.entity.ubrsecretseconomy11.costs.occult1=150000
 research.entity.ubrsecretseconomy11.effect=ubrsecretseconomy2
 
-research.entity.ubrsecretseconomy12.parents=research.base.ubrsecrets,research.base.level12
+research.entity.ubrsecretseconomy12.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy12.research=ubrsecretseconomy11
 research.entity.ubrsecretseconomy12.costs.physics1=200000
 research.entity.ubrsecretseconomy12.costs.occult1=200000
 research.entity.ubrsecretseconomy12.effect=ubrsecretseconomy2
 
-research.entity.ubrsecretseconomy13.parents=research.base.ubrsecrets,research.base.level13
+research.entity.ubrsecretseconomy13.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy13.research=ubrsecretseconomy12
 research.entity.ubrsecretseconomy13.costs.physics1=250000
 research.entity.ubrsecretseconomy13.costs.occult1=250000
 research.entity.ubrsecretseconomy13.effect=ubrsecretseconomy2
 
-research.entity.ubrsecretseconomy14.parents=research.base.ubrsecrets,research.base.level14
+research.entity.ubrsecretseconomy14.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy14.research=ubrsecretseconomy13
 research.entity.ubrsecretseconomy14.costs.physics1=300000
 research.entity.ubrsecretseconomy14.costs.occult1=300000
 research.entity.ubrsecretseconomy14.effect=ubrsecretseconomy2
 
-research.entity.ubrsecretseconomy15.parents=research.base.ubrsecrets,research.base.level15
+research.entity.ubrsecretseconomy15.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy15.research=ubrsecretseconomy14
 research.entity.ubrsecretseconomy15.costs.physics1=350000
 research.entity.ubrsecretseconomy15.costs.occult1=350000
 research.entity.ubrsecretseconomy15.effect=ubrsecretseconomy2
 
-research.entity.ubrsecretseconomy16.parents=research.base.ubrsecrets,research.base.level16
+research.entity.ubrsecretseconomy16.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy16.research=ubrsecretseconomy15
 research.entity.ubrsecretseconomy16.costs.physics1=400000
 research.entity.ubrsecretseconomy16.costs.occult1=400000
 research.entity.ubrsecretseconomy16.effect=ubrsecretseconomy2
 
-research.entity.ubrsecretseconomy17.parents=research.base.ubrsecrets,research.base.level17
+research.entity.ubrsecretseconomy17.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy17.research=ubrsecretseconomy16
 research.entity.ubrsecretseconomy17.costs.physics1=450000
 research.entity.ubrsecretseconomy17.costs.occult1=450000
 research.entity.ubrsecretseconomy17.effect=ubrsecretseconomy2
 
-research.entity.ubrsecretseconomy18.parents=research.base.ubrsecrets,research.base.level18
+research.entity.ubrsecretseconomy18.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy18.research=ubrsecretseconomy17
 research.entity.ubrsecretseconomy18.costs.physics1=500000
 research.entity.ubrsecretseconomy18.costs.occult1=500000
 research.entity.ubrsecretseconomy18.effect=ubrsecretseconomy2
 
-research.entity.ubrsecretseconomy19.parents=research.base.ubrsecrets,research.base.level19
+research.entity.ubrsecretseconomy19.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy19.research=ubrsecretseconomy18
 research.entity.ubrsecretseconomy19.costs.physics1=550000
 research.entity.ubrsecretseconomy19.costs.occult1=550000
 research.entity.ubrsecretseconomy19.effect=ubrsecretseconomy2
 
-research.entity.ubrsecretseconomy20.parents=research.base.ubrsecrets,research.base.level20
+research.entity.ubrsecretseconomy20.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretseconomy20.research=ubrsecretseconomy19
 research.entity.ubrsecretseconomy20.costs.physics1=600000
 research.entity.ubrsecretseconomy20.costs.occult1=600000
@@ -541,25 +557,25 @@ research.entity.ubrsecretseconomy20.effect=ubrsecretseconomy2
 
 # ---------------------------------------------- Arcane ----------------------------------------------
 
-research.entity.ubrsecretsarcane1.parents=research.base.ubrsecrets,research.base.level1
+research.entity.ubrsecretsarcane1.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane1.research=ubrsecretsstart
 research.entity.ubrsecretsarcane1.costs.physics1=10000
 research.entity.ubrsecretsarcane1.costs.occult1=10000
 research.entity.ubrsecretsarcane1.effect=ubrsecretsarcane1
 
-research.entity.ubrsecretsarcane2.parents=research.base.ubrsecrets,research.base.level2
+research.entity.ubrsecretsarcane2.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane2.research=ubrsecretsarcane1
 research.entity.ubrsecretsarcane2.costs.physics1=20000
 research.entity.ubrsecretsarcane2.costs.occult1=20000
 research.entity.ubrsecretsarcane2.effect=ubrsecretsarcane1
 
-research.entity.ubrsecretsarcane3.parents=research.base.ubrsecrets,research.base.level3
+research.entity.ubrsecretsarcane3.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane3.research=ubrsecretsarcane2
 research.entity.ubrsecretsarcane3.costs.physics1=30000
 research.entity.ubrsecretsarcane3.costs.occult1=30000
 research.entity.ubrsecretsarcane3.effect=ubrsecretsarcane1
 
-research.entity.ubrsecretsarcane4.parents=research.base.ubrsecrets,research.base.level4
+research.entity.ubrsecretsarcane4.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane4.research=ubrsecretsarcane3
 research.entity.ubrsecretsarcane4.costs.physics1=40000
 research.entity.ubrsecretsarcane4.costs.occult1=40000
@@ -571,94 +587,102 @@ research.entity.ubrsecretsarcane5.costs.physics1=50000
 research.entity.ubrsecretsarcane5.costs.occult1=50000
 research.entity.ubrsecretsarcane5.effect=ubrsecretsarcane1
 
-research.entity.ubrsecretsarcane6.parents=research.base.ubrsecrets,research.base.level6
+research.entity.ubrsecretsarcane6.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane6.research=ubrsecretsarcane5
 research.entity.ubrsecretsarcane6.costs.physics1=60000
 research.entity.ubrsecretsarcane6.costs.occult1=60000
 research.entity.ubrsecretsarcane6.effect=ubrsecretsarcane1
 
-research.entity.ubrsecretsarcane7.parents=research.base.ubrsecrets,research.base.level7
+research.entity.ubrsecretsarcane7.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane7.research=ubrsecretsarcane6
 research.entity.ubrsecretsarcane7.costs.physics1=70000
 research.entity.ubrsecretsarcane7.costs.occult1=70000
 research.entity.ubrsecretsarcane7.effect=ubrsecretsarcane1
 
-research.entity.ubrsecretsarcane8.parents=research.base.ubrsecrets,research.base.level8
+research.entity.ubrsecretsarcane8.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane8.research=ubrsecretsarcane7
 research.entity.ubrsecretsarcane8.costs.physics1=80000
 research.entity.ubrsecretsarcane8.costs.occult1=80000
 research.entity.ubrsecretsarcane8.effect=ubrsecretsarcane1
 
-research.entity.ubrsecretsarcane9.parents=research.base.ubrsecrets,research.base.level9
+research.entity.ubrsecretsarcane9.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane9.research=ubrsecretsarcane8
 research.entity.ubrsecretsarcane9.costs.physics1=90000
 research.entity.ubrsecretsarcane9.costs.occult1=90000
 research.entity.ubrsecretsarcane9.effect=ubrsecretsarcane1
 
-research.entity.ubrsecretsarcane10.parents=research.base.ubrsecrets,research.base.level10
+research.entity.ubrsecretsarcane10.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane10.research=ubrsecretsarcane9
 research.entity.ubrsecretsarcane10.costs.physics1=100000
 research.entity.ubrsecretsarcane10.costs.occult1=100000
 research.entity.ubrsecretsarcane10.effect=ubrsecretsarcane1
 
-research.entity.ubrsecretsarcane11.parents=research.base.ubrsecrets,research.base.level11
+research.entity.ubrsecretsarcane11.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane11.research=ubrsecretsarcane10
 research.entity.ubrsecretsarcane11.costs.physics1=150000
 research.entity.ubrsecretsarcane11.costs.occult1=150000
 research.entity.ubrsecretsarcane11.effect=ubrsecretsarcane2
 
-research.entity.ubrsecretsarcane12.parents=research.base.ubrsecrets,research.base.level12
+research.entity.ubrsecretsarcane12.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane12.research=ubrsecretsarcane11
 research.entity.ubrsecretsarcane12.costs.physics1=200000
 research.entity.ubrsecretsarcane12.costs.occult1=200000
 research.entity.ubrsecretsarcane12.effect=ubrsecretsarcane2
 
-research.entity.ubrsecretsarcane13.parents=research.base.ubrsecrets,research.base.level13
+research.entity.ubrsecretsarcane13.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane13.research=ubrsecretsarcane12
 research.entity.ubrsecretsarcane13.costs.physics1=250000
 research.entity.ubrsecretsarcane13.costs.occult1=250000
 research.entity.ubrsecretsarcane13.effect=ubrsecretsarcane2
 
-research.entity.ubrsecretsarcane14.parents=research.base.ubrsecrets,research.base.level14
+research.entity.ubrsecretsarcane14.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane14.research=ubrsecretsarcane13
 research.entity.ubrsecretsarcane14.costs.physics1=300000
 research.entity.ubrsecretsarcane14.costs.occult1=300000
 research.entity.ubrsecretsarcane14.effect=ubrsecretsarcane2
 
-research.entity.ubrsecretsarcane15.parents=research.base.ubrsecrets,research.base.level15
+research.entity.ubrsecretsarcane15.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane15.research=ubrsecretsarcane14
 research.entity.ubrsecretsarcane15.costs.physics1=350000
 research.entity.ubrsecretsarcane15.costs.occult1=350000
 research.entity.ubrsecretsarcane15.effect=ubrsecretsarcane2
 
-research.entity.ubrsecretsarcane16.parents=research.base.ubrsecrets,research.base.level16
+research.entity.ubrsecretsarcane16.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane16.research=ubrsecretsarcane15
 research.entity.ubrsecretsarcane16.costs.physics1=400000
 research.entity.ubrsecretsarcane16.costs.occult1=400000
 research.entity.ubrsecretsarcane16.effect=ubrsecretsarcane2
 
-research.entity.ubrsecretsarcane17.parents=research.base.ubrsecrets,research.base.level17
+research.entity.ubrsecretsarcane17.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane17.research=ubrsecretsarcane16
 research.entity.ubrsecretsarcane17.costs.physics1=450000
 research.entity.ubrsecretsarcane17.costs.occult1=450000
 research.entity.ubrsecretsarcane17.effect=ubrsecretsarcane2
 
-research.entity.ubrsecretsarcane18.parents=research.base.ubrsecrets,research.base.level18
+research.entity.ubrsecretsarcane18.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane18.research=ubrsecretsarcane17
 research.entity.ubrsecretsarcane18.costs.physics1=500000
 research.entity.ubrsecretsarcane18.costs.occult1=500000
 research.entity.ubrsecretsarcane18.effect=ubrsecretsarcane2
 
-research.entity.ubrsecretsarcane19.parents=research.base.ubrsecrets,research.base.level19
+research.entity.ubrsecretsarcane19.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane19.research=ubrsecretsarcane18
 research.entity.ubrsecretsarcane19.costs.physics1=550000
 research.entity.ubrsecretsarcane19.costs.occult1=550000
 research.entity.ubrsecretsarcane19.effect=ubrsecretsarcane2
 
-research.entity.ubrsecretsarcane20.parents=research.base.ubrsecrets,research.base.level20
+research.entity.ubrsecretsarcane20.parents=research.base.ubrsecrets,research.base.level5
 research.entity.ubrsecretsarcane20.research=ubrsecretsarcane19
 research.entity.ubrsecretsarcane20.costs.physics1=600000
 research.entity.ubrsecretsarcane20.costs.occult1=600000
 research.entity.ubrsecretsarcane20.effect=ubrsecretsarcane2
+
+
+# DEPRECATED LOCK OUT
+
+research.entity.ubrdeprecatedresearch.parents=research.base.ubrsecrets,research.base.level5
+research.entity.ubrdeprecatedresearch.research=ubrsecretsarcane20
+research.entity.ubrdeprecatedresearch.costs.physics1=99999999
+research.entity.ubrdeprecatedresearch.costs.occult1=99999999
 
 

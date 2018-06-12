@@ -1,0 +1,152 @@
+
+# Add more levels for survivors
+
+# config.skilllevelcost.0=100	# +100
+# config.skilllevelcost.1=300	# +200
+# config.skilllevelcost.2=600	# +300
+# config.skilllevelcost.3=1000	# +400
+# config.skilllevelcost.4=1500	# +500
+# config.skilllevelcost.5=2000	# +500
+# config.skilllevelcost.6=2500	# +500
+# config.skilllevelcost.7=3000	# +500
+# config.skilllevelcost.8=3500	# +500
+# config.skilllevelcost.9=4500	# +500
+
+# +100 more than previous difference per level
+config.skilllevelcost.10=5100
+config.skilllevelcost.11=5800
+config.skilllevelcost.12=6600
+config.skilllevelcost.13=7500
+config.skilllevelcost.14=8500
+# 14 : +1000
+config.skilllevelcost.15=9600
+config.skilllevelcost.16=10800
+config.skilllevelcost.17=12100
+config.skilllevelcost.18=13500
+config.skilllevelcost.19=15000
+# 19 : +1500
+config.skilllevelcost.20=16600
+config.skilllevelcost.21=18300
+config.skilllevelcost.22=20100
+config.skilllevelcost.23=22000
+config.skilllevelcost.24=24000
+# 24 : +2000
+config.skilllevelcost.25=26100
+config.skilllevelcost.26=28300
+config.skilllevelcost.27=30600
+config.skilllevelcost.28=33000
+config.skilllevelcost.29=35500
+# 29 : +2500
+config.skilllevelcost.30=38100
+config.skilllevelcost.31=40800
+config.skilllevelcost.32=43600
+config.skilllevelcost.33=46500
+config.skilllevelcost.34=49500
+# 34 : +3000
+config.skilllevelcost.35=52600
+config.skilllevelcost.36=55800
+config.skilllevelcost.37=59100
+config.skilllevelcost.38=62500
+config.skilllevelcost.39=66000
+# 39 : +3500
+config.skilllevelcost.40=69600
+config.skilllevelcost.41=73300
+config.skilllevelcost.42=77100
+config.skilllevelcost.43=81000
+config.skilllevelcost.44=85000
+# 44 : +4000
+config.skilllevelcost.45=89100
+config.skilllevelcost.46=93300
+config.skilllevelcost.47=97600
+config.skilllevelcost.48=102000
+config.skilllevelcost.49=106500
+# 49 : +4500
+config.skilllevelcost.50=111100
+config.skilllevelcost.51=115800
+config.skilllevelcost.52=120600
+config.skilllevelcost.53=125500
+config.skilllevelcost.54=130500
+# 54 : +5000
+config.skilllevelcost.55=135600
+config.skilllevelcost.56=140800
+config.skilllevelcost.57=146100
+config.skilllevelcost.58=151500
+config.skilllevelcost.59=157000
+# 59 : +5500
+config.skilllevelcost.60=162600
+config.skilllevelcost.61=168300
+config.skilllevelcost.62=174100
+config.skilllevelcost.63=180000
+config.skilllevelcost.64=186000
+# 64 : +6000
+config.skilllevelcost.65=192100
+config.skilllevelcost.66=198300
+config.skilllevelcost.67=204600
+config.skilllevelcost.68=211000
+config.skilllevelcost.69=217500
+# 69 : +6500
+config.skilllevelcost.70=224100
+config.skilllevelcost.71=230800
+config.skilllevelcost.72=237600
+config.skilllevelcost.73=244500
+config.skilllevelcost.74=251500
+# 74 : +7000
+config.skilllevelcost.75=258600
+config.skilllevelcost.76=265800
+config.skilllevelcost.77=273100
+config.skilllevelcost.78=280500
+config.skilllevelcost.79=288000
+# 79 : +7500
+config.skilllevelcost.80=295600
+config.skilllevelcost.81=303300
+config.skilllevelcost.82=311100
+config.skilllevelcost.83=319000
+config.skilllevelcost.84=327000
+# 84 : +8000
+config.skilllevelcost.85=335100
+config.skilllevelcost.86=343300
+config.skilllevelcost.87=351600
+config.skilllevelcost.88=360000
+config.skilllevelcost.89=368500
+# 89 : +8500
+config.skilllevelcost.90=377100
+config.skilllevelcost.91=385800
+config.skilllevelcost.92=394600
+config.skilllevelcost.93=403500
+config.skilllevelcost.94=412500
+# 94 : +9000
+config.skilllevelcost.95=421600
+config.skilllevelcost.96=430800
+config.skilllevelcost.97=440100
+config.skilllevelcost.98=449500
+config.skilllevelcost.99=459000
+# 99 : +9500
+config.skilllevelcost.100=468600
+
+
+# Every 10th level grants 7 skill points
+# Level 71 and up grants 2 skill points per level
+
+# config.skillpointsperlevel.0=1
+config.skillpointsperlevel.5=1
+config.skillpointsperlevel.6=1
+config.skillpointsperlevel.10=7
+config.skillpointsperlevel.11=1
+config.skillpointsperlevel.20=7
+config.skillpointsperlevel.21=1
+config.skillpointsperlevel.30=7
+config.skillpointsperlevel.31=1
+config.skillpointsperlevel.40=7
+config.skillpointsperlevel.41=1
+config.skillpointsperlevel.50=7
+config.skillpointsperlevel.51=1
+config.skillpointsperlevel.60=7
+config.skillpointsperlevel.61=1
+config.skillpointsperlevel.70=7
+config.skillpointsperlevel.71=2
+config.skillpointsperlevel.80=7
+config.skillpointsperlevel.81=2
+config.skillpointsperlevel.90=7
+config.skillpointsperlevel.91=2
+config.skillpointsperlevel.100=12
+# 204 skill points in total at level 101 = 6 x 34 meaning 6 full skill lists

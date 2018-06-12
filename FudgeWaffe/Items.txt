@@ -113,7 +113,7 @@ crafting.entity.researchkit.parents=crafting.base.handling
 crafting.entity.researchkit.amount=1
 crafting.entity.researchkit.work=1500
 crafting.entity.researchkit.research=ubrdistilling
-crafting.entity.researchkit.station.ubradvcrafting=1
+crafting.entity.researchkit.station.workbench=1
 crafting.entity.researchkit.priority=7
 crafting.entity.researchkit.costs.physics1=2000
 crafting.entity.researchkit.costs.ubrchemicals=2
@@ -166,7 +166,7 @@ crafting.entity.primamateria.costs.ubrmana=12
 # Adjust hunting rifle.
 
 items.entity.huntingrifle.parents=items.base.weapon,items.base.level3,items.base.rare
-items.entity.huntingrifle.properties.range=11
+items.entity.huntingrifle.properties.range=9
 items.entity.huntingrifle.skillreq.firearm=false
 
 crafting.entity.huntingrifle.amount=1
@@ -194,11 +194,28 @@ crafting.entity.sniper.costs.obsidian=0
 items.entity.volcanicbow.properties.range=9
 
 
+# Boost Carbon Bow
+
+items.entity.carbonbow.properties.range=12
+
+
 # Boost M16 Rifle
 
 items.entity.m16.properties.range=12
 
 crafting.entity.m16.work=5080
+
+
+# Boost Explosive Gun
+
+items.entity.explosivegun.properties.attackspeed=3.6
+items.entity.explosivegun.properties.range=9
+
+
+# Boost Bazooka
+
+items.entity.bazooka.properties.attackspeed=1.4
+items.entity.bazooka.properties.range=10
 
 
 # Boost 50cal
@@ -215,7 +232,7 @@ crafting.entity.50cal.costs.ubrbullets=10
 # Boost Minigun and make craftable
 
 items.entity.minigun.properties.range=11
-items.entity.minigun.properties.accuracy=40
+items.entity.minigun.properties.accuracy=70
 
 crafting.entity.minigun.amount=1
 crafting.entity.minigun.work=20160
@@ -233,7 +250,6 @@ crafting.entity.minigun.costs.ubrbullets=80
 items.entity.guidedsniper.properties.damage=106
 items.entity.guidedsniper.properties.attackspeed=2
 items.entity.guidedsniper.properties.range=30
-items.entity.guidedsniper.properties.accuracy=150
 items.entity.guidedsniper.effect.vision=5
 items.entity.guidedsniper.effect.walkspeed=-0.2
 items.entity.guidedsniper.effect.evade=-0.2
@@ -249,7 +265,7 @@ crafting.entity.guidedsniper.costs.ubrbullets=6
 
 items.entity.mtar21.tags.rifle=true
 items.entity.mtar21.tags.automaticweapon=true
-items.entity.mtar21.properties.range=16
+items.entity.mtar21.properties.range=13
 
 crafting.entity.mtar21.work=5220
 crafting.entity.mtar21.costs.composites=10
@@ -335,7 +351,7 @@ crafting.entity.titanium.costs.aloe=0
 crafting.entity.titanium.costs.ubrchemicals=8
 crafting.entity.titanium.costs.metals=10
 crafting.entity.titanium.costs.aluminum=10
-crafting.entity.titanium.costs.primamateria=1
+crafting.entity.titanium.costs.primamateria=4
 crafting.entity.titanium.costs.ubrenergyunit=1000
 
 
@@ -360,6 +376,10 @@ crafting.entity.sandwich.costs.ubrenergyunit=1
 
 crafting.entity.pasta.costs.wood=0
 crafting.entity.pasta.costs.ubrenergyunit=1
+
+crafting.entity.gunpowder.costs.sulfur=2
+crafting.entity.gunpowder.costs.wood=1
+crafting.entity.gunpowder.costs.ubrenergyunit=1
 
 crafting.entity.alcohol.costs.ubrenergyunit=1
 
@@ -471,13 +491,15 @@ items.entity.ubrbullets.sprite=item_ubrbullets
 
 crafting.entity.ubrbullets.parents=crafting.base.handling
 crafting.entity.ubrbullets.sprite=item_ubrbullets
-crafting.entity.ubrbullets.amount=10
-crafting.entity.ubrbullets.work=200
+crafting.entity.ubrbullets.amount=20
+crafting.entity.ubrbullets.work=500
 crafting.entity.ubrbullets.research=gunmaking
 crafting.entity.ubrbullets.station.weaponsworkshop=1
 crafting.entity.ubrbullets.priority=15
-crafting.entity.ubrbullets.costs.gunpowder=10
-crafting.entity.ubrbullets.costs.metals=1
+crafting.entity.ubrbullets.costs.gunpowder=20
+crafting.entity.ubrbullets.costs.metals=2
+crafting.entity.ubrbullets.costs.copper=1
+crafting.entity.ubrbullets.costs.aluminum=2
 
 # Update crafting uses of gunpowder to use bullets instead.
 crafting.entity.glock.costs.gunpowder=0
@@ -544,6 +566,14 @@ crafting.entity.ubrexpbook.costs.pickles=1
 crafting.entity.ubrexpbook.costs.ubrmana=10
 
 
+# Add craftable experience books
+
+items.entity.ubrexpbook2.parents=items.base.baseuse,items.base.level7,items.base.artifact1
+items.entity.ubrexpbook2.sprite=item_pickles
+items.entity.ubrexpbook2.baseaction.use.class=BaseActionAddExp
+items.entity.ubrexpbook2.baseaction.use.exp=25000
+
+
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -602,7 +632,7 @@ items.entity.ubrarmorofnight.properties.health=370
 items.entity.ubrarmorofnight.properties.evade=75
 items.entity.ubrarmorofnight.properties.defense=16
 items.entity.ubrarmorofnight.skillreq.darkarmor=true
-items.entity.ubrarmorofnight.effect.walkspeed=0.1
+items.entity.ubrarmorofnight.effect.walkspeed=0.2
 items.entity.ubrarmorofnight.auras.fear.range=3
 items.entity.ubrarmorofnight.auras.fear.effect.ubrfear2=true
 items.entity.ubrarmorofnight.auras.fear.targetmode=Enemy
@@ -628,20 +658,19 @@ items.entity.ubrsacredsword.sprite=item_sacredsword
 items.entity.ubrsacredsword.tags.melee=true
 items.entity.ubrsacredsword.tags.sharp=true
 items.entity.ubrsacredsword.tags.holyweapon=true
-items.entity.ubrsacredsword.properties.damage=72
-items.entity.ubrsacredsword.properties.attackspeed=4
+items.entity.ubrsacredsword.properties.damage=68
+items.entity.ubrsacredsword.properties.attackspeed=6
 items.entity.ubrsacredsword.properties.range=1
-items.entity.ubrsacredsword.properties.accuracy=125
+items.entity.ubrsacredsword.properties.accuracy=144
 items.entity.ubrsacredsword.properties.attackmisssound=melee_attack
 items.entity.ubrsacredsword.properties.prefab=sacredsword
 items.entity.ubrsacredsword.properties.survivorattackanimation=SurvivorClub
 items.entity.ubrsacredsword.properties.hand=right
-items.entity.ubrsacredsword.skillreq.occultweapon=true
 items.entity.ubrsacredsword.hiteffect.transmute=9
 items.entity.ubrsacredsword.abilities.exorcise2=3
-items.entity.ubrsacredsword.effect.evade=0.2
-items.entity.ubrsacredsword.effect.defense=0.15
-items.entity.ubrsacredsword.effect.armorpierce=0.3
+items.entity.ubrsacredsword.effect.evade=0.25
+items.entity.ubrsacredsword.effect.defense=0.2
+items.entity.ubrsacredsword.effect.armorpierce=0.5
 items.entity.ubrsacredsword.effect.walkspeed=0.5
 
 crafting.entity.ubrsacredsword.sprite=item_sacredsword
@@ -662,10 +691,11 @@ items.entity.ubrplasmacharger.parents=items.base.weapon,items.base.level7,items.
 items.entity.ubrplasmacharger.sprite=item_plasmacharger
 items.entity.ubrplasmacharger.tags.techweapon=true
 items.entity.ubrplasmacharger.tags.holyweapon=true
+items.entity.ubrplasmacharger.achievements.bfg=1
 items.entity.ubrplasmacharger.properties.damage=140
-items.entity.ubrplasmacharger.properties.attackspeed=1.3
-items.entity.ubrplasmacharger.properties.range=10
-items.entity.ubrplasmacharger.properties.accuracy=120
+items.entity.ubrplasmacharger.properties.attackspeed=2
+items.entity.ubrplasmacharger.properties.range=11
+items.entity.ubrplasmacharger.properties.accuracy=138
 items.entity.ubrplasmacharger.properties.attacksound=plasma_shot
 items.entity.ubrplasmacharger.properties.prefab=plasmacharger
 items.entity.ubrplasmacharger.properties.survivorattackanimation=SurvivorPlasmaCharger
@@ -675,7 +705,7 @@ items.entity.ubrplasmacharger.skillreq.occultweapon=true
 items.entity.ubrplasmacharger.skillreq.techweapon=true
 items.entity.ubrplasmacharger.hiteffect.transmute=9
 items.entity.ubrplasmacharger.splash.range=1
-items.entity.ubrplasmacharger.splash.damage=1
+items.entity.ubrplasmacharger.splash.damage=0.75
 items.entity.ubrplasmacharger.effect.walkspeed=-0.2
 items.entity.ubrplasmacharger.effect.evade=-0.2
 
@@ -699,19 +729,18 @@ items.entity.ubrswordofnephilim.sprite=item_swordofnephilim
 items.entity.ubrswordofnephilim.tags.melee=true
 items.entity.ubrswordofnephilim.tags.sharp=true
 items.entity.ubrswordofnephilim.tags.darkweapon=true
-items.entity.ubrswordofnephilim.properties.damage=48
+items.entity.ubrswordofnephilim.properties.damage=72
 items.entity.ubrswordofnephilim.properties.attackspeed=5
 items.entity.ubrswordofnephilim.properties.range=1
-items.entity.ubrswordofnephilim.properties.accuracy=125
+items.entity.ubrswordofnephilim.properties.accuracy=138
 items.entity.ubrswordofnephilim.properties.attackmisssound=melee_attack
 items.entity.ubrswordofnephilim.properties.prefab=swordofnephilim
 items.entity.ubrswordofnephilim.properties.survivorattackanimation=SurvivorKatana
 items.entity.ubrswordofnephilim.properties.hand=right
-items.entity.ubrswordofnephilim.skillreq.occultweapon=true
-items.entity.ubrswordofnephilim.abilities.swordhex=2
+items.entity.ubrswordofnephilim.abilities.ubrweaponhex=2
 items.entity.ubrswordofnephilim.effect.evade=0.15
 items.entity.ubrswordofnephilim.effect.defense=0.05
-items.entity.ubrswordofnephilim.effect.armorpierce=0.3
+items.entity.ubrswordofnephilim.effect.armorpierce=0.7
 items.entity.ubrswordofnephilim.hiteffect.demonitecurse=3
 
 crafting.entity.ubrswordofnephilim.sprite=item_swordofnephilim
@@ -731,16 +760,15 @@ items.entity.ubrangelicarbalest.parents=items.base.weapon,items.base.level7,item
 items.entity.ubrangelicarbalest.sprite=item_angelicarbalest
 items.entity.ubrangelicarbalest.tags.bow=true
 items.entity.ubrangelicarbalest.tags.holyweapon=true
-items.entity.ubrangelicarbalest.properties.damage=56
-items.entity.ubrangelicarbalest.properties.attackspeed=4
+items.entity.ubrangelicarbalest.properties.damage=52
+items.entity.ubrangelicarbalest.properties.attackspeed=6
 items.entity.ubrangelicarbalest.properties.range=14
-items.entity.ubrangelicarbalest.properties.accuracy=120
+items.entity.ubrangelicarbalest.properties.accuracy=132
 items.entity.ubrangelicarbalest.properties.attacksound=bow_attack
 items.entity.ubrangelicarbalest.properties.prefab=angelicarbalest
 items.entity.ubrangelicarbalest.properties.survivorattackanimation=SurvivorBow
 items.entity.ubrangelicarbalest.properties.attackanimation=VolcanicbowAttackPrefab
 items.entity.ubrangelicarbalest.properties.hand=left
-items.entity.ubrangelicarbalest.skillreq.occultweapon=true
 items.entity.ubrangelicarbalest.effect.walkspeed=0.3
 items.entity.ubrangelicarbalest.effect.armorpierce=0.2
 items.entity.ubrangelicarbalest.hiteffect.ubrburn2=6
@@ -756,6 +784,84 @@ crafting.entity.ubrangelicarbalest.costs.bloodruby=12
 crafting.entity.ubrangelicarbalest.costs.diamonds=3
 crafting.entity.ubrangelicarbalest.costs.nitro=2
 crafting.entity.ubrangelicarbalest.costs.holywater=10
+
+
+# Imbued Pistol
+
+items.entity.ubrgunslinger.parents=items.base.firearm,items.base.level7,items.base.artifact1,items.base.lordofwar
+items.entity.ubrgunslinger.sprite=item_saintgun
+items.entity.ubrgunslinger.tags.pistol=true
+items.entity.ubrgunslinger.tags.holyweapon=true
+items.entity.ubrgunslinger.tags.darkweapon=true
+items.entity.ubrgunslinger.properties.damage=36
+items.entity.ubrgunslinger.properties.attackspeed=10
+items.entity.ubrgunslinger.properties.range=9
+items.entity.ubrgunslinger.properties.accuracy=132
+items.entity.ubrgunslinger.properties.attacksound=gun_attack
+items.entity.ubrgunslinger.properties.prefab=cursedgunslinger
+items.entity.ubrgunslinger.properties.survivorattackanimation=SurvivorGun
+items.entity.ubrgunslinger.properties.attackanimation=BulletAttackPrefab
+items.entity.ubrgunslinger.properties.hand=right
+items.entity.ubrgunslinger.abilities.ubrweaponhex=2
+items.entity.ubrgunslinger.effect.evade=0.5
+items.entity.ubrgunslinger.effect.walkspeed=1.4
+items.entity.ubrgunslinger.hiteffect.demonitecurse=3
+items.entity.ubrgunslinger.splash.range=1
+items.entity.ubrgunslinger.splash.damage=0.75
+
+crafting.entity.ubrgunslinger.sprite=item_saintgun
+crafting.entity.ubrgunslinger.amount=1
+crafting.entity.ubrgunslinger.work=26800
+crafting.entity.ubrgunslinger.research=ubroccultweapons3
+crafting.entity.ubrgunslinger.station.hellforge=1
+crafting.entity.ubrgunslinger.priority=5
+crafting.entity.ubrgunslinger.costs.spiritalloy=10
+crafting.entity.ubrgunslinger.costs.hellsessence=5
+crafting.entity.ubrgunslinger.costs.holywords=5
+crafting.entity.ubrgunslinger.costs.bloodruby=7
+crafting.entity.ubrgunslinger.costs.diamonds=3
+crafting.entity.ubrgunslinger.costs.demonite=30
+
+
+# Evoker's Arcane Staff
+
+items.entity.ubrevokerstaff.parents=items.base.weapon,items.base.level7,items.base.artifact1,items.base.lordofwar
+items.entity.ubrevokerstaff.sprite=item_quarterstaff
+items.entity.ubrevokerstaff.tags.holyweapon=true
+items.entity.ubrevokerstaff.tags.darkweapon=true
+items.entity.ubrevokerstaff.tags.bow=true
+items.entity.ubrevokerstaff.tags.arcanestaff=true
+items.entity.ubrevokerstaff.properties.damage=35
+items.entity.ubrevokerstaff.properties.attackspeed=4
+items.entity.ubrevokerstaff.properties.range=22
+items.entity.ubrevokerstaff.properties.accuracy=150
+items.entity.ubrevokerstaff.properties.attacksound=plasma_shot
+items.entity.ubrevokerstaff.properties.prefab=plasmacharger
+items.entity.ubrevokerstaff.properties.survivorattackanimation=SurvivorPlasmaCharger
+items.entity.ubrevokerstaff.properties.attackanimation=PlasmachargerAttackPrefab
+items.entity.ubrevokerstaff.properties.hand=right
+items.entity.ubrevokerstaff.skillreq.arcanestaff=true
+items.entity.ubrevokerstaff.abilities.ubrevokerstaffblast=1
+items.entity.ubrevokerstaff.hiteffect.ubrevokerstaffhex=30
+items.entity.ubrevokerstaff.splash.range=2
+items.entity.ubrevokerstaff.splash.damage=0.25
+items.entity.ubrevokerstaff.auras.ubrevokerstaffaura.range=4
+items.entity.ubrevokerstaff.auras.ubrevokerstaffaura.effect.ubrevokerstaffaura=true
+items.entity.ubrevokerstaff.auras.ubrevokerstaffaura.targetmode=Ally
+items.entity.ubrevokerstaff.auras.ubrevokerstaffaura.prefab=PositiveAuraPrefab
+
+crafting.entity.ubrevokerstaff.sprite=item_quarterstaff
+crafting.entity.ubrevokerstaff.amount=1
+crafting.entity.ubrevokerstaff.work=74000
+crafting.entity.ubrevokerstaff.research=ubroccultweapons3
+crafting.entity.ubrevokerstaff.station.alchemytable=1
+crafting.entity.ubrevokerstaff.priority=5
+crafting.entity.ubrevokerstaff.costs.spiritalloy=10
+crafting.entity.ubrevokerstaff.costs.boards=2
+crafting.entity.ubrevokerstaff.costs.bloodruby=4
+crafting.entity.ubrevokerstaff.costs.permafrost=4
+crafting.entity.ubrevokerstaff.costs.hellsessence=4
+crafting.entity.ubrevokerstaff.costs.ubrmana=500
 
 
 # Imbued War Suit
@@ -793,8 +899,8 @@ items.entity.ubrmtar21.parents=items.base.firearm,items.base.level7,items.base.a
 items.entity.ubrmtar21.sprite=item_mtar21
 items.entity.ubrmtar21.tags.rifle=true
 items.entity.ubrmtar21.tags.automaticweapon=true
-items.entity.ubrmtar21.properties.damage=31
-items.entity.ubrmtar21.properties.attackspeed=9
+items.entity.ubrmtar21.properties.damage=35
+items.entity.ubrmtar21.properties.attackspeed=12
 items.entity.ubrmtar21.properties.range=17
 items.entity.ubrmtar21.properties.accuracy=115
 items.entity.ubrmtar21.properties.attacksound=gun_attack
@@ -825,10 +931,10 @@ crafting.entity.ubrmtar21.costs.ubrbullets=10
 items.entity.ubrbeamcannon.parents=items.base.weapon,items.base.level7,items.base.artifact1,items.base.lordofwar
 items.entity.ubrbeamcannon.sprite=item_beamcannon
 items.entity.ubrbeamcannon.tags.techweapon=true
-items.entity.ubrbeamcannon.properties.damage=64
+items.entity.ubrbeamcannon.properties.damage=116
 items.entity.ubrbeamcannon.properties.attackspeed=4
 items.entity.ubrbeamcannon.properties.range=18
-items.entity.ubrbeamcannon.properties.accuracy=110
+items.entity.ubrbeamcannon.properties.accuracy=120
 items.entity.ubrbeamcannon.properties.attacksound=ray_shot
 items.entity.ubrbeamcannon.properties.prefab=beamcanon
 items.entity.ubrbeamcannon.properties.survivorattackanimation=SurvivorShotgun
@@ -860,9 +966,9 @@ items.entity.ubrminigun.sprite=item_minigun
 items.entity.ubrminigun.tags.automaticweapon=true
 items.entity.ubrminigun.tags.techweapon=true
 items.entity.ubrminigun.properties.damage=36
-items.entity.ubrminigun.properties.attackspeed=15
+items.entity.ubrminigun.properties.attackspeed=25
 items.entity.ubrminigun.properties.range=12
-items.entity.ubrminigun.properties.accuracy=50
+items.entity.ubrminigun.properties.accuracy=90
 items.entity.ubrminigun.properties.attacksound=gun_attack
 items.entity.ubrminigun.properties.prefab=minigun
 items.entity.ubrminigun.properties.survivorattackanimation=SurvivorMinigun
@@ -888,6 +994,41 @@ crafting.entity.ubrminigun.costs.ubrenertronics=6
 crafting.entity.ubrminigun.costs.glass=2
 crafting.entity.ubrminigun.costs.plasmapack=8
 crafting.entity.ubrminigun.costs.ubrenergyunit=200
+
+
+# Energy Sniper
+
+items.entity.ubrguidedsniper.parents=items.base.firearm,items.base.level7,items.base.artifact1,items.base.lordofwar
+items.entity.ubrguidedsniper.sprite=item_guidedsniper
+items.entity.ubrguidedsniper.tags.sniper=true
+items.entity.ubrguidedsniper.tags.rifle=true
+items.entity.ubrguidedsniper.tags.techweapon=true
+items.entity.ubrguidedsniper.properties.damage=212
+items.entity.ubrguidedsniper.properties.attackspeed=2
+items.entity.ubrguidedsniper.properties.range=30
+items.entity.ubrguidedsniper.properties.accuracy=176
+items.entity.ubrguidedsniper.properties.attacksound=ray_shot
+items.entity.ubrguidedsniper.properties.prefab=guidedsniper
+items.entity.ubrguidedsniper.properties.survivorattackanimation=SurvivorSniper
+items.entity.ubrguidedsniper.properties.attackanimation=BulletAttackPrefab
+items.entity.ubrguidedsniper.properties.hand=right
+items.entity.ubrguidedsniper.skillreq.sniper=true
+items.entity.ubrguidedsniper.effect.vision=4
+items.entity.ubrguidedsniper.effect.armorpierce=0.5
+items.entity.ubrguidedsniper.effect.walkspeed=-0.2
+items.entity.ubrguidedsniper.effect.evade=-0.4
+
+crafting.entity.ubrguidedsniper.sprite=item_guidedsniper
+crafting.entity.ubrguidedsniper.amount=1
+crafting.entity.ubrguidedsniper.work=50400
+crafting.entity.ubrguidedsniper.research=ubradvtechweapon
+crafting.entity.ubrguidedsniper.station.weaponsworkshop=1
+crafting.entity.ubrguidedsniper.priority=5
+crafting.entity.ubrguidedsniper.costs.spiritalloy=10
+crafting.entity.ubrguidedsniper.costs.silicon=6
+crafting.entity.ubrguidedsniper.costs.opticscable=5
+crafting.entity.ubrguidedsniper.costs.plasmapack=3
+crafting.entity.ubrguidedsniper.costs.ubrenertronics=2
 
 
 # Empowered Deflector

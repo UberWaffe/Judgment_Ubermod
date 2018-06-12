@@ -11,12 +11,25 @@ actions.stonetransmute.description=A ritual to transmutate Prima Materia into St
 actions.claytransmute.name=Clay Transmutation
 actions.claytransmute.description=A ritual to transmutate Prima Materia into Clay.
 
+actions.aluminumtransmute.name=Aluminum Transmutation
+actions.aluminumtransmute.description=A ritual to transmutate Prima Materia into Aluminum.
+
+actions.obsidiantransmute.name=Obsidian Transmutation
+actions.obsidiantransmute.description=A ritual to transmutate Prima Materia into Obsidian.
 
 actions.quartztransmute.name=Quartz Transmutation
 actions.quartztransmute.description=A ritual to transmutate Prima Materia into Quartz.
 
-actions.obsidiantransmute.name=Obsidian Transmutation
-actions.obsidiantransmute.description=A ritual to transmutate Prima Materia into Obsidian.
+actions.diamondtransmute.name=Diamond Transmutation
+actions.diamondtransmute.description=A ritual to transmutate Prima Materia into Diamonds.
+
+actions.bloodrubytransmute.name=Bloodruby Transmutation
+actions.bloodrubytransmute.description=A ritual to transmutate Prima Materia into Bloodrubies.
+
+actions.phosphorustransmute.name=Phosphorus Transmutation
+actions.phosphorustransmute.description=A ritual to transmutate Prima Materia into Phosphorus.
+
+
 
 actions.demonitetransmute.name=Demonite Transmutation
 actions.demonitetransmute.description=A ritual to transmutate Prima Materia into Demonite.
@@ -32,6 +45,40 @@ actions.gemstransmute.description=A ritual to transmutate Prima Materia into Blo
 
 actions.creatematter.name=Create Matter
 actions.creatematter.description=A ritual to multiply and transmute Prima Materia into a wide variety of raw resources.
+
+objects.ubrminestone.name=Prima Stone Quarry
+objects.ubrminestone.description=A dense stone quarry created using prima materia.
+
+objects.ubrmineclay.name=Prima Clay Quarry
+objects.ubrmineclay.description=A dense clay quarry created using prima materia.
+
+objects.ubrminemetal.name=Prima Metal Mine
+objects.ubrminemetal.description=A dense metal mine created using prima materia.
+
+objects.ubrmineminerals.name=Prima Mineral Mine
+objects.ubrmineminerals.description=A dense mineral mine created using prima materia.
+
+objects.ubrminecopper.name=Prima Copper Mine
+objects.ubrminecopper.description=A dense copper mine created using prima materia.
+
+objects.ubrminealuminum.name=Prima Aluminum Quarry
+objects.ubrminealuminum.description=A dense aluminum quarry created using prima materia.
+
+objects.ubrmineobsidian.name=Prima Obsidian Quarry
+objects.ubrmineobsidian.description=A dense obsidian quarry created using prima materia.
+
+objects.ubrminequartz.name=Prima Quartz Quarry
+objects.ubrminequartz.description=A dense quartz quarry created using prima materia.
+
+objects.ubrminephosphorus.name=Prima Phosphorus Quarry
+objects.ubrminephosphorus.description=A dense phosphorus quarry created using prima materia.
+
+objects.ubrminediamond.name=Prima Diamond Mine
+objects.ubrminediamond.description=A dense diamond mine created using prima materia.
+
+objects.ubrminebloodruby.name=Prima Bloodruby Mine
+objects.ubrminebloodruby.description=A dense bloodruby mine created using prima materia.
+
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,11 +96,13 @@ research.ubrdistilling.name=Refining
 
 research.ubrtransmutecopper.name=Transmute Copper
 research.ubrtransmutestoneclay.name=Transmute Stone and Clay
+research.ubrtransmutemetalmin.name=Transmute Metal and Minerals
 research.ubradvalchemyobs.name=Transmute Obsidian
 research.ubradvalchemyalu.name=Transmute Aluminum
 research.ubradvalchemyqua.name=Transmute Quartz
 research.ubradvalchemyfro.name=Transmute Perma Frost
 research.ubradvalchemygem.name=Transmute Gems
+research.ubradvalchemyphos.name=Transmute Phosphorus
 
 research.ubradvalchemy.name=Advanced Alchemy
 
@@ -106,6 +155,9 @@ items.ubrswordofnephilim.description=The whispers grew more fervent as the blood
 
 items.ubrangelicarbalest.name=Angelic Flaming Arbalest
 items.ubrangelicarbalest.description=I am capable of violence, but I will not revel in it. I am powerful, but I will temper it with compassion. I will bear this responsibility, treat this might bestowed on me as the noble burden it is. And I will willingly sacrifice myself to protect others. -Oath carved on the bow
+
+items.ubrgunslinger.name=Midnight's Noon
+items.ubrgunslinger.description=Here I stand, on the precipice between Heaven and Hell. From below, the fires glow. From above, the light thereof. 
 
 
 
@@ -199,6 +251,9 @@ research.ubrsecretsarcane19.name=Arcane Secrets XIX
 research.ubrsecretsarcane20.name=Arcane Secrets XX
 
 
+research.ubrdeprecatedresearch.name=Deprecated Research
+research.ubrdeprecatedresearch.description=Pointless to research. Used only to lock deprecated things as to prevent errors when upgrading between mod versions. Often just removing these old things causes savegames to break. 
+
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -254,17 +309,24 @@ items.ubrhydrocarbons.description=Refined hydrocarbons ranging from heavy to lig
 objects.ubradvcrafting.name=Advanced Workbench
 objects.ubradvcrafting.description=Full of advanced tools and a high temperature furnace, used to create complex materials and stuff. Requires power.
 
-objects.ubraquiferpump.name=Aquifer Pump
-objects.ubraquiferpump.description=Pumps large quantities of water but uses power.
+objects.ubraquiferpump.name=DEPRECATED Aquifer Pump
+objects.ubraquiferpump.description=DEPRECATED Pumps large quantities of water but uses power.
+
+objects.ubraquiferpump02.name=Aquifer Pump
+objects.ubraquiferpump02.description=Pumps large quantities of water but uses power.
 
 objects.automatedcompanionfarm.name=Enchanted Greenhouse: Companion Crops
-objects.automatedcompanionfarm.description=Irrigated greenhouse enchanted with druid rituals, that grows vegetables, wheat and herbs. Only requires farmers to plant and harvest, tending is automatic. Requires power.
-
 objects.automatedcottonfarm.name=Enchanted Greenhouse: Cotton
-objects.automatedcottonfarm.description=Irrigated greenhouse enchanted with druid rituals, that grows cotton. Only requires farmers to plant and harvest, tending is automatic. Requires power.
-
 objects.automatedaloefarm.name=Enchanted Greenhouse: Aloe
-objects.automatedaloefarm.description=Irrigated greenhouse enchanted with druid rituals, that grows aloe. Only requires farmers to plant and harvest, tending is automatic. Requires power.
+
+objects.automatedcompanionfarm02.name=Enchanted Greenhouse: Companion Crops
+objects.automatedcompanionfarm02.description=Irrigated greenhouse enchanted with druid rituals, that grows vegetables, wheat and herbs. Only requires farmers to plant and harvest, tending is automatic. Requires power.
+
+objects.automatedcottonfarm02.name=Enchanted Greenhouse: Cotton
+objects.automatedcottonfarm02.description=Irrigated greenhouse enchanted with druid rituals, that grows cotton. Only requires farmers to plant and harvest, tending is automatic. Requires power.
+
+objects.automatedaloefarm02.name=Enchanted Greenhouse: Aloe
+objects.automatedaloefarm02.description=Irrigated greenhouse enchanted with druid rituals, that grows aloe. Only requires farmers to plant and harvest, tending is automatic. Requires power.
 
 objects.ubrdistillery.name=Distillery
 objects.ubrdistillery.description=Distills alcohol and spiced drinks in bulk. Requires power.
@@ -280,6 +342,14 @@ object.brewing.attribute=Brewing
 
 object.fuelled.attribute=Fuelled
 
+object.energy.attribute=Energy
+
+object.manacharge.attribute=Mana Charge
+
+
+# Object Actions
+
+actions.energy.name=Power
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -336,6 +406,10 @@ statuseffects.ubrshock.name=Jolt
 
 items.ubrbeamcannon.name=Particle Cannon
 items.ubrbeamcannon.description=An advanced beam cannon that uses imbued enchantments to enhance the maximum peak power and focus the beam.
+
+
+items.ubrguidedsniper.name=Plasma Lancer
+items.ubrguidedsniper.description=A very powerful sniper rifle, capable of delivering a precision plasma bolt on target at long range. It has high damage and a decent fire rate.
 
 
 items.ubrminigun.name=Laser Gattling Cannon
@@ -411,6 +485,26 @@ statuseffects.ubrburn2.name=Immolated
 # Extended Rituals
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Mana stone
+
+objects.ubrmanastone.name=Mana Focus
+objects.ubrmanastone.description=A mystic focus used by ritualists to generate mana that can be later used to alter reality and power spells.
+
+actions.manachant.name=Mana Chant
+actions.manachant.description=A complex occult ritual that siphons mana from the spiritual plane, and transmutes it into physical form that can then later be easily tapped.
+
+
+# Mana dynamo
+
+research.ubrmanadynamo.name=Mana Driven Dynamo
+
+objects.ubrmanadynamo.name=Mana Driven Dynamo
+objects.ubrmanadynamo.description=A simple dynamo, covered with complex arcane enchantments. Capable of generating electricity when mana is channelled into it.
+
+actions.convertmana.name=Convert Mana
+actions.convertmana.description=Converts mana into electricity. It is an ineffective dynamo, but if you have idle mystics...
+
+
 # Evoker
 
 research.ubrritualsl4.name=Evoker Rituals
@@ -425,20 +519,39 @@ objects.ubrphilosopherstone2.description=A complex legendary device used for adv
 objects.ubrmagiccircle4.name=Evoker Magic Circle
 objects.ubrmagiccircle4.description=Something about this formation keeps the dabblers in the occult safe as they conduct their experiments.
 
+actions.communespiritrealm.name=Commune with the spiritual realm
+actions.communespiritrealm.description=A very long ritual, allowing one to commune to the spiritual realm, gaining great knowledge and insight.
+
+actions.resetskillsbook.name=Greater blank state
+actions.resetskillsbook.description=A ritual that allows one to reset the mind of an individual and retrain their skills.
+
+
 objects.ubrarcanefoundry4.name=Evoker Arcane Foundry
 objects.ubrarcanefoundry4.description=Arcane rituals are performed here.
 
 objects.ubrdarkaltar4.name=Evoker Dark Altar
 objects.ubrdarkaltar4.description=The dark arts are dangerous, but also powerful.
 
+
 objects.ubrholyaltar4.name=Evoker Holy Altar
 objects.ubrholyaltar4.description=Not all magic is dark. Divine rituals can be performed here.
+
+effects.ubrdefensiveaura4.name=Defensive Aura
+effects.ubrdivineinspiration4.name=Divine Inspiration
+effects.ubrdivinehealing4.name=Divine Healing
+
+actions.ubrrepelevil.name=Repel Evil
+actions.ubrrepelevil.description=Repel evil forces near your base. Lowers awareness by 10%.
+
+actions.ubrdefensiveaura.name=Defensive Aura
+actions.ubrdefensiveaura.description=Surrounds the base with an aura that holds demons back, reducing the strength of their attacks.
+
 
 objects.ubrdruidcircle4.name=Evoker Stone Circle
 objects.ubrdruidcircle4.description=Stone Circles engraved with runes have been used by druids to perform nature-related rituals since the very early days of humanity.
 
-objects.ubrreliquary4.name=Evoker Stone Circle
-objects.ubrreliquary4.description=Stone Circles engraved with runes have been used by druids to perform nature-related rituals since the very early days of humanity.
+objects.ubrreliquary4.name=Evoker Reliquary
+objects.ubrreliquary4.description=The reliquary stores and wards powerful artifacts allowing to harness their energy while performing dangerous rituals.
 
 
 actions.mysticgrowth.name=Mystic Growth
@@ -448,7 +561,7 @@ actions.ubrdemonstamina4.name=Demon Stamina
 actions.ubrdemonstamina4.description=Bind demonic energies to survivors to keep them going without need for rest or food. Survivors will not lose energy while this ritual is active, and will become hungry 60% slower.
 
 actions.ubrsummonghimps.name=Summon Horde
-actions.ubrsummonghimps.description=Summons a large horde of enemies that then attack the colony. While very dangerous, they can provide very useful materials and experience if defeated.
+actions.ubrsummonghimps.description=Summons a large horde of enemies that then attack the colony. While very dangerous, they can provide very useful materials and experience if defeated. They will be summoned on the fringes of your colony.
 
 actions.ubrdarktransmute.name=Dark Transmutaion
 actions.ubrdarktransmute.description=Imbues Prima Materia with dark energy, transforming it into all manner of hellish materials.
@@ -467,10 +580,6 @@ actions.ubrdarktransmute2.description=Imbues Prima Materia with dark energy, tra
 items.ubrmana.name=Mana
 items.ubrmana.description=Mana also known as arcane flux, is spiritual energy that can manipulate reality in ways that defy physics.
 
-actions.manachant.name=Mana Chant
-actions.manachant.description=A complex occult ritual that siphons mana from the spiritual plane, and transmutes it into physical form that can then later be easily tapped.
-
-
 
 abilities.ubrprotectionspell2.name=Greater Protection Spell
 abilities.ubrweakeningrune2.name=Greater Rune
@@ -480,11 +589,21 @@ statuseffects.hex2.name=Hexed
 statuseffects.cross2.name=Sacred Protection
 
 
+items.ubrevokerstaff.name=Evoker's Staff
+items.ubrevokerstaff.description=A very powerful arcane staff, that applies powerful debuff magic to targets, and has powerful magic abilities, though may be outperformed by other weapons in raw damage.
+abilities.ubrevokerstaffblast.name=Evoker's Wrath
+statuseffects.ubrevokerstaffblast.name=Temporal Tearing
+statuseffects.ubrevokerstaffhex.name=Evoker's Enervate
+statuseffects.ubrevokerstaffaura.name=Evoker's Empowerment
+
 
 # Evoker
 
 items.ubrexpbook.name=Pickled Wisdom
 items.ubrexpbook.description=Stir in worldly knowledge, blend with eldritch whispers and horrors unknown and seal in the madness with essence of vinegar. Add salt to taste.
+
+items.ubrexpbook2.name=Double Pickled Wisdom
+items.ubrexpbook2.description=Stir in worldly knowledge, blend with eldritch whispers and horrors unknown and seal in the madness with essence of vinegar. Add salt to taste.
 
 items.ubrgreaterwarcharm4.name=Evoker War Pendant
 items.ubrgreaterwarcharm4.description=A pendant forged with Spirit Sparks at its core, granting the user great power in combat.
@@ -494,6 +613,23 @@ items.ubrgreaterworkcharm4.description=A pendant forged with Spirit Sparks at it
 
 items.ubrcross4.name=Spell: Evoker Bless
 items.ubrcross4.description=Heals a atarget and places a powerful protective aura upon them.
+
+objects.ubrmagicbarrier.name=Rune of Denial
+objects.ubrmagicbarrier.description=This rune does not block projectiles or line of sight, but its potent magic prevents any from crossing over it. (Kill box maze block)
+
+objects.ubrruneofprotection.name=Evoker Rune of Protection
+objects.ubrruneofprotection.description=Protects survivors around it.\n\nPlaced through the build menu after performing the ritual.
+
+objects.ubrruneofpower.name=Evoker Rune of Power
+objects.ubrruneofpower.description=Empowers survivors around it.\n\nPlaced through the build menu after performing the ritual.
+
+
+# Evoker Arcane Foundry
+
+actions.ubrlogisticsritual4.name=Sight of the Eagle Ritual
+actions.ubrlogisticsritual4.description=Gain improved logistics, greater accuracy and far sight.
+
+effects.ubrlogisticsritual4.name=Sight of the Eagle
 
 
 # Evoker Holy Alter skills
@@ -510,10 +646,14 @@ skills.ubrsaintblood.name=Touched by the Divine
 actions.demoncongress.name=Demonic Congress
 actions.demoncongress.description=Open a rift into the most vile realms of hell, and for the simple price of your soul, you can have desire itself. I mean, what a steal, only simple minded fools still believe in souls.
 
+events.ubrdarkaltar4attack.attackedmessage.title=Summon demons
+events.ubrdarkaltar4attack.attackedmessage.text=Be careful what you chant for...
+
 items.ubrskilldevil.name=Idle Hands
 items.ubrskilldevil.description=An act both unholy and vile beyond description. But power beckons, and all you must do is participate...
 
 skills.ubrdemonblood.name=Demonic Congress
+
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -523,6 +663,9 @@ skills.ubrdemonblood.name=Demonic Congress
 rarity.veryrare.label=Very rare
 
 rarity.artifact.label=Artifact
+
+tags.arcanestaff.name=Arcane Staff
+equipskill.arcanestaff.name=Arcane Staves
 
 
 
@@ -539,5 +682,9 @@ actions.distillalcohol.description=Distills alcohol in bulk. Is faster, and requ
 actions.refinehydrocarbons.name=Refine Hydrocarbons
 actions.refinehydrocarbons.description=Refines hydrocarbons from wheat and alcohol.
 
+actions.minecopper.name=Mine Copper
 
+actions.quarryobsidian.name=Quarry Obsidian
+
+actions.quarryquartz.name=Quarry Quartz
 

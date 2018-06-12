@@ -1,5 +1,34 @@
 
+# Add chance for friendly settlements to randomly send trader.
+events.entity.settlement_randomlauncher.steps.relationshipchooser.next.friendly.chances.helprequest=60
+events.entity.settlement_randomlauncher.steps.relationshipchooser.next.friendly.chances.improverelationship=5
+events.entity.settlement_randomlauncher.steps.relationshipchooser.next.friendly.chances.decreaserelationship=2
+events.entity.settlement_randomlauncher.steps.relationshipchooser.next.friendly.chances.givegift=8
+events.entity.settlement_randomlauncher.steps.relationshipchooser.next.friendly.chances.sendtrader=25
+events.entity.settlement_randomlauncher.steps.sendtrader.action.class=EventActionTrader
+events.entity.settlement_randomlauncher.steps.sendtrader.next.end.chances.end=1
+
+
 # Hard coded events (Don't remove these)
 
 events.entity.basedefense.steps.setup.action.vars.delay=number~10 + (day * 3)
 events.entity.basedefense.steps.setup.action.vars.delay2=number~150
+
+
+
+# Graveyard warning event happens once when building 4 graves.
+
+events.entity.ubrdarkaltar4attack.sprite=event_graveyard
+events.entity.ubrdarkaltar4attack.steps.attackedmessage.saveonstart=true
+events.entity.ubrdarkaltar4attack.steps.attackedmessage.next.default.chances.basedefense=1
+events.entity.ubrdarkaltar4attack.steps.basedefense.action.class=EventActionDefenseCombat
+events.entity.ubrdarkaltar4attack.steps.basedefense.action.enemy.demon=26-36
+events.entity.ubrdarkaltar4attack.steps.basedefense.action.enemy.ghost=16-24
+events.entity.ubrdarkaltar4attack.steps.basedefense.action.enemy.legion=11-18
+events.entity.ubrdarkaltar4attack.steps.basedefense.action.enemy.firespitter=10-12
+events.entity.ubrdarkaltar4attack.steps.basedefense.action.enemy.darkangel=10-12
+events.entity.ubrdarkaltar4attack.steps.basedefense.action.enemy.lich=5-7
+events.entity.ubrdarkaltar4attack.steps.basedefense.action.enemy.cerberus=12-19
+events.entity.ubrdarkaltar4attack.steps.basedefense.action.enemy.demogorgon=3-5
+
+

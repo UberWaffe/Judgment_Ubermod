@@ -1,0 +1,44 @@
+# Difficulty Levels
+
+
+# Formulas:
+# Chance for attack: timechance * <timechancefactor> + awarenesschance * <awarenesschancefactor>
+# Time chance: (time since last attack - <minattackseparation>) / <timechancedivisor>
+# Awareness chance: awareness / <maxawareness>
+# Awareness growth: <growthbase> ** survivorcount per second
+# Awareness difficulty normalized: awareness / maxawareness
+config.awareness.minattackseparation=4200
+
+
+# Change min change to hit
+
+config.hitchancemin=0.05
+
+
+
+
+# Cities are death traps.
+terrain.entity.city.difficulty.0=difftier3 : difftier4mid
+terrain.entity.city.difficulty.35=difftier4mid : difftier5max
+terrain.entity.city.difficulty.70=difftier6 : difftier6max
+
+terrain.entity.city2.difficulty.0=difftier6 : difftier7
+terrain.entity.city2.difficulty.80=difftier7 : difftier8mid
+terrain.entity.city2.difficulty.100=difftier8mid : difftier9max
+
+
+# Lava is worse.
+
+terrain.entity.lava.difficulty.0=difftier4 : difftier6max
+
+
+# Tundra is even worse now.
+
+terrain.entity.tundra.difficulty.0=difftier7 : difftier8mid
+terrain.entity.tundra.difficulty.70=difftier8mid : difftier9max
+
+
+# Savannah is worse.
+
+terrain.entity.savannah.difficulty.0=difftier4 : difftier6max
+

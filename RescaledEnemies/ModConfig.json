@@ -1,10 +1,16 @@
 {
 	title: "Rescaled Enemies Mod",
-	desc: "NOT RELEASE COMPATIBLE.
+	desc: "REQUIRES: 16.1 patch (available under beta branches)
 
 Rescales enemies so that there are bigger gaps between enemy levels.
+Also greatly increases the experience earned from combat.
 	
-Meant to be used along with the FudgeWaffe mod.",
+May be unbeatable. But what is hair for if not pulling it out in agonized frustration?
+	
+Meant to be used along with the FudgeWaffe and Extended Skills mod.
+
+Compatibility:
+Not compatible with mods that edit enemies or experience per enemy.",
 	uid: "1258074208",
 	visibility: "0",
 	creator: "UberWaffe",

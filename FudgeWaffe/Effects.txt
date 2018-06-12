@@ -15,19 +15,19 @@ effects.entity.ubrhumvee.effect.taskforcespeed=5.0
 
 effects.entity.ubroccultenergy.sprite=effect_reduceawareness
 effects.entity.ubroccultenergy.effect.workspeed=0.1
-effects.entity.ubroccultenergy.effect.awarenessadd=-0.1
+effects.entity.ubroccultenergy.effect.awarenessadd=-2
 
 effects.entity.ubroccultenergy2.sprite=effect_reduceawareness
 effects.entity.ubroccultenergy2.effect.workspeed=0.1
-effects.entity.ubroccultenergy2.effect.awarenessadd=-0.1
+effects.entity.ubroccultenergy2.effect.awarenessadd=-2
 
 effects.entity.ubroccultenergy3.sprite=effect_reduceawareness
 effects.entity.ubroccultenergy3.effect.workspeed=0.15
-effects.entity.ubroccultenergy3.effect.awarenessadd=-0.1
+effects.entity.ubroccultenergy3.effect.awarenessadd=-3
 
 effects.entity.ubroccultenergy4.sprite=effect_reduceawareness
 effects.entity.ubroccultenergy4.effect.expgain=0.25
-effects.entity.ubroccultenergy4.effect.awarenessadd=-0.05
+effects.entity.ubroccultenergy4.effect.awarenessadd=-3
 
 
 
@@ -49,7 +49,7 @@ effects.entity.ubrsecretstart.effect.health=0.1
 effects.entity.ubrsecretstart.effect.workspeed=0.1
 effects.entity.ubrsecretstart.effect.extrascavenge=0.1
 effects.entity.ubrsecretstart.effect.actiongroup_rituals=0.1
-effects.entity.ubrsecretstart.effect.awarenessadd=-0.05
+effects.entity.ubrsecretstart.effect.awarenessadd=-2
 effects.entity.ubrsecretstart.effect.walkspeed=0.05
 effects.entity.ubrsecretstart.effect.taskforcespeed=0.1
 
@@ -82,12 +82,12 @@ effects.entity.ubrsecretseconomy2.effect.extrascavenge=0.2
 
 effects.entity.ubrsecretsarcane1.sprite=effect_evasiveaura
 effects.entity.ubrsecretsarcane1.effect.actiongroup_rituals=0.1
-effects.entity.ubrsecretsarcane1.effect.awarenessadd=-0.05
+effects.entity.ubrsecretsarcane1.effect.awarenessadd=-2
 effects.entity.ubrsecretsarcane1.effect.expgain=0.05
 
 effects.entity.ubrsecretsarcane2.sprite=effect_evasiveaura
 effects.entity.ubrsecretsarcane2.effect.actiongroup_rituals=0.2
-effects.entity.ubrsecretsarcane2.effect.awarenessadd=-0.1
+effects.entity.ubrsecretsarcane2.effect.awarenessadd=-4
 effects.entity.ubrsecretsarcane2.effect.expgain=0.1
 
 
@@ -111,11 +111,15 @@ effects.entity.ubrraining4.effect.tag_farm_gainattribute_water=-2.0
 effects.entity.ubrluckybounty4.sprite=effect_extrascavenge
 effects.entity.ubrluckybounty4.effect.extrascavenge=0.4
 
-effects.entity.ubrlogisticsritual4.sprite=effect_travelspeed
-effects.entity.ubrlogisticsritual4.effect.taskforcespeed=0.8
+effects.entity.ubrlogisticsritual4.sprite=effect_accuracy
+effects.entity.ubrlogisticsritual4.effect.taskforcespeed=0.4
+effects.entity.ubrlogisticsritual4.effect.walkspeed=0.4
+effects.entity.ubrlogisticsritual4.effect.scoutrange=4
+effects.entity.ubrlogisticsritual4.effect.accuracy=0.6
+
+effects.entity.ubrfarsight4.sprite=effect_scouting
 
 effects.entity.ubreagleeye4.sprite=effect_accuracy
-effects.entity.ubreagleeye4.effect.accuracy=0.6
 
 effects.entity.ubrconcentrationritual4.sprite=effect_research
 effects.entity.ubrconcentrationritual4.effect.actiongroup_research=1.6
@@ -123,39 +127,38 @@ effects.entity.ubrconcentrationritual4.effect.actiongroup_occultresearch=1.6
 
 effects.entity.ubrdemonstamina4.sprite=effect_demonstamina
 effects.entity.ubrdemonstamina4.effect.hungerrate=-0.6
-effects.entity.ubrdemonstamina4.effect.energydrain=-20
+effects.entity.ubrdemonstamina4.effect.energydrain=-10
 
-effects.entity.ubrrepelevil4.sprite=effect_weakerattacks
-effects.entity.ubrrepelevil4.effect.attackdifficulty=-0.3
-effects.entity.ubrrepelevil4.effect.awarenessadd=-3.0
-effects.entity.ubrrepelevil4.effect.eventrate_mapevents=-3.0
+effects.entity.ubrdefensiveaura4.sprite=effect_weakerattacks
+effects.entity.ubrdefensiveaura4.effect.attackdifficulty=-0.4
+effects.entity.ubrdefensiveaura4.effect.awarenessaddpercent=-0.5
+effects.entity.ubrdefensiveaura4.effect.awarenessadd=-30
+effects.entity.ubrdefensiveaura4.effect.eventrate_mapevents=-2.0
 
 effects.entity.ubrdivineinspiration4.sprite=effect_divineinspiration
-effects.entity.ubrdivineinspiration4.effect.workspeed=4
+effects.entity.ubrdivineinspiration4.effect.workspeed=3.5
+effects.entity.ubrdivineinspiration4.effect.walkspeed=0.5
 
 effects.entity.ubrdivinehealing4.sprite=effect_divinehealing
 effects.entity.ubrdivinehealing4.effect.healrate=10
 
 
-
-effects.entity.ubrdefensiveaura4.sprite=effect_weakerattacks
+# DEPRECATED
 effects.entity.ubrevasiveaura4.sprite=effect_evasiveaura
+effects.entity.ubrrepelevil4.sprite=effect_weakerattacks
 
-
-effects.entity.ubrfarsight4.sprite=effect_scouting
-effects.entity.ubrfarsight4.effect.scoutrange=4
 
 # Special case: Make more expensive, boost even more
 effects.entity.ubrrally4.sprite=effect_rally
-effects.entity.ubrrally4.effect.expgain=2.0
+effects.entity.ubrrally4.effect.expgain=7.0
 
 effects.entity.ubrblessingofthesaints4.sprite=effect_holyattack
-effects.entity.ubrblessingofthesaints4.effect.tag_holyweapon_damage=0.48
-effects.entity.ubrblessingofthesaints4.effect.tag_darkweapon_damage=-0.48
+effects.entity.ubrblessingofthesaints4.effect.tag_holyweapon_damage=1.50
+effects.entity.ubrblessingofthesaints4.effect.tag_darkweapon_damage=-1.50
 
 effects.entity.ubrpetitiondarkspirits4.sprite=effect_darkattack
-effects.entity.ubrpetitiondarkspirits4.effect.tag_holyweapon_damage=-0.48
-effects.entity.ubrpetitiondarkspirits4.effect.tag_darkweapon_damage=0.48
+effects.entity.ubrpetitiondarkspirits4.effect.tag_holyweapon_damage=-1.50
+effects.entity.ubrpetitiondarkspirits4.effect.tag_darkweapon_damage=1.50
 
 
 

@@ -1,0 +1,24 @@
+{
+	title: "Extended Skills Mod v2",
+	desc: "Extends the levels for skills and the max level for survivors that new skills are pickable.
+
+Increases max level to 100.
+Skills in slots 5 to 9 cost 4 skill points each.
+Skills in ultimate slot costs 10 skill points each.
+
+Adjusts the professions.
+Each profession gains additional preferred tasks.
+Each profession has one of its skills replaced with a class specific skill.
+
+Known issues:
+REQUIRES NEW GAME.
+Given the how much the skill tree has changed, I couldn't make this backwards compatible. Apply this to an existing game will likely break.
+
+Also, text wil overrun with other text in the skill book once you have lots of skills for a survivor.
+
+Balance feedback would be appreciated.",
+	uid: "1401637033",
+	visibility: "0",
+	creator: "UberWaffe",
+	tags: "balance,skills",
+}

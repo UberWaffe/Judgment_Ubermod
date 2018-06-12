@@ -31,6 +31,19 @@ statuseffects.entity.ubrshock.effect.evade=-0.2
 statuseffects.entity.ubrshock.effect.attackspeed=-0.2
 statuseffects.entity.ubrshock.effect.walkspeed=-0.2
 
+statuseffects.entity.ubrevokerstaffblast.parents=statuseffects.base.negative
+statuseffects.entity.ubrevokerstaffblast.effect.attackspeed=-5.0
+statuseffects.entity.ubrevokerstaffblast.effect.walkspeed=-5.0
+
+statuseffects.entity.ubrevokerstaffhex.parents=statuseffects.base.negative
+statuseffects.entity.ubrevokerstaffhex.effect.defense=-0.25
+statuseffects.entity.ubrevokerstaffhex.effect.damagereceived=0.5
+
+statuseffects.entity.ubrevokerstaffaura.parents=statuseffects.base.positive
+statuseffects.entity.ubrevokerstaffaura.effect.accuracy=0.1
+statuseffects.entity.ubrevokerstaffaura.effect.attackspeed=0.2
+statuseffects.entity.ubrevokerstaffaura.effect.damage=0.2
+
 
 #Aura Effects
 
@@ -45,7 +58,11 @@ statuseffects.entity.ubrfear2.parents=statuseffects.base.positive
 statuseffects.entity.ubrfear2.effect.attackspeed=-0.2
 statuseffects.entity.ubrfear2.effect.walkspeed=-0.5
 
-
+statuseffects.entity.ubrruneofprotection.parents=statuseffects.base.positive
+statuseffects.entity.ubrruneofprotection.name=empower
+statuseffects.entity.ubrruneofprotection.effect.damagereceived=-0.2
+statuseffects.entity.ubrruneofprotection.effect.defense=0.5
+statuseffects.entity.ubrruneofprotection.effect.damage=0.5
 
 # -----------------------------------------------------------------
 # Extended Weapons

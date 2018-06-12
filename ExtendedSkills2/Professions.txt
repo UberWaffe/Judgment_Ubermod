@@ -1,0 +1,103 @@
+
+
+# Priest
+# ----------------------------------------
+# Tools -> Pistols
+professions.entity.priest.skilllists.toolweapon=false
+professions.entity.priest.skilllists.pistols=true
+# Damage -> Priest Unique
+professions.entity.priest.skilllists.damage=false
+professions.entity.priest.skilllists.uesuniquepriest=true
+# Add more preferred tasks
+professions.entity.priest.preferredtasks.chop=true
+professions.entity.priest.preferredtasks.search=true
+professions.entity.priest.preferredtasks.gatherwater=true
+
+
+# Engineer
+# ----------------------------------------
+# Evasion -> Engineer Unique
+professions.entity.engineer.skilllists.evasion=false
+professions.entity.engineer.skilllists.uesuniqueengineer=true
+# Add more preferred tasks
+professions.entity.engineer.preferredtasks.agri=true
+
+
+# Fighter
+# ----------------------------------------
+# Pistols -> Fighter Unique
+professions.entity.fighter.skilllists.pistols=false
+professions.entity.fighter.skilllists.uesuniquefighter=true
+# Add more preferred tasks
+professions.entity.fighter.preferredtasks.build=true
+professions.entity.fighter.preferredtasks.search=true
+
+
+# Occultist
+# ----------------------------------------
+# Evasion -> Stalwart
+professions.entity.occultist.skilllists.evasion=false
+professions.entity.occultist.skilllists.stalwart=true
+# Damage -> Occultist Unique
+professions.entity.occultist.skilllists.damage=false
+professions.entity.occultist.skilllists.uesuniqueoccultist=true
+# Add more preferred tasks
+professions.entity.occultist.preferredtasks.combat=true
+professions.entity.occultist.preferredtasks.craft=true
+
+
+# Survivalist
+# ----------------------------------------
+# Melee -> Damage
+professions.entity.survivalist.skilllists.melee=false
+professions.entity.survivalist.skilllists.damage=true
+# Stalwart -> Survivalist Unique
+professions.entity.survivalist.skilllists.stalwart=false
+professions.entity.survivalist.skilllists.uesuniquesurvivalist=true
+# Add more preferred tasks
+professions.entity.survivalist.preferredtasks.build=true
+professions.entity.survivalist.preferredtasks.craft=true
+
+
+# Defender
+# ----------------------------------------
+# Auto weapon -> Defender Unique
+professions.entity.defender.skilllists.autoweapon=false
+professions.entity.defender.skilllists.uesuniquedefender=true
+# Add more preferred tasks
+professions.entity.defender.preferredtasks.craft=true
+professions.entity.defender.preferredtasks.search=true
+
+
+# Academic
+# ----------------------------------------
+# Evasion -> Academic Unique
+professions.entity.academic.skilllists.evasion=false
+professions.entity.academic.skilllists.uesuniqueacademic=true
+
+
+
+# Artisan
+# ----------------------------------------
+# Resilient -> Quarry
+professions.entity.artisan.skilllists.resilient=false
+professions.entity.artisan.skilllists.quarry=true
+# Stalwart -> Build
+professions.entity.artisan.skilllists.stalwart=false
+professions.entity.artisan.skilllists.build=true
+# Pistols -> Artisan Unique
+professions.entity.artisan.skilllists.pistols=false
+professions.entity.artisan.skilllists.uesuniqueartisan=true
+# Add more preferred tasks
+professions.entity.artisan.preferredtasks.quarry=true
+professions.entity.artisan.preferredtasks.build=true
+
+
+
+# Scout
+# ----------------------------------------
+# Bows -> Damage
+professions.entity.scout.skilllists.bows=false
+professions.entity.scout.skilllists.damage=true
+# Add more preferred tasks
+professions.entity.scout.preferredtasks.combat=true

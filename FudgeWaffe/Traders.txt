@@ -10,6 +10,18 @@ traders.config.desirability.tiers.difference.1=13
 traders.config.desirability.tiers.difference.-1=8
 traders.config.desirability.tiers.difference.-2=6
 traders.config.desirability.tiers.difference.-3=3
+traders.config.desirability.tiers.difference.-4=3
+traders.config.desirability.tiers.difference.-5=3
+traders.config.desirability.tiers.difference.-6=3
+traders.config.desirability.tiers.difference.-7=3
+traders.config.desirability.tiers.difference.-8=3
+traders.config.desirability.tiers.difference.-9=3
+traders.config.desirability.tiers.difference.-10=3
+traders.config.desirability.tiers.difference.-11=3
+traders.config.desirability.tiers.difference.-12=3
+traders.config.desirability.tiers.difference.-13=3
+traders.config.desirability.tiers.difference.-14=3
+traders.config.desirability.tiers.difference.-15=3
 
 
 # Crafted Items: Tech available if crafting tech and workstation tech available.

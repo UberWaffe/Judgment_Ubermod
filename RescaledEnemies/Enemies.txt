@@ -1,398 +1,412 @@
-# Level 6 to 10
-# Adjust along these lines
-# Health = x5 + 100
-# Damage = x3 + 20
-# Attack speed = + 1
-# Range = + 4
-# Accuracy = + 40
-# Evade = + 40
-# Vision = + 4
-# Defense = x1.5 + 8
-# Aura effect = x2
-# Loot = x3 + 1 bonus
 
+# Tier 1
+# Level Boost LVB x1
 
+# Tier 2
+# Level Boost LVB x1.5
 
-# Level 6
+# Tier 3
+# Level Boost LVB x2
 
-enemies.entity.rseimp.parents=enemies.base.demon,enemies.base.meleeattack
-enemies.entity.rseimp.level=6
-enemies.entity.rseimp.damage=29
-enemies.entity.rseimp.attackspeed=6
-enemies.entity.rseimp.range=1
-enemies.entity.rseimp.accuracy=96
-enemies.entity.rseimp.health=250
-enemies.entity.rseimp.evade=50
-enemies.entity.rseimp.defense=8
-enemies.entity.rseimp.walkspeed=1.35
-enemies.entity.rseimp.vision=8
-enemies.entity.rseimp.amount=1.25
-enemies.entity.rseimp.prefab=enemy_imp
-enemies.entity.rseimp.loot.sulfur=3
-enemies.entity.rseimp.loot.demonscales=1
-enemies.entity.rseimp.walkanimationspeed=1.95
+# Tier 4
+# Level Boost LVB x2.5
 
-enemies.entity.rsefireimp.parents=enemies.base.demon,enemies.base.ranged
-enemies.entity.rsefireimp.level=6
-enemies.entity.rsefireimp.damage=35
-enemies.entity.rsefireimp.attackspeed=4
-enemies.entity.rsefireimp.range=8
-enemies.entity.rsefireimp.accuracy=90
-enemies.entity.rsefireimp.health=250
-enemies.entity.rsefireimp.evade=50
-enemies.entity.rsefireimp.defense=8
-enemies.entity.rsefireimp.walkspeed=1.35
-enemies.entity.rsefireimp.vision=9
-enemies.entity.rsefireimp.amount=1.25
-enemies.entity.rsefireimp.prefab=enemy_fireimp
-enemies.entity.rsefireimp.loot.sulfur=3
-enemies.entity.rsefireimp.loot.hellsessence=1
-enemies.entity.rsefireimp.walkanimationspeed=1.95
-enemies.entity.rsefireimp.properties.attackanimation=FireslingAttackPrefab
-
-enemies.entity.rsehellhound.parents=enemies.base.demon,enemies.base.meleeattack
-enemies.entity.rsehellhound.level=6
-enemies.entity.rsehellhound.damage=62
-enemies.entity.rsehellhound.attackspeed=6
-enemies.entity.rsehellhound.range=1
-enemies.entity.rsehellhound.accuracy=120
-enemies.entity.rsehellhound.health=200
-enemies.entity.rsehellhound.evade=70
-enemies.entity.rsehellhound.defense=8
-enemies.entity.rsehellhound.walkspeed=1.8
-enemies.entity.rsehellhound.amount=1.4
-enemies.entity.rsehellhound.prefab=enemy_hellhound
-enemies.entity.rsehellhound.loot.sulfur=3
-enemies.entity.rsehellhound.loot.fur=3
-enemies.entity.rsehellhound.loot.hellsessence=1
-enemies.entity.rsehellhound.walkanimationspeed=0.9
-
-enemies.entity.rseweakdemon.parents=enemies.base.demon,enemies.base.meleeattack
-enemies.entity.rseweakdemon.level=6
-enemies.entity.rseweakdemon.damage=39.5
-enemies.entity.rseweakdemon.attackspeed=4
-enemies.entity.rseweakdemon.range=1
-enemies.entity.rseweakdemon.accuracy=90
-enemies.entity.rseweakdemon.health=350
-enemies.entity.rseweakdemon.evade=50
-enemies.entity.rseweakdemon.defense=8
-enemies.entity.rseweakdemon.vision=9
-enemies.entity.rseweakdemon.amount=1
-enemies.entity.rseweakdemon.prefab=enemy_weakdemon
-enemies.entity.rseweakdemon.loot.sulfur=6
-enemies.entity.rseweakdemon.loot.demonscales=1
-enemies.entity.rseweakdemon.prefab=enemy_demon
-
-enemies.entity.rsereaper.parents=enemies.base.demon,enemies.base.ranged,enemies.base.floating
-enemies.entity.rsereaper.level=6
-enemies.entity.rsereaper.damage=56
-enemies.entity.rsereaper.attackspeed=5
-enemies.entity.rsereaper.range=8
-enemies.entity.rsereaper.accuracy=95
-enemies.entity.rsereaper.health=400
-enemies.entity.rsereaper.evade=55
-enemies.entity.rsereaper.defense=11
-enemies.entity.rsereaper.vision=9
-enemies.entity.rsereaper.amount=1
-enemies.entity.rsereaper.loot.ectoplasm=3
-enemies.entity.rsereaper.loot.aether=2
-enemies.entity.rsereaper.prefab=enemy_reaper
-enemies.entity.rsereaper.properties.attackanimation=ReaperAttackPrefab
-enemies.entity.rsereaper.achievements.defyingdeath=50
-
-
-
-
-# Level 7
-
-enemies.entity.rsedemon.parents=enemies.base.demon,enemies.base.meleeattack
-enemies.entity.rsedemon.level=7
-enemies.entity.rsedemon.damage=63.5
-enemies.entity.rsedemon.attackspeed=4.5
-enemies.entity.rsedemon.range=1
-enemies.entity.rsedemon.accuracy=115
-enemies.entity.rsedemon.health=385
-enemies.entity.rsedemon.evade=70
-enemies.entity.rsedemon.defense=14
-enemies.entity.rsedemon.amount=1
-enemies.entity.rsedemon.loot.sulfur=6
-enemies.entity.rsedemon.loot.demonite=3
-enemies.entity.rsedemon.loot.demonscales=1
-enemies.entity.rsedemon.prefab=enemy_knight
-enemies.entity.rsedemon.walkanimationspeed=1.95
-enemies.entity.rsedemon.hiteffect.rserendarmor=8
-
-enemies.entity.rsepossessed.parents=enemies.base.demon,enemies.base.ranged
-enemies.entity.rsepossessed.level=7
-enemies.entity.rsepossessed.damage=40.5
-enemies.entity.rsepossessed.attackspeed=5.5
-enemies.entity.rsepossessed.range=25
-enemies.entity.rsepossessed.accuracy=135
-enemies.entity.rsepossessed.health=165
-enemies.entity.rsepossessed.evade=50
-enemies.entity.rsepossessed.defense=4
-enemies.entity.rsepossessed.amount=1
-enemies.entity.rsepossessed.loot.cloth=3
-enemies.entity.rsepossessed.loot.hellsessence=1
-enemies.entity.rsepossessed.prefab=enemy_possessed
-enemies.entity.rsepossessed.properties.attackanimation=BulletAttackPrefab
-enemies.entity.rsepossessed.properties.attacksound=gun_attack
-
-enemies.entity.rsesuccubus.parents=enemies.base.demon,enemies.base.meleeattack,enemies.base.floating
-enemies.entity.rsesuccubus.level=7
-enemies.entity.rsesuccubus.damage=53
-enemies.entity.rsesuccubus.attackspeed=7
-enemies.entity.rsesuccubus.range=1
-enemies.entity.rsesuccubus.accuracy=125
-enemies.entity.rsesuccubus.health=350
-enemies.entity.rsesuccubus.evade=70
-enemies.entity.rsesuccubus.defense=14
-enemies.entity.rsesuccubus.walkspeed=1.3
-enemies.entity.rsesuccubus.vision=13
-enemies.entity.rsesuccubus.amount=0.8
-enemies.entity.rsesuccubus.loot.demonite=3
-enemies.entity.rsesuccubus.loot.hellsessence=1
-enemies.entity.rsesuccubus.prefab=enemy_succubus
-enemies.entity.rsesuccubus.achievements.charmmenot=50
-enemies.entity.rsesuccubus.auras.bedazzled.range=3
-enemies.entity.rsesuccubus.auras.bedazzled.effect.rserendarmor=true
-enemies.entity.rsesuccubus.auras.bedazzled.targetmode=Enemy
-enemies.entity.rsesuccubus.auras.bedazzled.targettag.male=true
-enemies.entity.rsesuccubus.auras.bedazzled.prefab=SuccubusAuraPrefab
-
-
-
-# Level 8
-
-enemies.entity.rselegion.parents=enemies.base.demon,enemies.base.meleeattack
-enemies.entity.rselegion.level=8
-enemies.entity.rselegion.damage=86
-enemies.entity.rselegion.attackspeed=4
-enemies.entity.rselegion.range=1
-enemies.entity.rselegion.accuracy=130
-enemies.entity.rselegion.health=925
-enemies.entity.rselegion.evade=40
-enemies.entity.rselegion.defense=29
-enemies.entity.rselegion.walkspeed=0.65
-enemies.entity.rselegion.amount=1
-enemies.entity.rselegion.prefab=enemy_legion
-enemies.entity.rselegion.loot.demonite=3
-enemies.entity.rselegion.loot.fur=6
-enemies.entity.rselegion.loot.demonscales=1
-
-enemies.entity.rsefirespitter.parents=enemies.base.demon,enemies.base.ranged
-enemies.entity.rsefirespitter.level=8
-enemies.entity.rsefirespitter.damage=98
-enemies.entity.rsefirespitter.attackspeed=4
-enemies.entity.rsefirespitter.range=7
-enemies.entity.rsefirespitter.accuracy=130
-enemies.entity.rsefirespitter.health=385
-enemies.entity.rsefirespitter.evade=70
-enemies.entity.rsefirespitter.defense=15
-enemies.entity.rsefirespitter.amount=1
-enemies.entity.rsefirespitter.prefab=enemy_firespitter
-enemies.entity.rsefirespitter.loot.demonite=3
-enemies.entity.rsefirespitter.loot.hellsessence=1
-enemies.entity.rsefirespitter.walkanimationspeed=1.95
-enemies.entity.rsefirespitter.properties.attackanimation=FirespitterAttackPrefab
-enemies.entity.rsefirespitter.splash.range=1
-enemies.entity.rsefirespitter.splash.damage=0.5
-
-enemies.entity.rsedarkangel.parents=enemies.base.demon,enemies.base.ranged
-enemies.entity.rsedarkangel.level=8
-enemies.entity.rsedarkangel.damage=74
-enemies.entity.rsedarkangel.attackspeed=2.5
-enemies.entity.rsedarkangel.range=14
-enemies.entity.rsedarkangel.accuracy=150
-enemies.entity.rsedarkangel.health=535
-enemies.entity.rsedarkangel.evade=85
-enemies.entity.rsedarkangel.defense=8
-enemies.entity.rsedarkangel.vision=16
-enemies.entity.rsedarkangel.amount=0.75
-enemies.entity.rsedarkangel.prefab=enemy_darkangel
-enemies.entity.rsedarkangel.loot.holywords=3
-enemies.entity.rsedarkangel.loot.hellsessence=1
-enemies.entity.rsedarkangel.walkanimationspeed=1.95
-enemies.entity.rsedarkangel.properties.attackanimation=ArrowPrefab
-enemies.entity.rsedarkangel.properties.attacksound=bow_attack
-
-
-
-# Level 9
-
-enemies.entity.rselich.parents=enemies.base.demon,enemies.base.ranged,enemies.base.floating
-enemies.entity.rselich.level=9
-enemies.entity.rselich.damage=98
-enemies.entity.rselich.attackspeed=4.25
-enemies.entity.rselich.range=9
-enemies.entity.rselich.accuracy=155
-enemies.entity.rselich.health=850
-enemies.entity.rselich.evade=100
-enemies.entity.rselich.defense=24
-enemies.entity.rselich.walkspeed=1.35
-enemies.entity.rselich.amount=0.75
-enemies.entity.rselich.prefab=enemy_lich
-enemies.entity.rselich.loot.aether=6
-enemies.entity.rselich.loot.ectoplasm=3
-enemies.entity.rselich.properties.attackanimation=LichAttackPrefab
-enemies.entity.rselich.achievements.ghostbuster=50
-enemies.entity.rselich.splash.range=1
-enemies.entity.rselich.splash.damage=0.2
-enemies.entity.rselich.hiteffect.rselichchill=5
-
-enemies.entity.rsemorax.parents=enemies.base.demon,enemies.base.ranged
-enemies.entity.rsemorax.level=9
-enemies.entity.rsemorax.damage=128
-enemies.entity.rsemorax.attackspeed=3
-enemies.entity.rsemorax.range=13
-enemies.entity.rsemorax.accuracy=135
-enemies.entity.rsemorax.health=800
-enemies.entity.rsemorax.evade=100
-enemies.entity.rsemorax.defense=22
-enemies.entity.rsemorax.amount=1
-enemies.entity.rsemorax.prefab=enemy_morax
-enemies.entity.rsemorax.loot.demonscales=3
-enemies.entity.rsemorax.loot.hellsessence=1
-enemies.entity.rsemorax.properties.attackanimation=ArrowPrefab
-enemies.entity.rsemorax.properties.attacksound=bow_attack
-
-enemies.entity.rsecerberus.parents=enemies.base.demon,enemies.base.meleeattack
-enemies.entity.rsecerberus.level=9
-enemies.entity.rsecerberus.damage=128
-enemies.entity.rsecerberus.attackspeed=7
-enemies.entity.rsecerberus.range=1
-enemies.entity.rsecerberus.accuracy=145
-enemies.entity.rsecerberus.health=325
-enemies.entity.rsecerberus.evade=110
-enemies.entity.rsecerberus.defense=17
-enemies.entity.rsecerberus.walkspeed=1.8
-enemies.entity.rsecerberus.prefab=enemy_cerberus
-enemies.entity.rsecerberus.amount=1.2
-enemies.entity.rsecerberus.loot.aether=3
-enemies.entity.rsecerberus.loot.sulfur=3
-enemies.entity.rsecerberus.loot.fur=3
-enemies.entity.rsecerberus.loot.hellsessence=1
-enemies.entity.rsecerberus.splash.range=1
-enemies.entity.rsecerberus.splash.damage=0.5
-enemies.entity.rsecerberus.walkanimationspeed=0.9
-
-
-
-# Level 10
-
-enemies.entity.rsebelial.parents=enemies.base.demon,enemies.base.ranged
-enemies.entity.rsebelial.level=10
-enemies.entity.rsebelial.damage=95
-enemies.entity.rsebelial.attackspeed=8
-enemies.entity.rsebelial.range=11
-enemies.entity.rsebelial.accuracy=172
-enemies.entity.rsebelial.health=700
-enemies.entity.rsebelial.evade=120
-enemies.entity.rsebelial.defense=20
-enemies.entity.rsebelial.amount=1
-enemies.entity.rsebelial.prefab=enemy_belial
-enemies.entity.rsebelial.loot.demonscales=3
-enemies.entity.rsebelial.loot.hellsessence=1
-enemies.entity.rsebelial.properties.attacksound=bow_attack
-enemies.entity.rsebelial.properties.attackanimation=FireslingAttackPrefab
-enemies.entity.rsebelial.permanentdamage=0.75
-
-enemies.entity.rseshedim.parents=enemies.base.demon,enemies.base.ranged
-enemies.entity.rseshedim.level=10
-enemies.entity.rseshedim.damage=140
-enemies.entity.rseshedim.attackspeed=3.5
-enemies.entity.rseshedim.range=9
-enemies.entity.rseshedim.accuracy=163
-enemies.entity.rseshedim.health=1300
-enemies.entity.rseshedim.evade=115
-enemies.entity.rseshedim.defense=26
-enemies.entity.rseshedim.amount=0.7
-enemies.entity.rseshedim.prefab=enemy_shedim
-enemies.entity.rseshedim.loot.demonscales=1
-enemies.entity.rseshedim.loot.hellsessence=3
-enemies.entity.rseshedim.properties.attackanimation=ShedimAttackPrefab
-enemies.entity.rseshedim.auras.frenzy.range=3
-enemies.entity.rseshedim.auras.frenzy.effect.rsefrenzy=true
-enemies.entity.rseshedim.auras.frenzy.targetmode=Ally
-enemies.entity.rseshedim.auras.frenzy.prefab=PositiveAuraPrefab
-
-enemies.entity.rsedemogorgon.parents=enemies.base.demon,enemies.base.meleeattack
-enemies.entity.rsedemogorgon.level=10
-enemies.entity.rsedemogorgon.damage=30
-enemies.entity.rsedemogorgon.attackspeed=5
-enemies.entity.rsedemogorgon.range=1
-enemies.entity.rsedemogorgon.accuracy=120
-enemies.entity.rsedemogorgon.health=160
-enemies.entity.rsedemogorgon.evade=75
-enemies.entity.rsedemogorgon.defense=12
-enemies.entity.rsedemogorgon.walkspeed=1.6
-enemies.entity.rsedemogorgon.amount=1
-enemies.entity.rsedemogorgon.prefab=enemy_demogorgon
-enemies.entity.rsedemogorgon.loot.demonscales=1
-enemies.entity.rsedemogorgon.auras.fear.range=2
-enemies.entity.rsedemogorgon.auras.fear.effect.fear=true
-enemies.entity.rsedemogorgon.auras.fear.targetmode=Enemy
-enemies.entity.rsedemogorgon.auras.fear.prefab=SuccubusAuraPrefab
-
-
+# Tier 5
+# Level Boost LVB x3
 
 # Bosses
+# Level Boost LVB x7
 
-enemies.entity.rsewarden.parents=enemies.base.humanmelee,enemies.base.survivor4
-enemies.entity.rsewarden.level=8
-enemies.entity.rsewarden.damage=110
-enemies.entity.rsewarden.attackspeed=4
-enemies.entity.rsewarden.range=1
-enemies.entity.rsewarden.accuracy=145
-enemies.entity.rsewarden.health=3100
-enemies.entity.rsewarden.evade=100
-enemies.entity.rsewarden.defense=23
-enemies.entity.rsewarden.walkspeed=1.3
-enemies.entity.rsewarden.amount=1
-enemies.entity.rsewarden.loot.stunbaton=1
-enemies.entity.rsewarden.loot.combatsuit=1
-enemies.entity.rsewarden.loot.minigun=1
-enemies.entity.rsewarden.name=warden
-enemies.entity.rsewarden.weapon=stunbaton
-enemies.entity.rsewarden.tags.human=false
-enemies.entity.rsewarden.tags.boss=true
+# Boost XP rewards
+# Boost by: x10, x10, x15, x20, x25, x30
+enemies.exp.0=60
+enemies.exp.1=100
+enemies.exp.2=225
+enemies.exp.3=420
+enemies.exp.4=700
+enemies.exp.5=1080
 
-enemies.entity.rselieutenant.parents=enemies.base.humanranged,enemies.base.survivor4
-enemies.entity.rselieutenant.level=8
-enemies.entity.rselieutenant.damage=83
-enemies.entity.rselieutenant.attackspeed=5
-enemies.entity.rselieutenant.range=11
-enemies.entity.rselieutenant.accuracy=135
-enemies.entity.rselieutenant.health=2350
-enemies.entity.rselieutenant.evade=95
-enemies.entity.rselieutenant.defense=19
-enemies.entity.rselieutenant.walkspeed=1.3
-enemies.entity.rselieutenant.amount=1
-enemies.entity.rselieutenant.loot.scraps=50
-enemies.entity.rselieutenant.loot.combatsuit=1
-enemies.entity.rselieutenant.loot.mtar21=1
-enemies.entity.rselieutenant.name=lieutenant
-enemies.entity.rselieutenant.weapon=incinerator
-enemies.entity.rselieutenant.splash.range=1
-enemies.entity.rselieutenant.splash.damage=0.5
-enemies.entity.rselieutenant.tags.human=false
-enemies.entity.rselieutenant.tags.boss=true
 
-enemies.entity.rsearchdemon.parents=enemies.base.demon,enemies.base.meleeattack
-enemies.entity.rsearchdemon.level=10
-enemies.entity.rsearchdemon.damage=110
-enemies.entity.rsearchdemon.attackspeed=5
-enemies.entity.rsearchdemon.range=1
-enemies.entity.rsearchdemon.accuracy=160
-enemies.entity.rsearchdemon.health=2600
-enemies.entity.rsearchdemon.evade=110
-enemies.entity.rsearchdemon.defense=30
-enemies.entity.rsearchdemon.walkspeed=1.3
-enemies.entity.rsearchdemon.amount=1
-enemies.entity.rsearchdemon.loot.hellsessence=25
-enemies.entity.rsearchdemon.splash.range=1
-enemies.entity.rsearchdemon.splash.damage=0.5
-enemies.entity.rsearchdemon.tags.demon=false
-enemies.entity.rsearchdemon.tags.boss=true
-enemies.entity.rsearchdemon.walkanimationspeed=1.5
-enemies.entity.rsearchdemon.infoheight=0.7
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Level X .. Level Boost LVB
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# damage : xLVB*   *This multiplied with the boost to damage should equal LVB
+# attackspeed : xLVB*   *This multiplied with the boost to damage should equal LVB
+# range : +LVB
+# accuracy : +(LVB x 10)*   *This plus the boost to evade should equal (LVB x 20)
+# evade : +(LVB x 10)*   *This plus the boost to evade should equal (LVB x 20)
+# health : xLVB
+# defense : x(LVB / 2) +(LVB x2)
+# aura.range : +LVB
+# loot : xLVB
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Level 1 (LVB = 1)
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# range : +1
+# accuracy : +10
+# evade : +10
+# defense : +2
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+enemies.entity.hellhound.parents=enemies.base.demon,enemies.base.meleeattack
+enemies.entity.hellhound.level=1
+enemies.entity.hellhound.damage=14
+enemies.entity.hellhound.attackspeed=6
+enemies.entity.hellhound.range=1
+enemies.entity.hellhound.accuracy=90
+enemies.entity.hellhound.health=20
+enemies.entity.hellhound.evade=40
+enemies.entity.hellhound.defense=2
+enemies.entity.hellhound.walkspeed=1.8
+enemies.entity.hellhound.amount=1.4
+enemies.entity.hellhound.loot.sulfur=1
+enemies.entity.hellhound.loot.fur=1
+enemies.entity.hellhound.walkanimationspeed=0.9
+
+enemies.entity.werewolf.parents=enemies.base.demon,enemies.base.meleeattack
+enemies.entity.werewolf.level=1
+enemies.entity.werewolf.damage=8
+enemies.entity.werewolf.attackspeed=6
+enemies.entity.werewolf.range=1
+enemies.entity.werewolf.accuracy=70
+enemies.entity.werewolf.health=65
+enemies.entity.werewolf.evade=30
+enemies.entity.werewolf.defense=4
+enemies.entity.werewolf.walkspeed=1.45
+enemies.entity.werewolf.amount=1
+enemies.entity.werewolf.loot.fur=2
+enemies.entity.werewolf.walkanimationspeed=1.8
+
+enemies.entity.reaper.parents=enemies.base.demon,enemies.base.ranged,enemies.base.floating
+enemies.entity.reaper.level=1
+enemies.entity.reaper.damage=12
+enemies.entity.reaper.attackspeed=5
+enemies.entity.reaper.range=5
+enemies.entity.reaper.accuracy=65
+enemies.entity.reaper.health=60
+enemies.entity.reaper.evade=25
+enemies.entity.reaper.defense=4
+enemies.entity.reaper.vision=5
+enemies.entity.reaper.amount=1
+enemies.entity.reaper.loot.ectoplasm=1
+enemies.entity.reaper.properties.attackanimation=ReaperAttackPrefab
+enemies.entity.reaper.achievements.defyingdeath=50
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Level 2 (LVB = 1.5)
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# damage : x1
+# attackspeed : x1.5
+# range : +2
+# accuracy : +20
+# evade : +20
+# health : x1.5
+# defense : +4
+# aura.range : +2
+# loot : x2
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+enemies.entity.demon.parents=enemies.base.demon,enemies.base.meleeattack
+enemies.entity.demon.level=2
+enemies.entity.demon.damage=14.5
+enemies.entity.demon.attackspeed=6.25
+enemies.entity.demon.range=1
+enemies.entity.demon.accuracy=95
+enemies.entity.demon.health=142
+enemies.entity.demon.evade=50
+enemies.entity.demon.defense=8
+enemies.entity.demon.amount=1
+enemies.entity.demon.loot.sulfur=4
+enemies.entity.demon.loot.demonite=2
+enemies.entity.demon.prefab=enemy_knight
+enemies.entity.demon.walkanimationspeed=1.95
+enemies.entity.demon.hiteffect.rendarmor=8
+
+enemies.entity.possessed.parents=enemies.base.demon,enemies.base.ranged
+enemies.entity.possessed.level=2
+enemies.entity.possessed.damage=13.5
+enemies.entity.possessed.attackspeed=8.25
+enemies.entity.possessed.range=7
+enemies.entity.possessed.accuracy=85
+enemies.entity.possessed.health=172
+enemies.entity.possessed.evade=40
+enemies.entity.possessed.defense=8
+enemies.entity.possessed.amount=1
+enemies.entity.possessed.loot.cloth=2
+enemies.entity.possessed.properties.attackanimation=BulletAttackPrefab
+enemies.entity.possessed.properties.attacksound=gun_attack
+
+enemies.entity.succubus.parents=enemies.base.demon,enemies.base.meleeattack,enemies.base.floating
+enemies.entity.succubus.level=2
+enemies.entity.succubus.damage=11
+enemies.entity.succubus.attackspeed=10.5
+enemies.entity.succubus.range=1
+enemies.entity.succubus.accuracy=105
+enemies.entity.succubus.health=75
+enemies.entity.succubus.evade=60
+enemies.entity.succubus.defense=8
+enemies.entity.succubus.walkspeed=1.3
+enemies.entity.succubus.vision=9
+enemies.entity.succubus.amount=0.8
+enemies.entity.succubus.loot.demonite=2
+enemies.entity.succubus.achievements.charmmenot=50
+enemies.entity.succubus.auras.bedazzled.range=4
+enemies.entity.succubus.auras.bedazzled.effect.bedazzled=true
+enemies.entity.succubus.auras.bedazzled.targetmode=Enemy
+enemies.entity.succubus.auras.bedazzled.targettag.male=true
+enemies.entity.succubus.auras.bedazzled.prefab=SuccubusAuraPrefab
+
+enemies.entity.ghost.parents=enemies.base.demon,enemies.base.ranged,enemies.base.floating
+enemies.entity.ghost.level=2
+enemies.entity.ghost.damage=20
+enemies.entity.ghost.attackspeed=6.35
+enemies.entity.ghost.range=7
+enemies.entity.ghost.accuracy=75
+enemies.entity.ghost.health=60
+enemies.entity.ghost.evade=85
+enemies.entity.ghost.defense=5
+enemies.entity.ghost.amount=1
+enemies.entity.ghost.loot.ectoplasm=4
+enemies.entity.ghost.properties.attackanimation=GhostAttackPrefab
+enemies.entity.ghost.achievements.ghostbuster=50
+enemies.entity.ghost.permanentdamage=0.75
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Level 3 (LVB = 2)
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# damage : x2
+# attackspeed : x1
+# range : +3
+# accuracy : +30
+# evade : +30
+# health : x2
+# defense : x1.5 +6
+# aura.range : +3
+# loot : x3
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+enemies.entity.legion.parents=enemies.base.demon,enemies.base.meleeattack
+enemies.entity.legion.level=3
+enemies.entity.legion.damage=44
+enemies.entity.legion.attackspeed=4
+enemies.entity.legion.range=1
+enemies.entity.legion.accuracy=120
+enemies.entity.legion.health=550
+enemies.entity.legion.evade=30
+enemies.entity.legion.defense=27
+enemies.entity.legion.walkspeed=0.65
+enemies.entity.legion.amount=1
+enemies.entity.legion.loot.demonite=3
+enemies.entity.legion.loot.fur=6
+
+enemies.entity.firespitter.parents=enemies.base.demon,enemies.base.ranged
+enemies.entity.firespitter.level=3
+enemies.entity.firespitter.damage=26
+enemies.entity.firespitter.attackspeed=8
+enemies.entity.firespitter.range=6
+enemies.entity.firespitter.accuracy=120
+enemies.entity.firespitter.health=190
+enemies.entity.firespitter.evade=70
+enemies.entity.firespitter.defense=13
+enemies.entity.firespitter.amount=1
+enemies.entity.firespitter.loot.demonite=3
+enemies.entity.firespitter.walkanimationspeed=1.95
+enemies.entity.firespitter.properties.attackanimation=FirespitterAttackPrefab
+enemies.entity.firespitter.splash.range=1
+enemies.entity.firespitter.splash.damage=0.5
+
+enemies.entity.darkangel.parents=enemies.base.demon,enemies.base.ranged
+enemies.entity.darkangel.level=3
+enemies.entity.darkangel.damage=36
+enemies.entity.darkangel.attackspeed=2.2
+enemies.entity.darkangel.range=13
+enemies.entity.darkangel.accuracy=140
+enemies.entity.darkangel.health=260
+enemies.entity.darkangel.evade=75
+enemies.entity.darkangel.defense=18
+enemies.entity.darkangel.vision=12
+enemies.entity.darkangel.amount=0.75
+enemies.entity.darkangel.loot.holywords=3
+enemies.entity.darkangel.walkanimationspeed=1.95
+enemies.entity.darkangel.properties.attackanimation=ArrowPrefab
+enemies.entity.darkangel.properties.attacksound=bow_attack
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Level 4 (LVB = 2.5)
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# damage : x2.5
+# attackspeed : x1
+# range : +4
+# accuracy : +40
+# evade : +40
+# health : x2.5
+# defense : x2 +8
+# aura.range : +4
+# loot : x4
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+enemies.entity.lich.parents=enemies.base.demon,enemies.base.ranged,enemies.base.floating
+enemies.entity.lich.level=4
+enemies.entity.lich.damage=130
+enemies.entity.lich.attackspeed=4.25
+enemies.entity.lich.range=9
+enemies.entity.lich.accuracy=155
+enemies.entity.lich.health=375
+enemies.entity.lich.evade=100
+enemies.entity.lich.defense=30
+enemies.entity.lich.walkspeed=1.35
+enemies.entity.lich.amount=0.75
+enemies.entity.lich.loot.aether=4
+enemies.entity.lich.properties.attackanimation=LichAttackPrefab
+enemies.entity.lich.achievements.ghostbuster=50
+enemies.entity.lich.splash.range=1
+enemies.entity.lich.splash.damage=0.2
+enemies.entity.lich.hiteffect.lichchill=5
+
+enemies.entity.morax.parents=enemies.base.demon,enemies.base.ranged
+enemies.entity.morax.level=4
+enemies.entity.morax.damage=90
+enemies.entity.morax.attackspeed=3
+enemies.entity.morax.range=13
+enemies.entity.morax.accuracy=135
+enemies.entity.morax.health=350
+enemies.entity.morax.evade=100
+enemies.entity.morax.defense=26
+enemies.entity.morax.amount=1
+enemies.entity.morax.loot.demonscales=4
+enemies.entity.morax.properties.attackanimation=ArrowPrefab
+enemies.entity.morax.properties.attacksound=bow_attack
+
+enemies.entity.cerberus.parents=enemies.base.demon,enemies.base.meleeattack
+enemies.entity.cerberus.level=4
+enemies.entity.cerberus.damage=36
+enemies.entity.cerberus.attackspeed=17.5
+enemies.entity.cerberus.range=1
+enemies.entity.cerberus.accuracy=145
+enemies.entity.cerberus.health=112
+enemies.entity.cerberus.evade=110
+enemies.entity.cerberus.defense=20
+enemies.entity.cerberus.walkspeed=1.8
+enemies.entity.cerberus.amount=1.2
+enemies.entity.cerberus.loot.aether=4
+enemies.entity.cerberus.splash.range=1
+enemies.entity.cerberus.splash.damage=0.5
+enemies.entity.cerberus.walkanimationspeed=0.9
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Level 5 (LVB = 3)
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# damage : x2
+# attackspeed : x1.5
+# range : +5
+# accuracy : +50
+# evade : +50
+# health : x3
+# defense : x2.5 +10
+# aura.range : +5
+# loot : x5
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+enemies.entity.belial.parents=enemies.base.demon,enemies.base.ranged
+enemies.entity.belial.level=5
+enemies.entity.belial.damage=75
+enemies.entity.belial.attackspeed=8
+enemies.entity.belial.range=12
+enemies.entity.belial.accuracy=182
+enemies.entity.belial.health=360
+enemies.entity.belial.evade=130
+enemies.entity.belial.defense=30
+enemies.entity.belial.amount=1
+enemies.entity.belial.loot.demonscales=5
+enemies.entity.belial.properties.attacksound=bow_attack
+enemies.entity.belial.properties.attackanimation=FireslingAttackPrefab
+enemies.entity.belial.permanentdamage=0.75
+
+enemies.entity.shedim.parents=enemies.base.demon,enemies.base.ranged
+enemies.entity.shedim.level=5
+enemies.entity.shedim.damage=120
+enemies.entity.shedim.attackspeed=3.5
+enemies.entity.shedim.range=10
+enemies.entity.shedim.accuracy=173
+enemies.entity.shedim.health=720
+enemies.entity.shedim.evade=125
+enemies.entity.shedim.defense=40
+enemies.entity.shedim.amount=0.7
+enemies.entity.shedim.loot.hellsessence=5
+enemies.entity.shedim.properties.attackanimation=ShedimAttackPrefab
+enemies.entity.shedim.auras.frenzy.range=7
+enemies.entity.shedim.auras.frenzy.effect.frenzy=true
+enemies.entity.shedim.auras.frenzy.targetmode=Ally
+enemies.entity.shedim.auras.frenzy.prefab=PositiveAuraPrefab
+
+enemies.entity.demogorgon.parents=enemies.base.demon,enemies.base.meleeattack
+enemies.entity.demogorgon.level=5
+enemies.entity.demogorgon.damage=30
+enemies.entity.demogorgon.attackspeed=15
+enemies.entity.demogorgon.range=1
+enemies.entity.demogorgon.accuracy=170
+enemies.entity.demogorgon.health=480
+enemies.entity.demogorgon.evade=125
+enemies.entity.demogorgon.defense=40
+enemies.entity.demogorgon.walkspeed=1.6
+enemies.entity.demogorgon.amount=1
+enemies.entity.demogorgon.loot.demonscales=5
+enemies.entity.demogorgon.auras.fear.range=7
+enemies.entity.demogorgon.auras.fear.effect.fear=true
+enemies.entity.demogorgon.auras.fear.targetmode=Enemy
+enemies.entity.demogorgon.auras.fear.prefab=SuccubusAuraPrefab
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Bosses (LVB = 7)
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# damage : x3.5
+# attackspeed : x2
+# range : +7
+# accuracy : +70
+# evade : +70
+# health : x7
+# defense : x3.5 +14
+# aura.range : +7
+# loot : x7
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+enemies.entity.archdemon.parents=enemies.base.demon,enemies.base.meleeattack
+enemies.entity.archdemon.level=5
+enemies.entity.archdemon.damage=105
+enemies.entity.archdemon.attackspeed=10
+enemies.entity.archdemon.range=1
+enemies.entity.archdemon.accuracy=190
+enemies.entity.archdemon.health=3500
+enemies.entity.archdemon.evade=140
+enemies.entity.archdemon.defense=66
+enemies.entity.archdemon.walkspeed=1.3
+enemies.entity.archdemon.amount=1
+enemies.entity.archdemon.loot.hellsessence=12
+enemies.entity.archdemon.loot.demonscales=30
+enemies.entity.archdemon.loot.demonite=18
+enemies.entity.archdemon.loot.aether=12
+enemies.entity.archdemon.splash.range=1
+enemies.entity.archdemon.splash.damage=0.5
+enemies.entity.archdemon.tags.demon=false
+enemies.entity.archdemon.tags.boss=true
+enemies.entity.archdemon.walkanimationspeed=1.5
+enemies.entity.archdemon.infoheight=0.7
+enemies.entity.archdemon.auras.fear.range=7
+enemies.entity.archdemon.auras.fear.effect.fear=true
+enemies.entity.archdemon.auras.fear.targetmode=Enemy
+enemies.entity.archdemon.auras.fear.prefab=SuccubusAuraPrefab
+

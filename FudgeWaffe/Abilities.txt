@@ -43,6 +43,31 @@ abilities.entity.ubrmtargrenade.properties.damage=60
 abilities.entity.ubrmtargrenade.properties.aoe=2
 abilities.entity.ubrmtargrenade.properties.range=14
 
+abilities.entity.ubrweaponhex.parents=abilities.base.weaponsingle
+abilities.entity.ubrweaponhex.name=abilities.hex.name
+abilities.entity.ubrweaponhex.sprite=ability_hexscroll
+abilities.entity.ubrweaponhex.performtime=0.25
+abilities.entity.ubrweaponhex.performanimation=Handling
+abilities.entity.ubrweaponhex.properties.range=40
+abilities.entity.ubrweaponhex.effectprefabs=EffectHexProjectilePrefab
+abilities.entity.ubrweaponhex.effectsounds=attack_voodoo
+abilities.entity.ubrweaponhex.effect.hex=30
+
+abilities.entity.ubrevokerstaffblast.parents=abilities.base.skillability
+abilities.entity.ubrevokerstaffblast.name=abilities.ubrevokerstaffblast.name
+abilities.entity.ubrevokerstaffblast.class=GrenadeAbility
+abilities.entity.ubrevokerstaffblast.sprite=ability_hexscroll
+abilities.entity.ubrevokerstaffblast.targetmode=Tile
+abilities.entity.ubrevokerstaffblast.performtime=0.1
+abilities.entity.ubrevokerstaffblast.performanimation=Handling
+abilities.entity.ubrevokerstaffblast.properties.range=200
+abilities.entity.ubrevokerstaffblast.properties.aoe=4
+abilities.entity.ubrevokerstaffblast.properties.damage=300
+abilities.entity.ubrevokerstaffblast.effectprefabs=EffectHexProjectilePrefab,ElementalBombExplosionPrefab
+abilities.entity.ubrevokerstaffblast.effectsounds=attack_voodoo
+abilities.entity.ubrevokerstaffblast.effect.ubrevokerstaffblast=6
+abilities.entity.ubrevokerstaffblast.affects=enemies
+
 
 
 

@@ -1,0 +1,1550 @@
+
+# ----------------------------------------------------------
+# Extended generic skills
+# ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# Ultimate skills
+# ----------------------------------------------------------
+# Costs 10 skill points.
+#	Always includes +250% Nutrition.
+#	Always includes +250% Energy bonus.
+#	Always includes +100% Health bonus.
+#	Always includes +100% Workspeed bonus.
+#	Grant +500% in whatever skill it is the ultimate of
+#	Can include a special ability
+
+
+
+# Marksmanship
+# ----------------------------------------------------------------------------------
+# skills.entity.marksmanship1.effect.accuracy=0.05
+# skills.entity.marksmanship2.effect.accuracy=0.075
+# skills.entity.marksmanship3.effect.accuracy=0.1
+
+skills.entity.marksmanship4.effect.accuracy=0.275
+
+skills.entity.marksmanship5.effect.accuracy=0.375
+
+skills.entity.marksmanship6.effect.accuracy=0.475
+
+# -- Side Skills --
+
+skills.entity.marksmanrange2.effect.range=2
+
+skills.entity.marksmanrange3.effect.range=4
+
+skills.entity.uessharpmind1.effect.workspeed=0.475
+
+skills.entity.uessharpmind2.effect.workspeed=0.575
+
+# -- Skill Ultimates --
+
+skills.entity.uesultmarksmanship.effect.nutrition=2.5
+skills.entity.uesultmarksmanship.effect.energy=2.5
+skills.entity.uesultmarksmanship.effect.health=1.0
+skills.entity.uesultmarksmanship.effect.workspeed=1.0
+skills.entity.uesultmarksmanship.effect.damage=0.4
+skills.entity.uesultmarksmanship.effect.vision=4
+skills.entity.uesultmarksmanship.unlocks.equip.firearm=true
+skills.entity.uesultmarksmanship.unlocks.equip.sniper=true
+skills.entity.uesultmarksmanship.abilities.uesultexecutioner2=1
+
+
+# Agility
+# ----------------------------------------------------------------------------------
+# skills.entity.agility1.effect.attackspeed=0.05
+# skills.entity.agility2.effect.attackspeed=0.075
+# skills.entity.agility3.effect.attackspeed=0.1
+
+skills.entity.agility4.effect.attackspeed=0.125
+
+skills.entity.agility5.effect.attackspeed=0.15
+
+skills.entity.agility6.effect.attackspeed=0.175
+
+skills.entity.agility7.effect.attackspeed=0.2
+
+skills.entity.agility8.effect.attackspeed=0.225
+
+skills.entity.agility9.effect.attackspeed=0.25
+
+# -- Skill Ultimates --
+
+
+
+# Damage
+# ----------------------------------------------------------------------------------
+# skills.entity.damage1.effect.damage=0.05
+# skills.entity.damage2.effect.damage=0.075
+# skills.entity.damage3.effect.damage=0.1
+
+skills.entity.damage4.effect.damage=0.275
+
+skills.entity.damage5.effect.damage=0.375
+
+skills.entity.damage6.effect.damage=0.475
+
+# -- Side Skills --
+
+skills.entity.damageexpert2.effect.attackspeed=0.4
+
+skills.entity.damageexpert3.effect.attackspeed=0.6
+
+# -- Skill Ultimates --
+
+skills.entity.uesultdamage.effect.nutrition=2.5
+skills.entity.uesultdamage.effect.energy=2.5
+skills.entity.uesultdamage.effect.health=1.0
+skills.entity.uesultdamage.effect.workspeed=1.0
+skills.entity.uesultdamage.effect.vision=4
+skills.entity.uesultdamage.unlocks.equip.firearm=true
+skills.entity.uesultdamage.unlocks.equip.darkarmor=true
+skills.entity.uesultdamage.abilities.uesultexecutioner1=3
+
+
+# Evasion
+# ----------------------------------------------------------------------------------
+# skills.entity.evasion1.effect.evade=0.05
+# skills.entity.evasion2.effect.evade=0.075
+# skills.entity.evasion3.effect.evade=0.1
+
+skills.entity.evasion4.effect.evade=0.275
+
+skills.entity.evasion5.effect.evade=0.375
+
+skills.entity.evasion6.effect.evade=0.475
+
+# -- Side Skills --
+
+skills.entity.stealth2.effect.awarenessadd=-3
+
+skills.entity.stealth3.effect.awarenessadd=-4
+
+skills.entity.patroling2.effect.actiongroup_patrol=1.5
+
+skills.entity.patroling3.effect.actiongroup_patrol=2.0
+
+# -- Skill Ultimates --
+
+skills.entity.uesultevasion.effect.nutrition=2.5
+skills.entity.uesultevasion.effect.energy=2.5
+skills.entity.uesultevasion.effect.health=1.0
+skills.entity.uesultevasion.effect.workspeed=1.0
+skills.entity.uesultevasion.effect.evade=0.575
+skills.entity.uesultevasion.abilities.uesultjuggernaught1=3
+
+
+# Stalwart
+# ----------------------------------------------------------------------------------
+# skills.entity.stalwart1.effect.health=0.05
+# skills.entity.stalwart2.effect.health=0.075
+# skills.entity.stalwart3.effect.health=0.1
+
+skills.entity.stalwart4.effect.health=0.275
+
+skills.entity.stalwart5.effect.health=0.375
+
+skills.entity.stalwart6.effect.health=0.475
+
+# -- Side Skills --
+
+skills.entity.ueshealrate1.effect.healrate=1.5
+
+skills.entity.ueshealrate2.effect.healrate=2.0
+
+# -- Skill Ultimates --
+
+skills.entity.uesultstalwart.effect.nutrition=2.5
+skills.entity.uesultstalwart.effect.energy=2.5
+skills.entity.uesultstalwart.effect.health=1.0
+skills.entity.uesultstalwart.effect.workspeed=1.0
+skills.entity.uesultstalwart.effect.health=0.575
+skills.entity.uesultstalwart.abilities.uesultjuggernaught2=1
+
+
+# Melee
+# ----------------------------------------------------------------------------------
+# skills.entity.melee1.effect.tag_melee_damage=0.075
+# skills.entity.melee2.effect.tag_melee_damage=0.1
+# skills.entity.melee3.effect.tag_melee_attackspeed=0.15
+
+skills.entity.melee4.effect.tag_melee_damage=0.375
+
+skills.entity.melee5.effect.tag_melee_attackspeed=0.25
+skills.entity.melee5.effect.tag_melee_damage=0.275
+
+skills.entity.melee6.effect.tag_melee_damage=0.2
+skills.entity.melee6.effect.tag_melee_attackspeed=0.2
+skills.entity.melee6.effect.tag_melee_evade=0.25
+
+# -- Side Skills --
+
+skills.entity.uesmovement1.effect.walkspeed=0.4
+
+skills.entity.uesmovement2.effect.walkspeed=0.6
+
+# -- Skill Ultimates --
+
+skills.entity.uesultmelee.effect.nutrition=2.5
+skills.entity.uesultmelee.effect.energy=2.5
+skills.entity.uesultmelee.effect.health=1.0
+skills.entity.uesultmelee.effect.workspeed=1.0
+skills.entity.uesultmelee.effect.tag_melee_damage=1.0
+skills.entity.uesultmelee.effect.tag_melee_attackspeed=1.0
+skills.entity.uesultmelee.effect.tag_melee_evade=1.0
+skills.entity.uesultmelee.unlocks.equip.toolweapon=true
+skills.entity.uesultmelee.unlocks.equip.occultweapon=true
+
+
+# Melee Defense
+# ----------------------------------------------------------------------------------
+# skills.entity.meleedefense1.effect.tag_melee_evade=0.075
+# skills.entity.meleedefense2.effect.tag_melee_evade=0.1
+# skills.entity.meleedefense3.effect.tag_melee_evade=0.15
+
+skills.entity.meleedefense4.effect.tag_melee_evade=0.375
+
+skills.entity.meleedefense5.effect.tag_melee_evade=0.525
+
+skills.entity.meleedefense6.effect.tag_melee_evade=0.4
+skills.entity.meleedefense6.effect.defense=0.275
+
+# -- Skill Ultimates --
+
+skills.entity.uesultmeleedefense.effect.nutrition=2.5
+skills.entity.uesultmeleedefense.effect.energy=2.5
+skills.entity.uesultmeleedefense.effect.health=1.0
+skills.entity.uesultmeleedefense.effect.workspeed=1.0
+skills.entity.uesultmeleedefense.effect.defense=2.5
+skills.entity.uesultmeleedefense.unlocks.equip.techarmor=true
+skills.entity.uesultmeleedefense.unlocks.equip.holyarmor=true
+skills.entity.uesultmeleedefense.unlocks.equip.naturearmor=true
+skills.entity.uesultmeleedefense.unlocks.equip.darkarmor=true
+
+
+# Blunt
+# ----------------------------------------------------------------------------------
+# skills.entity.blunt1.effect.tag_blunt_accuracy=0.05
+# skills.entity.blunt1.effect.tag_blunt_damage=0.05
+# skills.entity.blunt2.effect.tag_blunt_accuracy=0.075
+# skills.entity.blunt2.effect.tag_blunt_damage=0.075
+# skills.entity.blunt3.effect.tag_blunt_accuracy=0.1
+# skills.entity.blunt3.effect.tag_blunt_damage=0.1
+
+skills.entity.blunt4.effect.tag_blunt_accuracy=0.125
+skills.entity.blunt4.effect.tag_blunt_damage=0.125
+
+skills.entity.blunt5.effect.tag_blunt_accuracy=0.15
+skills.entity.blunt5.effect.tag_blunt_damage=0.15
+
+skills.entity.blunt6.effect.tag_blunt_accuracy=0.175
+skills.entity.blunt6.effect.tag_blunt_damage=0.175
+
+skills.entity.blunt7.effect.tag_blunt_accuracy=0.2
+skills.entity.blunt7.effect.tag_blunt_damage=0.2
+
+skills.entity.blunt8.effect.tag_blunt_accuracy=0.225
+skills.entity.blunt8.effect.tag_blunt_damage=0.225
+
+skills.entity.blunt9.effect.tag_blunt_accuracy=0.25
+skills.entity.blunt9.effect.tag_blunt_damage=0.25
+
+# -- Skill Ultimates --
+
+
+# Sharp
+# ----------------------------------------------------------------------------------
+# skills.entity.sharp1.effect.tag_sharp_attackspeed=0.05
+# skills.entity.sharp1.effect.tag_sharp_damage=0.05
+# skills.entity.sharp2.effect.tag_sharp_attackspeed=0.075
+# skills.entity.sharp2.effect.tag_sharp_damage=0.075
+# skills.entity.sharp3.effect.tag_sharp_attackspeed=0.1
+# skills.entity.sharp3.effect.tag_sharp_damage=0.1
+
+skills.entity.sharp4.effect.tag_sharp_attackspeed=0.125
+skills.entity.sharp4.effect.tag_sharp_damage=0.125
+
+skills.entity.sharp5.effect.tag_sharp_attackspeed=0.15
+skills.entity.sharp5.effect.tag_sharp_damage=0.15
+
+skills.entity.sharp6.effect.tag_sharp_attackspeed=0.175
+skills.entity.sharp6.effect.tag_sharp_damage=0.175
+
+skills.entity.sharp7.effect.tag_sharp_attackspeed=0.2
+skills.entity.sharp7.effect.tag_sharp_damage=0.2
+
+skills.entity.sharp8.effect.tag_sharp_attackspeed=0.225
+skills.entity.sharp8.effect.tag_sharp_damage=0.225
+
+skills.entity.sharp9.effect.tag_sharp_attackspeed=0.25
+skills.entity.sharp9.effect.tag_sharp_damage=0.25
+
+# -- Skill Ultimates --
+
+
+# Pistols
+# ----------------------------------------------------------------------------------
+# skills.entity.pistols1.effect.tag_pistol_damage=0.05
+# skills.entity.pistols1.effect.tag_pistol_accuracy=0.05
+# skills.entity.pistols2.effect.tag_pistol_damage=0.075
+# skills.entity.pistols2.effect.tag_pistol_accuracy=0.075
+# skills.entity.pistols3.effect.tag_pistol_damage=0.1
+# skills.entity.pistols3.effect.tag_pistol_accuracy=0.1
+
+skills.entity.pistols4.effect.tag_pistol_damage=0.275
+skills.entity.pistols4.effect.tag_pistol_accuracy=0.275
+
+skills.entity.pistols5.effect.tag_pistol_damage=0.375
+skills.entity.pistols5.effect.tag_pistol_accuracy=0.375
+
+skills.entity.pistols6.effect.tag_pistol_damage=0.475
+skills.entity.pistols6.effect.tag_pistol_accuracy=0.475
+
+# -- Side Skills --
+
+skills.entity.uesdefthands1.effect.workspeed=0.45
+
+skills.entity.uesdefthands2.effect.workspeed=0.5
+
+skills.entity.uesvision1.effect.vision=4
+skills.entity.uesvision1.effect.walkspeed=0.2
+
+skills.entity.uesvision2.effect.vision=5
+skills.entity.uesvision2.effect.walkspeed=0.3
+
+# -- Skill Ultimates --
+
+skills.entity.uesultpistols.effect.nutrition=2.5
+skills.entity.uesultpistols.effect.energy=2.5
+skills.entity.uesultpistols.effect.health=1.0
+skills.entity.uesultpistols.effect.workspeed=1.0
+skills.entity.uesultpistols.effect.tag_pistol_damage=1.5
+skills.entity.uesultpistols.effect.tag_pistol_accuracy=1.5
+
+
+# Rifles
+# ----------------------------------------------------------------------------------
+# skills.entity.rifles1.effect.tag_rifle_attackspeed=0.05
+# skills.entity.rifles1.effect.tag_rifle_accuracy=0.05
+# skills.entity.rifles2.effect.tag_rifle_attackspeed=0.075
+# skills.entity.rifles2.effect.tag_rifle_accuracy=0.075
+# skills.entity.rifles3.effect.tag_rifle_damage=0.1
+# skills.entity.rifles3.effect.tag_rifle_accuracy=0.1
+
+skills.entity.rifles4.effect.tag_rifle_attackspeed=0.275
+skills.entity.rifles4.effect.tag_rifle_accuracy=0.275
+
+skills.entity.rifles5.effect.tag_rifle_attackspeed=0.375
+skills.entity.rifles5.effect.tag_rifle_damage=0.375
+
+skills.entity.rifles6.effect.tag_rifle_attackspeed=0.475
+skills.entity.rifles6.effect.tag_rifle_accuracy=0.475
+
+# -- Side Skills --
+
+skills.entity.uesdodge1.effect.evade=0.2
+
+skills.entity.uesdodge2.effect.evade=0.25
+
+# -- Skill Ultimates --
+
+skills.entity.uesultrifles.effect.nutrition=2.5
+skills.entity.uesultrifles.effect.energy=2.5
+skills.entity.uesultrifles.effect.health=1.0
+skills.entity.uesultrifles.effect.workspeed=1.0
+skills.entity.uesultrifles.effect.tag_rifle_damage=1.5
+skills.entity.uesultrifles.effect.tag_rifle_attackspeed=1.5
+skills.entity.uesultrifles.unlocks.equip.firearm=true
+
+
+# Bows
+# ----------------------------------------------------------------------------------
+# skills.entity.bows1.effect.tag_bow_attackspeed=0.05
+# skills.entity.bows1.effect.tag_bow_accuracy=0.05
+# skills.entity.bows2.effect.tag_bow_attackspeed=0.075
+# skills.entity.bows2.effect.tag_bow_accuracy=0.075
+# skills.entity.bows3.effect.tag_bow_accuracy=0.2
+
+skills.entity.bows4.effect.tag_bow_accuracy=0.35
+skills.entity.bows4.effect.tag_bow_attackspeed=0.2
+skills.entity.bows4.effect.tag_bow_damage=0.2
+
+skills.entity.bows5.effect.tag_bow_accuracy=0.1
+skills.entity.bows5.effect.tag_bow_attackspeed=0.65
+skills.entity.bows5.effect.tag_bow_damage=0.2
+
+skills.entity.bows6.effect.tag_bow_accuracy=0.1
+skills.entity.bows6.effect.tag_bow_attackspeed=0.3
+skills.entity.bows6.effect.tag_bow_damage=0.75
+
+# -- Side Skills --
+
+skills.entity.uesrapidfire1.effect.attackspeed=0.4
+
+skills.entity.uesrapidfire2.effect.attackspeed=0.6
+
+# -- Skill Ultimates --
+
+skills.entity.uesultbows.effect.nutrition=2.5
+skills.entity.uesultbows.effect.energy=2.5
+skills.entity.uesultbows.effect.health=1.0
+skills.entity.uesultbows.effect.workspeed=1.0
+skills.entity.uesultbows.effect.tag_bow_damage=1.5
+skills.entity.uesultbows.effect.tag_bow_attackspeed=1.5
+skills.entity.uesultbows.effect.range=8
+
+
+# Tools
+# ----------------------------------------------------------------------------------
+# skills.entity.toolweapon1.effect.tag_toolweapon_damage=0.1
+# skills.entity.toolweapon2.effect.tag_toolweapon_damage=0.15
+# skills.entity.toolweapon3.effect.tag_toolweapon_attackspeed=0.2
+
+skills.entity.toolweapon4.effect.tag_toolweapon_damage=0.3
+skills.entity.toolweapon4.effect.workspeed=0.25
+
+skills.entity.toolweapon5.effect.tag_toolweapon_attackspeed=0.3
+skills.entity.toolweapon5.effect.tag_toolweapon_damage=0.1
+skills.entity.toolweapon5.effect.workspeed=0.3
+
+skills.entity.toolweapon6.effect.tag_toolweapon_damage=0.3
+skills.entity.toolweapon6.effect.tag_toolweapon_attackspeed=0.3
+skills.entity.toolweapon6.effect.workspeed=0.35
+
+# -- Skill Ultimates --
+
+skills.entity.uesulttoolweapon.effect.nutrition=2.5
+skills.entity.uesulttoolweapon.effect.energy=2.5
+skills.entity.uesulttoolweapon.effect.health=1.0
+skills.entity.uesulttoolweapon.effect.workspeed=2.0
+skills.entity.uesulttoolweapon.effect.tag_toolweapon_damage=1.0
+skills.entity.uesulttoolweapon.effect.tag_toolweapon_attackspeed=1.0
+skills.entity.uesulttoolweapon.unlocks.equip.toolweapon=true
+
+
+# Automatic weapons
+# ----------------------------------------------------------------------------------
+# skills.entity.autoweapon1.effect.tag_automaticweapon_attackspeed=0.05
+# skills.entity.autoweapon1.effect.tag_automaticweapon_damage=0.05
+# skills.entity.autoweapon2.effect.tag_automaticweapon_attackspeed=0.075
+# skills.entity.autoweapon2.effect.tag_automaticweapon_damage=0.075
+# skills.entity.autoweapon3.effect.tag_automaticweapon_attackspeed=0.1
+# skills.entity.autoweapon3.effect.tag_automaticweapon_damage=0.1
+
+skills.entity.autoweapon4.effect.tag_automaticweapon_attackspeed=0.275
+skills.entity.autoweapon4.effect.tag_automaticweapon_damage=0.275
+
+skills.entity.autoweapon5.effect.tag_automaticweapon_attackspeed=0.375
+skills.entity.autoweapon5.effect.tag_automaticweapon_damage=0.375
+
+skills.entity.autoweapon6.effect.tag_automaticweapon_attackspeed=0.475
+skills.entity.autoweapon6.effect.tag_automaticweapon_damage=0.475
+
+# -- Side Skills --
+
+skills.entity.evadeexpert2.effect.coverefficiency=0.4
+skills.entity.evadeexpert2.effect.evade=0.2
+
+skills.entity.evadeexpert3.effect.coverefficiency=0.6
+skills.entity.evadeexpert3.effect.evade=0.3
+
+# -- Skill Ultimates --
+
+skills.entity.uesultautoweapon.effect.nutrition=2.5
+skills.entity.uesultautoweapon.effect.energy=2.5
+skills.entity.uesultautoweapon.effect.health=1.0
+skills.entity.uesultautoweapon.effect.workspeed=1.0
+skills.entity.uesultautoweapon.effect.tag_automaticweapon_attackspeed=1.5
+skills.entity.uesultautoweapon.effect.tag_automaticweapon_damage=1.5
+
+
+# Dark weapons
+# ----------------------------------------------------------------------------------
+# skills.entity.darkweapon1.effect.tag_darkweapon_damage=0.1
+# skills.entity.darkweapon2.effect.tag_darkweapon_damage=0.15
+# skills.entity.darkweapon3.effect.tag_darkweapon_damage=0.2
+
+skills.entity.darkweapon4.effect.tag_darkweapon_damage=0.55
+
+skills.entity.darkweapon5.effect.tag_darkweapon_damage=0.75
+
+skills.entity.darkweapon6.effect.tag_darkweapon_damage=0.95
+
+# -- Side Skills --
+
+skills.entity.uesdarkwhisper1.effect.tag_darkweapon_attackspeed=0.8
+skills.entity.uesdarkwhisper1.effect.awarenessadd=4
+
+skills.entity.uesdarkwhisper2.effect.tag_darkweapon_attackspeed=1.2
+skills.entity.uesdarkwhisper2.effect.awarenessadd=6
+
+# -- Skill Ultimates --
+
+skills.entity.uesultdarkweapon.effect.nutrition=2.5
+skills.entity.uesultdarkweapon.effect.energy=2.5
+skills.entity.uesultdarkweapon.effect.health=1.0
+skills.entity.uesultdarkweapon.effect.workspeed=1.0
+skills.entity.uesultdarkweapon.effect.tag_darkweapon_damage=3.0
+skills.entity.uesultdarkweapon.unlocks.equip.occultweapon=true
+skills.entity.uesultdarkweapon.unlocks.equip.darkarmor=true
+
+
+
+# Tech weapons
+# ----------------------------------------------------------------------------------
+# skills.entity.techweapon1.effect.tag_techweapon_accuracy=0.1
+# skills.entity.techweapon2.effect.tag_techweapon_damage=0.15
+# skills.entity.techweapon3.effect.tag_techweapon_accuracy=0.2
+
+skills.entity.techweapon4.effect.tag_techweapon_accuracy=0.25
+skills.entity.techweapon4.effect.tag_techweapon_damage=0.3
+
+skills.entity.techweapon5.effect.tag_techweapon_attackspeed=0.35
+skills.entity.techweapon5.effect.tag_techweapon_damage=0.4
+
+skills.entity.techweapon6.effect.tag_techweapon_attackspeed=0.45
+skills.entity.techweapon6.effect.tag_techweapon_damage=0.5
+
+# -- Side Skills --
+
+skills.entity.uestinkerer1.effect.actiongroup_craft_refund=0.1
+skills.entity.uestinkerer1.effect.actiongroup_build_refund=0.1
+
+skills.entity.uestinkerer2.effect.actiongroup_craft_refund=0.2
+skills.entity.uestinkerer2.effect.actiongroup_build_refund=0.2
+
+# -- Skill Ultimates --
+
+skills.entity.uesulttechweapon.effect.nutrition=2.5
+skills.entity.uesulttechweapon.effect.energy=2.5
+skills.entity.uesulttechweapon.effect.health=1.0
+skills.entity.uesulttechweapon.effect.workspeed=1.0
+skills.entity.uesulttechweapon.effect.tag_techweapon_damage=1.5
+skills.entity.uesulttechweapon.effect.tag_techweapon_attackspeed=1.5
+skills.entity.uesulttechweapon.unlocks.equip.techweapon=true
+skills.entity.uesulttechweapon.unlocks.equip.techarmor=true
+
+
+# Holy weapons
+# ----------------------------------------------------------------------------------
+# skills.entity.holyweapon1.effect.tag_holyweapon_attackspeed=0.05
+# skills.entity.holyweapon1.effect.tag_holyweapon_accuracy=0.05
+# skills.entity.holyweapon2.effect.tag_holyweapon_attackspeed=0.075
+# skills.entity.holyweapon2.effect.tag_holyweapon_accuracy=0.075
+# skills.entity.holyweapon3.effect.tag_holyweapon_attackspeed=0.1
+# skills.entity.holyweapon3.effect.tag_holyweapon_accuracy=0.1
+
+skills.entity.holyweapon4.effect.tag_holyweapon_attackspeed=0.275
+skills.entity.holyweapon4.effect.tag_holyweapon_accuracy=0.275
+
+skills.entity.holyweapon5.effect.tag_holyweapon_accuracy=0.1
+skills.entity.holyweapon5.effect.tag_holyweapon_attackspeed=0.375
+skills.entity.holyweapon5.effect.tag_holyweapon_damage=0.375
+
+skills.entity.holyweapon6.effect.tag_holyweapon_accuracy=0.1
+skills.entity.holyweapon6.effect.tag_holyweapon_attackspeed=0.475
+skills.entity.holyweapon6.effect.tag_holyweapon_damage=0.475
+
+# -- Side Skills --
+
+skills.entity.uesspiritsong1.effect.workspeed=0.1
+skills.entity.uesspiritsong1.effect.awarenessadd=-4
+
+skills.entity.uesspiritsong2.effect.workspeed=0.2
+skills.entity.uesspiritsong2.effect.awarenessadd=-6
+
+skills.entity.uesarcanechant1.effect.actiongroup_rituals=1.0
+skills.entity.uesarcanechant1.effect.actiongroup_occultresearch=1.0
+
+skills.entity.uesarcanechant2.effect.actiongroup_rituals=1.3
+skills.entity.uesarcanechant2.effect.actiongroup_occultresearch=1.3
+
+# -- Skill Ultimates --
+
+skills.entity.uesultholyweapon.effect.nutrition=2.5
+skills.entity.uesultholyweapon.effect.energy=2.5
+skills.entity.uesultholyweapon.effect.health=1.0
+skills.entity.uesultholyweapon.effect.workspeed=1.0
+skills.entity.uesultholyweapon.effect.tag_holyweapon_accuracy=0.2
+skills.entity.uesultholyweapon.effect.tag_holyweapon_evade=0.5
+skills.entity.uesultholyweapon.effect.tag_holyweapon_attackspeed=0.4
+skills.entity.uesultholyweapon.effect.tag_holyweapon_damage=0.4
+skills.entity.uesultholyweapon.unlocks.equip.occultweapon=true
+skills.entity.uesultholyweapon.unlocks.equip.holyarmor=true
+skills.entity.uesultholyweapon.abilities.uesultbless1=5
+skills.entity.uesultholyweapon.abilities.uesultbless2=1
+
+
+# Gathering
+# ----------------------------------------------------------------------------------
+# skills.entity.gather1.effect.actiongroup_search=0.1
+# skills.entity.gather1.effect.actiongroup_gatherwater=0.2
+# skills.entity.gather1.effect.actiongroup_chop=0.2
+# skills.entity.gather2.effect.actiongroup_search=0.2
+# skills.entity.gather2.effect.actiongroup_gatherwater=0.3
+# skills.entity.gather2.effect.actiongroup_chop=0.3
+# skills.entity.gather3.effect.actiongroup_search=0.3
+# skills.entity.gather3.effect.actiongroup_gatherwater=0.5
+# skills.entity.gather3.effect.actiongroup_chop=0.5
+
+skills.entity.gather4.effect.actiongroup_search=0.9
+skills.entity.gather4.effect.actiongroup_gatherwater=1.3
+skills.entity.gather4.effect.actiongroup_chop=1.3
+
+skills.entity.gather5.effect.actiongroup_search=1.5
+skills.entity.gather5.effect.actiongroup_gatherwater=1.9
+skills.entity.gather5.effect.actiongroup_chop=1.9
+
+skills.entity.gather6.effect.actiongroup_search=2.0
+skills.entity.gather6.effect.actiongroup_gatherwater=2.4
+skills.entity.gather6.effect.actiongroup_chop=2.4
+
+# -- Side Skills --
+
+skills.entity.gatherefficiency2.effect.actiongroup_search_double=0.5
+skills.entity.gatherefficiency2.effect.actiongroup_chop_double=0.5
+skills.entity.gatherefficiency2.effect.actiongroup_gatherwater_double=0.5
+skills.entity.gatherefficiency2.effect.extrascavenge=0.2
+
+skills.entity.gatherefficiency3.effect.actiongroup_search_double=0.5
+skills.entity.gatherefficiency3.effect.actiongroup_chop_double=0.5
+skills.entity.gatherefficiency3.effect.actiongroup_gatherwater_double=0.5
+skills.entity.gatherefficiency3.effect.extrascavenge=0.6
+
+skills.entity.gatherexpert2.effect.energy=0.9
+skills.entity.gatherexpert2.effect.nutrition=0.9
+skills.entity.gatherexpert2.effect.workspeed=0.3
+skills.entity.gatherexpert2.effect.walkspeed=0.3
+
+skills.entity.gatherexpert3.effect.energy=1.2
+skills.entity.gatherexpert3.effect.nutrition=1.2
+skills.entity.gatherexpert3.effect.workspeed=0.4
+skills.entity.gatherexpert3.effect.walkspeed=0.4
+
+# -- Skill Ultimates --
+
+skills.entity.uesultgather.effect.nutrition=2.5
+skills.entity.uesultgather.effect.energy=2.5
+skills.entity.uesultgather.effect.health=1.0
+skills.entity.uesultgather.effect.workspeed=1.0
+skills.entity.uesultgather.effect.actiongroup_search=4.0
+skills.entity.uesultgather.effect.actiongroup_gatherwater=4.0
+skills.entity.uesultgather.effect.actiongroup_chop=4.0
+skills.entity.uesultgather.unlocks.equip.naturearmor=true
+skills.entity.uesultgather.abilities.uesultdruid1=2
+
+
+# Mining
+# ----------------------------------------------------------------------------------
+# skills.entity.mine1.effect.actiongroup_mine=0.2
+# skills.entity.mine2.effect.actiongroup_mine=0.3
+# skills.entity.mine3.effect.actiongroup_mine=0.5
+
+skills.entity.mine4.effect.actiongroup_mine=1.3
+
+skills.entity.mine5.effect.actiongroup_mine=1.9
+
+skills.entity.mine6.effect.actiongroup_mine=2.4
+
+# -- Side Skills --
+
+skills.entity.mineefficiency2.effect.actiongroup_mine_double=0.5
+skills.entity.mineefficiency2.effect.actiongroup_mine=0.3
+
+skills.entity.mineefficiency3.effect.actiongroup_mine_double=0.5
+skills.entity.mineefficiency2.effect.actiongroup_mine=0.5
+
+# -- Skill Ultimates --
+
+skills.entity.uesultmine.effect.nutrition=2.5
+skills.entity.uesultmine.effect.energy=2.5
+skills.entity.uesultmine.effect.health=1.0
+skills.entity.uesultmine.effect.workspeed=1.0
+skills.entity.uesultmine.effect.actiongroup_mine=5.0
+skills.entity.uesultmine.unlocks.equip.toolweapon=true
+
+
+# Quarrying
+# ----------------------------------------------------------------------------------
+# skills.entity.quarry1.effect.actiongroup_quarry=0.2
+# skills.entity.quarry2.effect.actiongroup_quarry=0.3
+# skills.entity.quarry3.effect.actiongroup_quarry=0.5
+
+skills.entity.quarry4.effect.actiongroup_quarry=1.3
+
+skills.entity.quarry5.effect.actiongroup_quarry=1.9
+
+skills.entity.quarry6.effect.actiongroup_quarry=2.4
+
+# -- Side Skills --
+
+skills.entity.quarryefficiency2.effect.actiongroup_quarry_double=0.5
+skills.entity.quarryefficiency2.effect.actiongroup_quarry=0.3
+
+skills.entity.quarryefficiency3.effect.actiongroup_quarry_double=0.5
+skills.entity.quarryefficiency3.effect.actiongroup_quarry=0.5
+
+# -- Skill Ultimates --
+
+skills.entity.uesultquarry.effect.nutrition=2.5
+skills.entity.uesultquarry.effect.energy=2.5
+skills.entity.uesultquarry.effect.health=1.0
+skills.entity.uesultquarry.effect.workspeed=1.0
+skills.entity.uesultquarry.effect.actiongroup_quarry=5.0
+skills.entity.uesultquarry.unlocks.equip.toolweapon=true
+
+
+
+
+# Building
+# ----------------------------------------------------------------------------------
+# skills.entity.build1.effect.actiongroup_build=0.2
+# skills.entity.build2.effect.actiongroup_build=0.3
+# skills.entity.build3.effect.actiongroup_build=0.5
+
+skills.entity.build4.effect.actiongroup_build=1.3
+
+skills.entity.build5.effect.actiongroup_build=1.9
+
+skills.entity.build6.effect.actiongroup_build=2.4
+
+# -- Side Skills --
+
+skills.entity.buildsaver2.effect.actiongroup_build_refund=0.3
+
+skills.entity.buildsaver3.effect.actiongroup_build_refund=0.4
+
+# -- Skill Ultimates --
+
+skills.entity.uesultbuild.effect.nutrition=2.5
+skills.entity.uesultbuild.effect.energy=2.5
+skills.entity.uesultbuild.effect.health=2.2
+skills.entity.uesultbuild.effect.workspeed=1.0
+skills.entity.uesultbuild.effect.actiongroup_build=5.0
+skills.entity.uesultbuild.unlocks.equip.toolweapon=true
+skills.entity.uesultbuild.unlocks.build.defensestructure=true
+
+
+
+# Crafting
+# ----------------------------------------------------------------------------------
+# skills.entity.craft1.effect.actiongroup_craft=0.2
+# skills.entity.craft2.effect.actiongroup_craft=0.3
+# skills.entity.craft3.effect.actiongroup_craft=0.5
+
+skills.entity.craft4.effect.actiongroup_craft=1.3
+
+skills.entity.craft5.effect.actiongroup_craft=1.9
+
+skills.entity.craft6.effect.actiongroup_craft=2.4
+
+# -- Side Skills --
+
+skills.entity.craftsaver2.effect.actiongroup_craft_refund=0.3
+
+skills.entity.craftsaver3.effect.actiongroup_craft_refund=0.4
+
+skills.entity.craftexpert2.effect.actiongroup_craft_double=0.3
+
+skills.entity.craftexpert3.effect.actiongroup_craft_double=0.4
+
+# -- Skill Ultimates --
+
+skills.entity.uesultcraft.effect.nutrition=2.5
+skills.entity.uesultcraft.effect.energy=2.5
+skills.entity.uesultcraft.effect.health=1.0
+skills.entity.uesultcraft.effect.workspeed=1.0
+skills.entity.uesultcraft.effect.actiongroup_craft=5.0
+
+
+# Farming
+# ----------------------------------------------------------------------------------
+# skills.entity.farming1.effect.actiongroup_agri=0.2
+# skills.entity.farming2.effect.actiongroup_agri=0.3
+# skills.entity.farming3.effect.actiongroup_agri=0.5
+
+skills.entity.farming4.effect.actiongroup_agri=1.3
+
+skills.entity.farming5.effect.actiongroup_agri=1.9
+
+skills.entity.farming6.effect.actiongroup_agri=2.4
+
+# -- Side Skills --
+
+skills.entity.farmyield2.effect.actiongroup_farming_double=0.4
+
+skills.entity.farmyield3.effect.actiongroup_farming_double=0.4
+
+# -- Skill Ultimates --
+
+skills.entity.uesultfarming.effect.nutrition=2.5
+skills.entity.uesultfarming.effect.energy=2.5
+skills.entity.uesultfarming.effect.health=1.0
+skills.entity.uesultfarming.effect.workspeed=1.0
+skills.entity.uesultfarming.effect.actiongroup_agri=4.0
+skills.entity.uesultfarming.unlocks.equip.naturearmor=true
+skills.entity.uesultfarming.abilities.uesultdruid2=1
+
+
+# Research
+# ----------------------------------------------------------------------------------
+# skills.entity.research1.effect.actiongroup_research=0.2
+# skills.entity.research2.effect.actiongroup_research=0.3
+# skills.entity.research3.effect.actiongroup_research=0.5
+
+skills.entity.research4.effect.actiongroup_research=1.3
+
+skills.entity.research5.effect.actiongroup_research=1.9
+
+skills.entity.research6.effect.actiongroup_research=2.4
+
+# -- Side Skills --
+
+skills.entity.selflearning2.effect.workspeed=0.5
+
+skills.entity.selflearning3.effect.workspeed=0.6
+
+# -- Skill Ultimates --
+
+skills.entity.uesultresearch.effect.nutrition=2.5
+skills.entity.uesultresearch.effect.energy=2.5
+skills.entity.uesultresearch.effect.health=1.0
+skills.entity.uesultresearch.effect.workspeed=1.0
+skills.entity.uesultresearch.effect.actiongroup_research=5.0
+
+
+
+# Occult Research
+# ----------------------------------------------------------------------------------
+# skills.entity.occultresearch1.effect.actiongroup_occultresearch=0.2
+# skills.entity.occultresearch2.effect.actiongroup_occultresearch=0.3
+# skills.entity.occultresearch3.effect.actiongroup_occultresearch=0.5
+
+skills.entity.occultresearch4.effect.actiongroup_occultresearch=1.3
+
+skills.entity.occultresearch5.effect.actiongroup_occultresearch=1.9
+
+skills.entity.occultresearch6.effect.actiongroup_occultresearch=2.4
+
+# -- Side Skills --
+
+skills.entity.uesprayer1.effect.awarenessadd=-2
+skills.entity.uesprayer1.effect.tag_holyweapon_accuracy=0.2
+skills.entity.uesprayer1.effect.tag_holyweapon_attackspeed=0.2
+skills.entity.uesprayer1.effect.tag_holyweapon_damage=0.2
+
+skills.entity.uesprayer2.effect.awarenessadd=-4
+skills.entity.uesprayer2.effect.tag_holyweapon_accuracy=0.2
+skills.entity.uesprayer2.effect.tag_holyweapon_attackspeed=0.2
+skills.entity.uesprayer2.effect.tag_holyweapon_damage=0.2
+
+# -- Skill Ultimates --
+
+skills.entity.uesultoccultresearch.effect.nutrition=2.5
+skills.entity.uesultoccultresearch.effect.energy=2.5
+skills.entity.uesultoccultresearch.effect.health=1.0
+skills.entity.uesultoccultresearch.effect.workspeed=1.0
+skills.entity.uesultoccultresearch.effect.actiongroup_occultresearch=4.0
+skills.entity.uesultoccultresearch.abilities.uesultspellblast1=3
+
+
+# Rituals
+# ----------------------------------------------------------------------------------
+# skills.entity.rituals1.effect.actiongroup_rituals=0.2
+# skills.entity.rituals2.effect.actiongroup_rituals=0.3
+# skills.entity.rituals3.effect.actiongroup_rituals=0.5
+
+skills.entity.rituals4.effect.actiongroup_rituals=1.3
+
+skills.entity.rituals5.effect.actiongroup_rituals=1.9
+
+skills.entity.rituals6.effect.actiongroup_rituals=2.4
+
+# -- Side Skills --
+
+skills.entity.uessoulweaver1.effect.actiongroup_rituals=0.6
+skills.entity.uessoulweaver1.effect.tag_holyweapon_damage=0.2
+skills.entity.uessoulweaver1.effect.tag_darkweapon_damage=0.2
+
+skills.entity.uessoulweaver2.effect.actiongroup_rituals=1.2
+skills.entity.uessoulweaver2.effect.tag_holyweapon_damage=0.3
+skills.entity.uessoulweaver2.effect.tag_darkweapon_damage=0.3
+
+skills.entity.uesspellweaver1.effect.actiongroup_rituals=1.5
+skills.entity.uesspellweaver1.effect.actiongroup_occultresearch=0.5
+
+skills.entity.uesspellweaver2.effect.actiongroup_rituals=2.0
+skills.entity.uesspellweaver2.effect.actiongroup_occultresearch=0.6
+
+# -- Skill Ultimates --
+
+skills.entity.uesultrituals.effect.nutrition=2.5
+skills.entity.uesultrituals.effect.energy=2.5
+skills.entity.uesultrituals.effect.health=1.0
+skills.entity.uesultrituals.effect.workspeed=1.0
+skills.entity.uesultrituals.effect.actiongroup_rituals=4.0
+skills.entity.uesultrituals.abilities.uesultspellblast2=1
+
+
+# Resilient
+# ----------------------------------------------------------------------------------
+# skills.entity.resilient1.effect.defense=0.05
+# skills.entity.resilient2.effect.defense=0.075
+# skills.entity.resilient3.effect.defense=0.1
+
+skills.entity.resilient4.effect.defense=0.275
+
+skills.entity.resilient5.effect.defense=0.375
+
+skills.entity.resilient6.effect.defense=0.475
+
+# -- Side Skills --
+
+skills.entity.dirtyfighting2.effect.armorpierce=0.3
+skills.entity.dirtyfighting2.effect.health=0.2
+
+skills.entity.dirtyfighting3.effect.armorpierce=0.4
+skills.entity.dirtyfighting3.effect.health=0.4
+
+# -- Skill Ultimates --
+
+skills.entity.uesultresilient.effect.nutrition=2.5
+skills.entity.uesultresilient.effect.energy=2.5
+skills.entity.uesultresilient.effect.health=1.0
+skills.entity.uesultresilient.effect.workspeed=1.0
+skills.entity.uesultresilient.effect.defense=2.5
+
+
+# Scouting
+# ----------------------------------------------------------------------------------
+skills.entity.scouting1.effect.walkspeed=0.2
+
+skills.entity.scouting2.effect.scoutrange=1
+skills.entity.scouting2.effect.evade=0.1
+
+skills.entity.scouting3.effect.taskforcespeed=0.3
+skills.entity.scouting3.effect.evade=0.1
+
+skills.entity.scouting4.effect.walkspeed=0.5
+skills.entity.scouting4.effect.vision=2
+skills.entity.scouting4.effect.scoutrange=1
+
+skills.entity.scouting5.effect.taskforcespeed=0.5
+skills.entity.scouting5.effect.walkspeed=0.4
+skills.entity.scouting5.effect.evade=0.2
+skills.entity.scouting5.effect.vision=1
+skills.entity.scouting5.effect.range=1
+
+skills.entity.scouting6.effect.scoutrange=2
+skills.entity.scouting6.effect.range=1
+skills.entity.scouting6.effect.taskforcespeed=0.5
+skills.entity.scouting6.effect.walkspeed=0.2
+skills.entity.scouting6.effect.evade=0.2
+skills.entity.scouting6.effect.damage=0.3
+
+# -- Skill Ultimates --
+
+skills.entity.uesultscouting.effect.nutrition=2.5
+skills.entity.uesultscouting.effect.energy=2.5
+skills.entity.uesultscouting.effect.health=1.0
+skills.entity.uesultscouting.effect.workspeed=1.0
+skills.entity.uesultscouting.effect.walkspeed=2.0
+skills.entity.uesultscouting.effect.taskforcespeed=1.0
+skills.entity.uesultscouting.effect.damage=0.5
+skills.entity.uesultscouting.effect.scoutrange=4
+skills.entity.uesultscouting.effect.range=5
+skills.entity.uesultscouting.effect.vision=4
+skills.entity.uesultscouting.unlocks.equip.sniper=true
+
+
+# Unique Priest
+# ----------------------------------------------------------------------------------
+skills.entity.uesuniquepriest1.effect.walkspeed=0.05
+skills.entity.uesuniquepriest1.effect.actiongroup_search=0.05
+skills.entity.uesuniquepriest1.effect.actiongroup_gatherwater=0.05
+skills.entity.uesuniquepriest1.effect.actiongroup_chop=0.05
+skills.entity.uesuniquepriest1.effect.actiongroup_agri=0.05
+skills.entity.uesuniquepriest1.effect.actiongroup_build=0.05
+
+skills.entity.uesuniquepriest2.effect.walkspeed=0.1
+skills.entity.uesuniquepriest2.effect.actiongroup_search=0.1
+skills.entity.uesuniquepriest2.effect.actiongroup_gatherwater=0.05
+skills.entity.uesuniquepriest2.effect.actiongroup_chop=0.05
+skills.entity.uesuniquepriest2.effect.actiongroup_agri=0.1
+skills.entity.uesuniquepriest2.effect.actiongroup_build=0.1
+
+skills.entity.uesuniquepriest3.effect.walkspeed=0.15
+skills.entity.uesuniquepriest3.effect.actiongroup_search=0.1
+skills.entity.uesuniquepriest3.effect.actiongroup_gatherwater=0.1
+skills.entity.uesuniquepriest3.effect.actiongroup_chop=0.1
+skills.entity.uesuniquepriest3.effect.actiongroup_agri=0.15
+skills.entity.uesuniquepriest3.effect.actiongroup_build=0.1
+
+skills.entity.uesuniquepriest4.effect.workspeed=0.225
+skills.entity.uesuniquepriest4.effect.actiongroup_search=0.25
+skills.entity.uesuniquepriest4.effect.actiongroup_gatherwater=0.3
+skills.entity.uesuniquepriest4.effect.actiongroup_chop=0.3
+skills.entity.uesuniquepriest4.effect.actiongroup_agri=0.35
+skills.entity.uesuniquepriest4.effect.actiongroup_build=0.35
+
+skills.entity.uesuniquepriest5.effect.workspeed=0.325
+skills.entity.uesuniquepriest5.effect.actiongroup_search=0.25
+skills.entity.uesuniquepriest5.effect.actiongroup_gatherwater=0.45
+skills.entity.uesuniquepriest5.effect.actiongroup_chop=0.45
+skills.entity.uesuniquepriest5.effect.actiongroup_agri=0.5
+skills.entity.uesuniquepriest5.effect.actiongroup_build=0.5
+
+skills.entity.uesuniquepriest6.effect.workspeed=0.425
+skills.entity.uesuniquepriest6.effect.actiongroup_search=0.5
+skills.entity.uesuniquepriest6.effect.actiongroup_gatherwater=0.6
+skills.entity.uesuniquepriest6.effect.actiongroup_chop=0.6
+skills.entity.uesuniquepriest6.effect.actiongroup_agri=0.7
+skills.entity.uesuniquepriest6.effect.actiongroup_build=0.7
+
+# -- Side Skills --
+
+skills.entity.uesdarkchants1.effect.awarenessadd=2
+skills.entity.uesdarkchants1.effect.workspeed=0.4
+skills.entity.uesdarkchants1.effect.tag_holyweapon_damage=-0.3
+
+skills.entity.uesdarkchants2.effect.awarenessadd=6
+skills.entity.uesdarkchants2.effect.workspeed=1.2
+skills.entity.uesdarkchants2.effect.tag_holyweapon_damage=-0.8
+
+skills.entity.uesdarkchants3.effect.awarenessadd=8
+skills.entity.uesdarkchants3.effect.workspeed=1.6
+skills.entity.uesdarkchants3.effect.tag_holyweapon_damage=-1.0
+
+
+skills.entity.uesholychants1.effect.awarenessadd=-2
+skills.entity.uesholychants1.effect.workspeed=0.1
+skills.entity.uesholychants1.effect.tag_darkweapon_damage=-0.3
+
+skills.entity.uesholychants2.effect.awarenessadd=-6
+skills.entity.uesholychants2.effect.workspeed=0.3
+skills.entity.uesholychants2.effect.tag_darkweapon_damage=-0.8
+
+skills.entity.uesholychants3.effect.awarenessadd=-8
+skills.entity.uesholychants3.effect.workspeed=0.4
+skills.entity.uesholychants3.effect.tag_darkweapon_damage=-1.0
+
+# -- Skill Ultimates --
+
+skills.entity.uesultuniquepriest.effect.nutrition=2.5
+skills.entity.uesultuniquepriest.effect.energy=2.5
+skills.entity.uesultuniquepriest.effect.health=1.0
+skills.entity.uesultuniquepriest.effect.workspeed=2.0
+skills.entity.uesultuniquepriest.effect.tag_holyweapon_damage=1.5
+skills.entity.uesultuniquepriest.effect.tag_darkweapon_damage=1.5
+
+
+# Unique Engineer
+# ----------------------------------------------------------------------------------
+skills.entity.uesuniqueengineer1.effect.walkspeed=0.05
+skills.entity.uesuniqueengineer1.effect.actiongroup_mine=0.05
+skills.entity.uesuniqueengineer1.effect.actiongroup_quarry=0.05
+skills.entity.uesuniqueengineer1.effect.actiongroup_craft=0.1
+skills.entity.uesuniqueengineer1.effect.actiongroup_agri=0.05
+
+skills.entity.uesuniqueengineer2.effect.walkspeed=0.1
+skills.entity.uesuniqueengineer2.effect.actiongroup_mine=0.1
+skills.entity.uesuniqueengineer2.effect.actiongroup_quarry=0.1
+skills.entity.uesuniqueengineer2.effect.actiongroup_craft=0.1
+skills.entity.uesuniqueengineer2.effect.actiongroup_agri=0.1
+
+skills.entity.uesuniqueengineer3.effect.walkspeed=0.15
+skills.entity.uesuniqueengineer3.effect.actiongroup_mine=0.15
+skills.entity.uesuniqueengineer3.effect.actiongroup_quarry=0.15
+skills.entity.uesuniqueengineer3.effect.actiongroup_craft=0.15
+skills.entity.uesuniqueengineer3.effect.actiongroup_agri=0.1
+
+skills.entity.uesuniqueengineer4.effect.workspeed=0.225
+skills.entity.uesuniqueengineer4.effect.actiongroup_mine=0.45
+skills.entity.uesuniqueengineer4.effect.actiongroup_quarry=0.45
+skills.entity.uesuniqueengineer4.effect.actiongroup_craft=0.45
+skills.entity.uesuniqueengineer4.effect.actiongroup_agri=0.2
+
+skills.entity.uesuniqueengineer5.effect.workspeed=0.325
+skills.entity.uesuniqueengineer5.effect.actiongroup_mine=0.65
+skills.entity.uesuniqueengineer5.effect.actiongroup_quarry=0.65
+skills.entity.uesuniqueengineer5.effect.actiongroup_craft=0.65
+skills.entity.uesuniqueengineer5.effect.actiongroup_agri=0.2
+
+skills.entity.uesuniqueengineer6.effect.workspeed=0.425
+skills.entity.uesuniqueengineer6.effect.actiongroup_mine=0.9
+skills.entity.uesuniqueengineer6.effect.actiongroup_quarry=0.9
+skills.entity.uesuniqueengineer6.effect.actiongroup_craft=0.9
+skills.entity.uesuniqueengineer6.effect.actiongroup_agri=0.4
+
+# -- Side Skills --
+
+skills.entity.uesagriengi1.effect.workspeed=0.1
+skills.entity.uesagriengi1.effect.actiongroup_agri=0.2
+
+skills.entity.uesagriengi2.effect.workspeed=0.3
+skills.entity.uesagriengi2.effect.actiongroup_agri=0.6
+
+skills.entity.uesagriengi3.effect.workspeed=0.4
+skills.entity.uesagriengi3.effect.actiongroup_agri=0.8
+
+
+skills.entity.uesindustryengi1.effect.workspeed=0.1
+skills.entity.uesindustryengi1.effect.actiongroup_craft=0.1
+skills.entity.uesindustryengi1.effect.actiongroup_build=0.1
+
+skills.entity.uesindustryengi2.effect.workspeed=0.3
+skills.entity.uesindustryengi2.effect.actiongroup_craft=0.3
+skills.entity.uesindustryengi2.effect.actiongroup_build=0.3
+
+skills.entity.uesindustryengi3.effect.workspeed=0.4
+skills.entity.uesindustryengi3.effect.actiongroup_craft=0.4
+skills.entity.uesindustryengi3.effect.actiongroup_build=0.4
+
+
+skills.entity.uesmineengi1.effect.workspeed=0.1
+skills.entity.uesmineengi1.effect.actiongroup_mine=0.1
+skills.entity.uesmineengi1.effect.actiongroup_quarry=0.1
+
+skills.entity.uesmineengi2.effect.workspeed=0.3
+skills.entity.uesmineengi2.effect.actiongroup_mine=0.3
+skills.entity.uesmineengi2.effect.actiongroup_quarry=0.3
+
+skills.entity.uesmineengi3.effect.workspeed=0.4
+skills.entity.uesmineengi3.effect.actiongroup_mine=0.4
+skills.entity.uesmineengi3.effect.actiongroup_quarry=0.4
+
+# -- Skill Ultimates --
+
+skills.entity.uesultuniqueengineer.effect.nutrition=2.5
+skills.entity.uesultuniqueengineer.effect.energy=2.5
+skills.entity.uesultuniqueengineer.effect.health=1.0
+skills.entity.uesultuniqueengineer.effect.workspeed=1.0
+skills.entity.uesultuniqueengineer.effect.actiongroup_agri=1.0
+skills.entity.uesultuniqueengineer.effect.actiongroup_craft=1.0
+skills.entity.uesultuniqueengineer.effect.actiongroup_build=1.0
+skills.entity.uesultuniqueengineer.effect.actiongroup_quarry=1.0
+skills.entity.uesultuniqueengineer.effect.actiongroup_mine=1.0
+
+
+# Unique Fighter
+# ----------------------------------------------------------------------------------
+
+skills.entity.uesuniquefighter1.effect.damage=0.05
+skills.entity.uesuniquefighter1.effect.actiongroup_search=0.05
+
+skills.entity.uesuniquefighter2.effect.attackspeed=0.075
+skills.entity.uesuniquefighter2.effect.actiongroup_search=0.075
+
+skills.entity.uesuniquefighter3.effect.accuracy=0.1
+skills.entity.uesuniquefighter3.effect.actiongroup_search=0.1
+
+skills.entity.uesuniquefighter4.effect.evade=0.175
+skills.entity.uesuniquefighter4.effect.defense=0.2
+skills.entity.uesuniquefighter4.effect.actiongroup_search=0.275
+
+skills.entity.uesuniquefighter5.effect.health=0.175
+skills.entity.uesuniquefighter5.effect.damage=0.1
+skills.entity.uesuniquefighter5.effect.attackspeed=0.1
+skills.entity.uesuniquefighter5.effect.actiongroup_search=0.375
+
+skills.entity.uesuniquefighter6.effect.evade=0.15
+skills.entity.uesuniquefighter6.effect.accuracy=0.15
+skills.entity.uesuniquefighter6.effect.defense=0.35
+skills.entity.uesuniquefighter6.effect.actiongroup_search=0.475
+
+# -- Side Skills --
+
+skills.entity.uesfightmelee1.effect.tag_melee_damage=0.1
+skills.entity.uesfightmelee1.effect.tag_melee_evade=0.4
+skills.entity.uesfightmelee1.effect.walkspeed=0.3
+
+skills.entity.uesfightmelee2.effect.tag_melee_damage=0.4
+skills.entity.uesfightmelee2.effect.tag_melee_evade=0.8
+skills.entity.uesfightmelee2.effect.walkspeed=1.0
+
+skills.entity.uesfightmelee3.effect.tag_melee_damage=0.6
+skills.entity.uesfightmelee3.effect.tag_melee_evade=0.8
+skills.entity.uesfightmelee3.effect.walkspeed=1.4
+
+skills.entity.uesfightspecial1.abilities.skillheal=1
+
+skills.entity.uesfightspecial2.abilities.skillhealarea=2
+
+skills.entity.uesfightspecial3.effect.actiongroup_patrol=2.0
+skills.entity.uesfightspecial3.effect.walkspeed=1.0
+
+# -- Skill Ultimates --
+
+skills.entity.uesultuniquefighter.effect.health=2.0
+skills.entity.uesultuniquefighter.effect.damage=0.4
+skills.entity.uesultuniquefighter.effect.attackspeed=0.4
+skills.entity.uesultuniquefighter.effect.defense=1.0
+skills.entity.uesultuniquefighter.effect.accuracy=0.6
+skills.entity.uesultuniquefighter.effect.evade=0.6
+skills.entity.uesultuniquefighter.effect.healrate=2.0
+
+
+# Unique Occultist
+# ----------------------------------------------------------------------------------
+skills.entity.uesuniqueoccultist1.effect.actiongroup_rituals=0.05
+skills.entity.uesuniqueoccultist1.effect.actiongroup_occultresearch=0.05
+skills.entity.uesuniqueoccultist1.effect.actiongroup_craft=0.05
+skills.entity.uesuniqueoccultist1.effect.damage=0.02
+
+skills.entity.uesuniqueoccultist2.effect.actiongroup_rituals=0.075
+skills.entity.uesuniqueoccultist2.effect.actiongroup_occultresearch=0.075
+skills.entity.uesuniqueoccultist2.effect.actiongroup_craft=0.075
+skills.entity.uesuniqueoccultist2.effect.damage=0.03
+
+skills.entity.uesuniqueoccultist3.effect.actiongroup_rituals=0.125
+skills.entity.uesuniqueoccultist3.effect.actiongroup_occultresearch=0.125
+skills.entity.uesuniqueoccultist3.effect.actiongroup_craft=0.125
+skills.entity.uesuniqueoccultist3.effect.damage=0.05
+
+skills.entity.uesuniqueoccultist4.effect.actiongroup_rituals=0.525
+skills.entity.uesuniqueoccultist4.effect.actiongroup_occultresearch=0.525
+skills.entity.uesuniqueoccultist4.effect.actiongroup_craft=0.525
+skills.entity.uesuniqueoccultist4.effect.damage=0.1
+
+skills.entity.uesuniqueoccultist5.effect.actiongroup_rituals=0.65
+skills.entity.uesuniqueoccultist5.effect.actiongroup_occultresearch=0.65
+skills.entity.uesuniqueoccultist5.effect.actiongroup_craft=0.65
+skills.entity.uesuniqueoccultist5.effect.damage=0.2
+
+skills.entity.uesuniqueoccultist6.effect.actiongroup_rituals=0.9
+skills.entity.uesuniqueoccultist6.effect.actiongroup_occultresearch=0.9
+skills.entity.uesuniqueoccultist6.effect.actiongroup_craft=0.9
+skills.entity.uesuniqueoccultist6.effect.damage=0.2
+
+
+
+# -- Side Skills --
+
+skills.entity.uesenchanter1.effect.actiongroup_rituals=0.5
+skills.entity.uesenchanter1.effect.actiongroup_craft=0.5
+
+skills.entity.uesenchanter2.effect.actiongroup_rituals=1.2
+skills.entity.uesenchanter2.effect.actiongroup_craft=1.2
+
+skills.entity.uesenchanter3.effect.actiongroup_rituals=1.4
+skills.entity.uesenchanter3.effect.actiongroup_craft=1.4
+
+skills.entity.ueswarmage1.effect.damage=0.1
+skills.entity.ueswarmage1.effect.attackspeed=0.1
+skills.entity.ueswarmage1.effect.defense=0.2
+skills.entity.ueswarmage1.effect.vision=1
+
+skills.entity.ueswarmage2.effect.damage=0.3
+skills.entity.ueswarmage2.effect.attackspeed=0.3
+skills.entity.ueswarmage2.effect.defense=0.7
+skills.entity.ueswarmage2.effect.vision=2
+
+skills.entity.ueswarmage3.effect.damage=0.4
+skills.entity.ueswarmage3.effect.attackspeed=0.4
+skills.entity.ueswarmage3.effect.defense=1.15
+skills.entity.ueswarmage3.effect.vision=3
+
+
+# -- Skill Ultimates --
+
+skills.entity.uesultuniqueoccultist.effect.nutrition=2.5
+skills.entity.uesultuniqueoccultist.effect.energy=2.5
+skills.entity.uesultuniqueoccultist.effect.health=1.0
+skills.entity.uesultuniqueoccultist.effect.workspeed=1.0
+skills.entity.uesultuniqueoccultist.effect.actiongroup_rituals=3.25
+skills.entity.uesultuniqueoccultist.effect.actiongroup_occultresearch=1.25
+skills.entity.uesultuniqueoccultist.effect.damage=1.0
+skills.entity.uesultuniqueoccultist.unlocks.equip.arcanestaff=true
+
+
+# Unique Survivalist
+# ----------------------------------------------------------------------------------
+skills.entity.uesuniquesurvivalist1.effect.actiongroup_craft=0.05
+skills.entity.uesuniquesurvivalist1.effect.actiongroup_build=0.05
+skills.entity.uesuniquesurvivalist1.effect.actiongroup_search=0.05
+skills.entity.uesuniquesurvivalist1.effect.actiongroup_gatherwater=0.05
+skills.entity.uesuniquesurvivalist1.effect.actiongroup_chop=0.05
+skills.entity.uesuniquesurvivalist1.effect.actiongroup_agri=0.05
+
+skills.entity.uesuniquesurvivalist2.effect.actiongroup_craft=0.075
+skills.entity.uesuniquesurvivalist2.effect.actiongroup_build=0.075
+skills.entity.uesuniquesurvivalist2.effect.actiongroup_search=0.075
+skills.entity.uesuniquesurvivalist2.effect.actiongroup_gatherwater=0.075
+skills.entity.uesuniquesurvivalist2.effect.actiongroup_chop=0.075
+skills.entity.uesuniquesurvivalist2.effect.actiongroup_agri=0.075
+
+skills.entity.uesuniquesurvivalist3.effect.actiongroup_craft=0.1
+skills.entity.uesuniquesurvivalist3.effect.actiongroup_build=0.1
+skills.entity.uesuniquesurvivalist3.effect.actiongroup_search=0.1
+skills.entity.uesuniquesurvivalist3.effect.actiongroup_gatherwater=0.1
+skills.entity.uesuniquesurvivalist3.effect.actiongroup_chop=0.1
+skills.entity.uesuniquesurvivalist3.effect.actiongroup_agri=0.1
+
+skills.entity.uesuniquesurvivalist4.effect.actiongroup_craft=0.275
+skills.entity.uesuniquesurvivalist4.effect.actiongroup_build=0.275
+skills.entity.uesuniquesurvivalist4.effect.actiongroup_search=0.275
+skills.entity.uesuniquesurvivalist4.effect.actiongroup_gatherwater=0.275
+skills.entity.uesuniquesurvivalist4.effect.actiongroup_chop=0.275
+skills.entity.uesuniquesurvivalist4.effect.actiongroup_agri=0.275
+
+skills.entity.uesuniquesurvivalist5.effect.actiongroup_craft=0.375
+skills.entity.uesuniquesurvivalist5.effect.actiongroup_build=0.375
+skills.entity.uesuniquesurvivalist5.effect.actiongroup_search=0.375
+skills.entity.uesuniquesurvivalist5.effect.actiongroup_gatherwater=0.375
+skills.entity.uesuniquesurvivalist5.effect.actiongroup_chop=0.375
+skills.entity.uesuniquesurvivalist5.effect.actiongroup_agri=0.375
+
+skills.entity.uesuniquesurvivalist6.effect.actiongroup_craft=0.5
+skills.entity.uesuniquesurvivalist6.effect.actiongroup_build=0.5
+skills.entity.uesuniquesurvivalist6.effect.actiongroup_search=0.5
+skills.entity.uesuniquesurvivalist6.effect.actiongroup_gatherwater=0.5
+skills.entity.uesuniquesurvivalist6.effect.actiongroup_chop=0.5
+skills.entity.uesuniquesurvivalist6.effect.actiongroup_agri=0.5
+
+
+# -- Side Skills --
+
+skills.entity.ueshomemaker1.effect.actiongroup_craft=0.5
+skills.entity.ueshomemaker1.effect.actiongroup_build=0.5
+
+skills.entity.ueshomemaker2.effect.actiongroup_craft=1.2
+skills.entity.ueshomemaker2.effect.actiongroup_build=1.2
+
+skills.entity.ueshomemaker3.effect.actiongroup_craft=1.4
+skills.entity.ueshomemaker3.effect.actiongroup_build=1.4
+
+
+skills.entity.uesstalwartsurv1.effect.health=0.125
+skills.entity.uesstalwartsurv1.effect.healrate=0.3
+
+skills.entity.uesstalwartsurv2.effect.health=0.3
+skills.entity.uesstalwartsurv2.effect.healrate=1.0
+
+skills.entity.uesstalwartsurv3.effect.health=0.35
+skills.entity.uesstalwartsurv3.effect.healrate=1.4
+
+# -- Skill Ultimates --
+
+skills.entity.uesultuniquesurvivalist.effect.nutrition=2.5
+skills.entity.uesultuniquesurvivalist.effect.energy=2.5
+skills.entity.uesultuniquesurvivalist.effect.health=1.0
+skills.entity.uesultuniquesurvivalist.effect.workspeed=1.0
+skills.entity.uesultuniquesurvivalist.effect.actiongroup_search=1.0
+skills.entity.uesultuniquesurvivalist.effect.actiongroup_gatherwater=1.5
+skills.entity.uesultuniquesurvivalist.effect.actiongroup_chop=1.5
+skills.entity.uesultuniquesurvivalist.effect.actiongroup_craft=0.5
+skills.entity.uesultuniquesurvivalist.effect.actiongroup_build=0.5
+
+
+# Unique Defender
+# ----------------------------------------------------------------------------------
+skills.entity.uesuniquedefender1.effect.actiongroup_craft=0.05
+skills.entity.uesuniquedefender1.effect.actiongroup_search=0.05
+skills.entity.uesuniquedefender1.effect.damage=0.025
+skills.entity.uesuniquedefender1.effect.defense=0.05
+
+skills.entity.uesuniquedefender2.effect.actiongroup_craft=0.075
+skills.entity.uesuniquedefender2.effect.actiongroup_search=0.075
+skills.entity.uesuniquedefender2.effect.damage=0.0375
+skills.entity.uesuniquedefender2.effect.defense=0.075
+
+skills.entity.uesuniquedefender3.effect.actiongroup_craft=0.1
+skills.entity.uesuniquedefender3.effect.actiongroup_search=0.1
+skills.entity.uesuniquedefender3.effect.damage=0.05
+skills.entity.uesuniquedefender3.effect.defense=0.1
+
+skills.entity.uesuniquedefender4.effect.actiongroup_craft=0.275
+skills.entity.uesuniquedefender4.effect.actiongroup_search=0.275
+skills.entity.uesuniquedefender4.effect.damage=0.135
+skills.entity.uesuniquedefender4.effect.defense=0.275
+
+skills.entity.uesuniquedefender5.effect.actiongroup_craft=0.375
+skills.entity.uesuniquedefender5.effect.actiongroup_search=0.375
+skills.entity.uesuniquedefender5.effect.damage=0.175
+skills.entity.uesuniquedefender5.effect.defense=0.375
+
+skills.entity.uesuniquedefender6.effect.actiongroup_craft=0.475
+skills.entity.uesuniquedefender6.effect.actiongroup_search=0.475
+skills.entity.uesuniquedefender6.effect.damage=0.225
+skills.entity.uesuniquedefender6.effect.defense=0.475
+
+
+# -- Side Skills --
+
+skills.entity.ueshardened1.effect.health=0.05
+skills.entity.ueshardened1.effect.defense=0.15
+
+skills.entity.ueshardened2.effect.health=0.15
+skills.entity.ueshardened2.effect.defense=0.4
+
+skills.entity.ueshardened3.effect.health=0.2
+skills.entity.ueshardened3.effect.defense=0.5
+
+
+skills.entity.uessearchcraft1.effect.actiongroup_craft=0.4
+skills.entity.uessearchcraft1.effect.actiongroup_search=0.4
+
+skills.entity.uessearchcraft2.effect.actiongroup_craft=1.0
+skills.entity.uessearchcraft2.effect.actiongroup_search=1.0
+
+skills.entity.uessearchcraft3.effect.actiongroup_craft=1.2
+skills.entity.uessearchcraft3.effect.actiongroup_search=1.2
+
+# -- Skill Ultimates --
+
+skills.entity.uesultuniquedefender.effect.nutrition=2.5
+skills.entity.uesultuniquedefender.effect.energy=2.5
+skills.entity.uesultuniquedefender.effect.health=5.0
+skills.entity.uesultuniquedefender.effect.workspeed=1.0
+skills.entity.uesultuniquedefender.effect.defense=5.0
+skills.entity.uesultuniquedefender.effect.evade=2.5
+
+
+# Unique Academic
+# ----------------------------------------------------------------------------------
+skills.entity.uesuniqueacademic1.effect.actiongroup_occultresearch=0.05
+skills.entity.uesuniqueacademic1.effect.actiongroup_research=0.05
+skills.entity.uesuniqueacademic1.effect.actiongroup_craft=0.05
+skills.entity.uesuniqueacademic1.effect.actiongroup_agri=0.05
+
+skills.entity.uesuniqueacademic2.effect.actiongroup_occultresearch=0.1
+skills.entity.uesuniqueacademic2.effect.actiongroup_research=0.1
+skills.entity.uesuniqueacademic2.effect.actiongroup_craft=0.05
+skills.entity.uesuniqueacademic2.effect.actiongroup_agri=0.05
+
+skills.entity.uesuniqueacademic3.effect.actiongroup_occultresearch=0.15
+skills.entity.uesuniqueacademic3.effect.actiongroup_research=0.15
+skills.entity.uesuniqueacademic3.effect.actiongroup_craft=0.15
+skills.entity.uesuniqueacademic3.effect.actiongroup_agri=0.05
+
+skills.entity.uesuniqueacademic4.effect.actiongroup_occultresearch=0.425
+skills.entity.uesuniqueacademic4.effect.actiongroup_research=0.425
+skills.entity.uesuniqueacademic4.effect.actiongroup_craft=0.35
+skills.entity.uesuniqueacademic4.effect.actiongroup_agri=0.1
+
+skills.entity.uesuniqueacademic5.effect.actiongroup_occultresearch=0.55
+skills.entity.uesuniqueacademic5.effect.actiongroup_research=0.55
+skills.entity.uesuniqueacademic5.effect.actiongroup_craft=0.45
+skills.entity.uesuniqueacademic5.effect.actiongroup_agri=0.35
+
+skills.entity.uesuniqueacademic6.effect.actiongroup_occultresearch=0.65
+skills.entity.uesuniqueacademic6.effect.actiongroup_research=0.65
+skills.entity.uesuniqueacademic6.effect.actiongroup_craft=0.65
+skills.entity.uesuniqueacademic6.effect.actiongroup_agri=0.45
+
+
+# -- Side Skills --
+
+skills.entity.uesagricraft1.effect.actiongroup_craft=0.5
+skills.entity.uesagricraft1.effect.actiongroup_agri=0.5
+
+skills.entity.uesagricraft2.effect.actiongroup_craft=1.2
+skills.entity.uesagricraft2.effect.actiongroup_agri=1.2
+
+skills.entity.uesagricraft3.effect.actiongroup_craft=1.4
+skills.entity.uesagricraft3.effect.actiongroup_agri=1.4
+
+
+skills.entity.uesmegamind1.effect.actiongroup_occultresearch=0.5
+skills.entity.uesmegamind1.effect.actiongroup_research=0.5
+
+skills.entity.uesmegamind2.effect.actiongroup_occultresearch=1.2
+skills.entity.uesmegamind2.effect.actiongroup_research=1.2
+
+skills.entity.uesmegamind3.effect.actiongroup_occultresearch=1.4
+skills.entity.uesmegamind3.effect.actiongroup_research=1.4
+
+# -- Skill Ultimates --
+
+skills.entity.uesultuniqueacademic.effect.nutrition=2.5
+skills.entity.uesultuniqueacademic.effect.energy=2.5
+skills.entity.uesultuniqueacademic.effect.health=1.0
+skills.entity.uesultuniqueacademic.effect.workspeed=1.0
+skills.entity.uesultuniqueacademic.effect.actiongroup_occultresearch=1.5
+skills.entity.uesultuniqueacademic.effect.actiongroup_research=1.5
+skills.entity.uesultuniqueacademic.effect.actiongroup_craft=1.25
+skills.entity.uesultuniqueacademic.effect.actiongroup_agri=0.75
+
+
+# Unique Artisan
+# ----------------------------------------------------------------------------------
+skills.entity.uesuniqueartisan1.effect.actiongroup_craft=0.05
+skills.entity.uesuniqueartisan1.effect.actiongroup_mine=0.05
+skills.entity.uesuniqueartisan1.effect.actiongroup_quarry=0.05
+skills.entity.uesuniqueartisan1.effect.actiongroup_search=0.05
+skills.entity.uesuniqueartisan1.effect.actiongroup_gatherwater=0.05
+skills.entity.uesuniqueartisan1.effect.actiongroup_chop=0.05
+
+skills.entity.uesuniqueartisan2.effect.actiongroup_craft=0.075
+skills.entity.uesuniqueartisan2.effect.actiongroup_mine=0.075
+skills.entity.uesuniqueartisan2.effect.actiongroup_quarry=0.075
+skills.entity.uesuniqueartisan2.effect.actiongroup_search=0.075
+skills.entity.uesuniqueartisan2.effect.actiongroup_gatherwater=0.075
+skills.entity.uesuniqueartisan2.effect.actiongroup_chop=0.075
+
+skills.entity.uesuniqueartisan3.effect.actiongroup_craft=0.1
+skills.entity.uesuniqueartisan3.effect.actiongroup_mine=0.1
+skills.entity.uesuniqueartisan3.effect.actiongroup_quarry=0.1
+skills.entity.uesuniqueartisan3.effect.actiongroup_search=0.1
+skills.entity.uesuniqueartisan3.effect.actiongroup_gatherwater=0.1
+skills.entity.uesuniqueartisan3.effect.actiongroup_chop=0.1
+
+skills.entity.uesuniqueartisan4.effect.actiongroup_craft=0.125
+skills.entity.uesuniqueartisan4.effect.actiongroup_mine=0.125
+skills.entity.uesuniqueartisan4.effect.actiongroup_quarry=0.125
+skills.entity.uesuniqueartisan4.effect.actiongroup_search=0.125
+skills.entity.uesuniqueartisan4.effect.actiongroup_gatherwater=0.125
+skills.entity.uesuniqueartisan4.effect.actiongroup_chop=0.125
+
+skills.entity.uesuniqueartisan5.effect.actiongroup_craft=0.325
+skills.entity.uesuniqueartisan5.effect.actiongroup_mine=0.325
+skills.entity.uesuniqueartisan5.effect.actiongroup_quarry=0.325
+skills.entity.uesuniqueartisan5.effect.actiongroup_search=0.325
+skills.entity.uesuniqueartisan5.effect.actiongroup_gatherwater=0.325
+skills.entity.uesuniqueartisan5.effect.actiongroup_chop=0.325
+
+skills.entity.uesuniqueartisan6.effect.actiongroup_craft=0.425
+skills.entity.uesuniqueartisan6.effect.actiongroup_mine=0.425
+skills.entity.uesuniqueartisan6.effect.actiongroup_quarry=0.425
+skills.entity.uesuniqueartisan6.effect.actiongroup_search=0.425
+skills.entity.uesuniqueartisan6.effect.actiongroup_gatherwater=0.425
+skills.entity.uesuniqueartisan6.effect.actiongroup_chop=0.425
+
+skills.entity.uesuniqueartisan7.effect.actiongroup_craft=0.525
+skills.entity.uesuniqueartisan7.effect.actiongroup_mine=0.525
+skills.entity.uesuniqueartisan7.effect.actiongroup_quarry=0.525
+skills.entity.uesuniqueartisan7.effect.actiongroup_search=0.525
+skills.entity.uesuniqueartisan7.effect.actiongroup_gatherwater=0.525
+skills.entity.uesuniqueartisan7.effect.actiongroup_chop=0.525
+
+skills.entity.uesuniqueartisan8.effect.actiongroup_craft=0.625
+skills.entity.uesuniqueartisan8.effect.actiongroup_mine=0.625
+skills.entity.uesuniqueartisan8.effect.actiongroup_quarry=0.625
+skills.entity.uesuniqueartisan8.effect.actiongroup_search=0.625
+skills.entity.uesuniqueartisan8.effect.actiongroup_gatherwater=0.625
+skills.entity.uesuniqueartisan8.effect.actiongroup_chop=0.625
+
+skills.entity.uesuniqueartisan9.effect.actiongroup_craft=0.725
+skills.entity.uesuniqueartisan9.effect.actiongroup_mine=0.725
+skills.entity.uesuniqueartisan9.effect.actiongroup_quarry=0.725
+skills.entity.uesuniqueartisan9.effect.actiongroup_search=0.725
+skills.entity.uesuniqueartisan9.effect.actiongroup_gatherwater=0.725
+skills.entity.uesuniqueartisan9.effect.actiongroup_chop=0.725
+
+
+# -- Side Skills --
+
+# -- Skill Ultimates --
+
+skills.entity.uesultuniqueartisan.effect.nutrition=2.5
+skills.entity.uesultuniqueartisan.effect.energy=2.5
+skills.entity.uesultuniqueartisan.effect.health=1.0
+skills.entity.uesultuniqueartisan.effect.workspeed=1.0
+skills.entity.uesultuniqueartisan.effect.actiongroup_craft=0.8
+skills.entity.uesultuniqueartisan.effect.actiongroup_mine=1.0
+skills.entity.uesultuniqueartisan.effect.actiongroup_quarry=1.0
+skills.entity.uesultuniqueartisan.effect.actiongroup_search=0.8
+skills.entity.uesultuniqueartisan.effect.actiongroup_gatherwater=0.8
+skills.entity.uesultuniqueartisan.effect.actiongroup_chop=0.8
+

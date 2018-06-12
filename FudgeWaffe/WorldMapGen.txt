@@ -1,0 +1,14 @@
+
+# Biomes definition
+
+# Each biome has a "noisemin" and/or "noisemax" which is a list of noise maps and the minimum/maximum value required in that map to select this biome
+# Can also use "noisemin%" and "noisemax%" and define a percent of the *entire* map that should fit this biome. Tiles will only be selected out of remaining, unassigned tiles.
+# Add "-norm" to use a normalized perlin map instead of the raw values
+# The first biome that matches is selected, in case of several matches
+# If no biome matches, no object will be generated in that cell
+
+# The "objects" list defines the chance of spawning each object in each biome. Total chances should not exceed 1.
+
+# Water
+worldgen.biomes.game.water.rules.1.distances.0.noisemax%.wtr-norm=0.05
+worldgen.biomes.game.water.rules.2.distances.0.noisemin%.wtr-norm=0.95
